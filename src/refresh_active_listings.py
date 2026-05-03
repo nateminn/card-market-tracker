@@ -115,6 +115,8 @@ def _record_to_row(
         "grade_value": grade_value,
         "end_date": end_date,
         "bid_count": rec.get("bid_count"),
+        "parallel_id": rec.get("parallel_id"),
+        "parallel_name": rec.get("parallel_name"),
         **provenance,
     }
 

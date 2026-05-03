@@ -65,6 +65,8 @@ def record_to_row(card_id, rec, *, is_graded, grader=None, grade_value=None,
         "external_url": rec.get("url"),
         "external_title": rec.get("title"),
         "image_url": rec.get("image_url"),
+        "parallel_id": rec.get("parallel_id"),
+        "parallel_name": rec.get("parallel_name"),
         "raw_payload": rec,
         "external_id": make_external_id(rec),
     }

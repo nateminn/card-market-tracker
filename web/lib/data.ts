@@ -45,6 +45,8 @@ export type Sale = {
   external_title: string | null;
   listing_type: string | null;
   image_url?: string | null;
+  parallel_id?: string | null;
+  parallel_name?: string | null;
 };
 
 export type AnalyticsRow = {
@@ -92,6 +94,8 @@ export type ActiveListing = {
   grade_value: string | null;
   end_date: string | null;
   bid_count: number | null;
+  parallel_id: string | null;
+  parallel_name: string | null;
 };
 
 export type WatchlistEntry = {
@@ -218,6 +222,8 @@ function rowToSale(row: any): Sale {
     external_title: row.external_title,
     listing_type: row.listing_type,
     image_url: row.image_url,
+    parallel_id: row.parallel_id ?? null,
+    parallel_name: row.parallel_name ?? null,
   };
 }
 
@@ -233,7 +239,7 @@ async function fetchSalesForCards(cardIds: string[]): Promise<Sale[]> {
       const { data } = await sb
         .from("sales")
         .select(
-          "id, card_id, sold_at, price_usd, is_graded, grader, grade_value, source, external_url, external_title, listing_type, image_url",
+          "id, card_id, sold_at, price_usd, is_graded, grader, grade_value, source, external_url, external_title, listing_type, image_url, parallel_id, parallel_name",
         )
         .in("card_id", chunk)
         .order("sold_at", { ascending: false })
@@ -386,7 +392,7 @@ export async function getActiveListings(cardId: string): Promise<ActiveListing[]
   const { data } = await sb
     .from("active_listings")
     .select(
-      "id, card_id, observed_at, price_usd, listing_type, source, external_url, external_title, image_url, condition_raw, is_graded, grader, grade_value, end_date, bid_count",
+      "id, card_id, observed_at, price_usd, listing_type, source, external_url, external_title, image_url, condition_raw, is_graded, grader, grade_value, end_date, bid_count, parallel_id, parallel_name",
     )
     .eq("card_id", cardId)
     .order("price_usd", { ascending: true });
@@ -406,6 +412,8 @@ export async function getActiveListings(cardId: string): Promise<ActiveListing[]
     grade_value: r.grade_value,
     end_date: r.end_date,
     bid_count: r.bid_count != null ? Number(r.bid_count) : null,
+    parallel_id: r.parallel_id ?? null,
+    parallel_name: r.parallel_name ?? null,
   }));
 }
 

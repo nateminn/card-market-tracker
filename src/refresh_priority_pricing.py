@@ -257,6 +257,11 @@ def _record_to_row(card_id: str, rec: dict, *, is_graded, grader, grade_value, p
         "external_url": rec.get("url"),
         "external_title": rec.get("title"),
         "image_url": rec.get("image_url"),
+        # CardSight tags every record with the parallel it came from. Storing
+        # both the uuid and the human-readable name; the name is what we
+        # render, the uuid is what we filter/group by.
+        "parallel_id": rec.get("parallel_id"),
+        "parallel_name": rec.get("parallel_name"),
         "raw_payload": rec,
         "external_id": _make_external_id(rec),
         **provenance,

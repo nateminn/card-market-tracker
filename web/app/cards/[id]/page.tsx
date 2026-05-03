@@ -407,6 +407,7 @@ export default async function CardDetailPage({
                 <div className="w-8" />
                 <div className="w-20">Type</div>
                 <div className="w-20">Grade</div>
+                <div className="w-[100px]">Parallel</div>
                 <div className="w-32">Ends</div>
                 <div className="w-24 text-right">Ask</div>
                 <div className="flex-1 min-w-0">Title</div>
@@ -443,6 +444,17 @@ export default async function CardDetailPage({
                   </div>
                   <div className="w-20 font-mono text-fg text-[12px]">
                     {l.is_graded ? `${l.grader ?? ""} ${l.grade_value ?? ""}`.trim() : "Raw"}
+                  </div>
+                  <div className="w-[100px]">
+                    {l.parallel_name ? (
+                      <span className="text-[10px] font-mono uppercase tracking-wider text-accent px-1.5 py-0.5 border border-accent/40 bg-accent/5 truncate inline-block max-w-full">
+                        {l.parallel_name}
+                      </span>
+                    ) : (
+                      <span className="text-[10px] font-mono uppercase tracking-wider text-muted-2 px-1.5 py-0.5 border border-border-2 inline-block">
+                        Base
+                      </span>
+                    )}
                   </div>
                   <div className="w-32 text-[12px] text-muted">
                     {l.listing_type === "auction" && l.end_date ? (
@@ -496,6 +508,7 @@ export default async function CardDetailPage({
               <div className="w-8" />
               <div className="w-24">Sold</div>
               <div className="w-20">Grade</div>
+              <div className="w-[100px]">Parallel</div>
               <div className="w-20">Source</div>
               <div className="w-24 text-right">Price</div>
               <div className="flex-1 min-w-0">Title</div>
@@ -533,6 +546,17 @@ export default async function CardDetailPage({
                 </div>
                 <div className="w-20 font-mono text-fg">
                   {s.is_graded ? `${s.grader ?? ""} ${s.grade_value ?? ""}`.trim() : "Raw"}
+                </div>
+                <div className="w-[100px]">
+                  {s.parallel_name ? (
+                    <span className="text-[10px] font-mono uppercase tracking-wider text-accent px-1.5 py-0.5 border border-accent/40 bg-accent/5 truncate inline-block max-w-full" title={s.parallel_name}>
+                      {s.parallel_name}
+                    </span>
+                  ) : (
+                    <span className="text-[10px] font-mono uppercase tracking-wider text-muted-2 px-1.5 py-0.5 border border-border-2 inline-block">
+                      Base
+                    </span>
+                  )}
                 </div>
                 <div className="w-20 text-[12px]">
                   {s.external_url ? (
