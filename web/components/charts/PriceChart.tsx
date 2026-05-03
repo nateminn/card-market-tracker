@@ -23,7 +23,11 @@ type Sale = {
   grade_value: string | null;
 };
 
-function bucketOf(s: Sale): "psa10" | "psa9" | "psa8-or-less" | "bgs" {
+function bucketOf(s: Sale): "psa10" | "psa9" | "psa8-or-less" | "bgs" | "raw" {
+  // Raw (ungraded) gets its own bucket so on raw-heavy or raw-only cards
+  // the dots actually render in a visible colour instead of being lumped
+  // into the muted "psa8-or-less" pile.
+  if (!s.is_graded) return "raw";
   if (s.grader === "BGS") return "bgs";
   const g = String(s.grade_value);
   if (g === "10") return "psa10";
@@ -51,6 +55,7 @@ const COLOR_PSA10 = "oklch(78% 0.20 145)"; // bright neon green
 const COLOR_PSA9 = "oklch(75% 0.14 80)";   // saffron
 const COLOR_PSA_LOW = "oklch(60% 0.005 250)"; // muted
 const COLOR_BGS = "oklch(70% 0.10 240)";   // info blue
+const COLOR_RAW = "oklch(72% 0.13 200)";   // cyan-teal — distinct from BGS
 const COLOR_VWAP = "oklch(82% 0.16 80)";   // accent
 const COLOR_GRID = "oklch(20% 0.008 250)";
 const COLOR_AXIS = "oklch(60% 0.006 250)";
@@ -102,18 +107,17 @@ function CustomTooltip(props: any) {
 }
 
 export default function PriceChart({ sales }: { sales: Sale[] }) {
-  // Hard filter: only PSA + BGS graded sales.
+  // Plot everything we have — raw + graded across all known graders. Empty
+  // graphs help nobody; the bucketing colour-codes the dots so the user can
+  // tell raw from graded at a glance, and graded variations from each other.
   const filtered = sales.filter(
-    (s) =>
-      s.is_graded &&
-      s.grader != null &&
-      (s.grader === "PSA" || s.grader === "BGS")
+    (s) => Number.isFinite(Number(s.price_usd)) && Number(s.price_usd) > 0,
   );
 
   if (filtered.length === 0) {
     return (
       <div className="h-72 flex items-center justify-center text-sm text-muted">
-        No PSA or BGS sales to chart yet.
+        No sales to chart yet.
       </div>
     );
   }
@@ -131,6 +135,7 @@ export default function PriceChart({ sales }: { sales: Sale[] }) {
     10
   );
 
+  const raw = points.filter((p) => p.bucket === "raw");
   const psa10 = points.filter((p) => p.bucket === "psa10");
   const psa9 = points.filter((p) => p.bucket === "psa9");
   const psaLow = points.filter((p) => p.bucket === "psa8-or-less");
@@ -208,6 +213,15 @@ export default function PriceChart({ sales }: { sales: Sale[] }) {
           <Tooltip
             content={CustomTooltip}
             cursor={{ stroke: COLOR_GRID, strokeDasharray: "2 2" }}
+          />
+          <Scatter
+            name="Raw"
+            data={raw}
+            fill={COLOR_RAW}
+            line={false}
+            opacity={0.7}
+            shape={dotShape}
+            isAnimationActive={false}
           />
           <Scatter
             name="PSA 10"

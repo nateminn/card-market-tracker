@@ -106,14 +106,29 @@ export default async function CardDetailPage({
     getVariations(card.id),
     getActiveListings(card.id),
   ]);
-  // For low-activity cards (< 5 PSA+BGS sales in 30d), fall back to a 180d
-  // window so the chart shows something useful instead of a flat line.
-  // This affects only the headline sparkline; the "Sales 30d" stat stays 30d.
-  const spark =
-    spark30.length >= 5
-      ? spark30
-      : await getSparkline(card.id, 180);
-  const sparkWindow = spark === spark30 ? "30 days" : "180 days";
+  // Empty graphs help nobody. For low-activity cards, expand the window
+  // until we get a chart with real data — 30d → 180d → all-time. The
+  // "Sales 30d" stat stays 30d so the headline windowed-stat is unchanged.
+  let spark = spark30;
+  let sparkWindow: "30 days" | "180 days" | "all available history" = "30 days";
+  if (spark.length < 5) {
+    const spark180 = await getSparkline(card.id, 180);
+    if (spark180.length >= 5) {
+      spark = spark180;
+      sparkWindow = "180 days";
+    } else {
+      // Fall through to the longest window we have. 5 years is well past
+      // CardSight's rolling pricing window so this is effectively "all-time."
+      const sparkAll = await getSparkline(card.id, 365 * 5);
+      if (sparkAll.length > 0) {
+        spark = sparkAll;
+        sparkWindow = "all available history";
+      } else {
+        spark = spark180; // empty, but at least consistent
+        sparkWindow = "180 days";
+      }
+    }
+  }
   const variationAnalytics = await getAnalyticsForCards(variations.map((v) => v.id));
   const lastPrice = spark.at(-1)?.value ?? analytics?.vwap_30d_usd ?? 0;
   const firstPrice = spark.at(0)?.value ?? lastPrice;
@@ -365,7 +380,7 @@ export default async function CardDetailPage({
       <section className="mb-10">
         <Section
           title={`Sales (${filtered.length})`}
-          eyebrow="Price history · PSA + BGS only"
+          eyebrow="Price history · all parallels · raw + PSA + BGS"
           action={
             <div className="flex items-center gap-3 text-xs font-mono uppercase tracking-[0.08em] text-muted">
               <span className="inline-flex items-center gap-1.5">
