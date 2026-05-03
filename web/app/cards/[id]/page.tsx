@@ -101,11 +101,19 @@ export default async function CardDetailPage({
 
   const { card, sales, analytics } = detail;
   const filtered = filterPricedSales(sales);
-  const [spark, variations, activeListings] = await Promise.all([
-    getSparkline(card.id),
+  const [spark30, variations, activeListings] = await Promise.all([
+    getSparkline(card.id, 30),
     getVariations(card.id),
     getActiveListings(card.id),
   ]);
+  // For low-activity cards (< 5 PSA+BGS sales in 30d), fall back to a 180d
+  // window so the chart shows something useful instead of a flat line.
+  // This affects only the headline sparkline; the "Sales 30d" stat stays 30d.
+  const spark =
+    spark30.length >= 5
+      ? spark30
+      : await getSparkline(card.id, 180);
+  const sparkWindow = spark === spark30 ? "30 days" : "180 days";
   const variationAnalytics = await getAnalyticsForCards(variations.map((v) => v.id));
   const lastPrice = spark.at(-1)?.value ?? analytics?.vwap_30d_usd ?? 0;
   const firstPrice = spark.at(0)?.value ?? lastPrice;
@@ -192,7 +200,7 @@ export default async function CardDetailPage({
             </div>
             <div className="mt-2 flex items-center gap-3">
               <ChangeBadge pct={todayPct} abs={todayChange} />
-              <span className="text-sm text-muted">Last 30 days</span>
+              <span className="text-sm text-muted">Last {sparkWindow}</span>
             </div>
             <p className="mt-3 text-[12px] text-muted-2 inline-flex items-center gap-1.5 max-w-prose">
               <InfoTip k="variations" side="bottom" />
@@ -497,16 +505,34 @@ export default async function CardDetailPage({
 
       {/* Recent sales table ------------------------------------------- */}
       <section>
-        <Section
-          eyebrow="Completed sales · eBay sold listings"
-          title={`Last ${recent.length}`}
-        />
-        <p className="text-[12px] text-muted-2 mb-3 max-w-3xl leading-relaxed">
-          eBay completed sales for this card number, including base and every
-          parallel of the same card #. Each link opens the original listing —
-          if the seller relisted, eBay may now show it as active, but the sale
-          itself is real and dated.
-        </p>
+        {(() => {
+          const dates = recent.map((s) => new Date(s.sold_at).getTime());
+          const oldest = dates.length ? new Date(Math.min(...dates)) : null;
+          const newest = dates.length ? new Date(Math.max(...dates)) : null;
+          const fmt = (d: Date) =>
+            d.toLocaleDateString("en-US", { month: "short", year: "numeric" });
+          const range =
+            oldest && newest && oldest.getTime() !== newest.getTime()
+              ? `${fmt(oldest)} – ${fmt(newest)}`
+              : oldest
+                ? fmt(oldest)
+                : null;
+          return (
+            <>
+              <Section
+                eyebrow="Completed sales · eBay sold listings"
+                title={range ? `${recent.length} sold · ${range}` : `${recent.length} sold`}
+              />
+              <p className="text-[12px] text-muted-2 mb-3 max-w-3xl leading-relaxed">
+                <strong className="text-up">Already sold.</strong> Every row
+                here is an eBay completed listing — base or parallel of card
+                #{card.card_number}. The eBay link opens the original sold
+                listing; if the seller relisted, the URL may now show the
+                relist as active, but the sale itself is real and dated.
+              </p>
+            </>
+          );
+        })()}
         {recent.length === 0 ? (
           <div className="border border-border bg-panel/40 px-4 py-10 text-center text-sm text-muted">
             No recent sales to show.
