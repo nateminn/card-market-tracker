@@ -1,0 +1,19 @@
+# Netlify config for the Cardex monorepo.
+#
+# The Next.js app lives under `web/`. Without this file, Netlify's framework
+# detection can't find package.json at the repo root and bails to a static
+# 404 site. With this file:
+#
+#   - `base = "web"` runs the build inside web/ (npm install, npm run build)
+#   - publish path is relative to base → `.next`
+#   - @netlify/plugin-nextjs handles SSR routes, image optimisation,
+#     middleware (proxy.ts in Next.js 16), and ISR. Netlify auto-installs
+#     this plugin when a netlify.toml references it.
+
+[build]
+  base = "web"
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
