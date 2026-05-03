@@ -13,6 +13,7 @@ import {
   getAnalyticsForCards,
   type Sale,
 } from "@/lib/data";
+import { detectParallel } from "@/lib/parallel";
 import Pill from "@/components/ui/Pill";
 import Section from "@/components/ui/Section";
 import ChangeBadge from "@/components/ui/ChangeBadge";
@@ -388,7 +389,16 @@ export default async function CardDetailPage({
 
       {/* Recent sales table ------------------------------------------- */}
       <section>
-        <Section eyebrow="Recent sales · PSA + BGS only" title={`Last ${recent.length}`} />
+        <Section
+          eyebrow="Recent sales · all parallels"
+          title={`Last ${recent.length}`}
+        />
+        <p className="text-[12px] text-muted-2 mb-3 max-w-3xl leading-relaxed">
+          eBay sold listings for this card number — base + every parallel.
+          Parallel labels are detected from the listing title and may miss
+          edge cases. The eBay link can show the listing as active if the
+          seller relisted; the sale itself is real.
+        </p>
         {recent.length === 0 ? (
           <div className="border border-border bg-panel/40 px-4 py-10 text-center text-sm text-muted">
             No recent sales to show.
@@ -400,11 +410,14 @@ export default async function CardDetailPage({
               <div className="w-8" />
               <div className="w-24">Date</div>
               <div className="w-20">Grade</div>
+              <div className="w-[68px]">Parallel</div>
               <div className="w-20">Source</div>
               <div className="w-24 text-right">Price</div>
               <div className="flex-1 min-w-0">Title</div>
             </div>
-            {recent.map((s) => (
+            {recent.map((s) => {
+              const parallel = detectParallel(s.external_title);
+              return (
               <div
                 key={s.id}
                 className="flex items-center gap-3 px-4 py-2.5 border-b border-border last:border-b-0 hover:bg-panel-2 transition-colors duration-150 text-sm"
@@ -436,8 +449,17 @@ export default async function CardDetailPage({
                   })}
                 </div>
                 <div className="w-20 font-mono text-fg">
-                  {s.grader} {s.grade_value}
+                  {s.is_graded ? `${s.grader ?? ""} ${s.grade_value ?? ""}`.trim() : "Raw"}
                 </div>
+                <span
+                  className={
+                    parallel.isBase
+                      ? "shrink-0 text-[10px] font-mono uppercase tracking-wider text-muted-2 px-1.5 py-0.5 border border-border-2"
+                      : "shrink-0 text-[10px] font-mono uppercase tracking-wider text-accent px-1.5 py-0.5 border border-accent/40 bg-accent/5"
+                  }
+                >
+                  {parallel.label}
+                </span>
                 <div className="w-20 text-[12px]">
                   {s.external_url ? (
                     <a
@@ -456,11 +478,12 @@ export default async function CardDetailPage({
                 <div className="w-24 text-right font-mono text-fg tabular">
                   ${s.price_usd.toFixed(2)}
                 </div>
-                <div className="flex-1 min-w-0 truncate text-muted text-[12px]">
+                <div className="flex-1 min-w-0 truncate text-muted text-[12px]" title={s.external_title ?? undefined}>
                   {s.external_title}
                 </div>
               </div>
-            ))}
+              );
+            })}
             </div>
           </div>
         )}
