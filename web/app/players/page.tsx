@@ -1,35 +1,26 @@
 // /players — searchable directory of every player in the catalog.
 // Server-renders the data; PlayersTable is a client component for filtering /
 // sorting in-browser.
+//
+// Sparkline windows (7d/30d/90d) used to be pre-resolved server-side, but that
+// was N×3 sequential DB queries — fine on a fast local connection, fatal in
+// Netlify's edge-function timeout. Now we render the table immediately with
+// empty sparklines; on-demand client-side fetching can come later if useful.
 
 import Link from "next/link";
-import { getPlayers, getPlayerSparkline } from "@/lib/data";
+import { getPlayers } from "@/lib/data";
 import PlayersTable from "./PlayersTable";
 
 export const dynamic = "force-dynamic";
 
 export default async function PlayersPage() {
   const players = await getPlayers();
-  // Pre-resolve sparklines for every supported window so the client column
-  // switcher can swap the spark series without going back to the server.
-  const sparkResults = await Promise.all(
-    players.map(async (p) => ({
-      slug: p.slug,
-      spark_7d: await getPlayerSparkline(p.slug, 7),
-      spark_30d: await getPlayerSparkline(p.slug, 30),
-      spark_90d: await getPlayerSparkline(p.slug, 90),
-    })),
-  );
-  const sparkBySlug = new Map(sparkResults.map((s) => [s.slug, s]));
-  const data = players.map((p) => {
-    const sparks = sparkBySlug.get(p.slug);
-    return {
-      ...p,
-      spark_7d: sparks?.spark_7d ?? [],
-      spark_30d: sparks?.spark_30d ?? [],
-      spark_90d: sparks?.spark_90d ?? [],
-    };
-  });
+  const data = players.map((p) => ({
+    ...p,
+    spark_7d: [] as { ts: number; value: number }[],
+    spark_30d: [] as { ts: number; value: number }[],
+    spark_90d: [] as { ts: number; value: number }[],
+  }));
 
   return (
     <div className="px-6 lg:px-10 py-8 max-w-[1600px] mx-auto">
