@@ -1,0 +1,40 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/pricing/b65c0cc5-2bf4-405c-a503-66209ff47a2e",
+    "params": null,
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 161,
+  "_elapsed_s": 0.274,
+  "data": {
+    "card": {
+      "card_id": "b65c0cc5-2bf4-405c-a503-66209ff47a2e",
+      "name": "Caleb Williams",
+      "number": "202",
+      "set": {
+        "set_id": "e74ba625-9fe7-4f76-92c2-4126f09099d5",
+        "name": "Base Set",
+        "year": "2024",
+        "release": "Topps Chrome"
+      }
+    },
+    "query": {
+      "period": "all",
+      "listing_type": "both",
+      "as_of_date": "2026-04-25"
+    },
+    "raw": {
+      "period_days": null,
+      "count": 0,
+      "records": []
+    },
+    "graded": [],
+    "meta": {
+      "sources": [],
+      "last_sale_date": null,
+      "total_records": 0
+    }
+  }
+}

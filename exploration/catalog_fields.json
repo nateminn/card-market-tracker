@@ -1,0 +1,114 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/catalog/fields",
+    "params": null,
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 13,
+  "_elapsed_s": 0.468,
+  "data": {
+    "fields": [
+      {
+        "id": "29667d49-9b97-4abe-8d6e-dc90dd49f844",
+        "key": "ARTIST",
+        "name": "Artist",
+        "usageCount": 18603
+      },
+      {
+        "id": "48f765bd-31be-4b69-ac48-03e72815e801",
+        "key": "EVOLVES_FROM",
+        "name": "Evolves From",
+        "usageCount": 7275
+      },
+      {
+        "id": "8d663dfd-bd74-4778-8719-88e266bed3ec",
+        "key": "FLAVOR_TEXT",
+        "name": "Flavor Text",
+        "usageCount": 10792
+      },
+      {
+        "id": "2d396549-618b-4c79-9d69-23c802e16a5f",
+        "key": "HP",
+        "name": "HP",
+        "usageCount": 17096
+      },
+      {
+        "id": "e60ccdfd-0ff2-4b1d-b0a0-0f053d03c3ff",
+        "key": "LANGUAGE",
+        "name": "Language",
+        "usageCount": 172
+      },
+      {
+        "id": "7468b586-483f-4569-a501-afbd270584ad",
+        "key": "POKEDEX_NUMBER",
+        "name": "Pok\u00e9dex Number",
+        "usageCount": 17028
+      },
+      {
+        "id": "35969834-f256-4f36-9537-ed303480d343",
+        "key": "RARITY",
+        "name": "Rarity",
+        "usageCount": 19907
+      },
+      {
+        "id": "60dcc56d-f3d8-4651-83da-8c1eb63958a2",
+        "key": "REGULATION_MARK",
+        "name": "Regulation Mark",
+        "usageCount": 7952
+      },
+      {
+        "id": "7d3ed0c7-b48d-4729-9d13-91c34935e22c",
+        "key": "RELEASE_DATE",
+        "name": "Release Date",
+        "usageCount": 172
+      },
+      {
+        "id": "fc2b25a5-70f6-4240-ad71-eae1c7c9087e",
+        "key": "RELEASE_SUBTYPE",
+        "name": "Release Subtype",
+        "usageCount": 20
+      },
+      {
+        "id": "d1f4989e-4ff7-446b-a259-ee2bdc3aa216",
+        "key": "RESISTANCE",
+        "name": "Resistance",
+        "usageCount": 4819
+      },
+      {
+        "id": "3a0892a9-c73e-4d5b-8514-4e9cccd0c24f",
+        "key": "RETREAT_COST",
+        "name": "Retreat Cost",
+        "usageCount": 16141
+      },
+      {
+        "id": "5fb32e3e-e040-4e91-8bb1-cf56fd5bc0ac",
+        "key": "SERIES",
+        "name": "Series",
+        "usageCount": 172
+      },
+      {
+        "id": "e42bcc55-cde0-41dc-a15b-7a68ba66ac46",
+        "key": "SET_ABBREVIATION",
+        "name": "Set Abbreviation",
+        "usageCount": 147
+      },
+      {
+        "id": "9ce7f2d7-ca52-4669-9165-4ad1da569b51",
+        "key": "TYPE",
+        "name": "Type",
+        "usageCount": 172
+      },
+      {
+        "id": "fc287945-34dc-4d0e-99d3-0b2fd9e593a4",
+        "key": "WEAKNESS",
+        "name": "Weakness",
+        "usageCount": 16559
+      }
+    ],
+    "total_count": 16,
+    "skip": 0,
+    "take": 20
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/catalog/releases",
+    "params": {
+      "year": "2024",
+      "take": 100,
+      "skip": 100
+    },
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 90,
+  "_elapsed_s": 0.487,
+  "data": {
+    "releases": [
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "7562355d-a51a-409a-9cc9-29faa5ba4b49",
+        "year": "2024",
+        "name": "Topps Dynamic Duals",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "69935db2-4d78-443f-bf91-734ddf44461c",
+        "year": "2024",
+        "name": "Topps Dynasty",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "d47d2498-80c8-4216-ac39-fae51d9f069f",
+        "year": "2024",
+        "name": "Topps Five Star",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "ee703094-83db-49bf-99de-6a555fd50ef0",
+        "year": "2024",
+        "name": "Topps Gilded Collection",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "86805864-f7bb-4505-a783-3c473d17c3ae",
+        "year": "2024",
+        "name": "Topps Heritage",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "ad5f3323-c2e1-445b-bb73-06d9f2945c0b",
+        "year": "2024",
+        "name": "Topps Heritage Mini",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "4f9e7ca9-238c-4bd4-b5a5-9772314b258f",
+        "year": "2024",
+        "name": "Topps Holiday",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "add7b9af-b11d-42f3-978f-f481c43c6f5b",
+        "year": "2024",
+        "name": "Topps Inception",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "efceabb2-35bb-41d7-8907-70d6e26f6585",
+        "year": "2024",
+        "name": "Topps Inception",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "5f49b54c-b04d-4093-a2a8-e9baa6bc1666",
+        "year": "2024",
+        "name": "Topps Japan Edition",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "04b4f89c-3e97-414f-8e7f-d4e8025760b2",
+        "year": "2024",
+        "name": "Topps Luminaries",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "6a8e22e6-d395-448a-b07b-4c5c74566eb6",
+        "year": "2024",
+        "name": "Topps Midnight",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "c3a31a66-6847-48d0-9f8b-3af8dbb369c8",
+        "year": "2024",
+        "name": "Topps Museum Collection",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "f1551b2a-474b-4fac-b008-19af08c885fc",
+        "year": "2024",
+        "name": "Topps Pristine",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "5c44d969-db51-43cc-964a-46448d1897a4",
+        "year": "2024",
+        "name": "Topps Pro Debut",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "f17fcf3b-6c96-4eed-b8a3-f79dfa8e9763",
+        "year": "2024",
+        "name": "Topps Resurgence",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "da96f62e-02d6-4204-ac46-d1614c2b0b56",
+        "year": "2024",
+        "name": "Topps Signature Class",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "286938c6-6674-428f-883c-7ce46f9d1ff5",
+        "year": "2024",
+        "name": "Topps Sterling",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "66110818-cf6b-43f7-9a46-84ad6c50f5fd",
+        "year": "2024",
+        "name": "Topps Tier One",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "e74000d7-4a30-4937-9c26-7d9007afc277",
+        "year": "2024",
+        "name": "Topps Transcendent Collection",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "b983c293-7952-4c45-bf9f-536794a5ee19",
+        "year": "2024",
+        "name": "Topps Tribute",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "de4587d2-33bf-46b6-96a2-fffa1e14cae3",
+        "year": "2024",
+        "name": "Topps Triple Threads",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "64d46664-a6f0-45e1-8049-b4d208b3a700",
+        "year": "2024",
+        "name": "Topps Update",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "d26aa2b8-2646-4372-b9fd-c9d599f09fd4",
+        "segmentId": "3266fff9-dfcb-4e00-80fb-922a8ab023d5",
+        "id": "5dca8afb-5e3c-4e92-a687-3edb87e94f9c",
+        "year": "2024",
+        "name": "Twilight Masquerade",
+        "is_identifiable": true
+      }
+    ],
+    "total_count": 124,
+    "skip": 100,
+    "take": 100
+  }
+}

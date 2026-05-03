@@ -1,0 +1,230 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/catalog/sets/77b404e2-6fe8-4505-ab12-a73d2280db0b/cards",
+    "params": {
+      "take": 5
+    },
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 50,
+  "_elapsed_s": 0.318,
+  "data": {
+    "cards": [
+      {
+        "releaseId": "7293412b-2d42-4bda-a4fc-101b20d5d74f",
+        "setId": "77b404e2-6fe8-4505-ab12-a73d2280db0b",
+        "id": "27b01d5e-26a7-4987-85cd-cf7a859ecea3",
+        "number": "1",
+        "name": "Stephen Curry",
+        "setName": "Far Out!",
+        "releaseName": "Panini Prizm",
+        "releaseYear": "2019-20",
+        "attributes": [
+          "NBA-GSW"
+        ],
+        "parallels": [
+          {
+            "id": "4fe74d08-878f-4fbe-8a0c-20c5640831a1",
+            "name": "Fast Break"
+          },
+          {
+            "id": "dd9fdf24-bce9-465f-8c34-4c894bd0566e",
+            "name": "Prizms Black",
+            "numberedTo": 1
+          },
+          {
+            "id": "c889cfed-baf1-4fc9-8dd7-3e1594680caf",
+            "name": "Prizms Gold",
+            "numberedTo": 10
+          },
+          {
+            "id": "ebe725a4-287e-4d29-875a-07c5c235495c",
+            "name": "Prizms Hyper"
+          },
+          {
+            "id": "2dcc55e4-1054-4293-ad22-4a061bed8ac1",
+            "name": "Prizms Mojo",
+            "numberedTo": 25
+          },
+          {
+            "id": "4a784fb6-7808-4265-975c-2bdcd4d23308",
+            "name": "Prizms Silver"
+          }
+        ]
+      },
+      {
+        "releaseId": "7293412b-2d42-4bda-a4fc-101b20d5d74f",
+        "setId": "77b404e2-6fe8-4505-ab12-a73d2280db0b",
+        "id": "c03f60f4-63de-4560-90cd-ec3304524121",
+        "number": "2",
+        "name": "LeBron James",
+        "setName": "Far Out!",
+        "releaseName": "Panini Prizm",
+        "releaseYear": "2019-20",
+        "attributes": [
+          "NBA-LAL"
+        ],
+        "parallels": [
+          {
+            "id": "4fe74d08-878f-4fbe-8a0c-20c5640831a1",
+            "name": "Fast Break"
+          },
+          {
+            "id": "dd9fdf24-bce9-465f-8c34-4c894bd0566e",
+            "name": "Prizms Black",
+            "numberedTo": 1
+          },
+          {
+            "id": "c889cfed-baf1-4fc9-8dd7-3e1594680caf",
+            "name": "Prizms Gold",
+            "numberedTo": 10
+          },
+          {
+            "id": "ebe725a4-287e-4d29-875a-07c5c235495c",
+            "name": "Prizms Hyper"
+          },
+          {
+            "id": "2dcc55e4-1054-4293-ad22-4a061bed8ac1",
+            "name": "Prizms Mojo",
+            "numberedTo": 25
+          },
+          {
+            "id": "4a784fb6-7808-4265-975c-2bdcd4d23308",
+            "name": "Prizms Silver"
+          }
+        ]
+      },
+      {
+        "releaseId": "7293412b-2d42-4bda-a4fc-101b20d5d74f",
+        "setId": "77b404e2-6fe8-4505-ab12-a73d2280db0b",
+        "id": "95b14e87-89d1-4db6-baa5-49147012a60e",
+        "number": "3",
+        "name": "James Harden",
+        "setName": "Far Out!",
+        "releaseName": "Panini Prizm",
+        "releaseYear": "2019-20",
+        "attributes": [
+          "NBA-HOU"
+        ],
+        "parallels": [
+          {
+            "id": "4fe74d08-878f-4fbe-8a0c-20c5640831a1",
+            "name": "Fast Break"
+          },
+          {
+            "id": "dd9fdf24-bce9-465f-8c34-4c894bd0566e",
+            "name": "Prizms Black",
+            "numberedTo": 1
+          },
+          {
+            "id": "c889cfed-baf1-4fc9-8dd7-3e1594680caf",
+            "name": "Prizms Gold",
+            "numberedTo": 10
+          },
+          {
+            "id": "ebe725a4-287e-4d29-875a-07c5c235495c",
+            "name": "Prizms Hyper"
+          },
+          {
+            "id": "2dcc55e4-1054-4293-ad22-4a061bed8ac1",
+            "name": "Prizms Mojo",
+            "numberedTo": 25
+          },
+          {
+            "id": "4a784fb6-7808-4265-975c-2bdcd4d23308",
+            "name": "Prizms Silver"
+          }
+        ]
+      },
+      {
+        "releaseId": "7293412b-2d42-4bda-a4fc-101b20d5d74f",
+        "setId": "77b404e2-6fe8-4505-ab12-a73d2280db0b",
+        "id": "95240d1e-1db2-4c4e-ae6d-3dee8a268732",
+        "number": "4",
+        "name": "Russell Westbrook",
+        "setName": "Far Out!",
+        "releaseName": "Panini Prizm",
+        "releaseYear": "2019-20",
+        "attributes": [
+          "NBA-HOU"
+        ],
+        "parallels": [
+          {
+            "id": "4fe74d08-878f-4fbe-8a0c-20c5640831a1",
+            "name": "Fast Break"
+          },
+          {
+            "id": "dd9fdf24-bce9-465f-8c34-4c894bd0566e",
+            "name": "Prizms Black",
+            "numberedTo": 1
+          },
+          {
+            "id": "c889cfed-baf1-4fc9-8dd7-3e1594680caf",
+            "name": "Prizms Gold",
+            "numberedTo": 10
+          },
+          {
+            "id": "ebe725a4-287e-4d29-875a-07c5c235495c",
+            "name": "Prizms Hyper"
+          },
+          {
+            "id": "2dcc55e4-1054-4293-ad22-4a061bed8ac1",
+            "name": "Prizms Mojo",
+            "numberedTo": 25
+          },
+          {
+            "id": "4a784fb6-7808-4265-975c-2bdcd4d23308",
+            "name": "Prizms Silver"
+          }
+        ]
+      },
+      {
+        "releaseId": "7293412b-2d42-4bda-a4fc-101b20d5d74f",
+        "setId": "77b404e2-6fe8-4505-ab12-a73d2280db0b",
+        "id": "3f05d8a6-ea29-4d2f-9385-c34a21c1942f",
+        "number": "5",
+        "name": "Kevin Durant",
+        "setName": "Far Out!",
+        "releaseName": "Panini Prizm",
+        "releaseYear": "2019-20",
+        "attributes": [
+          "NBA-BKN"
+        ],
+        "parallels": [
+          {
+            "id": "4fe74d08-878f-4fbe-8a0c-20c5640831a1",
+            "name": "Fast Break"
+          },
+          {
+            "id": "dd9fdf24-bce9-465f-8c34-4c894bd0566e",
+            "name": "Prizms Black",
+            "numberedTo": 1
+          },
+          {
+            "id": "c889cfed-baf1-4fc9-8dd7-3e1594680caf",
+            "name": "Prizms Gold",
+            "numberedTo": 10
+          },
+          {
+            "id": "ebe725a4-287e-4d29-875a-07c5c235495c",
+            "name": "Prizms Hyper"
+          },
+          {
+            "id": "2dcc55e4-1054-4293-ad22-4a061bed8ac1",
+            "name": "Prizms Mojo",
+            "numberedTo": 25
+          },
+          {
+            "id": "4a784fb6-7808-4265-975c-2bdcd4d23308",
+            "name": "Prizms Silver"
+          }
+        ]
+      }
+    ],
+    "total_count": 25,
+    "skip": 0,
+    "take": 5
+  }
+}

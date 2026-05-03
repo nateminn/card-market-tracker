@@ -1,0 +1,21 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/catalog/releases",
+    "params": {
+      "year": "2024",
+      "take": 100,
+      "skip": 200
+    },
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 91,
+  "_elapsed_s": 0.475,
+  "data": {
+    "releases": [],
+    "total_count": 124,
+    "skip": 200,
+    "take": 100
+  }
+}

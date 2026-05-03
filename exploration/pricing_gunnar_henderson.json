@@ -1,0 +1,640 @@
+{
+  "card": {
+    "card_id": "0b2cfa5f-4203-456d-919c-cc3ded83e4b9",
+    "name": "Gunnar Henderson",
+    "number": "9",
+    "set": {
+      "set_id": "13fcea60-b1d4-4add-8650-f7988de899d8",
+      "name": "Base Set",
+      "year": "2024",
+      "release": "Bowman Chrome"
+    }
+  },
+  "query": {
+    "period": "all",
+    "listing_type": "both",
+    "as_of_date": "2026-04-27"
+  },
+  "raw": {
+    "period_days": null,
+    "count": 54,
+    "records": [
+      {
+        "title": "2024 Bowman Chrome Mega Box Mojo Refractor Gunnar Henderson #9 15zu",
+        "price": 1.67,
+        "date": "2026-04-18T16:04:05.195918Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/EL1m",
+        "image_url": "https://i.ebayimg.com/images/g/Z6AAAeSwcCJp44UC/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Gunnar Henderson #9 Mega Box Mojo Refractor Orioles",
+        "price": 4.5,
+        "date": "2026-04-11T16:04:20.411494Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/0X7H",
+        "image_url": "https://i.ebayimg.com/images/g/p~cAAeSwQp1p2iYu/s-l225.jpg",
+        "parallel_id": "b68c9078-e484-430a-99af-de90d4d2e369",
+        "parallel_name": "Blue Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome Blue Refractor /150 Gunnar Henderson #9 2l4",
+        "price": 12.28,
+        "date": "2026-04-11T16:04:17.218610Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/OD0R",
+        "image_url": "https://i.ebayimg.com/images/g/FoMAAeSwc-Fp2moL/s-l225.jpg",
+        "parallel_id": "b68c9078-e484-430a-99af-de90d4d2e369",
+        "parallel_name": "Blue Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome #9 Gunnar Henderson Baltimore Orioles",
+        "price": 0.99,
+        "date": "2026-04-10T16:04:50.220262Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/CK15",
+        "image_url": "https://i.ebayimg.com/images/g/588AAeSw0k5p2Phy/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Gunnar Henderson #9 Mojo Refractor",
+        "price": 3.99,
+        "date": "2026-04-09T16:04:19.143961Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/nw8D",
+        "image_url": "https://i.ebayimg.com/images/g/LNQAAeSwsvFp18Cz/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #9 Gunnar Henderson Mojo Refractors",
+        "price": 1.99,
+        "date": "2026-04-07T16:04:32.133367Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/CWxL",
+        "image_url": "https://i.ebayimg.com/images/g/RxUAAeSwXldp1SZk/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box Purple Mojo Refractor /250 Gunnar Henderson #9 16kt",
+        "price": 10.32,
+        "date": "2026-04-02T16:04:22.405641Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/KZhZ",
+        "image_url": "https://i.ebayimg.com/images/g/F6AAAeSwkXVpzoJd/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box Pink Mojo Refractor /199 Gunnar Henderson #9 10w8",
+        "price": 9.74,
+        "date": "2026-04-02T16:04:22.405641Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/PrM5",
+        "image_url": "https://i.ebayimg.com/images/g/UNYAAeSwdIJpznbM/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Refractor /499 Gunnar Henderson #9 1g1q",
+        "price": 6.58,
+        "date": "2026-03-26T16:02:58.180316Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/suDF",
+        "image_url": "https://i.ebayimg.com/images/g/joEAAeSwLTtpxTaX/s-l225.jpg",
+        "parallel_id": "29f63498-3fae-4de8-a9a2-3845e8a87952",
+        "parallel_name": "Yellow Refractor"
+      },
+      {
+        "title": "Gunnar Henderson 2024 Bowman Chrome Yellow Sapphire Refractor /75 #9 Orioles",
+        "price": 15.5,
+        "date": "2026-03-25T23:19:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/x1fz",
+        "image_url": "https://i.ebayimg.com/images/g/egcAAeSw5jFpsUYp/s-l225.jpg",
+        "parallel_id": "29f63498-3fae-4de8-a9a2-3845e8a87952",
+        "parallel_name": "Yellow Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome #9 Gunnar Henderson",
+        "price": 2,
+        "date": "2026-03-19T16:02:51.120885Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/LjHP",
+        "image_url": "https://i.ebayimg.com/images/g/ySMAAeSwXthpu-2Z/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Gunnar Henderson Mojo Refractor #9",
+        "price": 3.99,
+        "date": "2026-03-17T16:02:51.278899Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/2UJK",
+        "image_url": "https://i.ebayimg.com/images/g/rEIAAeSwx-RpuJmh/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Gunnar Henderson #9",
+        "price": 0.99,
+        "date": "2026-03-16T16:02:37.528258Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/5X4O",
+        "image_url": "https://i.ebayimg.com/images/g/S~MAAeSwjLdpsZS8/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Gunnar Henderson #9",
+        "price": 0.99,
+        "date": "2026-03-16T16:02:37.528258Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/DH4J",
+        "image_url": "https://i.ebayimg.com/images/g/EQsAAeSwZYppsZT3/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #9 Gunnar Henderson Baltimore Orioles",
+        "price": 0.99,
+        "date": "2026-03-13T16:02:40.709789Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/bkom",
+        "image_url": "https://i.ebayimg.com/images/g/hBUAAeSw5nxptB5-/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Mojo Refractors #9 Gunnar Henderson",
+        "price": 1.59,
+        "date": "2026-03-11T16:02:57.910115Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/7qLU",
+        "image_url": "https://i.ebayimg.com/images/g/FA8AAeSw4c1psW2A/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Gunnar Henderson #9",
+        "price": 1.5,
+        "date": "2026-03-07T17:02:26.872896Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/7ljS",
+        "image_url": "https://i.ebayimg.com/images/g/BpoAAeSwMA9prE7m/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #9 Gunnar Henderson Baltimore Orioles",
+        "price": 0.99,
+        "date": "2026-03-05T17:02:33.642920Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/D19q",
+        "image_url": "https://i.ebayimg.com/images/g/-moAAeSwPqFpqadK/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box Pink Mojo Refractor /199 Gunnar Henderson #9 10w8",
+        "price": 9.45,
+        "date": "2026-03-02T17:02:30.222003Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/jKeS",
+        "image_url": "https://i.ebayimg.com/images/g/5nwAAeSwv1xppbHU/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box Purple Mojo Refractor /250 Gunnar Henderson #9 16kt",
+        "price": 10.03,
+        "date": "2026-03-02T17:02:29.667952Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/jQwf",
+        "image_url": "https://i.ebayimg.com/images/g/M6wAAeSw05pppb1Z/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Gunnar Henderson #9 1m82",
+        "price": 0.99,
+        "date": "2026-02-28T17:02:18.787762Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/1qU3",
+        "image_url": "https://i.ebayimg.com/images/g/rPkAAeSw6m5powzB/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #9 Gunnar Henderson Blue Refractors #/150",
+        "price": 3,
+        "date": "2026-02-23T01:39:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/TUqE",
+        "image_url": "https://i.ebayimg.com/images/g/bTQAAeSwtydplPhd/s-l225.jpg",
+        "parallel_id": "b68c9078-e484-430a-99af-de90d4d2e369",
+        "parallel_name": "Blue Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box Gunnar Henderson #9",
+        "price": 5,
+        "date": "2026-02-20T17:02:53.530047Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/6lqv",
+        "image_url": "https://i.ebayimg.com/images/g/CUEAAeSwv7VpmJFU/s-l225.jpg"
+      },
+      {
+        "title": "2024 Topps Bowman Chrome Mojo Gunnar Henderson Baltimore Orioles #9",
+        "price": 1.4,
+        "date": "2026-02-13T17:02:10.894277Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/arTY",
+        "image_url": "https://i.ebayimg.com/images/g/0IQAAOSwOexnBcto/s-l225.jpg",
+        "parallel_id": "2cb0e82e-f291-4a2e-8f9b-903bbe43d675",
+        "parallel_name": "Aqua RayWave Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome - Gunnar Henderson #9 Aqua Raywave Refractor /199",
+        "price": 3.01,
+        "date": "2026-02-14T13:04:05Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/txaQ",
+        "image_url": "https://i.ebayimg.com/images/g/QzQAAeSwvgpol6JW/s-l225.jpg",
+        "parallel_id": "2cb0e82e-f291-4a2e-8f9b-903bbe43d675",
+        "parallel_name": "Aqua RayWave Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome #9 Gunnar Henderson Baltimore Orioles",
+        "price": 0.99,
+        "date": "2026-02-12T17:02:18.732382Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/ifdu",
+        "image_url": "https://i.ebayimg.com/images/g/So8AAeSwirJpjgF3/s-l225.jpg"
+      },
+      {
+        "title": "Gunnar Henderson 2024 Bowman Chrome #9 Baltimore Orioles",
+        "price": 1.99,
+        "date": "2026-02-11T17:02:12.594523Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/Ngsw",
+        "image_url": "https://i.ebayimg.com/images/g/~sMAAOSwRLtngrB1/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box Gunnar Henderson #9 Mojo Refractor Baltimore Orioles",
+        "price": 1.69,
+        "date": "2026-02-10T17:02:10.723008Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/qCk3",
+        "image_url": "https://i.ebayimg.com/images/g/j6kAAeSwG7ppiyGc/s-l225.jpg",
+        "parallel_id": "b68c9078-e484-430a-99af-de90d4d2e369",
+        "parallel_name": "Blue Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome Refractor 141/499 Gunnar Henderson #9 1l31",
+        "price": 9.17,
+        "date": "2026-02-10T17:02:10.723008Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/oQOE",
+        "image_url": "https://i.ebayimg.com/images/g/Y~UAAeSw~8dpiwJm/s-l225.jpg",
+        "parallel_id": "b68c9078-e484-430a-99af-de90d4d2e369",
+        "parallel_name": "Blue Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome Gunnar Henderson Blue Refractor /150 #9",
+        "price": 1.99,
+        "date": "2026-02-11T04:39:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/qwB6",
+        "image_url": "https://i.ebayimg.com/images/g/hG4AAeSwhnhphSzr/s-l225.jpg",
+        "parallel_id": "b68c9078-e484-430a-99af-de90d4d2e369",
+        "parallel_name": "Blue Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome Fuchsia Refractor /299 Gunnar Henderson #9 qg3",
+        "price": 8.59,
+        "date": "2026-02-02T17:02:32.040973Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/24Qh",
+        "image_url": "https://i.ebayimg.com/images/g/Ko4AAeSw9TtpgJbq/s-l225.jpg",
+        "parallel_id": "6a159336-c584-478f-94f2-3028bb711738",
+        "parallel_name": "Fuchsia Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box Purple Mojo Refractor /250 Gunnar Henderson #9 16kt",
+        "price": 10.03,
+        "date": "2026-02-01T17:02:39.731305Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/eu3Y",
+        "image_url": "https://i.ebayimg.com/images/g/heEAAeSwO0Rpf0-i/s-l225.jpg"
+      },
+      {
+        "title": "GUNNAR HENDERSON 2024 BOWMAN CHROME BALTIMORE ORIOLES #9",
+        "price": 0.99,
+        "date": "2026-01-30T17:02:26.867080Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/2Cuv",
+        "image_url": "https://i.ebayimg.com/images/g/um8AAeSw-JdpfJ9D/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Gunnar Henderson #9 Purple Mojo Refractor /250",
+        "price": 0.99,
+        "date": "2026-01-27T02:43:11Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/e4JZ",
+        "image_url": "https://i.ebayimg.com/images/g/wZEAAeSwDGNpbusu/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box Mojo Refractor Gunnar Henderson #9 1bu3",
+        "price": 1.4,
+        "date": "2026-01-22T17:02:36.177086Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/kyQi",
+        "image_url": "https://i.ebayimg.com/images/g/fU0AAeSwyX9pcjHM/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Green Refractor 82/99 Gunnar Henderson #9 1k9t",
+        "price": 12.04,
+        "date": "2026-01-17T17:02:38.070694Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/6PZg",
+        "image_url": "https://i.ebayimg.com/images/g/gBQAAeSw3Ilpa3Xo/s-l225.jpg",
+        "parallel_id": "7891d86d-3266-4270-a27f-27d59d70ecfc",
+        "parallel_name": "Green Refractor"
+      },
+      {
+        "title": "L85,169 - 2024 Bowman Chrome Green Refractors #9 Gunnar Henderson /99",
+        "price": 30,
+        "date": "2026-01-16T17:02:32.949967Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/Fg0f",
+        "image_url": "https://i.ebayimg.com/images/g/3vMAAeSwh6NpaMbl/s-l225.jpg",
+        "parallel_id": "7891d86d-3266-4270-a27f-27d59d70ecfc",
+        "parallel_name": "Green Refractor"
+      },
+      {
+        "title": "Gunnar Henderson 2024 Bowman Chrome #9 Baltimore Orioles",
+        "price": 1.99,
+        "date": "2026-01-15T17:02:43.544602Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/CSbN",
+        "image_url": "https://i.ebayimg.com/images/g/~sMAAOSwRLtngrB1/s-l225.jpg"
+      },
+      {
+        "title": "Gunnar Henderson 2024 Bowman Chrome #9 Baltimore Orioles B20B2",
+        "price": 1.35,
+        "date": "2026-01-13T17:02:28.562450Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/cXrN",
+        "image_url": "https://i.ebayimg.com/images/g/HlsAAeSw~D5pZlgY/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Refractor 141/499 Gunnar Henderson #9 1l31",
+        "price": 9.17,
+        "date": "2026-01-10T17:02:18.641972Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/zyMr",
+        "image_url": "https://i.ebayimg.com/images/g/CeIAAeSwm21pYjEG/s-l225.jpg",
+        "parallel_id": "f9efe877-c458-4068-8d0f-de323606b727",
+        "parallel_name": "Refractor"
+      },
+      {
+        "title": "Gunnar Henderson 2024 Bowman Chrome Baltimore Orioles #9",
+        "price": 0.99,
+        "date": "2026-01-10T17:02:15.666794Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/psd0",
+        "image_url": "https://i.ebayimg.com/images/g/FuMAAeSwbHlpYnFZ/s-l225.jpg"
+      },
+      {
+        "title": "2024 Topps Bowman Chrome Mojo Gunnar Henderson Baltimore Orioles #9",
+        "price": 1.4,
+        "date": "2026-01-05T17:02:16.870192Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/fjnQ",
+        "image_url": "https://i.ebayimg.com/images/g/0IQAAOSwOexnBcto/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Gunnar Henderson Mojo Refractor #9",
+        "price": 1.59,
+        "date": "2026-01-03T17:02:28.702626Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/6Ql9",
+        "image_url": "https://i.ebayimg.com/images/g/yOIAAeSw8oFpWPLe/s-l225.jpg"
+      },
+      {
+        "title": "Gunnar Henderson 2024 Bowman Chrome #9 Baltimore Orioles ",
+        "price": 1.99,
+        "date": "2026-01-02T17:02:20.473975Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/sjyz",
+        "image_url": "https://i.ebayimg.com/images/g/lfoAAOSwqplngWUD/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Gunnar Henderson #9 Green Mojo Refractor /99",
+        "price": 4.25,
+        "date": "2026-01-02T01:24:07Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/u1Ls",
+        "image_url": "https://i.ebayimg.com/images/g/mDwAAeSwzfNpUIaU/s-l225.jpg",
+        "parallel_id": "7891d86d-3266-4270-a27f-27d59d70ecfc",
+        "parallel_name": "Green Refractor"
+      },
+      {
+        "title": "Gunnar Henderson 2024 Bowman Chrome #9 Baltimore Orioles",
+        "price": 1.99,
+        "date": "2025-12-30T17:02:02.147823Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/w2dx",
+        "image_url": "https://i.ebayimg.com/images/g/~sMAAOSwRLtngrB1/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Gunnar Henderson #9 1m82",
+        "price": 0.99,
+        "date": "2025-12-28T17:02:17.933012Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/r8wB",
+        "image_url": "https://i.ebayimg.com/images/g/WMEAAeSw3B5pUTJC/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box Mojo Refractor Gunnar Henderson #9 y6t",
+        "price": 1.21,
+        "date": "2025-12-21T14:06:44.465156Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/fMbt",
+        "image_url": "https://i.ebayimg.com/images/g/e7cAAeSwzkRpR7e1/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #9 Gunnar Henderson",
+        "price": 1.5,
+        "date": "2025-12-13T16:25:34.969556Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/AYHh",
+        "image_url": "https://i.ebayimg.com/images/g/Sy8AAeSwS31pPY0r/s-l225.jpg"
+      },
+      {
+        "title": "Gunnar Henderson 2024 Bowman Chrome #9 Baltimore Orioles",
+        "price": 1.99,
+        "date": "2025-12-11T15:44:42.125858Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/1I5k",
+        "image_url": "https://i.ebayimg.com/images/g/~sMAAOSwRLtngrB1/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box Pink Mojo Refractor /199 Gunnar Henderson #9",
+        "price": 9.45,
+        "date": "2025-12-01T13:10:57.259165Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/dqIm",
+        "image_url": "https://i.ebayimg.com/images/g/KG0AAeSw4QFpLYp0/s-l225.jpg",
+        "parallel_id": "2cb0e82e-f291-4a2e-8f9b-903bbe43d675",
+        "parallel_name": "Aqua RayWave Refractor"
+      },
+      {
+        "title": "2024 Topps Bowman Chrome Mojo Gunnar Henderson Baltimore Orioles #9",
+        "price": 1.31,
+        "date": "2025-11-25T17:03:00.851007Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/IoIi",
+        "image_url": "https://i.ebayimg.com/images/g/0IQAAOSwOexnBcto/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Mojo Refractor #9 Gunnar Henderson Orioles \ud83d\udd25\ud83d\udd25\ud83d\udd25",
+        "price": 0.5,
+        "date": "2025-11-25T21:17:48Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/QS18",
+        "image_url": "https://i.ebayimg.com/images/g/taoAAOSwYnhnN-iu/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mojo Refractor #9 Gunnar Henderson",
+        "price": 3.99,
+        "date": "2025-11-25T16:59:27.383031Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/Uz5j",
+        "image_url": "https://i.ebayimg.com/images/g/RD8AAeSwVQpn2Hc8/s-l225.jpg"
+      }
+    ]
+  },
+  "graded": [
+    {
+      "company_name": "SGC",
+      "company_id": "aa797bb1-ae21-440f-91b6-7484e47ce0ce",
+      "grades": [
+        {
+          "grade_value": "9",
+          "grade_id": "18a1af14-d53e-4dce-80c5-bbfb24b05e67",
+          "period_days": null,
+          "count": 1,
+          "records": [
+            {
+              "title": "2024 Bowman Chrome Mega Box Mojo Refractor Gunnar Henderson #9 SGC 9.5 Mint+",
+              "price": 6.25,
+              "date": "2026-03-27T01:36:35Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/Fder",
+              "image_url": "https://i.ebayimg.com/images/g/NrIAAeSwxONpuz8d/s-l225.jpg"
+            }
+          ]
+        },
+        {
+          "grade_value": "9",
+          "grade_id": "4854fa8a-84d0-4931-8676-8efffd2c6439",
+          "period_days": null,
+          "count": 1,
+          "records": [
+            {
+              "title": "2024 Bowman Chrome Gunnar Henderson Mega Box Refractor #9 Orioles SGC 9.5",
+              "price": 15,
+              "date": "2026-01-22T02:37:40Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/4pfW",
+              "image_url": "https://i.ebayimg.com/images/g/K1UAAeSwTVxpapAJ/s-l225.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company_name": "CGC",
+      "company_id": "131e9c4b-9c30-4f2c-88a2-1b61e567bcc6",
+      "grades": [
+        {
+          "grade_value": "10",
+          "grade_id": "a70bcc0f-a693-416c-9c9b-dacce79824d5",
+          "period_days": null,
+          "count": 1,
+          "records": [
+            {
+              "title": "2024 Bowman Chrome Mega Box #9 Gunnar Henderson CGC 10 Gem Mint Orioles",
+              "price": 15.99,
+              "date": "2026-03-22T16:02:46.348092Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/pNi2",
+              "image_url": "https://i.ebayimg.com/images/g/Z~IAAeSw4Ghpv~x1/s-l225.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7",
+      "grades": [
+        {
+          "grade_value": "9",
+          "grade_id": "0d346a0f-6d49-45f9-834c-16fa58a21358",
+          "period_days": null,
+          "count": 1,
+          "records": [
+            {
+              "title": "2024 Bowman Chrome Gunnar Henderson #9 Orioles PSA 10",
+              "price": 17.5,
+              "date": "2026-01-06T02:16:20Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/WWUA",
+              "image_url": "https://i.ebayimg.com/images/g/3YYAAeSwaNlpVXm9/s-l225.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "sources": [
+      {
+        "source": "ebay",
+        "count": 58
+      }
+    ],
+    "last_sale_date": "2026-04-18T16:04:05.195918Z",
+    "total_records": 58
+  }
+}

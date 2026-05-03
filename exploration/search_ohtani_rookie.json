@@ -1,0 +1,223 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/catalog/search",
+    "params": {
+      "q": "Shohei Ohtani rookie",
+      "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+      "limit": 25
+    },
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 15,
+  "_elapsed_s": 2.121,
+  "data": {
+    "results": [
+      {
+        "type": "card",
+        "id": "882861ee-353a-4f87-92be-42a766002696",
+        "name": "Shohei Ohtani",
+        "relevance": 3,
+        "year": "2018",
+        "setName": "Base Set",
+        "releaseName": "Topps Transcendent Collection Japan Edition",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "32ebfb69-d922-42d2-9f84-772b69f60b09",
+        "name": "Shohei Ohtani",
+        "relevance": 3,
+        "year": "2018",
+        "setName": "Base Set",
+        "releaseName": "Topps Transcendent Collection Japan Edition",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "2f0fbc06-a678-48eb-8cd5-d9504a04bea0",
+        "name": "Shohei Ohtani",
+        "relevance": 3,
+        "year": "2018",
+        "setName": "Base Set",
+        "releaseName": "Bowman Platinum",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "99dfaebe-7c58-40eb-9499-4e00b1c453f0",
+        "name": "Shohei Ohtani",
+        "relevance": 3,
+        "year": "2018",
+        "setName": "Autographs",
+        "releaseName": "Topps Clearly Authentic",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "e32cbea4-8a85-4a00-a74f-548cee893586",
+        "name": "Shohei Ohtani",
+        "relevance": 3,
+        "year": "2018",
+        "setName": "Base Set",
+        "releaseName": "Panini Chronicles",
+        "manufacturerName": "Panini"
+      },
+      {
+        "type": "card",
+        "id": "7c4b48ec-124d-4598-b5da-8dded52cd691",
+        "name": "Shohei Ohtani",
+        "relevance": 3,
+        "year": "2018",
+        "setName": "Base Set",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "753347b9-8290-441a-b48c-7d10294840b9",
+        "name": "Shohei Ohtani",
+        "relevance": 3,
+        "year": "2018",
+        "setName": "Base Set",
+        "releaseName": "Stadium Club",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "29633734-9e83-4ace-abab-cdd6ddfadb3f",
+        "name": "Shohei Ohtani",
+        "relevance": 3,
+        "year": "2018",
+        "setName": "Base Set",
+        "releaseName": "Topps Transcendent Collection Japan Edition",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "48d729f0-f1c8-427c-804e-6a6af6f4cb6a",
+        "name": "Shohei Ohtani",
+        "relevance": 3,
+        "year": "2018",
+        "setName": "Base Set",
+        "releaseName": "Topps Transcendent Collection Japan Edition",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "79baed4d-2526-4c63-a1bc-e01c3849d721",
+        "name": "Shohei Ohtani",
+        "relevance": 3,
+        "year": "2018",
+        "setName": "Base Set",
+        "releaseName": "Topps Transcendent Collection Japan Edition",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "e1c5e164-fc7d-48bb-83c6-958515b83d63",
+        "name": "Shohei Ohtani",
+        "relevance": 3,
+        "year": "2018",
+        "setName": "Base Set",
+        "releaseName": "Panini Diamond Kings",
+        "manufacturerName": "Panini"
+      },
+      {
+        "type": "card",
+        "id": "35a652c9-59cd-4ba7-900c-ad15a5df99d1",
+        "name": "Shohei Ohtani",
+        "relevance": 3,
+        "year": "2018",
+        "setName": "Base Set",
+        "releaseName": "Topps Opening Day",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "edb28a10-89eb-43e8-b82d-12312ca73914",
+        "name": "Shohei Ohtani",
+        "relevance": 3,
+        "year": "2018",
+        "setName": "Base Set",
+        "releaseName": "Topps Allen & Ginter",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "ddf0a6a4-7313-4437-9730-de0d59e414f6",
+        "name": "Shohei Ohtani",
+        "relevance": 3,
+        "year": "2018",
+        "setName": "Base Set",
+        "releaseName": "Donruss Optic",
+        "manufacturerName": "Panini"
+      },
+      {
+        "type": "card",
+        "id": "37198e99-8ae8-4a47-a72a-bc943cd117ac",
+        "name": "Shohei Ohtani",
+        "relevance": 3,
+        "year": "2018",
+        "setName": "Base Set",
+        "releaseName": "Topps Fire",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "773b59fd-6064-4eb6-a8f9-63eae8fd38e7",
+        "name": "Shohei Ohtani",
+        "relevance": 3,
+        "year": "2018",
+        "setName": "Base",
+        "releaseName": "Topps Transcendent Collection",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "bdaf364b-1d87-4e96-a457-14999a1669ab",
+        "name": "Shohei Ohtani",
+        "relevance": 3,
+        "year": "2018",
+        "setName": "Base Set",
+        "releaseName": "Panini Chronicles",
+        "manufacturerName": "Panini"
+      },
+      {
+        "type": "card",
+        "id": "224fa07b-7a09-49c1-b0e1-e94a1df37d61",
+        "name": "Shohei Ohtani",
+        "relevance": 3,
+        "year": "2018",
+        "setName": "Base Set",
+        "releaseName": "Topps Transcendent Collection Japan Edition",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "b573036d-d7c2-4fc1-8179-dc1368046157",
+        "name": "Shohei Ohtani",
+        "relevance": 3,
+        "year": "2018",
+        "setName": "Base Set",
+        "releaseName": "Topps Transcendent Collection Japan Edition",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "29d5d7fa-8e08-4b4a-8950-d3d2ed86ce6a",
+        "name": "Shohei Ohtani",
+        "relevance": 3,
+        "year": "2018",
+        "setName": "Base Set",
+        "releaseName": "Panini Immaculate Collection",
+        "manufacturerName": "Panini",
+        "parallelName": "Rookie Patch Auto Tag"
+      }
+    ],
+    "total_count": 131,
+    "skip": 0,
+    "take": 20
+  }
+}

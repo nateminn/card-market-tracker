@@ -1,0 +1,1107 @@
+{
+  "card": {
+    "card_id": "a9918d39-c69a-4f3d-8e02-74fef95abd24",
+    "name": "Jackson Holliday",
+    "number": "26",
+    "set": {
+      "set_id": "13fcea60-b1d4-4add-8650-f7988de899d8",
+      "name": "Base Set",
+      "year": "2024",
+      "release": "Bowman Chrome"
+    }
+  },
+  "query": {
+    "period": "all",
+    "listing_type": "both",
+    "as_of_date": "2026-04-27"
+  },
+  "raw": {
+    "period_days": null,
+    "count": 84,
+    "records": [
+      {
+        "title": "2024 Bowman Chrome - Jackson Holliday #26 Mojo Refractor (RC)",
+        "price": 2.25,
+        "date": "2026-04-26T16:04:27.424910Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/wGcr",
+        "image_url": "https://i.ebayimg.com/images/g/0CMAAeSwkxVp7iRg/s-l225.jpg"
+      },
+      {
+        "title": "Jackson Holliday 2024 Bowman Chrome Rookie Card #26 Baltimore Orioles ",
+        "price": 2,
+        "date": "2026-04-22T02:58:14Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Gfc3",
+        "image_url": "https://i.ebayimg.com/images/g/xfoAAeSwjapp1uau/s-l225.jpg",
+        "parallel_id": "f9efe877-c458-4068-8d0f-de323606b727",
+        "parallel_name": "Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome #26 Jackson Holliday RC Refractor /499",
+        "price": 5.68,
+        "date": "2026-04-22T00:18:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/c8RH",
+        "image_url": "https://i.ebayimg.com/images/g/kCUAAeSwQOlp3cJs/s-l225.jpg",
+        "parallel_id": "f9efe877-c458-4068-8d0f-de323606b727",
+        "parallel_name": "Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome Jackson Holliday RC Rookie #26 Orioles R1N:26",
+        "price": 0.99,
+        "date": "2026-04-12T16:05:25.905481Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/Zd15",
+        "image_url": "https://i.ebayimg.com/images/g/u70AAeSwO6Vp243E/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Jackson Holliday #26 (RC)",
+        "price": 2.99,
+        "date": "2026-04-12T16:05:25.291375Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/FhB6",
+        "image_url": "https://i.ebayimg.com/images/g/E-MAAeSwqUtp28G8/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Jackson Holliday #26 Fuchsia Refractor /299 (RC)",
+        "price": 5.5,
+        "date": "2026-04-12T22:00:45Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/g3D3",
+        "image_url": "https://i.ebayimg.com/images/g/~0IAAeSwWIVp0tsl/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Jackson Holliday #26 Baltimore Orioles Rookie MLB Baseball ",
+        "price": 7.99,
+        "date": "2026-04-10T16:04:47.495907Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/IFYC",
+        "image_url": "https://i.ebayimg.com/images/g/CDQAAeSwz0Nph1iN/s-l225.jpg",
+        "parallel_id": "6a159336-c584-478f-94f2-3028bb711738",
+        "parallel_name": "Fuchsia Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome Jackson Holliday #26 0p7",
+        "price": 1.12,
+        "date": "2026-04-10T16:04:46.644969Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/1KiS",
+        "image_url": "https://i.ebayimg.com/images/g/kUcAAeSwQOlp2ROZ/s-l225.jpg",
+        "parallel_id": "6a159336-c584-478f-94f2-3028bb711738",
+        "parallel_name": "Fuchsia Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome Jackson Holliday Mega Box RC Refractor Rookie #26 Orioles",
+        "price": 1.25,
+        "date": "2026-04-10T01:26:58Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/b0Ko",
+        "image_url": "https://i.ebayimg.com/images/g/YYkAAeSwJE9p0VvI/s-l225.jpg",
+        "parallel_id": "6a159336-c584-478f-94f2-3028bb711738",
+        "parallel_name": "Fuchsia Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome Jackson Holliday #26 Mega Box Aqua Refractor /299 RC",
+        "price": 8.5,
+        "date": "2026-04-09T23:43:05Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/UaEs",
+        "image_url": "https://i.ebayimg.com/images/g/u3gAAeSwi5hpzv--/s-l225.jpg",
+        "parallel_id": "6a159336-c584-478f-94f2-3028bb711738",
+        "parallel_name": "Fuchsia Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome #26 Jackson Holliday",
+        "price": 2,
+        "date": "2026-04-08T16:03:58.238700Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/wv3f",
+        "image_url": "https://i.ebayimg.com/images/g/ssUAAeSwzRxp1lyF/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Jackson Holliday RC Rookie #26 Orioles",
+        "price": 0.99,
+        "date": "2026-04-08T23:30:57Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/cl0y",
+        "image_url": "https://i.ebayimg.com/images/g/W0YAAeSwjSppz51Z/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Jackson Holliday Rookie #26 Mojo Refractors",
+        "price": 2.99,
+        "date": "2026-04-04T16:04:28.932696Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/x2na",
+        "image_url": "https://i.ebayimg.com/images/g/E0oAAeSwSlNp0Rek/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Jackson Holliday #26 (RC)",
+        "price": 0.99,
+        "date": "2026-04-04T22:43:40Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/AxVP",
+        "image_url": "https://i.ebayimg.com/images/g/hUEAAeSwQmpprLfF/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Jackson Holliday #26 (RC) Baltimore Orioles",
+        "price": 1.9,
+        "date": "2026-03-30T16:03:32.605892Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/2lOe",
+        "image_url": "https://i.ebayimg.com/images/g/Jp0AAeSwTh5pyloF/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #26 Jackson Holliday Mojo Refractors (RC)",
+        "price": 1.49,
+        "date": "2026-03-26T16:02:58.180316Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/CPd9",
+        "image_url": "https://i.ebayimg.com/images/g/54wAAeSwWIVpxTnh/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Jackson Holliday Mega Box RC Refractor Rookie #26 Orioles",
+        "price": 1.76,
+        "date": "2026-03-26T23:53:20Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/GhG3",
+        "image_url": "https://i.ebayimg.com/images/g/1dsAAeSw4xBpvr5X/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #26 Jackson Holliday Rookie",
+        "price": 4.4,
+        "date": "2026-03-24T16:03:12.270473Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/aaEh",
+        "image_url": "https://i.ebayimg.com/images/g/svAAAeSwsSFpwqml/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #26 Jackson Holliday",
+        "price": 1.75,
+        "date": "2026-03-23T16:02:51.931224Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/ohGp",
+        "image_url": "https://i.ebayimg.com/images/g/PTIAAeSw17hpwVnR/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Jackson Holliday #26 Gold Mojo Refractor /50 (RC) Orioles",
+        "price": 49.99,
+        "date": "2026-03-16T16:02:37.528258Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/30PM",
+        "image_url": "https://i.ebayimg.com/images/g/6igAAeSwnjlpt~XP/s-l225.jpg",
+        "parallel_id": "d413d4b1-a401-436a-bba4-004ae31bb8de",
+        "parallel_name": "Gold Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome - Jackson Holliday #26 Mojo Refractor (RC)",
+        "price": 2.25,
+        "date": "2026-03-15T00:58:09Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/SDa5",
+        "image_url": "https://i.ebayimg.com/images/g/6yoAAeSwkPhpoxsQ/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - #26 Jackson Holliday (RC)",
+        "price": 2.99,
+        "date": "2026-03-12T16:02:41.112719Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/5bu1",
+        "image_url": "https://i.ebayimg.com/images/g/LzAAAOSwordnH-z3/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Jackson Holliday RC Rookie #26 Orioles",
+        "price": 1.25,
+        "date": "2026-03-13T00:31:27Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Y4oE",
+        "image_url": "https://i.ebayimg.com/images/g/YVIAAeSwFWNprGHW/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Sapphire Jackson Holliday RC Rookie #26 Orioles",
+        "price": 6.79,
+        "date": "2026-03-11T01:36:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/tRC6",
+        "image_url": "https://i.ebayimg.com/images/g/pbgAAeSwXQJpqbBV/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Jackson Holliday #26 Mojo Refractor (RC)",
+        "price": 3.25,
+        "date": "2026-03-06T23:41:15Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/HK5N",
+        "image_url": "https://i.ebayimg.com/images/g/XykAAeSwIctppM6E/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #26 Jackson Holliday",
+        "price": 0.99,
+        "date": "2026-02-27T17:02:22.470862Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/BXUg",
+        "image_url": "https://i.ebayimg.com/images/g/FIEAAeSwVi5pocnC/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Refractor 489/499 Jackson Holliday #26 16kt",
+        "price": 19.8,
+        "date": "2026-02-26T17:02:33.281344Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/gZSQ",
+        "image_url": "https://i.ebayimg.com/images/g/8YoAAeSwfQhpoE3-/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Jackson Holliday #26 Baltimore Orioles Rookie MLB Baseball ",
+        "price": 7.99,
+        "date": "2026-02-26T17:02:30.545057Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/NQP1",
+        "image_url": "https://i.ebayimg.com/images/g/CDQAAeSwz0Nph1iN/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Sapphire #26 Jackson Holliday MLB Trading Card",
+        "price": 7,
+        "date": "2026-02-23T17:02:32.738502Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/yITU",
+        "image_url": "https://i.ebayimg.com/images/g/t1YAAeSwT-tpnHUr/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box Jackson Holliday RC #26",
+        "price": 10,
+        "date": "2026-02-20T17:02:53.530047Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/Fmok",
+        "image_url": "https://i.ebayimg.com/images/g/kIwAAeSwkf1pmJDX/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Jackson Holliday RC #26",
+        "price": 5,
+        "date": "2026-02-20T17:02:53.530047Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/ypcx",
+        "image_url": "https://i.ebayimg.com/images/g/6~UAAeSwtNppmJHX/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #26 Jackson Holliday RC - BB",
+        "price": 5,
+        "date": "2026-02-19T17:02:42.704519Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/XL45",
+        "image_url": "https://i.ebayimg.com/images/g/K28AAeSwQ8xplzhV/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Jackson Holliday RC Pearl Refractor Rookie #26 Orioles",
+        "price": 43,
+        "date": "2026-02-18T01:12:33Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/FTui",
+        "image_url": "https://i.ebayimg.com/images/g/JEsAAeSwtkBpi9UA/s-l225.jpg"
+      },
+      {
+        "title": "JACKSON HOLLIDAY 2024 Bowman #26 Chrome RC Purple Mojo /250",
+        "price": 15.5,
+        "date": "2026-02-16T17:02:17.421035Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/hrKe",
+        "image_url": "https://i.ebayimg.com/images/g/P9kAAeSwKf9pkx~C/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Jackson Holliday #26 Rookie RC",
+        "price": 0.99,
+        "date": "2026-02-15T02:05:24Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Isxo",
+        "image_url": "https://i.ebayimg.com/images/g/C-4AAeSw6UtphmGy/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - #26 Jackson Holliday (RC)",
+        "price": 2.99,
+        "date": "2026-02-12T17:02:21.484010Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/VIPK",
+        "image_url": "https://i.ebayimg.com/images/g/LzAAAOSwordnH-z3/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Jackson Holliday #26 Refractor (RC) Baltimore Orioles",
+        "price": 2.77,
+        "date": "2026-02-12T21:19:38Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/WJDI",
+        "image_url": "https://i.ebayimg.com/images/g/iQ4AAeSw9GFphQj-/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Jackson Holliday #26 Aqua Mojo Refractor /299 (RC) (CC)",
+        "price": 14.99,
+        "date": "2026-02-10T17:02:07.916378Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/TfjM",
+        "image_url": "https://i.ebayimg.com/images/g/4tEAAeSwziJpi04r/s-l225.jpg",
+        "parallel_id": "6a159336-c584-478f-94f2-3028bb711738",
+        "parallel_name": "Fuchsia Refractor"
+      },
+      {
+        "title": "Jackson Holliday 2024 Bowman Chrome Base Rookie Baltimore Orioles #26",
+        "price": 3,
+        "date": "2026-02-07T17:02:08.044932Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/8XOq",
+        "image_url": "https://i.ebayimg.com/images/g/GTQAAeSwDXtph2Lq/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Jackson Holliday #26 Baltimore Orioles Rookie MLB Baseball ",
+        "price": 7.99,
+        "date": "2026-02-07T17:02:08.044932Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/bYky",
+        "image_url": "https://i.ebayimg.com/images/g/CDQAAeSwz0Nph1iN/s-l225.jpg"
+      },
+      {
+        "title": "L92,640 -  2024 Bowman Chrome #26 Jackson Holliday RC",
+        "price": 6,
+        "date": "2026-02-05T17:02:34.277110Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/cQ1P",
+        "image_url": "https://i.ebayimg.com/images/g/sWEAAeSwFMZpgMln/s-l225.jpg"
+      },
+      {
+        "title": "L92,639 -  2024 Bowman Chrome #26 Jackson Holliday RC",
+        "price": 6,
+        "date": "2026-02-05T17:02:34.277110Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/voHJ",
+        "image_url": "https://i.ebayimg.com/images/g/v~EAAeSwVvNpgMlN/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Jackson Holliday Mega Box RC Refractor #26 Orioles",
+        "price": 1.75,
+        "date": "2026-02-06T02:43:27Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Yabj",
+        "image_url": "https://i.ebayimg.com/images/g/760AAeSwWxBpfoLu/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Jackson Holliday #26 Green Refractor /99 (RC)",
+        "price": 15.16,
+        "date": "2026-02-05T23:55:21Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/1QSC",
+        "image_url": "https://i.ebayimg.com/images/g/c9sAAeSw63JpefCx/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Jackson Holliday #26 Aqua Mojo Refractor /299 (RC)",
+        "price": 14.99,
+        "date": "2026-02-04T17:02:30.352230Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/GrS8",
+        "image_url": "https://i.ebayimg.com/images/g/Zz8AAeSwtElpg2Cg/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Jackson Holliday #26 (RC)",
+        "price": 1.99,
+        "date": "2026-02-03T17:02:41.333709Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/48xa",
+        "image_url": "https://i.ebayimg.com/images/g/NccAAeSwFV9o3P53/s-l225.jpg"
+      },
+      {
+        "title": "Jackson Holliday RC 2024 Bowman Chrome Rookie Card #26 Baltimore Orioles ",
+        "price": 1.49,
+        "date": "2026-02-03T17:02:41.333709Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/1q6j",
+        "image_url": "https://i.ebayimg.com/images/g/MRUAAeSwiZtpgT~Q/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Jackson Holliday #26 Green Mojo Refractor /99 (RC)",
+        "price": 58.5,
+        "date": "2026-01-31T17:02:54.618352Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/TNIA",
+        "image_url": "https://i.ebayimg.com/images/g/eRUAAeSw5itpfcrn/s-l225.jpg",
+        "parallel_id": "7891d86d-3266-4270-a27f-27d59d70ecfc",
+        "parallel_name": "Green Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome Sapphire Jackson Holliday RC Rookie #26 Orioles",
+        "price": 5.5,
+        "date": "2026-01-31T01:30:14Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/N0im",
+        "image_url": "https://i.ebayimg.com/images/g/WLYAAeSwsaZpc-Br/s-l225.jpg"
+      },
+      {
+        "title": "Jackson Holliday 2024 Bowman Chrome #26",
+        "price": 2.99,
+        "date": "2026-01-29T17:02:38.195750Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/TlJK",
+        "image_url": "https://i.ebayimg.com/images/g/NDMAAeSwFLVpexig/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Fuchsia Refractor 105/299 Jackson Holliday #26 1k61",
+        "price": 35.04,
+        "date": "2026-01-28T17:02:30.664571Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/GxZq",
+        "image_url": "https://i.ebayimg.com/images/g/zr0AAeSwLClpeiEy/s-l225.jpg",
+        "parallel_id": "6a159336-c584-478f-94f2-3028bb711738",
+        "parallel_name": "Fuchsia Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome - Jackson Holliday #26 Pink Mojo Refractor /199 (RC)",
+        "price": 16.99,
+        "date": "2026-01-26T17:02:38.277959Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/hJPP",
+        "image_url": "https://i.ebayimg.com/images/g/y-gAAeSwZ0Vpd20A/s-l225.jpg",
+        "parallel_id": "f9efe877-c458-4068-8d0f-de323606b727",
+        "parallel_name": "Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome Refractor 489/499 Jackson Holliday #26 16kt",
+        "price": 24.4,
+        "date": "2026-01-26T17:02:38.277959Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/cM4P",
+        "image_url": "https://i.ebayimg.com/images/g/C9oAAeSw45Bpd3r5/s-l225.jpg",
+        "parallel_id": "f9efe877-c458-4068-8d0f-de323606b727",
+        "parallel_name": "Refractor"
+      },
+      {
+        "title": "~ Jackson Holliday RC 2024 Bowman Chrome #26 Mojo Refractors",
+        "price": 5.25,
+        "date": "2026-01-26T17:02:38.277959Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/WxJ5",
+        "image_url": "https://i.ebayimg.com/images/g/TCkAAeSwGVppd3eI/s-l225.jpg",
+        "parallel_id": "f9efe877-c458-4068-8d0f-de323606b727",
+        "parallel_name": "Refractor"
+      },
+      {
+        "title": "#26 Jackson Holliday Rookie Card RC - 2024 Bowman Chrome Orioles",
+        "price": 1.97,
+        "date": "2026-01-25T17:02:32.788149Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/7LHV",
+        "image_url": "https://i.ebayimg.com/images/g/dc0AAOSwmOFoM-2P/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #26 Jackson Holliday",
+        "price": 1.99,
+        "date": "2026-01-23T17:02:27.087012Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/MCYS",
+        "image_url": "https://i.ebayimg.com/images/g/tA0AAeSwNn9pc5zI/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box Mojo Refractor Jackson Holliday #26 1bu3",
+        "price": 2.83,
+        "date": "2026-01-22T17:02:36.177086Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/ral5",
+        "image_url": "https://i.ebayimg.com/images/g/jEYAAeSwLCdpcjGQ/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Sapphire Jackson Holliday RC Gold /50 #26",
+        "price": 54.82,
+        "date": "2026-01-24T01:15:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/6Grj",
+        "image_url": "https://i.ebayimg.com/images/g/ZO4AAeSwazhpWYIp/s-l225.jpg",
+        "parallel_id": "d413d4b1-a401-436a-bba4-004ae31bb8de",
+        "parallel_name": "Gold Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome - Jackson Holliday #26 Mojo Refractor (RC)",
+        "price": 3,
+        "date": "2026-01-20T17:02:33.691104Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/7TNL",
+        "image_url": "https://i.ebayimg.com/images/g/WAEAAeSw1y1pbvKr/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Jackson Holliday #26 Baltimore Orioles Rookie MLB Baseball ",
+        "price": 7.99,
+        "date": "2026-01-17T17:02:35.050263Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/qMl6",
+        "image_url": "https://i.ebayimg.com/images/g/CVQAAeSw2zJpa6im/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Etched in Glass Variation Jackson Holliday #26 i6e",
+        "price": 203.6,
+        "date": "2026-01-14T17:02:23.802687Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/MG97",
+        "image_url": "https://i.ebayimg.com/images/g/~jcAAeSweGFpZ8GQ/s-l225.jpg",
+        "parallel_id": "477dd2c8-38d9-4198-8479-16c02cf836a2",
+        "parallel_name": "Etched in Glass Gimmicks"
+      },
+      {
+        "title": "2024 Bowman Chrome - Jackson Holliday #26 (RC)",
+        "price": 0.5,
+        "date": "2026-01-11T17:44:23Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/QD7w",
+        "image_url": "https://i.ebayimg.com/images/g/b3QAAeSw6M9o8-AK/s-l225.jpg"
+      },
+      {
+        "title": "Jackson Holliday Rookie 2024 Bowman Chrome Baltimore Orioles #26",
+        "price": 1.24,
+        "date": "2026-01-10T17:02:15.666794Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/NGeX",
+        "image_url": "https://i.ebayimg.com/images/g/~JcAAeSwuvJpYnG8/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome 118/250 Jackson Holliday #26 Rookie RC 0z2o",
+        "price": 35.04,
+        "date": "2026-01-06T17:02:17.370197Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/4Qwv",
+        "image_url": "https://i.ebayimg.com/images/g/0bgAAeSw8BVpXP7N/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mojo Refractor Jackson Holliday #26 Rookie RC",
+        "price": 0.99,
+        "date": "2026-01-07T02:35:58Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/ydpN",
+        "image_url": "https://i.ebayimg.com/images/g/jmUAAeSwgXJojoq5/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Jackson Holliday Mojo Refractor #26 RC",
+        "price": 2.24,
+        "date": "2026-01-03T17:02:28.702626Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/gAZI",
+        "image_url": "https://i.ebayimg.com/images/g/zSUAAeSwRpBpWPLe/s-l225.jpg",
+        "parallel_id": "f9efe877-c458-4068-8d0f-de323606b727",
+        "parallel_name": "Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box Mojo Refractor Jackson Holliday #26 10z2",
+        "price": 2.82,
+        "date": "2026-01-03T17:02:26.188388Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/6Ef7",
+        "image_url": "https://i.ebayimg.com/images/g/tV4AAeSw2AlpWSAo/s-l225.jpg",
+        "parallel_id": "f9efe877-c458-4068-8d0f-de323606b727",
+        "parallel_name": "Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome - Jackson Holliday #26 (RC)",
+        "price": 1.99,
+        "date": "2026-01-01T17:02:32.800986Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/2ZqE",
+        "image_url": "https://i.ebayimg.com/images/g/NccAAeSwFV9o3P53/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Jackson Holliday #26 Baltimore Orioles Rookie MLB Baseball ",
+        "price": 7.99,
+        "date": "2025-12-30T17:02:05.219683Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/nkgl",
+        "image_url": "https://i.ebayimg.com/images/g/IcYAAeSwUjZpU8aO/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Fuchsia Refractor 105/299 Jackson Holliday #26 Rookie RC 1k61",
+        "price": 35.04,
+        "date": "2025-12-28T17:02:15.123879Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/BjME",
+        "image_url": "https://i.ebayimg.com/images/g/CGgAAeSw~W5pUVBI/s-l225.jpg",
+        "parallel_id": "6a159336-c584-478f-94f2-3028bb711738",
+        "parallel_name": "Fuchsia Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome Refractor 489/499 Jackson Holliday #26 Rookie RC 16kt",
+        "price": 24.4,
+        "date": "2025-12-26T17:02:09.512369Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/UNfb",
+        "image_url": "https://i.ebayimg.com/images/g/YdIAAeSwqf1pTqm2/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Jackson Holliday #26 (RC)",
+        "price": 17.99,
+        "date": "2025-12-21T14:06:44.465156Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/11UG",
+        "image_url": "https://i.ebayimg.com/images/g/vzwAAeSw2FBpR4oa/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Jackson Holliday #26 (RC)",
+        "price": 2,
+        "date": "2025-12-21T14:06:44.465156Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/qYEM",
+        "image_url": "https://i.ebayimg.com/images/g/kRwAAeSw~JppR5ad/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Jackson Holliday #26 (RC)",
+        "price": 21.99,
+        "date": "2025-12-21T14:06:44.465156Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/kOeM",
+        "image_url": "https://i.ebayimg.com/images/g/BHgAAeSwLPFpR42-/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box Mojo Refractor Jackson Holliday #26 Rookie RC go9",
+        "price": 2.5,
+        "date": "2025-12-21T14:06:40.472210Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/WSFi",
+        "image_url": "https://i.ebayimg.com/images/g/cSUAAeSwRfJpR82k/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome  Jackson Holliday #26 Silver MOJO",
+        "price": 2.69,
+        "date": "2025-12-18T16:10:04.596235Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/WuWa",
+        "image_url": "https://i.ebayimg.com/images/g/E~QAAeSwiwdpJABm/s-l225.jpg",
+        "parallel_id": "477dd2c8-38d9-4198-8479-16c02cf836a2",
+        "parallel_name": "Etched in Glass Gimmicks"
+      },
+      {
+        "title": "2024 Bowman Chrome Etched in Glass Variation Jackson Holliday #26 Rookie RC i6e",
+        "price": 203.6,
+        "date": "2025-12-14T20:32:51.387682Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/4vO5",
+        "image_url": "https://i.ebayimg.com/images/g/hRMAAeSwRPRpPvEg/s-l225.jpg",
+        "parallel_id": "477dd2c8-38d9-4198-8479-16c02cf836a2",
+        "parallel_name": "Etched in Glass Gimmicks"
+      },
+      {
+        "title": "2024 Bowman Chrome #26 Jackson Holliday Mojo Refractors Baltimore Orioles",
+        "price": 0.99,
+        "date": "2025-12-13T16:25:34.969556Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/K85f",
+        "image_url": "https://i.ebayimg.com/images/g/s0YAAeSwvO5pPYVM/s-l225.jpg"
+      },
+      {
+        "title": "JACKSON HOLLIDAY 2024 BOWMAN CHROME RC BALTIMORE ORIOLES #26",
+        "price": 1.33,
+        "date": "2025-12-05T21:01:06.175677Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/w3uy",
+        "image_url": "https://i.ebayimg.com/images/g/FFkAAeSwXfdpMyFH/s-l225.jpg"
+      },
+      {
+        "title": "JACKSON HOLLIDAY RC 2024 Bowman Chrome Mega Mojo Refractor #26 Rookie Orioles",
+        "price": 6.99,
+        "date": "2025-12-02T14:26:07.459677Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/TsXq",
+        "image_url": "https://i.ebayimg.com/images/g/4rEAAeSw8j9pLnbw/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Jackson Holliday #26 Baltimore Orioles Rookie MLB Baseball ",
+        "price": 7.99,
+        "date": "2025-12-02T14:24:57.043249Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/aPny",
+        "image_url": "https://i.ebayimg.com/images/g/8hAAAeSwzutpLun2/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Refractor /499 Jackson Holliday #26 Rookie RC",
+        "price": 26.99,
+        "date": "2025-11-26T18:48:18.867496Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/UBSL",
+        "image_url": "https://i.ebayimg.com/images/g/nvIAAeSwVNppJyb9/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #26 Jackson Holliday RC Rookie Orioles",
+        "price": 2.99,
+        "date": "2025-11-25T17:00:09.876748Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/Hkqp",
+        "image_url": "https://i.ebayimg.com/images/g/FXkAAeSwaXJpJPCa/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Jackson Holliday #26 Rookie RC",
+        "price": 1.04,
+        "date": "2025-11-25T16:59:53.840736Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/v0lu",
+        "image_url": "https://i.ebayimg.com/images/g/eMEAAeSwL6JpJT6N/s-l225.jpg"
+      }
+    ]
+  },
+  "graded": [
+    {
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7",
+      "grades": [
+        {
+          "grade_value": "10",
+          "grade_id": "4c004b81-2c7d-4d29-b69a-dc8d2f477aeb",
+          "period_days": null,
+          "count": 9,
+          "records": [
+            {
+              "title": "2024 Bowman Chrome Sapphire Jackson Holliday RC Rookie #26 Orioles PSA 10",
+              "price": 63.5,
+              "date": "2026-04-26T01:16:09Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/GitA",
+              "image_url": "https://i.ebayimg.com/images/g/juAAAeSw8Ghp5kEQ/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Jackson Holliday Mojo Refractor RC #26 Orioles PSA 10",
+              "price": 31,
+              "date": "2026-04-22T22:02:56Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/CjvM",
+              "image_url": "https://i.ebayimg.com/images/g/NIAAAeSwcCJp5VDp/s-l225.jpg",
+              "parallel_id": "f9efe877-c458-4068-8d0f-de323606b727",
+              "parallel_name": "Refractor"
+            },
+            {
+              "title": "2024 Bowman Chrome Sapphire #26 (RC) ROOKIE Jackson Holliday PSA 10  -  Orioles",
+              "price": 79,
+              "date": "2026-03-22T16:02:51.060767Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/i7YB",
+              "image_url": "https://i.ebayimg.com/images/g/g0wAAeSwdLdpvwRP/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Jackson Holliday Mega Box RC Refractor #26 Orioles PSA 10",
+              "price": 32,
+              "date": "2026-03-22T02:10:44Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/6u2A",
+              "image_url": "https://i.ebayimg.com/images/g/sW0AAeSw7cppuC~o/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Mega Box #26 Jackson Holliday Rookie PSA 10",
+              "price": 33,
+              "date": "2026-03-11T02:22:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/nb3y",
+              "image_url": "https://i.ebayimg.com/images/g/lcQAAeSwq8Npp3e9/s-l225.jpg"
+            },
+            {
+              "title": "2024 BOWMAN CHROME MEGA BOX #26 JACKSON HOLLIDAY RC PSA 10",
+              "price": 32,
+              "date": "2026-03-07T01:37:00Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/OR94",
+              "image_url": "https://i.ebayimg.com/images/g/Q2AAAeSw6uBpKWYL/s-l225.jpg"
+            },
+            {
+              "title": "Topps 2024 Bowman Chrome Jackson Holliday #26 Mojo Refractor Rookie PSA 10",
+              "price": 23.5,
+              "date": "2026-03-04T22:17:58Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/3kn1",
+              "image_url": "https://i.ebayimg.com/images/g/MP8AAeSwDSxpn3T9/s-l225.jpg"
+            },
+            {
+              "title": "Jackson Holliday 2024 Bowman Chrome Refractor /499 PSA 10 Gem MT #26 Orioles RC",
+              "price": 49.95,
+              "date": "2026-01-02T17:02:19.832712Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/pfPg",
+              "image_url": "https://i.ebayimg.com/images/g/KmcAAeSwoAVpS7Z-/s-l225.jpg",
+              "parallel_id": "f9efe877-c458-4068-8d0f-de323606b727",
+              "parallel_name": "Refractor"
+            },
+            {
+              "title": "2024 Bowman Chrome Jackson Holliday #26 PSA 10 GEM MT Rookie RC 1l7t",
+              "price": 34.74,
+              "date": "2025-12-23T12:02:20.915835Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/tea0",
+              "image_url": "https://i.ebayimg.com/images/g/2MAAAeSw7kZpSkoY/s-l225.jpg"
+            }
+          ]
+        },
+        {
+          "grade_value": "9",
+          "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+          "period_days": null,
+          "count": 11,
+          "records": [
+            {
+              "title": "2024 Bowman Chrome Jackson Holliday #26 PSA 9",
+              "price": 3.27,
+              "date": "2026-04-12T19:26:06Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/Hqk2",
+              "image_url": "https://i.ebayimg.com/images/g/ZpAAAeSwhVVp1Vo~/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome #26 Jackson Holliday Mojo Refractor (RC) PSA 9",
+              "price": 8,
+              "date": "2026-04-12T19:20:20Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/0wsh",
+              "image_url": "https://i.ebayimg.com/images/g/xXgAAeSwXRJp1Vjl/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Jackson Holliday #26 PSA 9",
+              "price": 15.5,
+              "date": "2026-04-12T19:25:09Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/CPRi",
+              "image_url": "https://i.ebayimg.com/images/g/VroAAeSw2~pp1VoI/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Jackson Holliday #26 Yellow Refractor /75 (RC) PSA 9 \ud83d\udd25\ud83d\udd25\ud83d\udd25",
+              "price": 84.95,
+              "date": "2026-03-19T16:02:51.120885Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/0Zcd",
+              "image_url": "https://i.ebayimg.com/images/g/UikAAeSw~Qlpuv1m/s-l225.jpg",
+              "parallel_id": "29f63498-3fae-4de8-a9a2-3845e8a87952",
+              "parallel_name": "Yellow Refractor"
+            },
+            {
+              "title": "2024 Bowman Chrome Sapphire #26 Jackson Holliday Yellow Refractor /75 PSA 9",
+              "price": 79.99,
+              "date": "2026-03-17T16:02:50.736089Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/pHIP",
+              "image_url": "https://i.ebayimg.com/images/g/ptAAAeSwMENpuWvp/s-l225.jpg",
+              "parallel_id": "29f63498-3fae-4de8-a9a2-3845e8a87952",
+              "parallel_name": "Yellow Refractor"
+            },
+            {
+              "title": "2024 PSA 9 Bowman Chrome - Jackson Holliday #26 Aqua Mojo Refractor /299 (RC)",
+              "price": 14.5,
+              "date": "2026-03-09T00:39:28Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/kSFW",
+              "image_url": "https://i.ebayimg.com/images/g/uzgAAeSwwkBppOoy/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome M/B #26 Jackson Holliday rookie PSA 9",
+              "price": 9.5,
+              "date": "2026-02-17T03:02:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/jdaC",
+              "image_url": "https://i.ebayimg.com/images/g/x6AAAeSwRv1pimWX/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Jackson Holliday #26 Aqua Mojo Refractor /299 (RC) PSA 9",
+              "price": 18.5,
+              "date": "2026-02-16T01:00:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/YwS6",
+              "image_url": "https://i.ebayimg.com/images/g/6w4AAeSwcCdpiJMA/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Blue Refractor #26 Jackson Holliday /150 Rookie PSA 9",
+              "price": 13.52,
+              "date": "2026-01-01T02:02:35Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/KEol",
+              "image_url": "https://i.ebayimg.com/images/g/mfgAAeSwWlVpRx6N/s-l225.jpg",
+              "parallel_id": "b68c9078-e484-430a-99af-de90d4d2e369",
+              "parallel_name": "Blue Refractor"
+            },
+            {
+              "title": "2024 Bowman Chrome 6/99 Jackson Holliday #26 PSA 9 MINT Rookie RC 0j10",
+              "price": 99.15,
+              "date": "2025-12-26T17:02:08.976538Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/vrXM",
+              "image_url": "https://i.ebayimg.com/images/g/V3EAAeSwZzBpTr21/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Refractor /499 Jackson Holliday #26 PSA 9 MINT Rookie RC",
+              "price": 51.99,
+              "date": "2025-11-25T17:02:33.078522Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/52QO",
+              "image_url": "https://i.ebayimg.com/images/g/xjEAAeSwpqppJRNo/s-l225.jpg"
+            }
+          ]
+        },
+        {
+          "grade_value": "8",
+          "grade_id": "8cf6b653-cbee-4ffd-92aa-c3de253560a2",
+          "period_days": null,
+          "count": 1,
+          "records": [
+            {
+              "title": "2024 Bowman Chrome - Jackson Holliday #26 Green Mojo Refractor /99 (RC) PSA 8",
+              "price": 15,
+              "date": "2026-02-24T00:57:23Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/imoZ",
+              "image_url": "https://i.ebayimg.com/images/g/zJkAAeSwrr1pk7zZ/s-l225.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company_name": "CGC",
+      "company_id": "131e9c4b-9c30-4f2c-88a2-1b61e567bcc6",
+      "grades": [
+        {
+          "grade_value": "10",
+          "grade_id": "52cbd312-d62d-4c90-b4e5-8d23fe7a8b26",
+          "period_days": null,
+          "count": 1,
+          "records": [
+            {
+              "title": "2024 BOWMAN CHROME #26 JACKSON HOLLIDAY MEGA BOX MOJO REFRACTOR RC ROOKIE CGC 10",
+              "price": 10.25,
+              "date": "2026-04-24T00:16:00Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/HJav",
+              "image_url": "https://i.ebayimg.com/images/g/JjkAAeSw9fpp4Dm9/s-l225.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company_name": "SGC",
+      "company_id": "aa797bb1-ae21-440f-91b6-7484e47ce0ce",
+      "grades": [
+        {
+          "grade_value": "1",
+          "grade_id": "56a086fc-b064-461d-8051-35d18d2ed217",
+          "period_days": null,
+          "count": 1,
+          "records": [
+            {
+              "title": "2024 Jackson Holliday Bowman Chrome Rookie #26 SGC Gem Mint 10",
+              "price": 8.51,
+              "date": "2026-03-29T13:36:03Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/YGgK",
+              "image_url": "https://i.ebayimg.com/images/g/XxIAAeSwutpogCSM/s-l225.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "sources": [
+      {
+        "source": "ebay",
+        "count": 107
+      }
+    ],
+    "last_sale_date": "2026-04-26T16:04:27.424910Z",
+    "total_records": 107
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/marketplace/24015976-578d-404e-9135-9ecb9f6d5da8",
+    "params": null,
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 33,
+  "_elapsed_s": 0.532,
+  "data": {
+    "card": {
+      "card_id": "24015976-578d-404e-9135-9ecb9f6d5da8",
+      "name": "Luka Doncic",
+      "number": "21",
+      "set": {
+        "set_id": "77b404e2-6fe8-4505-ab12-a73d2280db0b",
+        "name": "Far Out!",
+        "year": "2019-20",
+        "release": "Panini Prizm"
+      }
+    },
+    "query": {
+      "listing_type": "both",
+      "as_of_date": "2026-04-24"
+    },
+    "raw": {
+      "count": 1,
+      "records": [
+        {
+          "title": "2019-20 Panini Prizm Far Out! Luka Doncic 21",
+          "source": "ebay",
+          "listing_type": "search",
+          "url": "https://showme.cards/tdOR"
+        }
+      ]
+    },
+    "graded": [],
+    "meta": {
+      "sources": [
+        {
+          "source": "ebay",
+          "count": 1
+        }
+      ],
+      "total_records": 1
+    }
+  }
+}

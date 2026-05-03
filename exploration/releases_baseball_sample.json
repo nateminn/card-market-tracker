@@ -1,0 +1,61 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/catalog/releases",
+    "params": {
+      "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+      "take": 5
+    },
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 49,
+  "_elapsed_s": 0.286,
+  "data": {
+    "releases": [
+      {
+        "manufacturerId": "d26aa2b8-2646-4372-b9fd-c9d599f09fd4",
+        "segmentId": "3266fff9-dfcb-4e00-80fb-922a8ab023d5",
+        "id": "0f3e986b-2160-4223-bde0-8092b87d4e19",
+        "year": "2023",
+        "name": "151",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "959c3ebf-a018-4878-838b-d4585f616a66",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "7329d063-1141-4d67-b7ca-d0ef010f264b",
+        "year": "1992",
+        "name": "Action Packed",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "566af2aa-8bc6-48ee-9474-8dd0b677d968",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "ba1b69c2-5018-4c37-b5bc-165c4b68bc86",
+        "year": "1991",
+        "name": "Action Packed",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "959c3ebf-a018-4878-838b-d4585f616a66",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "96006436-9e87-42d6-923f-b420f0ef8586",
+        "year": "1990",
+        "name": "Action Packed",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "959c3ebf-a018-4878-838b-d4585f616a66",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "5aa52263-c681-4266-a713-de4b6ef1083b",
+        "year": "1993",
+        "name": "Action Packed",
+        "is_identifiable": false
+      }
+    ],
+    "total_count": 4236,
+    "skip": 0,
+    "take": 5
+  }
+}

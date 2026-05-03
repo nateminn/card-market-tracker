@@ -1,0 +1,818 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/catalog/releases?year=2021&take=100",
+    "params": null,
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 222,
+  "_elapsed_s": 0.391,
+  "data": {
+    "releases": [
+      {
+        "manufacturerId": "d26aa2b8-2646-4372-b9fd-c9d599f09fd4",
+        "segmentId": "3266fff9-dfcb-4e00-80fb-922a8ab023d5",
+        "id": "2c7b8b94-784c-4f67-952a-5d9265ce2782",
+        "year": "2021",
+        "name": "Battle Styles",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "572e9dd0-f949-493b-af2a-164acfa9dcf9",
+        "year": "2021",
+        "name": "Bowman",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "517efa3a-2f25-4b91-b6e3-94b05e445b5e",
+        "year": "2021",
+        "name": "Bowman 1st Edition",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "6a73a3d6-a1f1-4ee0-a98b-f7d40a8ce484",
+        "year": "2021",
+        "name": "Bowman Chrome",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "8d223685-b534-4876-b76c-1f6e952bd98f",
+        "year": "2021",
+        "name": "Bowman Chrome Sapphire Edition",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "9fa3b470-a54a-4e79-b9af-ae893a459a98",
+        "year": "2021",
+        "name": "Bowman Chrome X",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "0c469fbd-023f-4d59-ab19-52db074c226c",
+        "year": "2021",
+        "name": "Bowman Draft",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "a83900e5-23fc-4f01-802b-dd6ef627d495",
+        "year": "2021",
+        "name": "Bowman Draft Sapphire Edition",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "bed1bb7b-6401-455e-ba48-a665c2074ae5",
+        "year": "2021",
+        "name": "Bowman Heritage",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "8df00426-c437-4a66-b372-5af75faaf686",
+        "year": "2021",
+        "name": "Bowman Inception",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "19978c2c-8b42-4839-8598-076cd82d4e37",
+        "year": "2021",
+        "name": "Bowman Platinum",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "34487c82-158e-4aef-aab1-e11a9000ccd6",
+        "year": "2021",
+        "name": "Bowman Sapphire Edition",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "ccc74e79-d29e-4c7f-9de1-6ef4270e67cd",
+        "year": "2021",
+        "name": "Bowman's Best",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "38ffc96d-b169-4552-9b0c-cebb81f08eb0",
+        "year": "2021",
+        "name": "Bowman Sterling",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "2f69721d-5e12-45e0-8578-670027e352ee",
+        "year": "2021",
+        "name": "Bowman Transcendent Collection",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "d26aa2b8-2646-4372-b9fd-c9d599f09fd4",
+        "segmentId": "3266fff9-dfcb-4e00-80fb-922a8ab023d5",
+        "id": "00357e24-4459-488c-8279-8e22eda6402a",
+        "year": "2021",
+        "name": "Celebrations",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "d26aa2b8-2646-4372-b9fd-c9d599f09fd4",
+        "segmentId": "3266fff9-dfcb-4e00-80fb-922a8ab023d5",
+        "id": "bb519d43-316c-492f-8f6f-f0a5f9d5f83b",
+        "year": "2021",
+        "name": "Celebrations: Classic Collection",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "d26aa2b8-2646-4372-b9fd-c9d599f09fd4",
+        "segmentId": "3266fff9-dfcb-4e00-80fb-922a8ab023d5",
+        "id": "ae0c65f9-8cb1-4562-ac0f-4797db021447",
+        "year": "2021",
+        "name": "Chilling Reign",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "b55a24ec-fdff-4f47-8631-7412145e2fbf",
+        "year": "2021",
+        "name": "Clearly Donruss",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "aa472ec5-7255-477b-b123-6341da3b1789",
+        "year": "2021",
+        "name": "Donruss",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "a99269b2-bf16-4566-8b29-0ddae80c8609",
+        "year": "2021",
+        "name": "Donruss",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "9d646b3b-ca5a-4ea0-a531-972e92614070",
+        "year": "2021",
+        "name": "Donruss Elite",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "feb852b4-e649-4ba5-969b-db6a06d855f4",
+        "year": "2021",
+        "name": "Donruss Optic",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "f8c728ed-2eee-4a7e-9ad2-a8b69a2ee4c5",
+        "year": "2021",
+        "name": "Donruss Optic",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "d26aa2b8-2646-4372-b9fd-c9d599f09fd4",
+        "segmentId": "3266fff9-dfcb-4e00-80fb-922a8ab023d5",
+        "id": "2416ca84-91a2-4126-8a03-eac1f5b107bf",
+        "year": "2021",
+        "name": "Evolving Skies",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "b1842043-84db-4f2f-b791-a1c703e0fd61",
+        "year": "2021",
+        "name": "Finest",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "4b5a6bab-5013-4fe1-9295-a5be43ec08ac",
+        "year": "2021",
+        "name": "Finest",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "bbffc621-7838-47e3-9776-cb5c3970b723",
+        "year": "2021",
+        "name": "Finest Flashbacks",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "d26aa2b8-2646-4372-b9fd-c9d599f09fd4",
+        "segmentId": "3266fff9-dfcb-4e00-80fb-922a8ab023d5",
+        "id": "66886d86-b358-429e-88a4-fe19d7dd1796",
+        "year": "2021",
+        "name": "Fusion Strike",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "bccaf510-cb91-46a1-a789-17f2eafa29fd",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "e0d7a217-ba57-44c4-bd43-872c968c5f68",
+        "year": "2021",
+        "name": "Leaf Superlative",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "d26aa2b8-2646-4372-b9fd-c9d599f09fd4",
+        "segmentId": "3266fff9-dfcb-4e00-80fb-922a8ab023d5",
+        "id": "1c8baec3-c380-4ecc-b943-1478fcba0440",
+        "year": "2021",
+        "name": "McDonald's Collection 2021",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "5d9c9f3d-fc18-46bf-a78a-cb4aada579fb",
+        "year": "2021",
+        "name": "Panini Absolute",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "444cae50-f6d7-4081-be17-59cf6115fb51",
+        "year": "2021",
+        "name": "Panini Absolute",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "e93cf380-9127-4858-9bc8-880f3a70bd7d",
+        "year": "2021",
+        "name": "Panini Black",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "cac789ca-5276-495b-a089-0a1952ea09bb",
+        "year": "2021",
+        "name": "Panini Certified",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "9f0b66dc-b54f-47da-b6b6-1bdbef925ea7",
+        "year": "2021",
+        "name": "Panini Chronicles",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "5e5e8d56-acab-4f72-adc1-5f35df915f9e",
+        "year": "2021",
+        "name": "Panini Chronicles",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "7a002435-733f-495c-af1d-c8f0680d1d5e",
+        "year": "2021",
+        "name": "Panini Chronicles Draft Picks",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "370bfabf-c890-4ea2-a749-f6b5b2d4bc5d",
+        "year": "2021",
+        "name": "Panini Classics",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "b1c73daf-8a39-45cb-9034-9ef811894afe",
+        "year": "2021",
+        "name": "Panini Contenders",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "4482cee0-233f-4a60-9a19-1a44b27fe619",
+        "year": "2021",
+        "name": "Panini Contenders",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "4cc2d568-9617-4d01-850a-6034c52bff59",
+        "year": "2021",
+        "name": "Panini Contenders Optic",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "7f92b1d4-a25b-450b-8ed4-f3130b825216",
+        "year": "2021",
+        "name": "Panini Diamond Kings",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "50f48ac0-6583-461e-8203-de31a2108e73",
+        "year": "2021",
+        "name": "Panini Elements",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "76f2207c-17fe-4a5a-8f35-37534b80f0ba",
+        "year": "2021",
+        "name": "Panini Eminence",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "0aba8ab7-bb6d-4746-b8d1-db7fbb36a476",
+        "year": "2021",
+        "name": "Panini Encased",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "3b627e60-9328-4777-aa5c-f9879d5bbaf7",
+        "year": "2021",
+        "name": "Panini Flawless",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "43f8450e-9ab8-4573-a2c9-433bfa292292",
+        "year": "2021",
+        "name": "Panini Flawless",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "2e4acdb6-86d0-441d-a0e3-96a87be71417",
+        "year": "2021",
+        "name": "Panini Flawless Collegiate",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "6bf0f2f8-a2ca-4121-8ee6-cdbe6f99581a",
+        "year": "2021",
+        "name": "Panini Gold Standard",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "e60023d0-c080-4be3-a275-206f95f67947",
+        "year": "2021",
+        "name": "Panini Illusions",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "2ca0856a-2aab-4c62-befb-3473e3fdd09d",
+        "year": "2021",
+        "name": "Panini Immaculate Collection",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "321aa478-d7bd-4477-88ab-83cc5e4763b4",
+        "year": "2021",
+        "name": "Panini Immaculate Collection",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "23ed5950-3811-4318-9a8c-dc5ed47544a0",
+        "year": "2021",
+        "name": "Panini Immaculate Collection Collegiate",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "33971a92-66bd-4d23-8d37-aa9564485553",
+        "year": "2021",
+        "name": "Panini Impeccable",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "e820f344-35ad-4447-99cc-174958a839ca",
+        "year": "2021",
+        "name": "Panini Legacy",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "29e050b8-180c-4925-90ff-b32e21b9dd55",
+        "year": "2021",
+        "name": "Panini Limited",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "9718f11d-e415-4e84-932e-4267cef81f00",
+        "year": "2021",
+        "name": "Panini Luminance",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "eb383815-23a3-4948-a2ed-50a12802f340",
+        "year": "2021",
+        "name": "Panini Mosaic",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "a696f195-5b88-4551-9b0d-dfa3c0ff9624",
+        "year": "2021",
+        "name": "Panini Mosaic",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "3f9851bf-286a-43da-a333-d2b89e3f0918",
+        "year": "2021",
+        "name": "Panini National Treasures",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "0fe20290-4219-4224-990c-70dc15aaf7bd",
+        "year": "2021",
+        "name": "Panini National Treasures",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "83fcfb25-535d-4198-bb5e-2796ce8abf5e",
+        "year": "2021",
+        "name": "Panini National Treasures Collegiate",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "2a0583d9-d57a-4ebf-b5a8-a7792311982b",
+        "year": "2021",
+        "name": "Panini Obsidian",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "7aa80b44-ea41-4a3f-8ebb-cae2ab2a02d7",
+        "year": "2021",
+        "name": "Panini One",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "8202308c-3070-4019-b4ff-6e954935a04d",
+        "year": "2021",
+        "name": "Panini Origins",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "69478c1d-3cd7-4885-9f75-9a9bf4ef55c9",
+        "year": "2021",
+        "name": "Panini Phoenix",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "5b8f09eb-e6d5-4e8a-af82-59e1084a5e23",
+        "year": "2021",
+        "name": "Panini Playbook",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "867256fd-8053-47bc-9a18-4c13933befff",
+        "year": "2021",
+        "name": "Panini Playoff",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "83a89589-1384-4916-be69-1dd6ba16ae65",
+        "year": "2021",
+        "name": "Panini Prestige",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "b993e63d-23d8-474e-857b-a0370302aba2",
+        "year": "2021",
+        "name": "Panini Prizm",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "d1330bdb-4cf8-4a14-90e6-906f56b5e556",
+        "year": "2021",
+        "name": "Panini Prizm",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "57aa60d8-fdc0-42f5-9b36-c4e7461b9ff9",
+        "year": "2021",
+        "name": "Panini Prizm Draft Picks",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "f33aeda4-789c-4963-b192-83b07b0b6686",
+        "year": "2021",
+        "name": "Panini Prizm Draft Picks",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "5823afc3-c1a4-4a72-ab68-c5d36a0b4d66",
+        "year": "2021",
+        "name": "Panini Prizm WNBA",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "2af9afba-b484-4668-8602-16ceda6017f7",
+        "year": "2021",
+        "name": "Panini Prizm WNBA Premium",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "0c837c66-9e48-41ee-b85d-c1f7326b04f0",
+        "year": "2021",
+        "name": "Panini Rookies & Stars",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "9843a820-93b5-4e83-83b6-4c3409ebc3ad",
+        "year": "2021",
+        "name": "Panini Select",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "a27866bf-7628-4a03-8500-f5d7eba61e62",
+        "year": "2021",
+        "name": "Panini Select",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "459fa283-19fa-4b4a-b629-86865c296e34",
+        "year": "2021",
+        "name": "Panini Spectra",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "8bce67aa-6bf2-472a-b94b-779f8ab27eea",
+        "year": "2021",
+        "name": "Panini Spectra",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "9925ff30-d78d-4748-9638-db74003c4d83",
+        "year": "2021",
+        "name": "Panini XR",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "24b8a1ae-15b7-4253-a469-0fd73c3d5162",
+        "year": "2021",
+        "name": "Pro Set Metal",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "274fb295-8638-4849-95c2-f5f93b90dd72",
+        "year": "2021",
+        "name": "Pro Set Power",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "id": "7a257514-b26c-4a46-ac22-432eec6ad684",
+        "year": "2021",
+        "name": "Score",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "d26aa2b8-2646-4372-b9fd-c9d599f09fd4",
+        "segmentId": "3266fff9-dfcb-4e00-80fb-922a8ab023d5",
+        "id": "8140948a-42ab-489b-a97a-7f4c94a8554e",
+        "year": "2021",
+        "name": "Shining Fates",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "d26aa2b8-2646-4372-b9fd-c9d599f09fd4",
+        "segmentId": "3266fff9-dfcb-4e00-80fb-922a8ab023d5",
+        "id": "0fe032af-4400-4616-a500-504751a3f8a2",
+        "year": "2021",
+        "name": "Shining Fates Shiny Vault",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "24e9b2ea-f2be-401a-af67-f2b5b9f69c1e",
+        "year": "2021",
+        "name": "Stadium Club",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "f1379619-033e-46e5-bfe1-8ac35c0d869c",
+        "year": "2021",
+        "name": "Stadium Club Chrome",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "5c51c587-5689-44ea-87f9-cca81aa1244c",
+        "year": "2021",
+        "name": "Topps",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "4c836079-111c-42ef-beed-b9e3c0c8d39d",
+        "year": "2021",
+        "name": "Topps Allen & Ginter",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "aa6185f3-344f-406e-8fbd-8c58d2f5f7b9",
+        "year": "2021",
+        "name": "Topps Allen & Ginter Chrome",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "8493c32b-6476-4076-a042-6d8758e36e31",
+        "year": "2021",
+        "name": "Topps Allen & Ginter X",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "d9824d6e-9bbe-4cdc-a353-d1d2ccd9b34d",
+        "year": "2021",
+        "name": "Topps All-Star Rookie Cup",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "94d4206e-9173-41e0-8a89-d5b87528ac69",
+        "year": "2021",
+        "name": "Topps Archives",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "52cc126c-8e75-4f34-8afa-5102dd77d128",
+        "year": "2021",
+        "name": "Topps Archives Signature Series Active Player Edition",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "4d1db721-e477-4829-bf3c-6452cb17fd79",
+        "year": "2021",
+        "name": "Topps Archives Signature Series Retired Player Edition",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "fd79a7a0-fe16-4390-bebd-3c7917d3f949",
+        "year": "2021",
+        "name": "Topps Archives Snapshots",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "9341f0ad-71db-4231-ad04-37b83c998069",
+        "year": "2021",
+        "name": "Topps Big League",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "bedd5122-e308-4a70-a3b2-f9f1cd4394e3",
+        "year": "2021",
+        "name": "Topps Brooklyn Collection",
+        "is_identifiable": false
+      }
+    ],
+    "total_count": 136,
+    "skip": 0,
+    "take": 100
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/catalog/cards/24015976-578d-404e-9135-9ecb9f6d5da8",
+    "params": null,
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 31,
+  "_elapsed_s": 0.266,
+  "data": {
+    "releaseId": "7293412b-2d42-4bda-a4fc-101b20d5d74f",
+    "setId": "77b404e2-6fe8-4505-ab12-a73d2280db0b",
+    "id": "24015976-578d-404e-9135-9ecb9f6d5da8",
+    "number": "21",
+    "name": "Luka Doncic",
+    "releaseName": "Panini Prizm",
+    "releaseYear": "2019-20",
+    "setName": "Far Out!",
+    "parallelCount": 6,
+    "parallels": [
+      {
+        "id": "4fe74d08-878f-4fbe-8a0c-20c5640831a1",
+        "name": "Fast Break"
+      },
+      {
+        "id": "dd9fdf24-bce9-465f-8c34-4c894bd0566e",
+        "name": "Prizms Black",
+        "numberedTo": 1
+      },
+      {
+        "id": "c889cfed-baf1-4fc9-8dd7-3e1594680caf",
+        "name": "Prizms Gold",
+        "numberedTo": 10
+      },
+      {
+        "id": "ebe725a4-287e-4d29-875a-07c5c235495c",
+        "name": "Prizms Hyper"
+      },
+      {
+        "id": "2dcc55e4-1054-4293-ad22-4a061bed8ac1",
+        "name": "Prizms Mojo",
+        "numberedTo": 25
+      },
+      {
+        "id": "4a784fb6-7808-4265-975c-2bdcd4d23308",
+        "name": "Prizms Silver"
+      }
+    ],
+    "attributes": [
+      "NBA-DAL"
+    ]
+  }
+}

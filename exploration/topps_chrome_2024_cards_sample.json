@@ -1,0 +1,205 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/catalog/releases/f73c58f7-5a21-4c02-a062-79ee72523d87/cards",
+    "params": {
+      "take": 5
+    },
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 52,
+  "_elapsed_s": 0.35,
+  "data": {
+    "cards": [
+      {
+        "releaseId": "f73c58f7-5a21-4c02-a062-79ee72523d87",
+        "setId": "eccf01be-22fb-42a7-9de2-7a940b138a6b",
+        "id": "dfc06651-936d-4dea-a710-7dd1f905bfa1",
+        "number": "BC25-1",
+        "name": "Elly De La Cruz",
+        "setName": "1999 Bowman Chrome 25th Anniversary",
+        "releaseName": "Bowman Chrome",
+        "releaseYear": "2024",
+        "parallels": [
+          {
+            "id": "f3c01f5e-bb82-4685-b0d7-6bf502b5fca2",
+            "name": "Gold Refractor",
+            "numberedTo": 50
+          },
+          {
+            "id": "e0e51226-3327-4b97-ab94-1e00e892cc4b",
+            "name": "International Refractor",
+            "numberedTo": 100
+          },
+          {
+            "id": "c78663ea-7a24-4010-bffe-41d3fdfee9d5",
+            "name": "Orange Refractor",
+            "numberedTo": 25
+          },
+          {
+            "id": "cd779387-f4b9-4c64-bf52-0b375d8325e5",
+            "name": "Red Refractor",
+            "numberedTo": 5
+          },
+          {
+            "id": "5b955576-ee01-4288-8051-f68c01d90a88",
+            "name": "SuperFractor",
+            "numberedTo": 1
+          }
+        ]
+      },
+      {
+        "releaseId": "f73c58f7-5a21-4c02-a062-79ee72523d87",
+        "setId": "eccf01be-22fb-42a7-9de2-7a940b138a6b",
+        "id": "2cf5ff16-6fc3-444d-b8bf-74f3a2d6caac",
+        "number": "BC25-2",
+        "name": "Jasson Dom\u00ednguez",
+        "setName": "1999 Bowman Chrome 25th Anniversary",
+        "releaseName": "Bowman Chrome",
+        "releaseYear": "2024",
+        "parallels": [
+          {
+            "id": "f3c01f5e-bb82-4685-b0d7-6bf502b5fca2",
+            "name": "Gold Refractor",
+            "numberedTo": 50
+          },
+          {
+            "id": "e0e51226-3327-4b97-ab94-1e00e892cc4b",
+            "name": "International Refractor",
+            "numberedTo": 100
+          },
+          {
+            "id": "c78663ea-7a24-4010-bffe-41d3fdfee9d5",
+            "name": "Orange Refractor",
+            "numberedTo": 25
+          },
+          {
+            "id": "cd779387-f4b9-4c64-bf52-0b375d8325e5",
+            "name": "Red Refractor",
+            "numberedTo": 5
+          },
+          {
+            "id": "5b955576-ee01-4288-8051-f68c01d90a88",
+            "name": "SuperFractor",
+            "numberedTo": 1
+          }
+        ]
+      },
+      {
+        "releaseId": "f73c58f7-5a21-4c02-a062-79ee72523d87",
+        "setId": "eccf01be-22fb-42a7-9de2-7a940b138a6b",
+        "id": "58fe6238-bc9a-4bb4-9b94-62f0f2da0c05",
+        "number": "BC25-3",
+        "name": "Evan Carter",
+        "setName": "1999 Bowman Chrome 25th Anniversary",
+        "releaseName": "Bowman Chrome",
+        "releaseYear": "2024",
+        "parallels": [
+          {
+            "id": "f3c01f5e-bb82-4685-b0d7-6bf502b5fca2",
+            "name": "Gold Refractor",
+            "numberedTo": 50
+          },
+          {
+            "id": "e0e51226-3327-4b97-ab94-1e00e892cc4b",
+            "name": "International Refractor",
+            "numberedTo": 100
+          },
+          {
+            "id": "c78663ea-7a24-4010-bffe-41d3fdfee9d5",
+            "name": "Orange Refractor",
+            "numberedTo": 25
+          },
+          {
+            "id": "cd779387-f4b9-4c64-bf52-0b375d8325e5",
+            "name": "Red Refractor",
+            "numberedTo": 5
+          },
+          {
+            "id": "5b955576-ee01-4288-8051-f68c01d90a88",
+            "name": "SuperFractor",
+            "numberedTo": 1
+          }
+        ]
+      },
+      {
+        "releaseId": "f73c58f7-5a21-4c02-a062-79ee72523d87",
+        "setId": "eccf01be-22fb-42a7-9de2-7a940b138a6b",
+        "id": "1fe17207-a8f3-4969-aca7-490425979e91",
+        "number": "BC25-4",
+        "name": "Yoshinobu Yamamoto",
+        "setName": "1999 Bowman Chrome 25th Anniversary",
+        "releaseName": "Bowman Chrome",
+        "releaseYear": "2024",
+        "parallels": [
+          {
+            "id": "f3c01f5e-bb82-4685-b0d7-6bf502b5fca2",
+            "name": "Gold Refractor",
+            "numberedTo": 50
+          },
+          {
+            "id": "e0e51226-3327-4b97-ab94-1e00e892cc4b",
+            "name": "International Refractor",
+            "numberedTo": 100
+          },
+          {
+            "id": "c78663ea-7a24-4010-bffe-41d3fdfee9d5",
+            "name": "Orange Refractor",
+            "numberedTo": 25
+          },
+          {
+            "id": "cd779387-f4b9-4c64-bf52-0b375d8325e5",
+            "name": "Red Refractor",
+            "numberedTo": 5
+          },
+          {
+            "id": "5b955576-ee01-4288-8051-f68c01d90a88",
+            "name": "SuperFractor",
+            "numberedTo": 1
+          }
+        ]
+      },
+      {
+        "releaseId": "f73c58f7-5a21-4c02-a062-79ee72523d87",
+        "setId": "eccf01be-22fb-42a7-9de2-7a940b138a6b",
+        "id": "ee4bd691-ae1d-456f-8f46-4948165bef38",
+        "number": "BC25-5",
+        "name": "Jung Hoo Lee",
+        "setName": "1999 Bowman Chrome 25th Anniversary",
+        "releaseName": "Bowman Chrome",
+        "releaseYear": "2024",
+        "parallels": [
+          {
+            "id": "f3c01f5e-bb82-4685-b0d7-6bf502b5fca2",
+            "name": "Gold Refractor",
+            "numberedTo": 50
+          },
+          {
+            "id": "e0e51226-3327-4b97-ab94-1e00e892cc4b",
+            "name": "International Refractor",
+            "numberedTo": 100
+          },
+          {
+            "id": "c78663ea-7a24-4010-bffe-41d3fdfee9d5",
+            "name": "Orange Refractor",
+            "numberedTo": 25
+          },
+          {
+            "id": "cd779387-f4b9-4c64-bf52-0b375d8325e5",
+            "name": "Red Refractor",
+            "numberedTo": 5
+          },
+          {
+            "id": "5b955576-ee01-4288-8051-f68c01d90a88",
+            "name": "SuperFractor",
+            "numberedTo": 1
+          }
+        ]
+      }
+    ],
+    "total_count": 723,
+    "skip": 0,
+    "take": 5
+  }
+}

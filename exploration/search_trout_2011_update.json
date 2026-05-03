@@ -1,0 +1,32 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/catalog/search",
+    "params": {
+      "q": "Mike Trout 2011 Topps Update",
+      "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+      "limit": 25
+    },
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 14,
+  "_elapsed_s": 1.774,
+  "data": {
+    "results": [
+      {
+        "type": "card",
+        "id": "fda530ab-e925-460e-ab88-63199ef975e9",
+        "name": "Mike Trout",
+        "relevance": 4.418,
+        "year": "2011",
+        "setName": "Base Set",
+        "releaseName": "Topps Update",
+        "manufacturerName": "Topps"
+      }
+    ],
+    "total_count": 1,
+    "skip": 0,
+    "take": 20
+  }
+}

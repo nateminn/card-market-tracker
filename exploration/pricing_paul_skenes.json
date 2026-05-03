@@ -1,0 +1,4095 @@
+{
+  "card": {
+    "card_id": "563126b6-e6df-4692-bdc3-ba2b1e0b4538",
+    "name": "Paul Skenes",
+    "number": "31",
+    "set": {
+      "set_id": "13fcea60-b1d4-4add-8650-f7988de899d8",
+      "name": "Base Set",
+      "year": "2024",
+      "release": "Bowman Chrome"
+    }
+  },
+  "query": {
+    "period": "all",
+    "listing_type": "both",
+    "as_of_date": "2026-04-27"
+  },
+  "raw": {
+    "period_days": null,
+    "count": 298,
+    "records": [
+      {
+        "title": "PAUL SKENES 2024 BOWMAN CHROME #31 ROOKIE MEGA BOX REFRACTOR RC PIRATES",
+        "price": 18,
+        "date": "2026-04-27T01:19:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/06jg",
+        "image_url": "https://i.ebayimg.com/images/g/eWEAAeSw9G5p4no~/s-l225.jpg",
+        "parallel_id": "2cb0e82e-f291-4a2e-8f9b-903bbe43d675",
+        "parallel_name": "Aqua RayWave Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box Pink Refractors #31 Paul Skenes RC ROOKIE 150/199",
+        "price": 79,
+        "date": "2026-04-27T00:56:40Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/2THK",
+        "image_url": "https://i.ebayimg.com/images/g/VMwAAeSwpzNp4YZ6/s-l225.jpg",
+        "parallel_id": "2cb0e82e-f291-4a2e-8f9b-903bbe43d675",
+        "parallel_name": "Aqua RayWave Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 4.25,
+        "date": "2026-04-27T00:00:09Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/VTlq",
+        "image_url": "https://i.ebayimg.com/images/g/6PEAAeSwCbZp57sF/s-l225.jpg",
+        "parallel_id": "2cb0e82e-f291-4a2e-8f9b-903bbe43d675",
+        "parallel_name": "Aqua RayWave Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 10.5,
+        "date": "2026-04-24T01:50:30Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/p01T",
+        "image_url": "https://i.ebayimg.com/images/g/MD4AAeSw9yVp48yk/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mega Box RC Refractor Rookie #31 Pirates",
+        "price": 22.5,
+        "date": "2026-04-24T01:27:34Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/SztE",
+        "image_url": "https://i.ebayimg.com/images/g/sEIAAeSwqUtp44t2/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 4,
+        "date": "2026-04-22T16:04:31.443580Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/RCPy",
+        "image_url": "https://i.ebayimg.com/images/g/w88AAeSwmvtp6OAC/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes 2024 Bowman Chrome #31 Mega Refractor Rookie RC",
+        "price": 23,
+        "date": "2026-04-22T03:12:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Q95d",
+        "image_url": "https://i.ebayimg.com/images/g/JBQAAeSwRohp3pM2/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 4.25,
+        "date": "2026-04-22T00:37:38Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/JpZm",
+        "image_url": "https://i.ebayimg.com/images/g/bS4AAeSwnxZp4YCM/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 11.5,
+        "date": "2026-04-21T23:34:10Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/vboX",
+        "image_url": "https://i.ebayimg.com/images/g/eBsAAeSwm5Bp4TSZ/s-l225.jpg",
+        "parallel_id": "67343568-19d4-4ddf-aaea-559fb3273eb9",
+        "parallel_name": "Rookie Color Run Gimmicks"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 Rookie RC",
+        "price": 6,
+        "date": "2026-04-20T01:20:21Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/RUJI",
+        "image_url": "https://i.ebayimg.com/images/g/Qv4AAeSwEeNp2GXG/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Rookie #31 Mojo Refractor (RC)",
+        "price": 25,
+        "date": "2026-04-19T16:04:05.622088Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/VnUi",
+        "image_url": "https://i.ebayimg.com/images/g/IdwAAeSw9zpp5Of6/s-l225.jpg"
+      },
+      {
+        "title": "PAUL SKENES 2024 BOWMAN CHROME BASEBALL ROOKIE PIRATES #31 RC",
+        "price": 2.99,
+        "date": "2026-04-19T22:43:09Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/hQ4Y",
+        "image_url": "https://i.ebayimg.com/images/g/NvYAAeSwe69p3B-n/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 ROOKIE - Mojo Refractor (RC) - Pirates",
+        "price": 19.99,
+        "date": "2026-04-17T16:04:08.986460Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/kilO",
+        "image_url": "https://i.ebayimg.com/images/g/KYUAAeSw9G5p4jso/s-l225.jpg",
+        "parallel_id": "67343568-19d4-4ddf-aaea-559fb3273eb9",
+        "parallel_name": "Rookie Color Run Gimmicks"
+      },
+      {
+        "title": "Paul Skenes 2024 Bowman Chrome Baseball Mega Box Mojo Refractor RC #31",
+        "price": 17.5,
+        "date": "2026-04-19T00:32:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/atiz",
+        "image_url": "https://i.ebayimg.com/images/g/zmsAAeSwFoFopKyR/s-l225.jpg",
+        "parallel_id": "67343568-19d4-4ddf-aaea-559fb3273eb9",
+        "parallel_name": "Rookie Color Run Gimmicks"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)  JC016",
+        "price": 2.77,
+        "date": "2026-04-18T20:06:20Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/pg6H",
+        "image_url": "https://i.ebayimg.com/images/g/5AoAAeSwv5dp3UP8/s-l225.jpg",
+        "parallel_id": "67343568-19d4-4ddf-aaea-559fb3273eb9",
+        "parallel_name": "Rookie Color Run Gimmicks"
+      },
+      {
+        "title": "2024 Topps Bowman Chrome Baseball Paul Skenes RC #31",
+        "price": 4.25,
+        "date": "2026-04-18T16:18:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/8Wc5",
+        "image_url": "https://i.ebayimg.com/images/g/XOEAAeSw26hp2nPn/s-l225.jpg",
+        "parallel_id": "67343568-19d4-4ddf-aaea-559fb3273eb9",
+        "parallel_name": "Rookie Color Run Gimmicks"
+      },
+      {
+        "title": "PAUL SKENES 2024 BOWMAN CHROME ROOKIE RC #31 PITTSBURGH PIRATES Q3813",
+        "price": 1.25,
+        "date": "2026-04-18T03:25:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/AVfh",
+        "image_url": "https://i.ebayimg.com/images/g/K2gAAeSwFh9p2Y3t/s-l225.jpg",
+        "parallel_id": "67343568-19d4-4ddf-aaea-559fb3273eb9",
+        "parallel_name": "Rookie Color Run Gimmicks"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mega Box RC Refractor Rookie #31 Pirates",
+        "price": 16.5,
+        "date": "2026-04-17T01:10:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/hcqs",
+        "image_url": "https://i.ebayimg.com/images/g/uzcAAeSwuqdp2lwB/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mega Box RC Refractor Rookie #31 Pirates",
+        "price": 23.5,
+        "date": "2026-04-16T23:30:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/UEV7",
+        "image_url": "https://i.ebayimg.com/images/g/lbYAAeSwZPJp2ilz/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 30,
+        "date": "2026-04-15T16:04:44.553426Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/uEjl",
+        "image_url": "https://i.ebayimg.com/images/g/OA8AAeSwB9Zp34SO/s-l225.jpg",
+        "parallel_id": "67343568-19d4-4ddf-aaea-559fb3273eb9",
+        "parallel_name": "Rookie Color Run Gimmicks"
+      },
+      {
+        "title": "PAUL SKENES 2024 BOWMAN CHROME ROOKIE RC #31 PITTSBURGH PIRATES Q0358",
+        "price": 6.5,
+        "date": "2026-04-16T02:32:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/8jAc",
+        "image_url": "https://i.ebayimg.com/images/g/hJUAAeSw2rlp1phH/s-l225.jpg"
+      },
+      {
+        "title": "PAUL SKENES 2024 BOWMAN CHROME ROOKIE #31 PITTSBURGH PIRATES Q0358",
+        "price": 5.5,
+        "date": "2026-04-16T02:33:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/K7oj",
+        "image_url": "https://i.ebayimg.com/images/g/4ssAAeSwRiNp1pi~/s-l225.jpg"
+      },
+      {
+        "title": "PAUL SKENES 2024 BOWMAN CHROME ROOKIE RC #31 PITTSBURGH PIRATES Q0358",
+        "price": 5.5,
+        "date": "2026-04-16T02:34:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Kjh7",
+        "image_url": "https://i.ebayimg.com/images/g/bXUAAeSw0k5p1phI/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 10,
+        "date": "2026-04-15T16:04:41.293700Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/upBK",
+        "image_url": "https://i.ebayimg.com/images/g/QGEAAeSw9Npp37Dq/s-l225.jpg",
+        "parallel_id": "67343568-19d4-4ddf-aaea-559fb3273eb9",
+        "parallel_name": "Rookie Color Run Gimmicks"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 25,
+        "date": "2026-04-15T22:36:52Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/08KA",
+        "image_url": "https://i.ebayimg.com/images/g/ZfoAAeSwe81ppMwS/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Sapphire Paul Skenes RC Rookie #31 Pirates",
+        "price": 69,
+        "date": "2026-04-14T01:51:49Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/ywzE",
+        "image_url": "https://i.ebayimg.com/images/g/qa0AAeSw3jJp1lfI/s-l225.jpg",
+        "parallel_id": "67343568-19d4-4ddf-aaea-559fb3273eb9",
+        "parallel_name": "Rookie Color Run Gimmicks"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 5.25,
+        "date": "2026-04-13T16:04:57.041357Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/Xp5y",
+        "image_url": "https://i.ebayimg.com/images/g/7wMAAeSwCfZp3O2n/s-l225.jpg",
+        "parallel_id": "f9efe877-c458-4068-8d0f-de323606b727",
+        "parallel_name": "Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 Rookie Card RC Pittsburgh Pirates",
+        "price": 4.4,
+        "date": "2026-04-13T18:28:08Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/iBrq",
+        "image_url": "https://i.ebayimg.com/images/g/OQcAAeSwJVdp1p3d/s-l225.jpg",
+        "parallel_id": "67343568-19d4-4ddf-aaea-559fb3273eb9",
+        "parallel_name": "Rookie Color Run Gimmicks"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 25,
+        "date": "2026-04-11T16:04:17.875695Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/6z0H",
+        "image_url": "https://i.ebayimg.com/images/g/Y1UAAeSwN-lp2k5k/s-l225.jpg"
+      },
+      {
+        "title": "2024 BOWMAN CHROME PAUL SKENES RC ROOKIE #31 PITTSBURGH PIRATES",
+        "price": 7.03,
+        "date": "2026-04-12T01:00:10Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/FyGW",
+        "image_url": "https://i.ebayimg.com/images/g/svIAAeSwAfFp0zJo/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 26,
+        "date": "2026-04-11T22:10:14Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/bIDT",
+        "image_url": "https://i.ebayimg.com/images/g/R5UAAeSwmeRp0Yv1/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes Rookie #31 Pittsburgh Pirates (RC)",
+        "price": 6.99,
+        "date": "2026-04-10T16:04:46.644969Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/lhIj",
+        "image_url": "https://i.ebayimg.com/images/g/I5AAAeSwWlNp2Q9E/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes Rookie Card 2024 Bowman Chrome #31",
+        "price": 4.99,
+        "date": "2026-04-10T16:04:46.644969Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/cdWi",
+        "image_url": "https://i.ebayimg.com/images/g/g-sAAeSwNUxp2RfZ/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes RC Very Crisp 2024 Bowman Chrome Mega Box Mojo Refractor #31",
+        "price": 34.99,
+        "date": "2026-04-10T16:04:46.644969Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/HdUY",
+        "image_url": "https://i.ebayimg.com/images/g/55kAAeSwsL5p2RVD/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mega Box RC Refractor Rookie #31 Pirates",
+        "price": 19.03,
+        "date": "2026-04-10T01:21:22Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/ztVj",
+        "image_url": "https://i.ebayimg.com/images/g/W4AAAeSwlK5p0Vuo/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 ki6",
+        "price": 8.25,
+        "date": "2026-04-09T16:04:19.143961Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/6oKD",
+        "image_url": "https://i.ebayimg.com/images/g/F8AAAeSweFVp17~Q/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 10,
+        "date": "2026-04-08T16:03:58.238700Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/ZsXK",
+        "image_url": "https://i.ebayimg.com/images/g/BVwAAeSwE6hp1mJB/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box Mojo Refractor Paul Skenes #31 18ch",
+        "price": 29.58,
+        "date": "2026-04-08T16:03:57.645009Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/uigd",
+        "image_url": "https://i.ebayimg.com/images/g/ii0AAeSwIgJp1m-~/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 0e7u",
+        "price": 8.3,
+        "date": "2026-04-07T16:04:32.856883Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/C4Li",
+        "image_url": "https://i.ebayimg.com/images/g/tTcAAeSw6YFp1RZb/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC) ",
+        "price": 49.99,
+        "date": "2026-04-07T16:04:32.856883Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/Tmyp",
+        "image_url": "https://i.ebayimg.com/images/g/wA0AAeSwtwZp1Rct/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 8.25,
+        "date": "2026-04-07T16:04:32.133367Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/dMJK",
+        "image_url": "https://i.ebayimg.com/images/g/LckAAeSwRQBp1R-F/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mega Box RC Refractor Rookie #31 Pirates",
+        "price": 20.5,
+        "date": "2026-04-08T01:00:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/w60j",
+        "image_url": "https://i.ebayimg.com/images/g/R~4AAeSwgetpzn7r/s-l225.jpg"
+      },
+      {
+        "title": "PAUL SKENES 2024 Bowman Chrome RC Base Rookie Card #31 Pittsburgh Pirates (CBR)",
+        "price": 7.5,
+        "date": "2026-04-07T00:21:47Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/O23k",
+        "image_url": "https://i.ebayimg.com/images/g/MvAAAeSwVpNpzbXE/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC #31 Pittsburgh Pirates RC",
+        "price": 10.5,
+        "date": "2026-04-05T23:53:53Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/gTEh",
+        "image_url": "https://i.ebayimg.com/images/g/RrsAAeSw7rppzC4W/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 13.5,
+        "date": "2026-04-05T03:00:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/wHTu",
+        "image_url": "https://i.ebayimg.com/images/g/zvYAAeSwG4ppx~Ya/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 18.5,
+        "date": "2026-04-04T18:14:34Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/56Id",
+        "image_url": "https://i.ebayimg.com/images/g/n3kAAeSwuTxpyBo0/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 22.5,
+        "date": "2026-04-04T15:48:25Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/mu54",
+        "image_url": "https://i.ebayimg.com/images/g/ZMQAAeSwDh5px~gg/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 12,
+        "date": "2026-04-03T16:04:17.937513Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/WMSO",
+        "image_url": "https://i.ebayimg.com/images/g/ffIAAeSwxNtpz9zb/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 7.5,
+        "date": "2026-04-03T17:13:17Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/UZ5J",
+        "image_url": "https://i.ebayimg.com/images/g/kv0AAeSwi2Fpxrpp/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 6.66,
+        "date": "2026-04-03T17:58:49Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/m0z4",
+        "image_url": "https://i.ebayimg.com/images/g/n9EAAeSwz6ppxsU0/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Rookie Paul Skenes #31 Pittsburgh Pirates Baseball",
+        "price": 5,
+        "date": "2026-04-03T16:21:18Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/P1e5",
+        "image_url": "https://i.ebayimg.com/images/g/J00AAeSwW9tpvXPQ/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #31 Paul Skenes Rookie RC B",
+        "price": 3,
+        "date": "2026-04-03T01:45:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/fZdn",
+        "image_url": "https://i.ebayimg.com/images/g/lEkAAeSwZJxpxZwf/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 9,
+        "date": "2026-04-02T16:04:19.161225Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/CXkp",
+        "image_url": "https://i.ebayimg.com/images/g/9PUAAeSwVuJpzoqi/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 07i7",
+        "price": 9.73,
+        "date": "2026-04-02T16:04:19.161225Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/6WKu",
+        "image_url": "https://i.ebayimg.com/images/g/uNUAAeSwq4Fpzoxs/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box- Paul Skenes Mojo Refractor #31 (RC)",
+        "price": 25,
+        "date": "2026-04-03T01:00:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/fogh",
+        "image_url": "https://i.ebayimg.com/images/g/ovUAAeSw-YFpxb4N/s-l225.jpg"
+      },
+      {
+        "title": "PAUL SKENES 2024 BOWMAN CHROME BASEBALL ROOKIE PIRATES #31 RC Q2283",
+        "price": 5.52,
+        "date": "2026-04-02T02:08:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/X2Fd",
+        "image_url": "https://i.ebayimg.com/images/g/SZEAAeSwsaxpxDVV/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 2.25,
+        "date": "2026-04-02T01:00:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/HkHV",
+        "image_url": "https://i.ebayimg.com/images/g/NhMAAeSw2QVpxqxu/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 3.25,
+        "date": "2026-04-02T01:28:26Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/U3Re",
+        "image_url": "https://i.ebayimg.com/images/g/rjIAAeSwPJppxItP/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 5.5,
+        "date": "2026-04-01T23:30:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/dPqG",
+        "image_url": "https://i.ebayimg.com/images/g/7WAAAeSwnLRpxqwt/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 6.5,
+        "date": "2026-04-01T23:50:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/RlvI",
+        "image_url": "https://i.ebayimg.com/images/g/FlwAAeSwcdJpxqzu/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #31 Paul Skenes RC ROOKIE Pirates",
+        "price": 9.5,
+        "date": "2026-03-31T03:02:43Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/ln1z",
+        "image_url": "https://i.ebayimg.com/images/g/4UMAAeSwkBlpvgup/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Rookie Card #31 Pittsburgh Pirates RC",
+        "price": 5.5,
+        "date": "2026-03-30T01:01:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/XyYO",
+        "image_url": "https://i.ebayimg.com/images/g/IUEAAeSwnXZpwxrE/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 5.5,
+        "date": "2026-03-30T01:03:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/YeiH",
+        "image_url": "https://i.ebayimg.com/images/g/ie8AAeSwQKxpwsP~/s-l225.jpg"
+      },
+      {
+        "title": "Topps 2024 Bowman Chrome Rookie Base Paul Skenes #31 Pittsburgh Pirates MLB",
+        "price": 6.5,
+        "date": "2026-03-29T18:41:33Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Q1Xj",
+        "image_url": "https://i.ebayimg.com/images/g/YFMAAeSwHGxpwDef/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes 2024 Bowman Chrome - #31 (RC)!",
+        "price": 3.52,
+        "date": "2026-03-29T01:47:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/l51O",
+        "image_url": "https://i.ebayimg.com/images/g/riIAAeSwDLhpvxL2/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 20.5,
+        "date": "2026-03-28T14:19:44Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/inBw",
+        "image_url": "https://i.ebayimg.com/images/g/AOkAAeSwT6hpmjA9/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Rookie Card #31 Pirates RC",
+        "price": 4.75,
+        "date": "2026-03-28T18:24:26Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/lYZb",
+        "image_url": "https://i.ebayimg.com/images/g/U~QAAeSw65VpvuIs/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Pittsburgh Pirates #31 \ud83d\ude80\ud83d\ude33Mint",
+        "price": 8.99,
+        "date": "2026-03-27T16:03:02.886740Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/vCsX",
+        "image_url": "https://i.ebayimg.com/images/g/tyEAAeSwM9xpxoT1/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 5,
+        "date": "2026-03-26T21:32:45Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/uAcs",
+        "image_url": "https://i.ebayimg.com/images/g/wb8AAeSwtnBpvw5U/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 6.5,
+        "date": "2026-03-26T23:50:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/2UY0",
+        "image_url": "https://i.ebayimg.com/images/g/dm4AAeSwU61pvr2Y/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 7.5,
+        "date": "2026-03-25T23:43:10Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/CgD5",
+        "image_url": "https://i.ebayimg.com/images/g/Wr0AAeSwQBFpvaao/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 8,
+        "date": "2026-03-25T23:43:32Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/EHto",
+        "image_url": "https://i.ebayimg.com/images/g/4AUAAeSwFKhpvaZx/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #31 Paul Skenes RC ROOKIE Pirates",
+        "price": 10,
+        "date": "2026-03-25T02:12:34Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Edrf",
+        "image_url": "https://i.ebayimg.com/images/g/CQAAAeSwOt5pugtB/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 20.58,
+        "date": "2026-03-25T00:40:05Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/YTAH",
+        "image_url": "https://i.ebayimg.com/images/g/eiAAAeSwQytpvJdD/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box Mojo Refractor Paul Skenes #31 Rookie RC",
+        "price": 16,
+        "date": "2026-03-25T01:30:23Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/dLcR",
+        "image_url": "https://i.ebayimg.com/images/g/N5wAAeSwJe1puJEp/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 32,
+        "date": "2026-03-24T22:25:54Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/H2qM",
+        "image_url": "https://i.ebayimg.com/images/g/1iAAAeSw6MhpudTM/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 17,
+        "date": "2026-03-24T01:00:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/eLxm",
+        "image_url": "https://i.ebayimg.com/images/g/k~gAAeSwizVpuyxL/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mega Box Refractor #31 RC Pirates",
+        "price": 16.19,
+        "date": "2026-03-23T18:41:40Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/yBXp",
+        "image_url": "https://i.ebayimg.com/images/g/-g4AAeSwlAFpuE9f/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mega Box Refractor #31 RC Pirates",
+        "price": 15.5,
+        "date": "2026-03-23T18:41:18Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/3Ycx",
+        "image_url": "https://i.ebayimg.com/images/g/izEAAeSwSARpuE-F/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mega Box Refractor #31 RC Pirates",
+        "price": 15.5,
+        "date": "2026-03-23T18:41:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/A1AN",
+        "image_url": "https://i.ebayimg.com/images/g/uFwAAeSwLfppuE-v/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 3.25,
+        "date": "2026-03-23T01:16:43Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/r3yd",
+        "image_url": "https://i.ebayimg.com/images/g/SdkAAeSwzORps2Uz/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 24.5,
+        "date": "2026-03-23T01:02:40Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/o1Q5",
+        "image_url": "https://i.ebayimg.com/images/g/fioAAeSwHxppuflC/s-l225.jpg",
+        "parallel_id": "67343568-19d4-4ddf-aaea-559fb3273eb9",
+        "parallel_name": "Rookie Color Run Gimmicks"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 Mojo Refractor RC",
+        "price": 29.99,
+        "date": "2026-03-22T16:02:46.348092Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/NLKA",
+        "image_url": "https://i.ebayimg.com/images/g/CFcAAeSw7MRpwAbA/s-l225.jpg"
+      },
+      {
+        "title": "Topps 2024 Bowman Chrome Paul Skenes Mojo Refractor Rookie #31 Pirates",
+        "price": 35,
+        "date": "2026-03-22T16:02:46.348092Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/TQL7",
+        "image_url": "https://i.ebayimg.com/images/g/aZsAAeSw8fdpv~y3/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 4.1,
+        "date": "2026-03-22T16:15:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Slox",
+        "image_url": "https://i.ebayimg.com/images/g/hHQAAeSwO6xpttrE/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 (RC)",
+        "price": 4.65,
+        "date": "2026-03-21T23:14:26Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/m05J",
+        "image_url": "https://i.ebayimg.com/images/g/EaIAAeSwqihpuI5f/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 25,
+        "date": "2026-03-20T16:02:31.066646Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/vywe",
+        "image_url": "https://i.ebayimg.com/images/g/a~cAAeSw32dpvUgw/s-l225.jpg"
+      },
+      {
+        "title": "2024 BOWMAN CHROME PAUL SKENES ROOKIE MOJO REFRACTOR #31 PIRATES USA CY YOUNG",
+        "price": 25,
+        "date": "2026-03-20T16:02:30.511922Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/OMEa",
+        "image_url": "https://i.ebayimg.com/images/g/Pi4AAeSw7-tpvWbw/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 rookie card (C)",
+        "price": 7.5,
+        "date": "2026-03-21T18:01:53Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/6o99",
+        "image_url": "https://i.ebayimg.com/images/g/bsMAAeSwW3RpuEU~/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 rookie card (A)",
+        "price": 5.5,
+        "date": "2026-03-21T17:58:48Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/YqW4",
+        "image_url": "https://i.ebayimg.com/images/g/bF8AAeSwd59puEXq/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 10.51,
+        "date": "2026-03-21T15:22:32Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/PgM4",
+        "image_url": "https://i.ebayimg.com/images/g/VwoAAeSwULhpuB~z/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 rookie card",
+        "price": 12,
+        "date": "2026-03-19T16:02:51.120885Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/fkZU",
+        "image_url": "https://i.ebayimg.com/images/g/F7YAAeSw1r5pu~Vw/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 9.99,
+        "date": "2026-03-19T16:02:48.496202Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/l3yt",
+        "image_url": "https://i.ebayimg.com/images/g/dMYAAeSwlAFpvADY/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates MINT",
+        "price": 6.5,
+        "date": "2026-03-19T19:19:23Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/UIKy",
+        "image_url": "https://i.ebayimg.com/images/g/DVsAAeSww5NpsxF5/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Fuchsia Chrome Refractor 275/299 Pirates #31",
+        "price": 103.83,
+        "date": "2026-03-19T23:39:18Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/2hkv",
+        "image_url": "https://i.ebayimg.com/images/g/nX0AAeSwlD9ptfDW/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #31 Paul Skenes #ROY",
+        "price": 10,
+        "date": "2026-03-18T16:02:56.944061Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/bXt7",
+        "image_url": "https://i.ebayimg.com/images/g/Ga4AAeSw4khoOooL/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 Mojo Refractor RC",
+        "price": 25,
+        "date": "2026-03-18T16:02:54.327404Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/uEGa",
+        "image_url": "https://i.ebayimg.com/images/g/tXIAAeSwgvFpurGm/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 RC",
+        "price": 20,
+        "date": "2026-03-18T16:02:53.694467Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/1RxI",
+        "image_url": "https://i.ebayimg.com/images/g/rK4AAeSwFsBpusj0/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #31 Paul Skenes Rookie",
+        "price": 11,
+        "date": "2026-03-18T16:02:53.694467Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/u1XT",
+        "image_url": "https://i.ebayimg.com/images/g/Z3YAAeSwGR9pusVk/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes RC 2024 Bowman Chrome Refractor Mega Pittsburgh Pirates #31",
+        "price": 16.5,
+        "date": "2026-03-19T01:26:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/ZOvc",
+        "image_url": "https://i.ebayimg.com/images/g/D0kAAeSwIY9psdck/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 22.5,
+        "date": "2026-03-18T21:06:33Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/N3Lk",
+        "image_url": "https://i.ebayimg.com/images/g/xZQAAeSwZyJptx8D/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 7.5,
+        "date": "2026-03-17T16:02:51.278899Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/84n9",
+        "image_url": "https://i.ebayimg.com/images/g/Om8AAeSw0gNpuWCG/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 NM-MT (RC) Rookie Pirates",
+        "price": 6,
+        "date": "2026-03-17T16:02:50.736089Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/a6En",
+        "image_url": "https://i.ebayimg.com/images/g/D1oAAeSwu6hpuWdy/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #31 Paul Skenes Fuchsia Refractors #/299",
+        "price": 124.99,
+        "date": "2026-03-17T16:02:50.736089Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/lJkc",
+        "image_url": "https://i.ebayimg.com/images/g/YaEAAeSwnNBpuWq~/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 8.38,
+        "date": "2026-03-18T01:32:36Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/xaaH",
+        "image_url": "https://i.ebayimg.com/images/g/iEQAAeSwGBBpsuce/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 27,
+        "date": "2026-03-17T20:00:52Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/D5wv",
+        "image_url": "https://i.ebayimg.com/images/g/xNEAAeSwYXxpsHfA/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 9,
+        "date": "2026-03-17T20:22:54Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/tOlB",
+        "image_url": "https://i.ebayimg.com/images/g/kMoAAeSw-RRpsyBe/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 80,
+        "date": "2026-03-15T16:02:24.544737Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/XRD7",
+        "image_url": "https://i.ebayimg.com/images/g/of8AAeSwFJtptkDe/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #31 Paul Skenes (RC) Rookie Card - Pittsburgh Pirates (a)",
+        "price": 11,
+        "date": "2026-03-16T01:30:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/OWhk",
+        "image_url": "https://i.ebayimg.com/images/g/Cl8AAeSwjx5pq3Xx/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome PAUL SKENES Rookie Card RC #31 Pittsburgh Pirates",
+        "price": 5.99,
+        "date": "2026-03-15T16:02:21.763630Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/LoVZ",
+        "image_url": "https://i.ebayimg.com/images/g/iUsAAeSw4v9ptry-/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Refractor /499 (RC)",
+        "price": 83,
+        "date": "2026-03-16T01:00:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/9sUW",
+        "image_url": "https://i.ebayimg.com/images/g/sqIAAeSwD1lpoNNq/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #31 Paul Skenes",
+        "price": 8,
+        "date": "2026-03-14T16:03:11.150950Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/xhDX",
+        "image_url": "https://i.ebayimg.com/images/g/-A4AAeSwNKxptOdp/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 Rookie RC Pirates",
+        "price": 3,
+        "date": "2026-03-15T17:52:40Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/myWC",
+        "image_url": "https://i.ebayimg.com/images/g/3JIAAeSwt4xprbcf/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 10,
+        "date": "2026-03-14T16:03:04.178697Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/cVuq",
+        "image_url": "https://i.ebayimg.com/images/g/tuwAAeSwEGZptUnY/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 2.25,
+        "date": "2026-03-15T01:30:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Rm05",
+        "image_url": "https://i.ebayimg.com/images/g/wXcAAeSw-olprH9N/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 22.5,
+        "date": "2026-03-15T01:30:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/DRuB",
+        "image_url": "https://i.ebayimg.com/images/g/wUIAAeSwMzhprHKE/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes - 2024 Bowman Chrome #31 Mojo Refractor (RC)",
+        "price": 19.5,
+        "date": "2026-03-13T16:02:40.709789Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/omiW",
+        "image_url": "https://i.ebayimg.com/images/g/UJoAAeSwIY9ptCPT/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC #31 Pittsburgh Pirates",
+        "price": 5.99,
+        "date": "2026-03-12T16:02:43.493201Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/6d28",
+        "image_url": "https://i.ebayimg.com/images/g/9YAAAeSwfUJpsmOt/s-l225.jpg"
+      },
+      {
+        "title": "2024 Topps Bowman Chrome Paul Skenes #31 (RC) Pittsburgh Pirates",
+        "price": 5.5,
+        "date": "2026-03-13T01:36:46Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/yaXu",
+        "image_url": "https://i.ebayimg.com/images/g/QBUAAeSw4JZpqj09/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes 2024 Bowman Chrome Rookie RC #31 Pittsburgh Pirates",
+        "price": 6.99,
+        "date": "2026-03-12T16:02:41.112719Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/ZCni",
+        "image_url": "https://i.ebayimg.com/images/g/kckAAeSwVQlpmIRe/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 8.5,
+        "date": "2026-03-13T01:08:10Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/3CJJ",
+        "image_url": "https://i.ebayimg.com/images/g/GSAAAeSwsO1prKul/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 7,
+        "date": "2026-03-13T00:35:27Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/HbQ1",
+        "image_url": "https://i.ebayimg.com/images/g/1ysAAeSw8U9prKsp/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 21.5,
+        "date": "2026-03-12T21:16:33Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/L6XQ",
+        "image_url": "https://i.ebayimg.com/images/g/AOkAAeSwT6hpmjA9/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 1ru7",
+        "price": 10.78,
+        "date": "2026-03-11T16:02:55.536485Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/mnZc",
+        "image_url": "https://i.ebayimg.com/images/g/zDwAAeSw6~tpsXUK/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Refractor Rookie Paul Skenes #31 /499",
+        "price": 89.99,
+        "date": "2026-03-11T16:02:55.536485Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/5tFc",
+        "image_url": "https://i.ebayimg.com/images/g/PfQAAeSwsrNpsXKK/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mega Box RC Refractor Rookie #31 Pirates",
+        "price": 17.49,
+        "date": "2026-03-12T00:48:37Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/t6Ro",
+        "image_url": "https://i.ebayimg.com/images/g/3pcAAeSwmUtpqzhv/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 11.5,
+        "date": "2026-03-11T23:30:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/psuq",
+        "image_url": "https://i.ebayimg.com/images/g/B2MAAeSwCaFpqxbN/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mega Box RC Refractor Rookie #31 Pirates",
+        "price": 20.5,
+        "date": "2026-03-12T00:13:26Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/XIJB",
+        "image_url": "https://i.ebayimg.com/images/g/9KgAAeSwMotpqzjM/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 1q9o",
+        "price": 10.42,
+        "date": "2026-03-10T16:02:35.529824Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/a70n",
+        "image_url": "https://i.ebayimg.com/images/g/v6sAAeSw6IJpr5HG/s-l225.jpg"
+      },
+      {
+        "title": "PAUL SKENES 2024 BOWMAN CHROME BASEBALL ROOKIE PIRATES #31 RC",
+        "price": 10,
+        "date": "2026-03-11T18:19:43Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Rsig",
+        "image_url": "https://i.ebayimg.com/images/g/WvYAAeSwQ1Bpg5tm/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Rookie Card #31 Pirates RC",
+        "price": 7.99,
+        "date": "2026-03-09T16:02:37.422367Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/cn4C",
+        "image_url": "https://i.ebayimg.com/images/g/z70AAeSw-pZpk3vQ/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 20,
+        "date": "2026-03-09T16:02:37.422367Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/0CAk",
+        "image_url": "https://i.ebayimg.com/images/g/LRwAAeSww-VprpSi/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 7.5,
+        "date": "2026-03-10T01:05:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/pJVx",
+        "image_url": "https://i.ebayimg.com/images/g/qawAAeSwSMppqETJ/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 4.25,
+        "date": "2026-03-08T02:45:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Mt7c",
+        "image_url": "https://i.ebayimg.com/images/g/g2EAAeSw7EFpn08y/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Pittsburgh Pirates Rookie Baseball Card #31",
+        "price": 1,
+        "date": "2026-03-08T02:22:24Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/zgAr",
+        "image_url": "https://i.ebayimg.com/images/g/MYMAAeSwBmFpo6Ki/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC) Rookie Pittsburgh Pirates",
+        "price": 3.25,
+        "date": "2026-03-07T01:00:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/HmYH",
+        "image_url": "https://i.ebayimg.com/images/g/9soAAeSwQ1tpocoP/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 6,
+        "date": "2026-03-05T17:02:34.206525Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/t46L",
+        "image_url": "https://i.ebayimg.com/images/g/raIAAeSw7oJpqZ0M/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes Rookie Mojo Refractor 2024 Bowman Chrome #31 Pittsburgh Pirates",
+        "price": 16,
+        "date": "2026-03-06T02:30:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/XzKE",
+        "image_url": "https://i.ebayimg.com/images/g/l4EAAeSwYkNpkiVa/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 5.2,
+        "date": "2026-03-06T00:02:34Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Rgmc",
+        "image_url": "https://i.ebayimg.com/images/g/eXIAAeSwvgdpoN6J/s-l225.jpg"
+      },
+      {
+        "title": "2024 Paul Skenes #31 Bowman Chrome Baseball RC Pittsburgh Pirates MLB \ud83d\udd25\u26be\ufe0f\ud83d\udd25",
+        "price": 7.99,
+        "date": "2026-03-04T17:02:29.043175Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/xU5x",
+        "image_url": "https://i.ebayimg.com/images/g/puwAAeSw~eppqD1z/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mega Box RC Refractor Rookie #31 Pirates",
+        "price": 17.5,
+        "date": "2026-03-05T02:03:12Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/2hm6",
+        "image_url": "https://i.ebayimg.com/images/g/J54AAeSwD2ZpodRu/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #31 Paul Skenes RC \ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25",
+        "price": 8.5,
+        "date": "2026-03-02T17:02:32.366474Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/P2rl",
+        "image_url": "https://i.ebayimg.com/images/g/w8gAAeSwBC5ppa2t/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Rookie Card #31 Pittsburgh Pirates RC",
+        "price": 8,
+        "date": "2026-03-01T17:02:20.578057Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/frhz",
+        "image_url": "https://i.ebayimg.com/images/g/NCIAAeSwwyhpofn6/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome PAUL SKENES #31 Pittsburgh Pirates",
+        "price": 4.99,
+        "date": "2026-03-01T17:02:18.417304Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/DLaj",
+        "image_url": "https://i.ebayimg.com/images/g/7S4AAeSwJ4ZppFPP/s-l225.jpg"
+      },
+      {
+        "title": "PAUL SKENES 2024 Bowman Chrome #31 ~ Pirates ROOKIE",
+        "price": 4.99,
+        "date": "2026-03-01T17:02:17.770110Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/IC4k",
+        "image_url": "https://i.ebayimg.com/images/g/TVYAAeSwSwRppGTP/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 6.5,
+        "date": "2026-03-02T02:00:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/swYf",
+        "image_url": "https://i.ebayimg.com/images/g/b4wAAeSw2iRpm007/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 4.25,
+        "date": "2026-03-02T01:10:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/ScUw",
+        "image_url": "https://i.ebayimg.com/images/g/Db0AAeSwk3FpmfDk/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 7.5,
+        "date": "2026-03-02T00:49:21Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/eO1e",
+        "image_url": "https://i.ebayimg.com/images/g/-DsAAeSwm79pnhcv/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 4.25,
+        "date": "2026-03-01T17:17:09Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/bjDh",
+        "image_url": "https://i.ebayimg.com/images/g/6VkAAeSwFd1pmznU/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 15.94,
+        "date": "2026-03-01T02:30:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/0RsH",
+        "image_url": "https://i.ebayimg.com/images/g/AOkAAeSwT6hpmjA9/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes 2024 Bowman Chrome #31 (RC) Rookie Card Pirates",
+        "price": 5.25,
+        "date": "2026-02-27T17:02:22.470862Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/lWRi",
+        "image_url": "https://i.ebayimg.com/images/g/xXcAAeSwbcRpocRz/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 26,
+        "date": "2026-02-28T15:02:38Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/yxNg",
+        "image_url": "https://i.ebayimg.com/images/g/SrkAAeSw7QVpmcdJ/s-l225.jpg"
+      },
+      {
+        "title": "2024 Topps Bowman Chrome PAUL SKENES #31 RC PIRATES \ud83d\udd25\ud83d\udd25\ud83d\udd25",
+        "price": 4.94,
+        "date": "2026-02-27T21:53:11Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/GrEb",
+        "image_url": "https://i.ebayimg.com/images/g/M08AAeSwNiFpmNed/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 4.25,
+        "date": "2026-02-26T01:02:57Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/OiR6",
+        "image_url": "https://i.ebayimg.com/images/g/pJIAAeSwmrZpmJgs/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Rookie Card #31 Pirates RC",
+        "price": 7,
+        "date": "2026-02-24T17:02:38.366402Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/upT8",
+        "image_url": "https://i.ebayimg.com/images/g/bcIAAeSwPo5pmkFs/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 5,
+        "date": "2026-02-25T02:44:27Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/rdSx",
+        "image_url": "https://i.ebayimg.com/images/g/EqYAAeSwviJpl1Hj/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mega Box RC Refractor Rookie #31 Pirates",
+        "price": 19.5,
+        "date": "2026-02-25T01:36:14Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/AwLn",
+        "image_url": "https://i.ebayimg.com/images/g/1iQAAeSwvTlpl01Z/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Rookie Card RC #31 Pirates",
+        "price": 6.5,
+        "date": "2026-02-25T01:59:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/uKU6",
+        "image_url": "https://i.ebayimg.com/images/g/9-kAAeSwTLlpk86d/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mega Box RC Refractor Rookie #31 Pirates",
+        "price": 25,
+        "date": "2026-02-25T01:28:22Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Q4AE",
+        "image_url": "https://i.ebayimg.com/images/g/K60AAeSwzMJpl00l/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 5.5,
+        "date": "2026-02-25T02:44:21Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/1BlH",
+        "image_url": "https://i.ebayimg.com/images/g/FX8AAeSwLbVpl1Gn/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 4.14,
+        "date": "2026-02-25T02:44:08Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/puZF",
+        "image_url": "https://i.ebayimg.com/images/g/--EAAeSwVe5pl1Gl/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mega Box RC Refractor Rookie #31 Pirates",
+        "price": 40,
+        "date": "2026-02-25T00:51:13Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/dGQB",
+        "image_url": "https://i.ebayimg.com/images/g/M4gAAeSwpZRpl11M/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 3.25,
+        "date": "2026-02-25T00:30:05Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/jws9",
+        "image_url": "https://i.ebayimg.com/images/g/NGEAAeSwnzxplQe7/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 5.5,
+        "date": "2026-02-24T02:10:09Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/G2hd",
+        "image_url": "https://i.ebayimg.com/images/g/3dsAAeSwqz1plhG9/s-l225.jpg"
+      },
+      {
+        "title": "PAUL SKENES 2024 BOWMAN CHROME BASEBALL ROOKIE PIRATES #31 RC Q3813",
+        "price": 5.5,
+        "date": "2026-02-24T03:04:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/xTs9",
+        "image_url": "https://i.ebayimg.com/images/g/IYcAAeSw8s5pj0gH/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Rookie Card RC #31 Pittsburgh Pirates \ud83d\udd25",
+        "price": 5,
+        "date": "2026-02-24T02:15:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/SIUv",
+        "image_url": "https://i.ebayimg.com/images/g/2agAAeSwjpxpkSlH/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes 2024 Bowman Chrome Rookie RC #31 Pirates",
+        "price": 4.25,
+        "date": "2026-02-23T22:01:05Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/uruD",
+        "image_url": "https://i.ebayimg.com/images/g/EekAAeSwWStpk5Nm/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 20,
+        "date": "2026-02-23T01:56:20Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/4POL",
+        "image_url": "https://i.ebayimg.com/images/g/i5MAAeSw6R9pgAPz/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes 2024 Bowman Chrome Mega Box MOJO Refractor #31 Rookie RC",
+        "price": 15.25,
+        "date": "2026-02-23T01:51:31Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/1oV6",
+        "image_url": "https://i.ebayimg.com/images/g/iqgAAeSw6m9pjr0~/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 3.05,
+        "date": "2026-02-22T23:15:43Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/W8sH",
+        "image_url": "https://i.ebayimg.com/images/g/B7cAAeSwRihpklOK/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes 2024 Bowman Chrome - #31 (RC) \ud83d\udd25",
+        "price": 6.5,
+        "date": "2026-02-21T17:02:13.920576Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/n7Tw",
+        "image_url": "https://i.ebayimg.com/images/g/fu8AAeSwG8Rpmdg8/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 9.5,
+        "date": "2026-02-21T17:02:13.920576Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/emzn",
+        "image_url": "https://i.ebayimg.com/images/g/ciYAAeSw0r1pmdX4/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 4.25,
+        "date": "2026-02-22T02:17:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/ECT9",
+        "image_url": "https://i.ebayimg.com/images/g/qNcAAeSwOGxpkMKi/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - #31 Paul Skenes (RC) Pittsburgh Pirates",
+        "price": 6.83,
+        "date": "2026-02-22T14:23:26Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/UYwo",
+        "image_url": "https://i.ebayimg.com/images/g/dRsAAeSwEptpkda7/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - #31 Paul Skenes (RC)",
+        "price": 15,
+        "date": "2026-02-20T17:02:54.102779Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/CEzq",
+        "image_url": "https://i.ebayimg.com/images/g/tr0AAeSweFhpmIJp/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes Base Rookie Card (RC) #31",
+        "price": 3.25,
+        "date": "2026-02-22T00:24:53Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/K0tX",
+        "image_url": "https://i.ebayimg.com/images/g/k0AAAeSwFd1pjRzb/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes 2024 Bowman Chrome Rookie #31 Pittsburgh Pirates ",
+        "price": 6,
+        "date": "2026-02-21T08:41:53Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/9qJJ",
+        "image_url": "https://i.ebayimg.com/images/g/GJQAAeSw2BtphvmL/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 8.5,
+        "date": "2026-02-20T16:43:13Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/sw68",
+        "image_url": "https://i.ebayimg.com/images/g/xXcAAeSw~zBpj1ST/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC) PIRATES ROOKIE",
+        "price": 6.89,
+        "date": "2026-02-18T17:02:30.277092Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/KbZt",
+        "image_url": "https://i.ebayimg.com/images/g/EKYAAeSwNlBplX7P/s-l225.jpg"
+      },
+      {
+        "title": "Bowman 2024 Chrome Paul Skenes Rookie #31 Pittsburgh Pirates Base Baseball",
+        "price": 7.5,
+        "date": "2026-02-18T17:02:27.289143Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/MQjU",
+        "image_url": "https://i.ebayimg.com/images/g/cZoAAeSwG7ppleOG/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 0.99,
+        "date": "2026-02-19T02:01:14Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/f6Xq",
+        "image_url": "https://i.ebayimg.com/images/g/7RgAAeSwAfRpg~mr/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 5.76,
+        "date": "2026-02-17T20:59:38Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Yrl2",
+        "image_url": "https://i.ebayimg.com/images/g/VU4AAeSwr35pi5wM/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes Pittsburgh Pirates RC #31",
+        "price": 3.99,
+        "date": "2026-02-15T17:02:14.817318Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/v8KH",
+        "image_url": "https://i.ebayimg.com/images/g/VUQAAeSwGf9pkfcw/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 4.25,
+        "date": "2026-02-16T01:39:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/rnQR",
+        "image_url": "https://i.ebayimg.com/images/g/-FIAAeSwqaNph4Li/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 8.38,
+        "date": "2026-02-16T01:38:39Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/cPYU",
+        "image_url": "https://i.ebayimg.com/images/g/D70AAeSwT-tpi43i/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 10.5,
+        "date": "2026-02-16T02:23:48Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/imLO",
+        "image_url": "https://i.ebayimg.com/images/g/MtgAAeSwLixpi5aI/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mega Box RC Refractor Rookie #31 Pirates",
+        "price": 17.5,
+        "date": "2026-02-16T01:17:42Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/KRTc",
+        "image_url": "https://i.ebayimg.com/images/g/NUAAAeSws09pi6BZ/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 15.5,
+        "date": "2026-02-16T00:30:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/uqwW",
+        "image_url": "https://i.ebayimg.com/images/g/P2YAAeSwzGxpi5W1/s-l225.jpg"
+      },
+      {
+        "title": "(2) 2024 Bowman Chrome - #31 Paul Skenes",
+        "price": 20,
+        "date": "2026-02-14T17:02:13.534116Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/yww9",
+        "image_url": "https://i.ebayimg.com/images/g/fjkAAOSwzehnCaGc/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 7.02,
+        "date": "2026-02-15T04:59:14Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/nEFp",
+        "image_url": "https://i.ebayimg.com/images/g/M54AAeSw01Fpirpm/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC #31 Pirates",
+        "price": 7.99,
+        "date": "2026-02-14T17:02:11.294380Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/JVKg",
+        "image_url": "https://i.ebayimg.com/images/g/UtEAAeSwkWxpkIAA/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC #31 Pittsburgh Pirates",
+        "price": 5.5,
+        "date": "2026-02-14T02:48:05Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/pugN",
+        "image_url": "https://i.ebayimg.com/images/g/LnYAAeSw7GZpaFUa/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome: # 31 Paul Skenes RC NM-MT OR BETTER",
+        "price": 10.5,
+        "date": "2026-02-22T02:33:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/9X84",
+        "image_url": "https://i.ebayimg.com/images/g/18AAAeSwSdFpjLlQ/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 (RC)",
+        "price": 6.5,
+        "date": "2026-02-13T20:03:30Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/qFab",
+        "image_url": "https://i.ebayimg.com/images/g/fWEAAeSw8WBphkkC/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - #31 Paul Skenes (RC) Pittsburgh Pirates Rookie MLB",
+        "price": 4.1,
+        "date": "2026-02-13T20:40:45Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Bspk",
+        "image_url": "https://i.ebayimg.com/images/g/RzoAAeSw9MBphlGW/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #31 Paul Skenes RC Pittsburgh Pirates",
+        "price": 6.99,
+        "date": "2026-02-12T17:02:18.732382Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/MG96",
+        "image_url": "https://i.ebayimg.com/images/g/KgkAAeSwJllpjf4d/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 7.01,
+        "date": "2026-02-13T03:05:41Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/LqtZ",
+        "image_url": "https://i.ebayimg.com/images/g/tFYAAeSwcK1ph2zI/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #31 Paul Skenes Mojo Refractor RC MLB Pittsburgh Pirates",
+        "price": 15.5,
+        "date": "2026-02-13T01:04:59Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/rwD4",
+        "image_url": "https://i.ebayimg.com/images/g/stYAAeSw8IVpEACs/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 Rookie RC",
+        "price": 3.25,
+        "date": "2026-02-12T02:09:32Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/xsRt",
+        "image_url": "https://i.ebayimg.com/images/g/quAAAeSwKJlpgl-0/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC) (CC)",
+        "price": 19.95,
+        "date": "2026-02-10T17:02:08.443827Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/QTll",
+        "image_url": "https://i.ebayimg.com/images/g/sZEAAeSwrL5pi0Wc/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mega Box RC Refractor Rookie #31 Pirates",
+        "price": 13.5,
+        "date": "2026-02-11T02:56:44Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/98Pn",
+        "image_url": "https://i.ebayimg.com/images/g/ol0AAeSwJbJpg9vt/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 5.5,
+        "date": "2026-02-11T02:57:21Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/7rxQ",
+        "image_url": "https://i.ebayimg.com/images/g/OLwAAeSwb9FpeXq0/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31",
+        "price": 2,
+        "date": "2026-02-11T15:55:43Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/0fn3",
+        "image_url": "https://i.ebayimg.com/images/g/ZBMAAeSwGvNpg2vm/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes 2024 Bowman Chrome SAPPHIRE RC Rookie #31 Pittsburg Pirates",
+        "price": 55.49,
+        "date": "2026-02-11T16:16:39Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/YWIB",
+        "image_url": "https://i.ebayimg.com/images/g/gyMAAeSwQ1Bpg3DT/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mega Box RC Refractor Rookie #31 Pirates",
+        "price": 20.5,
+        "date": "2026-02-11T02:56:37Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/foXo",
+        "image_url": "https://i.ebayimg.com/images/g/acgAAeSwOI5pg9ts/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 9.38,
+        "date": "2026-02-11T02:33:29Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Prl7",
+        "image_url": "https://i.ebayimg.com/images/g/aOEAAeSwZpxpg9sX/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 9.38,
+        "date": "2026-02-11T02:33:30Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/uv4i",
+        "image_url": "https://i.ebayimg.com/images/g/SQYAAeSwPu1pg9rb/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 8.38,
+        "date": "2026-02-11T02:33:22Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/hLil",
+        "image_url": "https://i.ebayimg.com/images/g/528AAeSwwpVpg9tT/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes 2024 Topps Bowman Chrome Baseball Mojo RC Pirates Cy Young #31",
+        "price": 20,
+        "date": "2026-02-08T17:02:11.124510Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/4r9U",
+        "image_url": "https://i.ebayimg.com/images/g/WSUAAeSwx1tpiK3X/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC #31 Base and Mojo Refractor OCGS 9 and 9.5",
+        "price": 9.5,
+        "date": "2026-02-09T02:42:43Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/B551",
+        "image_url": "https://i.ebayimg.com/images/g/zx8AAeSwBgdpgA35/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome: # 31 Paul Skenes RC NM-MT OR BETTER",
+        "price": 20.49,
+        "date": "2026-02-17T01:40:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/ICeS",
+        "image_url": "https://i.ebayimg.com/images/g/r50AAeSwilJphlYc/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 5.5,
+        "date": "2026-02-09T01:14:57Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/4QId",
+        "image_url": "https://i.ebayimg.com/images/g/V1wAAeSwstdpgjlt/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 5.5,
+        "date": "2026-02-07T17:02:07.493364Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/Qnvp",
+        "image_url": "https://i.ebayimg.com/images/g/2XUAAeSwokVph2uo/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Green Mojo Refractor (RC) /99 #31 Pirates \ud83d\udd25\ud83c\udf84",
+        "price": 52,
+        "date": "2026-02-08T04:18:34Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/LdRU",
+        "image_url": "https://i.ebayimg.com/images/g/iYoAAeSwevBpdZmC/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 (RC)",
+        "price": 9.99,
+        "date": "2026-02-04T17:02:32.709226Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/aAjj",
+        "image_url": "https://i.ebayimg.com/images/g/ULQAAeSwmgJpgz7G/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 Mega Box Mojo Refractor Rookie RC Pirates A39",
+        "price": 19.99,
+        "date": "2026-02-04T17:02:32.709226Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/wZi8",
+        "image_url": "https://i.ebayimg.com/images/g/GBEAAeSw0Rhpg0ev/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 4.94,
+        "date": "2026-02-06T01:48:45Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/lcMT",
+        "image_url": "https://i.ebayimg.com/images/g/x-UAAeSwufNpfrC0/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC #31 Pittsburgh Pirates",
+        "price": 12,
+        "date": "2026-02-04T17:02:30.352230Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/HoVN",
+        "image_url": "https://i.ebayimg.com/images/g/3TcAAeSw4dlpg2KK/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 RC Pittsburgh Pirates Rookie",
+        "price": 5.52,
+        "date": "2026-02-04T16:03:20Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/N7MN",
+        "image_url": "https://i.ebayimg.com/images/g/oXkAAeSwYTJpejKb/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #31 Paul Skenes",
+        "price": 4.75,
+        "date": "2026-02-04T04:39:09Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/IZ0H",
+        "image_url": "https://i.ebayimg.com/images/g/uSQAAeSwjbZpeZMt/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 Rookie RC***#1 Pitcher in Baseball***",
+        "price": 7,
+        "date": "2026-02-03T17:02:38.766072Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/zGF7",
+        "image_url": "https://i.ebayimg.com/images/g/IkgAAeSw3zdpgg1l/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Sapphire Paul Skenes RC Rookie #31 Pirates",
+        "price": 51,
+        "date": "2026-02-04T02:49:15Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/nKCy",
+        "image_url": "https://i.ebayimg.com/images/g/wnQAAeSw8MBpe8YB/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Sapphire Paul Skenes RC Rookie #31 Pirates",
+        "price": 52.05,
+        "date": "2026-02-04T02:49:13Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Ym0T",
+        "image_url": "https://i.ebayimg.com/images/g/uBcAAeSw5B9pe8bl/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 5.5,
+        "date": "2026-02-04T01:07:26Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/t56I",
+        "image_url": "https://i.ebayimg.com/images/g/hcUAAeSwegJpe8Ge/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 5.5,
+        "date": "2026-02-03T01:31:14Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/GoGA",
+        "image_url": "https://i.ebayimg.com/images/g/7JoAAeSw6Utpek11/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 6.25,
+        "date": "2026-02-03T01:31:08Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/ALVo",
+        "image_url": "https://i.ebayimg.com/images/g/1LIAAeSwjdlpek0x/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 5,
+        "date": "2026-02-01T17:02:37.104109Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/sVEd",
+        "image_url": "https://i.ebayimg.com/images/g/CpwAAeSwFLVpdRJj/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 23.99,
+        "date": "2026-02-01T17:02:37.104109Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/kxmM",
+        "image_url": "https://i.ebayimg.com/images/g/gOEAAeSwo59pf4S2/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 15,
+        "date": "2026-01-31T17:02:54.618352Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/oQ4b",
+        "image_url": "https://i.ebayimg.com/images/g/RG4AAeSw0PVpfeUi/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #31 Paul Skenes Rookie",
+        "price": 6,
+        "date": "2026-01-31T17:40:53Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/IE3q",
+        "image_url": "https://i.ebayimg.com/images/g/VbUAAeSwe65oYdDk/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #31 Paul Skenes Rookie (RC)",
+        "price": 13.5,
+        "date": "2026-02-01T17:11:06Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/7VCE",
+        "image_url": "https://i.ebayimg.com/images/g/T6UAAeSwl2Npdk9f/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 9.99,
+        "date": "2026-01-30T17:02:24.211671Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/Bdwe",
+        "image_url": "https://i.ebayimg.com/images/g/FBgAAeSwUzhpfN6c/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC #31 Mojo Refractor Pirates",
+        "price": 11.5,
+        "date": "2026-01-31T22:16:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/dxKv",
+        "image_url": "https://i.ebayimg.com/images/g/OPIAAeSwiwppd-dJ/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #31 Paul Skenes RC",
+        "price": 5.02,
+        "date": "2026-01-31T00:40:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/gvnl",
+        "image_url": "https://i.ebayimg.com/images/g/mWMAAeSwj6NpdqC3/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC) Pirates",
+        "price": 4.99,
+        "date": "2026-01-29T17:02:34.943387Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/xWqp",
+        "image_url": "https://i.ebayimg.com/images/g/IOgAAeSw-3lpe3a3/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 3.75,
+        "date": "2026-01-30T01:35:02Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/DUtn",
+        "image_url": "https://i.ebayimg.com/images/g/eLUAAeSwFBlpZ8BX/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 9.5,
+        "date": "2026-01-29T02:15:53Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/zN3G",
+        "image_url": "https://i.ebayimg.com/images/g/1WUAAeSwPX9pcRwl/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 6,
+        "date": "2026-01-28T00:51:30Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/HuoU",
+        "image_url": "https://i.ebayimg.com/images/g/HLIAAeSw~Elpb-Xd/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 8.5,
+        "date": "2026-01-27T23:31:48Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Jl2l",
+        "image_url": "https://i.ebayimg.com/images/g/~oYAAeSwoz1pcA7u/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mega Box RC Refractor Rookie #31 Pirates",
+        "price": 23.5,
+        "date": "2026-01-28T02:24:49Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/nVMf",
+        "image_url": "https://i.ebayimg.com/images/g/QsQAAeSwmpNpcoWP/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Base Rookie Card #31 Pittsburgh Pirates",
+        "price": 8.5,
+        "date": "2026-01-27T20:30:58Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/iBQs",
+        "image_url": "https://i.ebayimg.com/images/g/V2MAAeSwGL5pcojg/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC) Rookie",
+        "price": 5.02,
+        "date": "2026-01-27T02:30:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/qhIO",
+        "image_url": "https://i.ebayimg.com/images/g/TdYAAeSweH5pal8J/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 5,
+        "date": "2026-01-24T17:02:23.699941Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/j3uZ",
+        "image_url": "https://i.ebayimg.com/images/g/6XsAAeSwaQdpdO~y/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC) Rookie",
+        "price": 0.99,
+        "date": "2026-01-23T17:24:37Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/ijwr",
+        "image_url": "https://i.ebayimg.com/images/g/l3cAAeSwKQRpYT4V/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 14,
+        "date": "2026-01-22T17:02:32.959849Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/DlSr",
+        "image_url": "https://i.ebayimg.com/images/g/d2YAAeSw1L1pclNQ/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 4.99,
+        "date": "2026-01-21T17:02:21.856861Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/1pcx",
+        "image_url": "https://i.ebayimg.com/images/g/6HoAAeSwo-VpcP60/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes 2024 Bowman Chrome RC #31 Pirates",
+        "price": 2.25,
+        "date": "2026-01-21T00:12:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Skv8",
+        "image_url": "https://i.ebayimg.com/images/g/Wx8AAeSwA-FpX-se/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Rookie Mojo Refractor #31 RC Pittsburgh Pirates ",
+        "price": 20,
+        "date": "2026-01-19T17:02:22.611628Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/dQVv",
+        "image_url": "https://i.ebayimg.com/images/g/e2oAAeSw7nhpbjkB/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Refractor /499 (RC)",
+        "price": 36,
+        "date": "2026-01-19T02:00:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/jto5",
+        "image_url": "https://i.ebayimg.com/images/g/D3oAAeSwuvJpZ~WF/s-l225.jpg",
+        "parallel_id": "f9efe877-c458-4068-8d0f-de323606b727",
+        "parallel_name": "Refractor"
+      },
+      {
+        "title": "2024 Bowman Chrome #31 Paul Skenes RC",
+        "price": 4.76,
+        "date": "2026-01-18T23:43:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/EegJ",
+        "image_url": "https://i.ebayimg.com/images/g/ME4AAeSwn8VpaT86/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes 2024 Bowman Chrome RC #31 Rookie Pittsburgh Pirates",
+        "price": 6.95,
+        "date": "2026-01-15T17:02:46.179699Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/dBTJ",
+        "image_url": "https://i.ebayimg.com/images/g/7VYAAeSwSmxpZqiY/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 7.06,
+        "date": "2026-01-18T01:37:22Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/iPn3",
+        "image_url": "https://i.ebayimg.com/images/g/cnQAAeSwehppZSBz/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC #31",
+        "price": 7.5,
+        "date": "2026-01-15T21:28:14Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/N1WQ",
+        "image_url": "https://i.ebayimg.com/images/g/~ZMAAeSwCDlpXCy-/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 0hs1",
+        "price": 5.3,
+        "date": "2026-01-14T17:02:24.365772Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/c5hg",
+        "image_url": "https://i.ebayimg.com/images/g/KVMAAeSwEAZpZ66F/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Refractors #31 Paul Skenes RC Rookie 231/499 PIRATES",
+        "price": 57.25,
+        "date": "2026-01-15T03:47:35Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/K5Gl",
+        "image_url": "https://i.ebayimg.com/images/g/NWkAAeSw4A9pXyka/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Wave Refractors #31 Paul Skenes RC Rookie 093/100 PIRATES",
+        "price": 100,
+        "date": "2026-01-15T02:20:36Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/na4j",
+        "image_url": "https://i.ebayimg.com/images/g/BE0AAeSwQ9JpXxVf/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes - 2024 Bowman Chrome Rookie #31 RC Pirates",
+        "price": 4.49,
+        "date": "2026-01-13T17:02:27.974202Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/e5p0",
+        "image_url": "https://i.ebayimg.com/images/g/C6MAAeSwgbNpZmNU/s-l225.jpg"
+      },
+      {
+        "title": "PAUL SKENES 2024 BOWMAN CHROME ROOKIE PIRATES NO. 31 RC Q0723",
+        "price": 1.25,
+        "date": "2026-01-14T02:09:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/FWMf",
+        "image_url": "https://i.ebayimg.com/images/g/rHgAAeSwWJFpXXVc/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 89.99,
+        "date": "2026-01-09T17:02:25.607333Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/kgzl",
+        "image_url": "https://i.ebayimg.com/images/g/rDMAAeSwtQZpYJV8/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 1.25,
+        "date": "2026-01-11T21:36:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/YBHx",
+        "image_url": "https://i.ebayimg.com/images/g/XtIAAeSwoCJpWYg4/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 53.28,
+        "date": "2026-01-09T17:02:22.648593Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/9q4I",
+        "image_url": "https://i.ebayimg.com/images/g/zJYAAeSw-glpYRrt/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 6.5,
+        "date": "2026-01-10T22:25:29Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/shqS",
+        "image_url": "https://i.ebayimg.com/images/g/koQAAeSwkzVpWZcG/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 7.99,
+        "date": "2026-01-08T17:02:13.869032Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/JGdW",
+        "image_url": "https://i.ebayimg.com/images/g/WQQAAeSwRuZpX9da/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mojo Refractor (RC) #31 Pittsburgh Pirates CY ",
+        "price": 23.5,
+        "date": "2026-01-09T20:21:09Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/hqu8",
+        "image_url": "https://i.ebayimg.com/images/g/OXYAAeSwsftpIMlO/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #31 Paul Skenes RC Pittsburgh Pirates",
+        "price": 13.5,
+        "date": "2026-01-08T16:53:47Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/QWUp",
+        "image_url": "https://i.ebayimg.com/images/g/tWMAAeSwDWppVqaP/s-l225.jpg"
+      },
+      {
+        "title": "2024 BOWMAN CHROME ROOKIE MOJO REFRACTOR Paul Skenes RC #31",
+        "price": 18,
+        "date": "2026-01-06T17:02:17.370197Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/MCIF",
+        "image_url": "https://i.ebayimg.com/images/g/aesAAeSwIW5pXR5s/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 2.25,
+        "date": "2026-01-05T02:16:42Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/2SKp",
+        "image_url": "https://i.ebayimg.com/images/g/QEwAAeSwp6NpUeRM/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 10,
+        "date": "2026-01-03T17:02:28.702626Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/pQ3n",
+        "image_url": "https://i.ebayimg.com/images/g/~DsAAeSwGfdpWNG2/s-l225.jpg"
+      },
+      {
+        "title": "PAUL SKENES 2024 Bowman Chrome Rookie RC #31 Cy Young",
+        "price": 11.01,
+        "date": "2026-01-05T02:16:00Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Xjaq",
+        "image_url": "https://i.ebayimg.com/images/g/Yx4AAeSwX0dpM1jE/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 4,
+        "date": "2026-01-03T17:02:25.566014Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/34V0",
+        "image_url": "https://i.ebayimg.com/images/g/AQEAAeSw~gFpWTFT/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 5.5,
+        "date": "2026-01-04T01:38:38Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/fgXv",
+        "image_url": "https://i.ebayimg.com/images/g/bkUAAeSwO~lpUsYB/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 10.25,
+        "date": "2026-01-04T17:41:30Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/fvDC",
+        "image_url": "https://i.ebayimg.com/images/g/ODoAAeSwg5ppUWt9/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes 2024 Bowman Chrome - Mojo Refractor #31 Pittsburgh Pirates \ud83d\udd25 Rookie",
+        "price": 20.51,
+        "date": "2026-01-04T03:04:12Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/v7pY",
+        "image_url": "https://i.ebayimg.com/images/g/xCsAAeSw6bZpVeQa/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Mojo Refractor #31 Paul Skenes (RC) ROOKIE",
+        "price": 17.99,
+        "date": "2026-01-02T17:02:19.832712Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/rLgU",
+        "image_url": "https://i.ebayimg.com/images/g/b40AAeSwpKlpV-8O/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates",
+        "price": 6.5,
+        "date": "2026-01-03T03:13:24Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/0PIJ",
+        "image_url": "https://i.ebayimg.com/images/g/9EwAAeSwlj1pTvGp/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mega Box RC Refractor Rookie #31 Pirates",
+        "price": 14.5,
+        "date": "2026-01-03T03:13:04Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/8kdn",
+        "image_url": "https://i.ebayimg.com/images/g/baIAAeSwOA1pTtbo/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome #31 Paul Skenes RC Pittsburgh Pirates",
+        "price": 3.99,
+        "date": "2026-01-01T17:02:30.389709Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/Z1CP",
+        "image_url": "https://i.ebayimg.com/images/g/dIgAAeSwChBpVorU/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 52.51,
+        "date": "2026-01-01T17:02:29.788660Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/D9oi",
+        "image_url": "https://i.ebayimg.com/images/g/yC4AAeSw0CNpVpr8/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mega Box RC Refractor Rookie #31 Pirates",
+        "price": 15.5,
+        "date": "2026-01-03T03:48:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/HVaP",
+        "image_url": "https://i.ebayimg.com/images/g/4iYAAeSwRXhpUfnD/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box Mojo Refractor Paul Skenes #31 Rookie RC",
+        "price": 17.5,
+        "date": "2026-01-02T03:37:52Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/zaNo",
+        "image_url": "https://i.ebayimg.com/images/g/ViEAAeSwjQJpSg8x/s-l225.jpg"
+      },
+      {
+        "title": "2024 Topps Bowman Chrome #31 Paul Skenes RC Card Pirates",
+        "price": 18,
+        "date": "2025-12-30T17:02:02.832803Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/ZBIc",
+        "image_url": "https://i.ebayimg.com/images/g/Q74AAeSwPWlpU-h2/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 Rookie RC",
+        "price": 12.5,
+        "date": "2026-01-01T03:43:16Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/K65B",
+        "image_url": "https://i.ebayimg.com/images/g/A84AAeSwIyxpSy-5/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes 2024 Bowman Chrome - Mojo Refractor #31  (RC) Pittsburgh Pirates",
+        "price": 19.99,
+        "date": "2025-12-29T17:02:18.243622Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/QRbI",
+        "image_url": "https://i.ebayimg.com/images/g/mZYAAeSwWEhpUkTW/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes #31 0u5i",
+        "price": 6.29,
+        "date": "2025-12-28T17:02:17.933012Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/bS8n",
+        "image_url": "https://i.ebayimg.com/images/g/M2MAAeSwuRFpUTZa/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box #31 Paul Skenes Pirates RC Rookie",
+        "price": 7.1,
+        "date": "2025-12-29T03:15:01Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/Itbx",
+        "image_url": "https://i.ebayimg.com/images/g/5YMAAeSw8xFpRDNe/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome -  Mojo Refractor #31 Paul Skenes (RC)",
+        "price": 20.5,
+        "date": "2025-12-28T14:25:46Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/u8ZB",
+        "image_url": "https://i.ebayimg.com/images/g/nCkAAOSwX59niZ6V/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box Mojo Refractor Paul Skenes #31 Rookie RC 1na5",
+        "price": 17.79,
+        "date": "2025-12-21T14:06:40.472210Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/6WkD",
+        "image_url": "https://i.ebayimg.com/images/g/UjEAAeSwjtVpR8qG/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box Mojo Refractor Paul Skenes #31 yl0",
+        "price": 17.79,
+        "date": "2025-12-18T16:10:00.464478Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/ywEp",
+        "image_url": "https://i.ebayimg.com/images/g/HRAAAeSwLHNpRBma/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 5,
+        "date": "2025-12-13T16:25:39.065454Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/sfhv",
+        "image_url": "https://i.ebayimg.com/images/g/ZZIAAeSwMEJpPOlc/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Rookie (RC) - Pittsburgh Pirates",
+        "price": 3.75,
+        "date": "2025-12-13T16:25:39.065454Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/IleH",
+        "image_url": "https://i.ebayimg.com/images/g/3qUAAeSwCldpPSP7/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Sapphire Paul Skenes #31 RC",
+        "price": 38.99,
+        "date": "2025-12-12T13:55:11.152486Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/qRGS",
+        "image_url": "https://i.ebayimg.com/images/g/DY8AAeSw-ctpO6tr/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+        "price": 80,
+        "date": "2025-12-11T15:44:46.007510Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/SLDE",
+        "image_url": "https://i.ebayimg.com/images/g/1WYAAeSw1hxpOryN/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Paul Skenes Mojo Refractor RC #31 Pirates",
+        "price": 20,
+        "date": "2025-12-09T16:24:29.189213Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/GKc3",
+        "image_url": "https://i.ebayimg.com/images/g/MR4AAeSwtItpNf8V/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome Mega Box Mojo Refractor Paul Skenes #31 Rookie RC",
+        "price": 13.99,
+        "date": "2025-12-05T21:02:16.406850Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/6Kjs",
+        "image_url": "https://i.ebayimg.com/images/g/GLIAAeSwCYNpMwbG/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes 2024 Bowman Chrome #31 Rookie (RC) - Pirates",
+        "price": 4.99,
+        "date": "2025-11-25T17:03:04.702742Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/sqLN",
+        "image_url": "https://i.ebayimg.com/images/g/1BgAAeSwN2RpJKRp/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Fuchsia Refractor /299 (RC)",
+        "price": 80,
+        "date": "2025-11-25T17:02:09.065503Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/Ycna",
+        "image_url": "https://i.ebayimg.com/images/g/gA4AAeSwwdVpJd8h/s-l225.jpg"
+      },
+      {
+        "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+        "price": 19.77,
+        "date": "2025-11-26T01:40:15Z",
+        "source": "ebay",
+        "listing_type": "auction",
+        "url": "https://showme.cards/wjK4",
+        "image_url": "https://i.ebayimg.com/images/g/TyQAAeSwCk1pHR9~/s-l225.jpg"
+      },
+      {
+        "title": "Paul Skenes 2024 Bowman Chrome Mega Box Mojo Refractor RC #31 PIRATES",
+        "price": 19.99,
+        "date": "2025-11-25T16:59:38.183772Z",
+        "source": "ebay",
+        "listing_type": "fixed",
+        "url": "https://showme.cards/HpWe",
+        "image_url": "https://i.ebayimg.com/images/g/7cwAAeSw--5pHT6d/s-l225.jpg"
+      }
+    ]
+  },
+  "graded": [
+    {
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7",
+      "grades": [
+        {
+          "grade_value": "10",
+          "grade_id": "4c004b81-2c7d-4d29-b69a-dc8d2f477aeb",
+          "period_days": null,
+          "count": 49,
+          "records": [
+            {
+              "title": "2024 BOWMAN CHROME PAUL SKENES #31 ROOKIE PSA 10",
+              "price": 125,
+              "date": "2026-04-24T16:04:45.248606Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/KGhF",
+              "image_url": "https://i.ebayimg.com/images/g/6ioAAeSwkuFp65Aq/s-l225.jpg",
+              "parallel_id": "67343568-19d4-4ddf-aaea-559fb3273eb9",
+              "parallel_name": "Rookie Color Run Gimmicks"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes PSA 10 #31 RC",
+              "price": 129.99,
+              "date": "2026-04-22T16:04:32.191499Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/uXH2",
+              "image_url": "https://i.ebayimg.com/images/g/nEEAAeSwwv9p6Mq6/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome: # 31 Paul Skenes PSA 10 GEM MINT",
+              "price": 112.5,
+              "date": "2026-04-22T03:55:06Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/BHnH",
+              "image_url": "https://i.ebayimg.com/images/g/YLUAAeSw-dNp2TcX/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes #31 (RC) PSA 10 Gem Mint Rookie Card -Pirates!",
+              "price": 110.5,
+              "date": "2026-04-21T16:36:53Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/WNLQ",
+              "image_url": "https://i.ebayimg.com/images/g/tAcAAeSwpZhp3myt/s-l225.jpg",
+              "parallel_id": "67343568-19d4-4ddf-aaea-559fb3273eb9",
+              "parallel_name": "Rookie Color Run Gimmicks"
+            },
+            {
+              "title": "2024 BOWMAN CHROME #31 PAUL SKENES ROOKIE RC PSA 10",
+              "price": 108.5,
+              "date": "2026-04-21T01:04:00Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/LuoW",
+              "image_url": "https://i.ebayimg.com/images/g/1RUAAeSwLQ1p2XA7/s-l225.jpg",
+              "parallel_id": "67343568-19d4-4ddf-aaea-559fb3273eb9",
+              "parallel_name": "Rookie Color Run Gimmicks"
+            },
+            {
+              "title": "2024 Bowman Chrome Baseball Refractor # 31 Paul Skenes RC 402/499 PSA 10 GEM",
+              "price": 256,
+              "date": "2026-04-13T00:54:51Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/gq9Z",
+              "image_url": "https://i.ebayimg.com/images/g/wzoAAeSwxSVp0wOr/s-l225.jpg",
+              "parallel_id": "f9efe877-c458-4068-8d0f-de323606b727",
+              "parallel_name": "Refractor"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes #31 Rookie Pittsburgh Pirates PSA 10",
+              "price": 116,
+              "date": "2026-04-13T00:00:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/y30I",
+              "image_url": "https://i.ebayimg.com/images/g/CXoAAeSw47Fp0GuY/s-l225.jpg"
+            },
+            {
+              "title": "2024 BOWMAN CHROME PAUL SKENES #31 ROOKIE CARD PSA 10 PIRATES (RC)",
+              "price": 137.5,
+              "date": "2026-04-07T00:15:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/Vf7W",
+              "image_url": "https://i.ebayimg.com/images/g/b0MAAeSwPwFpjW4S/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes #31 (RC) PSA 10 Gem Mint Rookie Card ",
+              "price": 125,
+              "date": "2026-04-05T16:03:51.719818Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/q6uH",
+              "image_url": "https://i.ebayimg.com/images/g/EPIAAeSwTIlpz650/s-l225.jpg"
+            },
+            {
+              "title": "Topps 2024 Bowman Chrome Sapphire Paul Skenes #31 PSA 10 Rookie Pirates",
+              "price": 182.5,
+              "date": "2026-04-06T00:24:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/v7lK",
+              "image_url": "https://i.ebayimg.com/images/g/NjYAAeSw33xpx~0~/s-l225.jpg"
+            },
+            {
+              "title": "PAUL SKENES - #31  Rookie   PSA 10 GEM MT  - 2024 Bowman Chrome",
+              "price": 112.5,
+              "date": "2026-04-05T02:00:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/90wv",
+              "image_url": "https://i.ebayimg.com/images/g/HCgAAeSw9fpptybv/s-l225.jpg"
+            },
+            {
+              "title": "2024 BOWMAN CHROME #31 PAUL SKENES ROOKIE RC PSA 10",
+              "price": 111.55,
+              "date": "2026-04-04T19:50:53Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/tbLg",
+              "image_url": "https://i.ebayimg.com/images/g/rwUAAeSwfc9pyDDz/s-l225.jpg"
+            },
+            {
+              "title": "2024 Paul Skenes RC Bowman Chrome PSA 10 Gem Mint #31 Pittsburgh Pirates ",
+              "price": 116,
+              "date": "2026-04-02T01:19:29Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/OgJZ",
+              "image_url": "https://i.ebayimg.com/images/g/b7MAAeSw5rNpxIiB/s-l225.jpg"
+            },
+            {
+              "title": "2024 BOWMAN CHROME #31 PAUL SKENES ROOKIE RC PSA 10",
+              "price": 111.5,
+              "date": "2026-03-28T01:23:00Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/gQu1",
+              "image_url": "https://i.ebayimg.com/images/g/JwMAAeSw8qVpvDGf/s-l225.jpg"
+            },
+            {
+              "title": "147559690 Paul Skenes 2024 Bowman Chrome #31 Refractor Mega Box Rookie RC PSA 10",
+              "price": 157.5,
+              "date": "2026-03-26T02:55:00Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/FRUE",
+              "image_url": "https://i.ebayimg.com/images/g/PbQAAeSw7oZpuxno/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes #31 PSA 10 GEM MINT Rookie RC Pirates",
+              "price": 169,
+              "date": "2026-03-24T16:03:15.217653Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/l3tH",
+              "image_url": "https://i.ebayimg.com/images/g/QoEAAeSwjStpwkI3/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Baseball Paul Skenes #31 PIRATES Rookie Card PSA GEM MINT 10",
+              "price": 122.5,
+              "date": "2026-03-17T20:09:55Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/E1pr",
+              "image_url": "https://i.ebayimg.com/images/g/hBIAAeSwiC1pHNTQ/s-l225.jpg"
+            },
+            {
+              "title": "2024 BOWMAN CHROME MB #31 PAUL SKENES ROOKIE RC PSA 10",
+              "price": 140,
+              "date": "2026-03-16T01:24:00Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/Clv8",
+              "image_url": "https://i.ebayimg.com/images/g/crQAAeSwZyJpqwVS/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome #31 Paul Skenes Rookie RC Pirates PSA 10 Gem MT BNB27",
+              "price": 106.66,
+              "date": "2026-03-13T20:54:50Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/02qX",
+              "image_url": "https://i.ebayimg.com/images/g/Bh8AAeSwGcNpfVh0/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes #31 Rookie Card Pittsburgh Pirates PSA 10 GEM MT!",
+              "price": 150,
+              "date": "2026-03-12T16:02:41.112719Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/MVWq",
+              "image_url": "https://i.ebayimg.com/images/g/KjcAAeSwIY9psqnz/s-l225.jpg"
+            },
+            {
+              "title": "2024 Paul Skenes PSA 10 Rookie Card Bowman Chrome #31 Pirates Baseball",
+              "price": 108.05,
+              "date": "2026-03-13T00:15:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/XGCv",
+              "image_url": "https://i.ebayimg.com/images/g/-x8AAeSwP2Vppi7r/s-l225.jpg"
+            },
+            {
+              "title": "2024 BOWMAN CHROME MB #31 PAUL SKENES PSA 10",
+              "price": 159.99,
+              "date": "2026-03-11T16:02:55.022699Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/PFzI",
+              "image_url": "https://i.ebayimg.com/images/g/dZIAAeSwAvJpsYZw/s-l225.jpg"
+            },
+            {
+              "title": "2024 BOWMAN CHROME #31 PAUL SKENES ROOKIE RC PSA 10",
+              "price": 98,
+              "date": "2026-03-08T02:25:00Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/hK0T",
+              "image_url": "https://i.ebayimg.com/images/g/6c8AAeSwfiVpoZY8/s-l225.jpg"
+            },
+            {
+              "title": "PAUL SKENES 2024 Bowman Chrome SAPPHIRE #31 RC PSA 10 \ud83d\udc8e",
+              "price": 203.5,
+              "date": "2026-03-05T02:44:05Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/bTM8",
+              "image_url": "https://i.ebayimg.com/images/g/92UAAeSwOURpn7Kr/s-l225.jpg"
+            },
+            {
+              "title": "2024 BOWMAN CHROME PAUL SKENES #31 ROOKIE CARD PSA 10 PIRATES (RC)",
+              "price": 115,
+              "date": "2026-03-03T17:02:26.001916Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/kOgE",
+              "image_url": "https://i.ebayimg.com/images/g/2SYAAeSwkj1pkce7/s-l225.jpg",
+              "parallel_id": "6a159336-c584-478f-94f2-3028bb711738",
+              "parallel_name": "Fuchsia Refractor"
+            },
+            {
+              "title": "2024 BOWMAN CHROME REFRACTOR #31 PAUL SKENES ROOKIE RC 334/499 PSA 10",
+              "price": 192.5,
+              "date": "2026-03-03T02:27:00Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/nBTV",
+              "image_url": "https://i.ebayimg.com/images/g/DIIAAeSw7ylpm4P5/s-l225.jpg"
+            },
+            {
+              "title": "2024 BOWMAN CHROME #31 PAUL SKENES PSA 10",
+              "price": 179,
+              "date": "2026-02-27T17:02:22.470862Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/F2e5",
+              "image_url": "https://i.ebayimg.com/images/g/AzUAAeSwUStpoclm/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates PSA 10",
+              "price": 105.05,
+              "date": "2026-02-26T20:05:11Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/x0lO",
+              "image_url": "https://i.ebayimg.com/images/g/wbcAAeSwi5dpmg~Y/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 (RC) PSA 10",
+              "price": 99,
+              "date": "2026-02-25T17:02:29.151531Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/blwl",
+              "image_url": "https://i.ebayimg.com/images/g/VxwAAeSw7YVpnxfv/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates PSA 10",
+              "price": 118.5,
+              "date": "2026-02-22T02:05:18Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/vaVk",
+              "image_url": "https://i.ebayimg.com/images/g/KwUAAeSwCBhpk3NS/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC) PSA 10",
+              "price": 105.05,
+              "date": "2026-02-15T22:13:31Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/hAD3",
+              "image_url": "https://i.ebayimg.com/images/g/gDMAAeSwfi9piQpC/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes Mega Box RC Refractor #31 Pirates PSA 10",
+              "price": 103.5,
+              "date": "2026-02-15T01:46:29Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/2lg3",
+              "image_url": "https://i.ebayimg.com/images/g/92cAAeSwzFhpilLE/s-l225.jpg"
+            },
+            {
+              "title": "PSA 10 2024 Bowman Chrome Paul Skenes #31 RC Rookie Pittsburgh Pirates GEM MT",
+              "price": 130,
+              "date": "2026-02-11T17:02:11.951635Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/ysND",
+              "image_url": "https://i.ebayimg.com/images/g/nJUAAeSw5EhpjJ-N/s-l225.jpg"
+            },
+            {
+              "title": "2024 BOWMAN CHROME SAPPHIRE ED #31 PAUL SKENES PSA 10",
+              "price": 279,
+              "date": "2026-02-10T17:02:07.916378Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/7tAo",
+              "image_url": "https://i.ebayimg.com/images/g/3GwAAeSwVkBpi1et/s-l225.jpg"
+            },
+            {
+              "title": "PSA 10 2024 Bowman Chrome Paul Skenes #31 RC Rookie Pittsburgh Pirates GEM MT",
+              "price": 91,
+              "date": "2026-02-05T03:00:52Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/Wnr3",
+              "image_url": "https://i.ebayimg.com/images/g/ah4AAeSwqxdpes0S/s-l225.jpg"
+            },
+            {
+              "title": "PSA 10 2024 Bowman Chrome Fuchsia Refractor /299 Paul Skenes RC Rookie #31",
+              "price": 275,
+              "date": "2026-01-31T17:02:54.618352Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/lcfy",
+              "image_url": "https://i.ebayimg.com/images/g/FEoAAeSwsFtpfbUr/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome #31 Paul Skenes Pittsburgh Pirates RC Rookie PSA 10",
+              "price": 115.5,
+              "date": "2026-01-27T03:30:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/IfdS",
+              "image_url": "https://i.ebayimg.com/images/g/FDEAAeSwQRppamrM/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Sapphire Paul Skenes #31 PSA 10",
+              "price": 202,
+              "date": "2026-01-26T01:00:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/DHHG",
+              "image_url": "https://i.ebayimg.com/images/g/ucQAAeSwTwVpa~wO/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Sapphire Paul Skenes #31 PSA 10",
+              "price": 167,
+              "date": "2026-01-26T02:05:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/g5Cf",
+              "image_url": "https://i.ebayimg.com/images/g/xZAAAeSwE39pa~0t/s-l225.jpg"
+            },
+            {
+              "title": "132431209 Paul Skenes 2024 Bowman Chrome #31 Mega Refractor Rookie RC PSA 10",
+              "price": 124.5,
+              "date": "2026-01-22T02:40:00Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/2pKW",
+              "image_url": "https://i.ebayimg.com/images/g/UVgAAeSwUdppZ~2q/s-l225.jpg"
+            },
+            {
+              "title": "2024 BOWMAN CHROME #31 PAUL SKENES ROOKIE RC PSA 10",
+              "price": 100.09,
+              "date": "2026-01-21T20:20:34Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/zb4U",
+              "image_url": "https://i.ebayimg.com/images/g/KdYAAeSwwkZpZ~pq/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome PAUL SKENES #31 RC Rookie Pittsburgh Pirates PSA 10 GEM MINT",
+              "price": 149.99,
+              "date": "2026-01-17T17:02:35.050263Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/VwUe",
+              "image_url": "https://i.ebayimg.com/images/g/WVwAAeSw~g5pa6f4/s-l225.jpg"
+            },
+            {
+              "title": "137183158 Paul Skenes 2024 Bowman Chrome #31 Rookie RC PSA 10",
+              "price": 91,
+              "date": "2026-01-16T02:38:00Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/pRqs",
+              "image_url": "https://i.ebayimg.com/images/g/Xs8AAeSw4qlpWtCf/s-l225.jpg"
+            },
+            {
+              "title": "137183156 Paul Skenes 2024 Bowman Chrome #31 Rookie RC PSA 10",
+              "price": 98,
+              "date": "2026-01-14T03:05:00Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/AGGn",
+              "image_url": "https://i.ebayimg.com/images/g/CIMAAeSwWUZpWtBi/s-l225.jpg"
+            },
+            {
+              "title": "137183154 Paul Skenes 2024 Bowman Chrome #31 Rookie RC PSA 10",
+              "price": 104.5,
+              "date": "2026-01-12T03:51:00Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/7grm",
+              "image_url": "https://i.ebayimg.com/images/g/BwUAAeSwo~hpWtBC/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Mega Box Paul Skenes PSA 10 RC Rookie #31 Mojo",
+              "price": 99,
+              "date": "2025-12-28T17:02:15.123879Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/1wUG",
+              "image_url": "https://i.ebayimg.com/images/g/ju8AAeSwG0VpUUlI/s-l225.jpg"
+            },
+            {
+              "title": "2024 BOWMAN CHROME MB #31 PAUL SKENES PSA 10",
+              "price": 115,
+              "date": "2025-12-26T17:02:08.976538Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/SuZW",
+              "image_url": "https://i.ebayimg.com/images/g/OREAAeSwDN1pTrF7/s-l225.jpg"
+            },
+            {
+              "title": "Paul Skenes Pirates RC 2024 Bowman Chrome #31 PSA 10 GEM-MT",
+              "price": 100,
+              "date": "2025-12-09T16:22:50.252996Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/6PM0",
+              "image_url": "https://i.ebayimg.com/images/g/frwAAeSwy2xpODQi/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes #31 PSA 10 GEM MT Rookie RC",
+              "price": 70.35,
+              "date": "2025-11-25T17:03:05.225016Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/C2t5",
+              "image_url": "https://i.ebayimg.com/images/g/T8oAAeSwSTlpJKEC/s-l225.jpg"
+            }
+          ]
+        },
+        {
+          "grade_value": "9",
+          "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+          "period_days": null,
+          "count": 57,
+          "records": [
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 (RC) PSA 9",
+              "price": 11.61,
+              "date": "2026-04-24T01:38:09Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/3g4d",
+              "image_url": "https://i.ebayimg.com/images/g/mDoAAeSw5vBp4Y7g/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes #31 Rookie Pittsburgh Pirates RC PSA 9",
+              "price": 17.16,
+              "date": "2026-04-20T01:16:14Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/wJKJ",
+              "image_url": "https://i.ebayimg.com/images/g/RAQAAeSw9fpp3EOH/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Sapphire Paul Skenes RC Rookie #31 Pirates PSA 9",
+              "price": 86,
+              "date": "2026-04-14T01:24:17Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/C8mI",
+              "image_url": "https://i.ebayimg.com/images/g/Bb8AAeSwKnpp1psh/s-l225.jpg",
+              "parallel_id": "67343568-19d4-4ddf-aaea-559fb3273eb9",
+              "parallel_name": "Rookie Color Run Gimmicks"
+            },
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 (RC) PSA 9",
+              "price": 28,
+              "date": "2026-04-11T19:39:06Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/oXdz",
+              "image_url": "https://i.ebayimg.com/images/g/2eQAAeSwUStpo1Hy/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Special Edition Paul Skenes RC #31 Rookie PSA 9",
+              "price": 57,
+              "date": "2026-04-10T00:11:36Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/z5Qu",
+              "image_url": "https://i.ebayimg.com/images/g/k3AAAeSwqaJpzwX4/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates PSA 9",
+              "price": 25.2,
+              "date": "2026-04-09T00:55:42Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/cTXm",
+              "image_url": "https://i.ebayimg.com/images/g/vogAAeSwtLtpz9aS/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Topps Paul Skenes #31 Mojo Refractor Rookie PSA 9 Pirates",
+              "price": 31,
+              "date": "2026-04-08T00:03:46Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/4puw",
+              "image_url": "https://i.ebayimg.com/images/g/r~YAAeSwf1VpzGC1/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates PSA 9",
+              "price": 23.05,
+              "date": "2026-04-01T02:07:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/NMc3",
+              "image_url": "https://i.ebayimg.com/images/g/Pz0AAeSwnuZpwpvX/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 (RC) PSA 9",
+              "price": 29.99,
+              "date": "2026-03-28T16:02:51.304433Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/uOhH",
+              "image_url": "https://i.ebayimg.com/images/g/MVEAAeSwTP1px~rA/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes #31 PSA 9 MINT g0n",
+              "price": 47.4,
+              "date": "2026-03-27T16:03:23.529011Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/uZq4",
+              "image_url": "https://i.ebayimg.com/images/g/HDcAAeSw-2BpxpDE/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome #31 Paul Skenes Pirates RC Rookie PSA 9 MINT",
+              "price": 51,
+              "date": "2026-03-26T02:02:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/roek",
+              "image_url": "https://i.ebayimg.com/images/g/nIEAAeSw~Wxpusq5/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates PSA 9",
+              "price": 24.38,
+              "date": "2026-03-24T01:51:40Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/kw5E",
+              "image_url": "https://i.ebayimg.com/images/g/LzMAAeSwJ21puuN3/s-l225.jpg"
+            },
+            {
+              "title": "Paul Skenes 2024 Bowman Chrome #31 Rookie RC PSA 9",
+              "price": 27,
+              "date": "2026-03-21T02:13:18Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/Sh2C",
+              "image_url": "https://i.ebayimg.com/images/g/ONwAAeSwAvJptMQQ/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates PSA 9",
+              "price": 35,
+              "date": "2026-03-17T02:00:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/LuwR",
+              "image_url": "https://i.ebayimg.com/images/g/V3kAAeSwbQhprugQ/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome #31 Paul Skenes PSA 9",
+              "price": 25.49,
+              "date": "2026-03-15T13:48:57Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/XiDh",
+              "image_url": "https://i.ebayimg.com/images/g/ZkUAAeSwzkVpa9us/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC) PSA 9 Mint",
+              "price": 22.08,
+              "date": "2026-03-09T20:15:59Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/GAyT",
+              "image_url": "https://i.ebayimg.com/images/g/JsYAAeSwumBppf34/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 Aqua Mojo Refractor 035/299 (RC) PSA 9",
+              "price": 90,
+              "date": "2026-03-09T00:07:11Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/xvJ1",
+              "image_url": "https://i.ebayimg.com/images/g/wQ8AAeSwXVZpp4V0/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC) PSA 9",
+              "price": 19.02,
+              "date": "2026-03-08T04:39:30Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/f8C8",
+              "image_url": "https://i.ebayimg.com/images/g/-SQAAeSw0tFpo8KH/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 (RC) PSA 9",
+              "price": 28,
+              "date": "2026-03-08T03:15:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/0wLH",
+              "image_url": "https://i.ebayimg.com/images/g/~z0AAeSwVi5poyEG/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates PSA 9",
+              "price": 27,
+              "date": "2026-03-08T00:48:44Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/uze8",
+              "image_url": "https://i.ebayimg.com/images/g/NDIAAeSwzrJppdPm/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Refractor Rookie Paul Skenes #31 /499 PSA 9 Pirates",
+              "price": 90,
+              "date": "2026-03-05T17:02:34.206525Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/f5oM",
+              "image_url": "https://i.ebayimg.com/images/g/0LIAAeSwlYJpqaGQ/s-l225.jpg"
+            },
+            {
+              "title": "Paul Skenes 2024 Bowman Chrome Sapphire #31 Rookie RC PSA 9 Pittsburgh Pirates",
+              "price": 66,
+              "date": "2026-03-05T23:04:33Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/42ty",
+              "image_url": "https://i.ebayimg.com/images/g/ehIAAeSw1mxpnNy7/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Mega Box Paul Skenes Mojo Refractor Rookie #31 PSA 9 Mint",
+              "price": 22.5,
+              "date": "2026-03-03T02:24:00Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/52xj",
+              "image_url": "https://i.ebayimg.com/images/g/UxQAAeSwH4lpnI0a/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC) PSA 9",
+              "price": 39.99,
+              "date": "2026-03-01T17:02:18.417304Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/MKHO",
+              "image_url": "https://i.ebayimg.com/images/g/O9gAAeSwmzZppFg7/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes #31 PSA Graded Mint 9 Pirates",
+              "price": 19.99,
+              "date": "2026-02-19T18:34:02Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/ZLa5",
+              "image_url": "https://i.ebayimg.com/images/g/-xcAAeSw4GxpMkml/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 Rookie Mojo Refractor RC PSA 9",
+              "price": 38,
+              "date": "2026-02-19T00:00:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/7Ike",
+              "image_url": "https://i.ebayimg.com/images/g/UiIAAeSwat9pjQ3r/s-l225.jpg"
+            },
+            {
+              "title": "2024 BOWMAN CHROME MEGA BOX #31 PAUL SKENES ROOKIE RC PSA 9",
+              "price": 35,
+              "date": "2026-02-16T02:33:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/ZRmb",
+              "image_url": "https://i.ebayimg.com/images/g/EHQAAeSwOI5ph8vQ/s-l225.jpg"
+            },
+            {
+              "title": "PSA 9 (Mint) grade for the 2024 Bowman Chrome Paul Skenes #31 rookie",
+              "price": 26,
+              "date": "2026-02-13T20:28:54Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/0tko",
+              "image_url": "https://i.ebayimg.com/images/g/gh8AAeSwmnlphO32/s-l225.jpg"
+            },
+            {
+              "title": "142158277 Paul Skenes 2024 Bowman Chrome Sapphire #31 Rookie RC PSA 9",
+              "price": 78,
+              "date": "2026-02-12T02:56:00Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/QTUE",
+              "image_url": "https://i.ebayimg.com/images/g/VIYAAeSw22Rpg8qo/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates PSA 9",
+              "price": 38,
+              "date": "2026-02-12T02:33:30Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/tc5m",
+              "image_url": "https://i.ebayimg.com/images/g/ZBwAAeSwjoxphYME/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates PSA 9",
+              "price": 28.07,
+              "date": "2026-02-12T02:33:36Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/4JaC",
+              "image_url": "https://i.ebayimg.com/images/g/WWUAAeSwj6NphYLN/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Mega Box Refractor Paul Skenes #31 PSA 9 RC ROOKIE",
+              "price": 36,
+              "date": "2026-02-11T02:31:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/8gFf",
+              "image_url": "https://i.ebayimg.com/images/g/rKYAAeSw0bRpgjdN/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome #31 Paul Skenes RC PSA 9 - No Reserve",
+              "price": 19.5,
+              "date": "2026-02-08T01:12:59Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/w5k2",
+              "image_url": "https://i.ebayimg.com/images/g/S-AAAeSwDI1pgUlL/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Mega Box #31 Paul Skenes Pirates rC Rookie PSA 9 MINT",
+              "price": 32,
+              "date": "2026-02-06T03:25:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/yc0T",
+              "image_url": "https://i.ebayimg.com/images/g/W5IAAeSwZUppe4yq/s-l225.jpg",
+              "parallel_id": "67343568-19d4-4ddf-aaea-559fb3273eb9",
+              "parallel_name": "Rookie Color Run Gimmicks"
+            },
+            {
+              "title": "2024 Bowman Chrome Mojo M/B #31 Paul Skenes Rookie RC PSA 9",
+              "price": 32,
+              "date": "2026-01-25T17:02:29.763590Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/h8ao",
+              "image_url": "https://i.ebayimg.com/images/g/Te8AAeSw779pdj1J/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome #31 Paul Skenes RC PSA 9",
+              "price": 17.51,
+              "date": "2026-01-26T01:31:27Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/g6Ej",
+              "image_url": "https://i.ebayimg.com/images/g/wl8AAeSwh~NpbYny/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Sapphire #31 Paul Skenes Orange 15/25 PSA 9",
+              "price": 292,
+              "date": "2026-01-26T02:00:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/jWwG",
+              "image_url": "https://i.ebayimg.com/images/g/YzcAAeSwAkppa~fN/s-l225.jpg",
+              "parallel_id": "5228eb4e-7e08-44e5-a982-fe70273071c6",
+              "parallel_name": "Orange Refractor"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes Rookie Card #31 Pirates",
+              "price": 6.99,
+              "date": "2026-01-25T15:45:00Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/qVXh",
+              "image_url": "https://i.ebayimg.com/images/g/EN0AAeSwOotpWoqj/s-l225.jpg",
+              "parallel_id": "5228eb4e-7e08-44e5-a982-fe70273071c6",
+              "parallel_name": "Orange Refractor"
+            },
+            {
+              "title": "Paul Skenes 2024 Bowman Chrome Mega Box #31 Rookie Card RC Pirates PSA 9 MINT",
+              "price": 32,
+              "date": "2026-01-25T23:29:05Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/EWMT",
+              "image_url": "https://i.ebayimg.com/images/g/vFoAAeSwbSxpbWx5/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 (RC) PSA 9",
+              "price": 17.5,
+              "date": "2026-01-26T00:49:29Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/fSvB",
+              "image_url": "https://i.ebayimg.com/images/g/plMAAeSwncRpaXgA/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 (RC)",
+              "price": 3.76,
+              "date": "2026-01-25T01:33:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/cPlD",
+              "image_url": "https://i.ebayimg.com/images/g/eLUAAeSwFBlpZ8BX/s-l225.jpg",
+              "parallel_id": "5228eb4e-7e08-44e5-a982-fe70273071c6",
+              "parallel_name": "Orange Refractor"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes #31 PSA 9 MINT 1dh2",
+              "price": 30.15,
+              "date": "2026-01-22T17:02:36.177086Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/U1QZ",
+              "image_url": "https://i.ebayimg.com/images/g/eMEAAeSwUOJpcir9/s-l225.jpg"
+            },
+            {
+              "title": "2024 BOWMAN CHROME SP #31 PAUL SKENES PSA 9",
+              "price": 140,
+              "date": "2026-01-21T17:02:22.397232Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/LuSi",
+              "image_url": "https://i.ebayimg.com/images/g/zNEAAeSwfQlpcPOn/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+              "price": 25,
+              "date": "2026-01-21T17:02:21.856861Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/EDxq",
+              "image_url": "https://i.ebayimg.com/images/g/EpQAAeSwe0lpcQGP/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+              "price": 19.99,
+              "date": "2026-01-18T17:02:24.943426Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/4RGs",
+              "image_url": "https://i.ebayimg.com/images/g/1OUAAeSwXA1pbPv8/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+              "price": 19.98,
+              "date": "2026-01-18T17:02:24.338622Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/FjGv",
+              "image_url": "https://i.ebayimg.com/images/g/OFwAAeSwd3hpbQc5/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+              "price": 120,
+              "date": "2026-01-16T17:02:36.040189Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/qErD",
+              "image_url": "https://i.ebayimg.com/images/g/W1AAAeSwm4ZpakVA/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+              "price": 25,
+              "date": "2026-01-13T17:02:28.562450Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/CjIc",
+              "image_url": "https://i.ebayimg.com/images/g/1r8AAeSwRA5pZlKx/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+              "price": 19.95,
+              "date": "2026-01-13T17:02:27.974202Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/ZYAk",
+              "image_url": "https://i.ebayimg.com/images/g/7zUAAeSwMixpZl4s/s-l225.jpg"
+            },
+            {
+              "title": "137183157 Paul Skenes 2024 Bowman Chrome #31 Rookie RC PSA 9",
+              "price": 26,
+              "date": "2026-01-14T03:18:00Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/Oi5K",
+              "image_url": "https://i.ebayimg.com/images/g/kwUAAeSwi79pWtC4/s-l225.jpg"
+            },
+            {
+              "title": "137183160 Paul Skenes 2024 Bowman Chrome #31 Rookie RC PSA 9",
+              "price": 20.5,
+              "date": "2026-01-14T02:13:00Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/qvrn",
+              "image_url": "https://i.ebayimg.com/images/g/m6cAAeSwAYBpWtCc/s-l225.jpg"
+            },
+            {
+              "title": "137235157 Paul Skenes 2024 Bowman Chrome #31 Rookie RC PSA 9",
+              "price": 26,
+              "date": "2026-01-14T02:05:00Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/BSwy",
+              "image_url": "https://i.ebayimg.com/images/g/RF0AAeSwSytpXYyJ/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC) PSA 9",
+              "price": 29.99,
+              "date": "2026-01-09T17:02:23.220505Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/3Oj4",
+              "image_url": "https://i.ebayimg.com/images/g/RCIAAeSw4OBpYPfv/s-l225.jpg"
+            },
+            {
+              "title": "2024 BOWMAN CHROME SAPPHIRE PAUL SKENES #31 GOLD REFRACTOR ROOKIE /50 PSA 9!",
+              "price": 299.99,
+              "date": "2026-01-04T17:02:19.682010Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/uxlp",
+              "image_url": "https://i.ebayimg.com/images/g/eWIAAeSwvUBpWilj/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Mega Box Paul Skenes #31 PSA 9",
+              "price": 47.24,
+              "date": "2026-01-02T17:02:19.832712Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/bEL9",
+              "image_url": "https://i.ebayimg.com/images/g/5ZEAAeSwVSBpV~C9/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+              "price": 45,
+              "date": "2025-12-29T17:02:17.532327Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/9HCw",
+              "image_url": "https://i.ebayimg.com/images/g/~moAAeSwbz1pUqN7/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC)",
+              "price": 19.99,
+              "date": "2025-12-09T16:24:19.298624Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/KoPZ",
+              "image_url": "https://i.ebayimg.com/images/g/MJ0AAeSwCyppOAdi/s-l225.jpg"
+            }
+          ]
+        },
+        {
+          "grade_value": "8",
+          "grade_id": "8cf6b653-cbee-4ffd-92aa-c3de253560a2",
+          "period_days": null,
+          "count": 12,
+          "records": [
+            {
+              "title": "2024 Bowman Chrome Mega Box #31 Paul Skenes Pirates RC Rookie PSA 8 NM-MT",
+              "price": 10.5,
+              "date": "2026-04-07T02:15:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/RXNa",
+              "image_url": "https://i.ebayimg.com/images/g/U~wAAeSwaMJpyrNs/s-l225.jpg"
+            },
+            {
+              "title": "Bowman 2024 Chrome Paul Skenes Mojo Refractor Rookie #31 PSA 8 Pirates",
+              "price": 20,
+              "date": "2026-03-30T16:03:29.498011Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/DBNC",
+              "image_url": "https://i.ebayimg.com/images/g/DegAAeSw2QVpypqy/s-l225.jpg"
+            },
+            {
+              "title": "2024 BOWMAN CHROME MB #31 PAUL SKENES PSA 8",
+              "price": 18.5,
+              "date": "2026-03-30T01:21:00Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/JLZw",
+              "image_url": "https://i.ebayimg.com/images/g/osoAAeSwVZdputSM/s-l225.jpg"
+            },
+            {
+              "title": "2024 BOWMAN CHROME #31 PAUL SKENES ROOKIE RC PSA 8",
+              "price": 14.5,
+              "date": "2026-03-11T22:06:48Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/VI19",
+              "image_url": "https://i.ebayimg.com/images/g/Q04AAeSwK9ZpqLrs/s-l225.jpg"
+            },
+            {
+              "title": "2024 BOWMAN CHROME #31 PAUL SKENES ROOKIE RC PSA 8",
+              "price": 14.99,
+              "date": "2026-03-10T16:02:34.841961Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/tZGH",
+              "image_url": "https://i.ebayimg.com/images/g/SnkAAeSw3ylpr6Vh/s-l225.jpg"
+            },
+            {
+              "title": "2024 BOWMAN CHROME #31 PAUL SKENES ROOKIE RC PSA 8",
+              "price": 11.5,
+              "date": "2026-03-09T22:05:05Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/Wukq",
+              "image_url": "https://i.ebayimg.com/images/g/R~IAAeSwD2NpqLpz/s-l225.jpg"
+            },
+            {
+              "title": "Paul Skenes 2024 Bowman Chrome Blue Sapphire #31 Rookie RC PSA 8 Pirates",
+              "price": 21.5,
+              "date": "2026-02-21T00:34:38Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/ULTK",
+              "image_url": "https://i.ebayimg.com/images/g/PaQAAeSwCOppj8Kd/s-l225.jpg"
+            },
+            {
+              "title": "2024 BOWMAN CHROME #31 PAUL SKENES ROOKIE RC PSA 8",
+              "price": 12.08,
+              "date": "2026-02-14T02:32:00Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/PPYH",
+              "image_url": "https://i.ebayimg.com/images/g/8QcAAeSw2AdphWaG/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Mega Box Paul Skenes RC #31 PSA 8 NM-MT Pirates",
+              "price": 12.5,
+              "date": "2026-02-09T03:09:03Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/XQ2A",
+              "image_url": "https://i.ebayimg.com/images/g/~KUAAeSwoRFpfCAO/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates PSA 8",
+              "price": 20.5,
+              "date": "2026-02-03T00:55:59Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/v2vN",
+              "image_url": "https://i.ebayimg.com/images/g/zOIAAeSwGJZpeksg/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Mega Box Mojo Paul Skenes #31 RC PSA 8 Pittsburgh Pirates B4",
+              "price": 19.99,
+              "date": "2026-01-30T17:02:24.743530Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/UXjR",
+              "image_url": "https://i.ebayimg.com/images/g/SyAAAeSwxbxpfM2a/s-l225.jpg"
+            },
+            {
+              "title": "2024 BOWMAN CHROME MEGA BOX #31 PAUL SKENES ROOKIE RC PSA 8",
+              "price": 20,
+              "date": "2026-01-15T17:02:42.908171Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/GlFB",
+              "image_url": "https://i.ebayimg.com/images/g/3FQAAeSwNL5paQM-/s-l225.jpg"
+            }
+          ]
+        },
+        {
+          "grade_value": "4",
+          "grade_id": "a8570f61-c057-46da-a302-eefaeee82d6e",
+          "period_days": null,
+          "count": 1,
+          "records": [
+            {
+              "title": "2024 BOWMAN CHROME #31 PAUL SKENES ROOKIE RC PSA 4",
+              "price": 9.52,
+              "date": "2026-02-24T02:21:00Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/MjxT",
+              "image_url": "https://i.ebayimg.com/images/g/9i0AAeSwOcNpkltW/s-l225.jpg"
+            }
+          ]
+        },
+        {
+          "grade_value": "9",
+          "grade_id": "0d346a0f-6d49-45f9-834c-16fa58a21358",
+          "period_days": null,
+          "count": 3,
+          "records": [
+            {
+              "title": "2024 Bowman Chrome Paul Skenes #31 PSA 9",
+              "price": 22.25,
+              "date": "2026-01-23T19:35:54Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/HYK2",
+              "image_url": "https://i.ebayimg.com/images/g/jCMAAeSwgllpaohu/s-l225.jpg"
+            },
+            {
+              "title": "Paul Skenes 2024 Bowman Chrome Mega Box Mojo Rookie #31 PSA 9 MINT - Pirates",
+              "price": 31,
+              "date": "2026-01-19T02:05:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/vQ5c",
+              "image_url": "https://i.ebayimg.com/images/g/oE8AAeSwBTJpZEWB/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes SP Image Variation #31 Rookie RC PSA 9 MINT",
+              "price": 130.99,
+              "date": "2026-01-12T04:30:05Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/8pnp",
+              "image_url": "https://i.ebayimg.com/images/g/95sAAeSwCFxpXahv/s-l225.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company_name": "CGC",
+      "company_id": "131e9c4b-9c30-4f2c-88a2-1b61e567bcc6",
+      "grades": [
+        {
+          "grade_value": "10",
+          "grade_id": "52cbd312-d62d-4c90-b4e5-8d23fe7a8b26",
+          "period_days": null,
+          "count": 4,
+          "records": [
+            {
+              "title": "2024 Bowman Chrome Sapphire #31 Paul Skenes CGC 10",
+              "price": 84.77,
+              "date": "2026-04-20T00:23:27Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/WAE1",
+              "image_url": "https://i.ebayimg.com/images/g/B74AAeSwnjlpqGeU/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Mega Box Paul Skenes #31 CGC Gem Mint 10 (RC)",
+              "price": 99.95,
+              "date": "2026-04-13T16:04:56.282967Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/4d4F",
+              "image_url": "https://i.ebayimg.com/images/g/dAIAAeSwcE5p3QKY/s-l225.jpg",
+              "parallel_id": "f9efe877-c458-4068-8d0f-de323606b727",
+              "parallel_name": "Refractor"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes Rookie Card 31 Pirates CGC 10 GEM MINT \ud83d\udc8e",
+              "price": 24.5,
+              "date": "2026-03-10T01:40:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/RflF",
+              "image_url": "https://i.ebayimg.com/images/g/bA8AAeSweeRppd8l/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes Rookie Card 31 Pirates CGC 10 GEM MINT \ud83d\udc8e",
+              "price": 32,
+              "date": "2026-02-27T03:20:37Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/KcOa",
+              "image_url": "https://i.ebayimg.com/images/g/uOcAAOSwn~pnkIOA/s-l225.jpg",
+              "parallel_id": "67343568-19d4-4ddf-aaea-559fb3273eb9",
+              "parallel_name": "Rookie Color Run Gimmicks"
+            }
+          ]
+        },
+        {
+          "grade_value": "9",
+          "grade_id": "e209754b-97bb-4938-8615-4f90751c6cad",
+          "period_days": null,
+          "count": 2,
+          "records": [
+            {
+              "title": "2024 Bowman Chrome Paul Skenes #31 CGC 9 Mint 1n94",
+              "price": 88.8,
+              "date": "2026-04-18T16:04:08.005276Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/oYXq",
+              "image_url": "https://i.ebayimg.com/images/g/JsYAAeSwXBNp43Ef/s-l225.jpg",
+              "parallel_id": "29f63498-3fae-4de8-a9a2-3845e8a87952",
+              "parallel_name": "Yellow Refractor"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes #31 CGC 9 Mint 1n94",
+              "price": 58.9,
+              "date": "2026-01-19T17:02:22.611628Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/9QLq",
+              "image_url": "https://i.ebayimg.com/images/g/qWMAAeSw4q9pbkFA/s-l225.jpg"
+            }
+          ]
+        },
+        {
+          "grade_value": "10",
+          "grade_id": "a70bcc0f-a693-416c-9c9b-dacce79824d5",
+          "period_days": null,
+          "count": 1,
+          "records": [
+            {
+              "title": "2024 Bowman Chrome CGC 10 - Paul Skenes #31 (RC)",
+              "price": 21.5,
+              "date": "2026-03-21T06:20:18Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/AOzW",
+              "image_url": "https://i.ebayimg.com/images/g/dSgAAeSwPqFptP2A/s-l225.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company_name": "SGC",
+      "company_id": "aa797bb1-ae21-440f-91b6-7484e47ce0ce",
+      "grades": [
+        {
+          "grade_value": "2",
+          "grade_id": "14e78b0f-b410-4251-9d61-ac1c610c640c",
+          "period_days": null,
+          "count": 5,
+          "records": [
+            {
+              "title": "Paul Skenes RC 2024 Bowman Chrome Mega Box #31 SGC 10 Pirates",
+              "price": 80,
+              "date": "2026-04-11T16:04:17.218610Z",
+              "source": "ebay",
+              "listing_type": "fixed",
+              "url": "https://showme.cards/v1zN",
+              "image_url": "https://i.ebayimg.com/images/g/rv8AAeSwILhp2mbM/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes RC Mega Box Refractor #31 Pirates SGC 9.5 Mojo",
+              "price": 31,
+              "date": "2026-03-24T01:45:01Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/E38y",
+              "image_url": "https://i.ebayimg.com/images/g/9FwAAeSw9uxpuFwE/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates SGC 9.5",
+              "price": 21.5,
+              "date": "2026-02-26T01:56:56Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/UHZW",
+              "image_url": "https://i.ebayimg.com/images/g/SRsAAeSwAWlpmJ5L/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes Mega Box RC Refractor #31 Pirates SGC 9.5",
+              "price": 41,
+              "date": "2026-02-18T01:26:06Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/bH7G",
+              "image_url": "https://i.ebayimg.com/images/g/mD0AAeSwotdpjiqE/s-l225.jpg"
+            },
+            {
+              "title": "2024 Bowman Chrome Paul Skenes RC Rookie #31 Pirates SGC 10",
+              "price": 39.09,
+              "date": "2025-12-28T02:20:42Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/9NSW",
+              "image_url": "https://i.ebayimg.com/images/g/KL0AAeSwjP1pSa-q/s-l225.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company_name": "Arena Club",
+      "company_id": "78e1d599-c8ee-4574-b31c-9bfd92d2bb9f",
+      "grades": [
+        {
+          "grade_value": "9",
+          "grade_id": "fd61fcdd-8568-4a58-ad44-990caf296036",
+          "period_days": null,
+          "count": 1,
+          "records": [
+            {
+              "title": "2024 Bowman Chrome - Paul Skenes #31 Mojo Refractor (RC) Arena Club 9",
+              "price": 15.5,
+              "date": "2026-02-08T19:48:46Z",
+              "source": "ebay",
+              "listing_type": "auction",
+              "url": "https://showme.cards/mjUM",
+              "image_url": "https://i.ebayimg.com/images/g/pO0AAeSwtI9pdovN/s-l225.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "sources": [
+      {
+        "source": "ebay",
+        "count": 433
+      }
+    ],
+    "last_sale_date": "2026-04-27T01:19:00Z",
+    "total_records": 433
+  }
+}

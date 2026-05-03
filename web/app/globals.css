@@ -1,0 +1,152 @@
+@import "tailwindcss";
+
+/* ----------------------------------------------------------------------------
+ * Cardex — Robinhood-aligned tokens.
+ *
+ * Pure black surface, bright neon up/down so direction is unmistakable
+ * across the page, single saffron / gold accent for "promoted" actions.
+ * --------------------------------------------------------------------------*/
+@theme {
+  /* Surfaces — near-black with the slightest blue tint */
+  --color-bg:           oklch(8%  0.005 250);   /* page */
+  --color-panel:        oklch(11% 0.006 250);   /* one elevation up (sidebar bg) */
+  --color-panel-2:      oklch(15% 0.007 250);   /* hover / second elevation */
+  --color-border:       oklch(20% 0.008 250);
+  --color-border-2:     oklch(28% 0.010 250);
+
+  /* Foreground stack */
+  --color-fg:           oklch(98% 0.003 250);   /* near white — Robinhood-bright */
+  --color-fg-2:         oklch(82% 0.004 250);
+  --color-muted:        oklch(60% 0.005 250);
+  --color-muted-2:      oklch(42% 0.005 250);
+
+  /* Up / down — Robinhood bright neon (vivid, never desaturated) */
+  --color-up:           oklch(78% 0.20 145);    /* bright neon green */
+  --color-up-quiet:     oklch(40% 0.15 145 / 0.18);
+  --color-down:         oklch(68% 0.22 25);     /* bright neon red */
+  --color-down-quiet:   oklch(38% 0.18 25 / 0.18);
+
+  /* Brand accent — saffron / gold (Robinhood Gold-style premium pop) */
+  --color-accent:       oklch(82% 0.16 80);
+  --color-accent-quiet: oklch(82% 0.16 80 / 0.16);
+  --color-accent-strong:oklch(82% 0.16 80);
+  --color-warn:         oklch(78% 0.16 80);
+
+  /* Info — keep one cool to differentiate Raw from Graded if needed */
+  --color-info:         oklch(72% 0.10 240);
+
+  /* Type stack */
+  --font-sans:  var(--font-inter, ui-sans-serif, system-ui);
+  --font-mono:  var(--font-jbmono, ui-monospace, SFMono-Regular, Menlo);
+
+  /* Motion tokens */
+  --ease-out:   cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-in:    cubic-bezier(0.7, 0, 0.84, 0);
+}
+
+:root {
+  font-feature-settings: "ss01", "cv11";
+}
+
+::selection { background: var(--color-accent); color: var(--color-bg); }
+
+html, body { background: var(--color-bg); color: var(--color-fg); }
+body {
+  font-family: var(--font-sans);
+  font-size: 14px;        /* Robinhood is fairly compact */
+  line-height: 1.45;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tabular { font-variant-numeric: tabular-nums; }
+
+/* Section eyebrow used for table headers and small captions */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+/* Pill — used for category buttons (Sport, Filter chips). Robinhood pills are
+   subtle dark with rounded-full + small icon. */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: 32px;
+  padding: 0 14px;
+  border-radius: 9999px;
+  background: var(--color-panel-2);
+  border: 1px solid transparent;
+  color: var(--color-fg-2);
+  font-size: 13px;
+  font-weight: 500;
+  transition: background 150ms var(--ease-out), color 150ms var(--ease-out), border-color 150ms var(--ease-out);
+}
+.pill:hover { background: var(--color-border); color: var(--color-fg); }
+.pill[aria-pressed="true"] {
+  background: var(--color-accent-quiet);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+/* Time range tab — underline on active, otherwise plain. */
+.timetab {
+  display: inline-flex;
+  align-items: center;
+  height: 32px;
+  padding: 0 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-muted);
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  transition: color 150ms var(--ease-out), border-color 150ms var(--ease-out);
+}
+.timetab:hover { color: var(--color-fg-2); }
+.timetab[aria-pressed="true"] {
+  color: var(--color-up);
+  border-bottom-color: var(--color-up);
+}
+
+/* Sparing scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-2);
+  border-radius: 4px;
+  border: 2px solid var(--color-bg);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--color-muted-2); }
+
+/* Skeleton shimmer — opacity-only, 1.4s, ease-in-out (functional motion). */
+@keyframes cdx-pulse {
+  0%, 100% { opacity: 0.55; }
+  50%      { opacity: 0.9; }
+}
+.skeleton {
+  background: var(--color-panel-2);
+  animation: cdx-pulse 1400ms ease-in-out infinite;
+}
+
+@keyframes cdx-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.animate-fade-in { animation: cdx-fade-in 150ms ease-out; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .skeleton { animation: none; opacity: 0.7; }
+}

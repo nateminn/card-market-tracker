@@ -1,0 +1,13 @@
+{
+  "_generated_at": "2026-04-27T17:11:37.039734+00:00",
+  "_note": "Player name \u2192 eBay thumbnail URL. Sourced from CardSight /pricing/{card_id} most-recent sale. Regenerate with `python src/seed_card_images.py`.",
+  "by_player": {
+    "Mike Trout": "https://i.ebayimg.com/images/g/YIsAAeSw171p46Sr/s-l225.jpg",
+    "Paul Skenes": "https://i.ebayimg.com/images/g/eWEAAeSw9G5p4no~/s-l225.jpg",
+    "Gunnar Henderson": "https://i.ebayimg.com/images/g/Z6AAAeSwcCJp44UC/s-l225.jpg",
+    "Jackson Holliday": "https://i.ebayimg.com/images/g/0CMAAeSwkxVp7iRg/s-l225.jpg",
+    "Wyatt Langford": "https://i.ebayimg.com/images/g/X-sAAeSwjCJp61N8/s-l225.jpg",
+    "Junior Caminero": "https://i.ebayimg.com/images/g/lkgAAeSwdYJp5QM0/s-l225.jpg",
+    "Yoshinobu Yamamoto": "https://i.ebayimg.com/images/g/~sYAAeSwLqJp56Xl/s-l225.jpg"
+  }
+}

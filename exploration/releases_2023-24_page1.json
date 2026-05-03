@@ -1,0 +1,590 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/catalog/releases",
+    "params": {
+      "year": "2023-24",
+      "take": 100,
+      "skip": 0
+    },
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 92,
+  "_elapsed_s": 0.25,
+  "data": {
+    "releases": [
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "afb6d4ca-9114-42dd-af17-03b604fdcada",
+        "year": "2023-24",
+        "name": "Bowman University Best",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "df0387c1-e424-4c73-aa05-04b5bfd175d7",
+        "year": "2023-24",
+        "name": "Bowman University Chrome",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "4044b1b9-ac37-406b-98a7-8d74da5c3b44",
+        "year": "2023-24",
+        "name": "Bowman University Chrome Sapphire",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "3eb5194c-2036-45de-b5d5-c0adce0f390f",
+        "year": "2023-24",
+        "name": "Bowman U Now",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "2e08e09e-05ac-4d8f-87d7-6732daef6db6",
+        "year": "2023-24",
+        "name": "Donruss",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "77433d95-789f-49a1-a424-da5ad9b5f199",
+        "year": "2023-24",
+        "name": "Donruss Elite",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "c877caab-5e16-43d4-9d63-3c73019c6187",
+        "year": "2023-24",
+        "name": "Donruss Optic",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "9af43dd9-5451-4c64-ab5f-d53ccaa57ffe",
+        "year": "2023-24",
+        "name": "Finest",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "a56e3cb5-c3f1-4270-8312-ab672d8ea474",
+        "year": "2023-24",
+        "name": "Fleer Ultra",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "89337e34-cca9-4236-b77a-2a3acb77594f",
+        "year": "2023-24",
+        "name": "Hoops",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "b2de6564-a6d7-4601-bf9e-430bda19704a",
+        "year": "2023-24",
+        "name": "Hoops Haunted Hoops",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "4a686686-6865-4224-bb82-80a80728c2f1",
+        "year": "2023-24",
+        "name": "Hoops Premium Stock",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "2becc9a7-9c22-48f7-87f7-225f67fb0d37",
+        "year": "2023-24",
+        "name": "Hoops Winter",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "06cbeb59-a4ff-4141-a861-c776907c6c3c",
+        "year": "2023-24",
+        "name": "O-Pee-Chee",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "97cb1c1e-891a-4bd8-8170-bd9f8565450b",
+        "year": "2023-24",
+        "name": "O-Pee-Chee Platinum",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "8d738b7e-9b56-4c66-bbf6-bfc149b6f0b2",
+        "year": "2023-24",
+        "name": "Panini Black",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "bc7a253b-25dc-4129-9c63-f656fe7e2b48",
+        "year": "2023-24",
+        "name": "Panini Contenders",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "654ee8b6-ff9e-4e9a-8b6a-e9c1fcc20f2b",
+        "year": "2023-24",
+        "name": "Panini Contenders Optic",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "455c11bf-35c1-4222-a6d9-c79018819de2",
+        "year": "2023-24",
+        "name": "Panini Court Kings",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "73dd1fd0-89f3-4d12-9b76-4c1871f07b27",
+        "year": "2023-24",
+        "name": "Panini Crown Royale",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "4bebe6f5-a440-4dbc-ba38-39b02f656aeb",
+        "year": "2023-24",
+        "name": "Panini Flawless",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "8035d94c-2212-4e54-a6e2-0343b745d5c9",
+        "year": "2023-24",
+        "name": "Panini Immaculate Collection",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "35e1f810-0f43-4ed8-872b-dec2dba446f5",
+        "year": "2023-24",
+        "name": "Panini Impeccable",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "09acaa64-2fa9-4d7d-9ffb-739229b0acb8",
+        "year": "2023-24",
+        "name": "Panini Mosaic",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "0e31f5e1-7eb9-47ec-9d3e-3d5769283450",
+        "year": "2023-24",
+        "name": "Panini National Treasures",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "d2787b27-98b2-47eb-8aa0-4a85696fc3b1",
+        "year": "2023-24",
+        "name": "Panini Noir",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "46e55f74-d4e4-4267-803d-a243c01cb251",
+        "year": "2023-24",
+        "name": "Panini Obsidian",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "fd6a3ab6-5561-4676-8587-4a886a5e2b22",
+        "year": "2023-24",
+        "name": "Panini One and One",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "62dcb38f-d68c-4313-94b9-323f2af4b37b",
+        "year": "2023-24",
+        "name": "Panini Origins",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "07659858-7a7f-48c0-a29a-7b15b083c7ca",
+        "year": "2023-24",
+        "name": "Panini Phoenix",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "e55ee94f-39cd-4c9c-95f1-56751fb0186f",
+        "year": "2023-24",
+        "name": "Panini Photogenic",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "3395b970-2cb3-41ba-9eec-6512d4bb1720",
+        "year": "2023-24",
+        "name": "Panini Prizm",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "fee00f02-744f-45f9-9aa0-d32201785445",
+        "year": "2023-24",
+        "name": "Panini Prizm Deca",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "4ded7ee4-1887-4679-bb43-0f8a8fc7c35e",
+        "year": "2023-24",
+        "name": "Panini Prizm Monopoly",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "2f4a13b1-385c-42b9-ac4e-4d0319ccdadc",
+        "year": "2023-24",
+        "name": "Panini Recon",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "c49cc50a-c663-4d45-b32f-cd356caf9440",
+        "year": "2023-24",
+        "name": "Panini Revolution",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "bf422d47-5330-4b30-b320-d6335f12130e",
+        "year": "2023-24",
+        "name": "Panini Select",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "9b454e8f-357e-42ce-b9bc-4a173c036dae",
+        "year": "2023-24",
+        "name": "Panini Spectra",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "2f38c95b-6a7e-41e5-af07-e0ffb586943a",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "16316c1f-67bd-4b8a-8529-2580a19480a4",
+        "year": "2023-24",
+        "name": "Panini Top Class NBA",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "c918d092-0548-46c3-adf2-a08d3099871b",
+        "year": "2023-24",
+        "name": "Parkhurst",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "938fab8b-6274-43cc-982f-6ffd496a388d",
+        "year": "2023-24",
+        "name": "Parkhurst Champions",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "5114972d-8017-4247-8e80-e7ffde364276",
+        "year": "2023-24",
+        "name": "SkyBox E-X 2000",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "e7cbb61c-ef5b-423a-9b7d-9594c67bdcdd",
+        "year": "2023-24",
+        "name": "SkyBox Metal Universe",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "9e811f92-d838-4494-8f8e-b1aff3f0c453",
+        "year": "2023-24",
+        "name": "SP",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "e4d81799-be5c-40c1-a595-034da94e03d1",
+        "year": "2023-24",
+        "name": "SP Authentic",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "0acf3074-01f0-4183-875c-baa1c502842e",
+        "year": "2023-24",
+        "name": "SP Game Used",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "e65ed233-1db6-4d05-82b6-dcb343390667",
+        "year": "2023-24",
+        "name": "SPx",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "0ff060f5-4d45-4d12-8af3-5166f64daa6a",
+        "year": "2023-24",
+        "name": "Topps 3",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "1740b56d-cd25-473a-96f2-ec07e722482b",
+        "year": "2023-24",
+        "name": "Topps Chrome",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "e0daffc2-65ce-4508-8d53-384fedcd520f",
+        "year": "2023-24",
+        "name": "Topps Chrome Cosmic",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "1430b785-9dad-4149-8d0f-aa78b8604f37",
+        "year": "2023-24",
+        "name": "Topps Chrome Sapphire Edition",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "fcb74567-c144-4a1a-8557-77391f3d40c8",
+        "year": "2023-24",
+        "name": "Topps Midnight",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "4a4a4ee9-f1be-4828-8f89-2b089623be87",
+        "year": "2023-24",
+        "name": "Topps Motif",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "id": "9e3678b7-8c0b-460e-a54b-11359e675359",
+        "year": "2023-24",
+        "name": "Topps Royalty",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "f075f0f2-9449-47a4-951e-3bab01ff278f",
+        "year": "2023-24",
+        "name": "Upper Deck",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "faa860f1-9848-4394-b97a-418f3bfca3d4",
+        "year": "2023-24",
+        "name": "Upper Deck Allure",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "fdc0af59-cb5d-4293-87e1-68e19be5e3af",
+        "year": "2023-24",
+        "name": "Upper Deck Artifacts",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "addb2751-7c3f-4606-a960-38a07a09d6c5",
+        "year": "2023-24",
+        "name": "Upper Deck Black Diamond",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "68e08408-b122-437c-8599-9d8f70b16161",
+        "year": "2023-24",
+        "name": "Upper Deck Boston Bruins Centennial",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "7689595a-71eb-4c57-a208-a07735734e30",
+        "year": "2023-24",
+        "name": "Upper Deck Clear Cut",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "6ebb45b9-7cd6-484b-996a-25463b8f4abf",
+        "year": "2023-24",
+        "name": "Upper Deck Credentials",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "0d5f476b-5c33-4839-8061-eba361178be6",
+        "year": "2023-24",
+        "name": "Upper Deck Engrained",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "39b32eaf-fe31-4a06-8170-fc5d18485dd4",
+        "year": "2023-24",
+        "name": "Upper Deck Ice",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "f6284a5a-5fe4-43c3-9a2a-0f9a362cfce1",
+        "year": "2023-24",
+        "name": "Upper Deck MVP",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "c629b82b-a10c-4657-a65e-75be8b3291d0",
+        "year": "2023-24",
+        "name": "Upper Deck Ovation",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "79afd4ce-e3ad-4e51-a192-692f79519ea3",
+        "year": "2023-24",
+        "name": "Upper Deck Premier",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "b7712aff-22a7-4348-9fde-8507403b1e99",
+        "year": "2023-24",
+        "name": "Upper Deck Rookie Debut",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "91891a09-2cb0-4ad2-b450-8f54d9bcfd23",
+        "year": "2023-24",
+        "name": "Upper Deck Synergy",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "cf62fa46-0397-4bca-8b99-fd287b775c01",
+        "year": "2023-24",
+        "name": "Upper Deck The Cup",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "fa90f6ef-9331-4731-b211-5e023a7d7258",
+        "year": "2023-24",
+        "name": "Upper Deck Trilogy",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "812ed104-b76a-45fd-97b9-feffdb94aec9",
+        "segmentId": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "id": "dcf20796-f195-421e-bec5-a503cec90d5c",
+        "year": "2023-24",
+        "name": "Upper Deck Ultimate Collection",
+        "is_identifiable": false
+      }
+    ],
+    "total_count": 71,
+    "skip": 0,
+    "take": 100
+  }
+}

@@ -1,0 +1,506 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/catalog/search",
+    "params": {
+      "q": "Topps Series 1 Baseball 2024",
+      "take": 50
+    },
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 86,
+  "_elapsed_s": 3.28,
+  "data": {
+    "results": [
+      {
+        "type": "set",
+        "id": "1d350a3b-05b4-401c-ab8e-99612d76cb41",
+        "name": "1989 Topps Baseball 35th Anniversary (Series 1)",
+        "relevance": 5.374,
+        "year": "2024",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "set",
+        "id": "f422bdb2-9cf5-43bc-a7d9-ceb37cf4ef9f",
+        "name": "1989 Topps Baseball 35th Anniversary Autographs (Series 1)",
+        "relevance": 5.372,
+        "year": "2024",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "set",
+        "id": "e6fc7fc9-62dd-4141-87c1-8dc9cd85c64c",
+        "name": "1989 Topps Baseball 35th Anniversary Autographs (Series 2)",
+        "relevance": 5.372,
+        "year": "2024",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "set",
+        "id": "32bf368f-1f8e-434c-be08-47eaaa7b472e",
+        "name": "1989 Topps Baseball 35th Anniversary Chrome (Series One)",
+        "relevance": 5.372,
+        "year": "2024",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "set",
+        "id": "2520b181-e1e7-4fc8-baee-ae13b08c39f8",
+        "name": "1989 Topps Baseball 35th Anniversary Chrome (Series Two)",
+        "relevance": 5.372,
+        "year": "2024",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "set",
+        "id": "0ea806d6-4d2b-440a-934f-b6011a97877a",
+        "name": "1989 Topps Baseball 35th Anniversary Relics (Series 1)",
+        "relevance": 5.372,
+        "year": "2024",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "set",
+        "id": "1e7d71ae-db0d-46cf-aa6c-905814d64c98",
+        "name": "1989 Topps Baseball 35th Anniversary Relics (Series 2)",
+        "relevance": 5.372,
+        "year": "2024",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "set",
+        "id": "433f9f1b-623e-4888-99b0-dcf153fa0aa7",
+        "name": "1989 Topps Baseball 35th Anniversary (Series 2)",
+        "relevance": 5.372,
+        "year": "2024",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "set",
+        "id": "2439d1b2-0f5f-4f33-ac60-8bae7d916750",
+        "name": "Baseball Stars Autographs (Series 1)",
+        "relevance": 4.769,
+        "year": "2024",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "set",
+        "id": "b809e771-01bf-4eaf-8c83-a76b9d425969",
+        "name": "Topps Reverence Autograph Patch (Series 1)",
+        "relevance": 4.743,
+        "year": "2024",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "5b0d00e3-bb47-4ab7-bea3-57530cdbbc1e",
+        "name": "World Series 2023: Game 1",
+        "relevance": 4.403,
+        "year": "2024",
+        "setName": "Base Set",
+        "releaseName": "Topps Heritage",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "62a0314c-9b80-4630-8d50-d96849b6698c",
+        "name": "World Series 2023: Game 1",
+        "relevance": 4.403,
+        "year": "2024",
+        "setName": "Base Set",
+        "releaseName": "Topps Heritage Mini",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "set",
+        "id": "dd0be55f-b320-49f3-a6af-6cb1a2d55680",
+        "name": "Home Run Challenge (Series 1)",
+        "relevance": 4.173,
+        "year": "2024",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "set",
+        "id": "aa73c632-08a2-4068-a5ef-e8669a048e5b",
+        "name": "Major League Material Autograph Relics (Series 1)",
+        "relevance": 4.173,
+        "year": "2024",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "set",
+        "id": "c6eb5462-9fde-488a-8929-31e482933665",
+        "name": "Major League Material Relics (Series 1)",
+        "relevance": 4.173,
+        "year": "2024",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "set",
+        "id": "d7c356fd-32e0-4fb4-accd-0456c9089563",
+        "name": "Major League Material Relics (Series 1)",
+        "relevance": 4.173,
+        "year": "2024",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "set",
+        "id": "7509b33a-2106-41c2-ba2f-7d9ceed55600",
+        "name": "Mega Stars (Series 1)",
+        "relevance": 4.173,
+        "year": "2024",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "d3eb2b57-3014-4f71-aac4-eb61618fe409",
+        "name": "Jordan Balazovic",
+        "relevance": 2.931,
+        "year": "2024",
+        "setName": "1989 Topps Baseball 35th Anniversary Autographs (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "5e9b89de-2d3d-4d28-9fb3-a8956e1a5d38",
+        "name": "Osleivis Basabe",
+        "relevance": 2.931,
+        "year": "2024",
+        "setName": "Baseball Stars Autographs (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "f4af87a7-3275-435f-bd40-cf6dcfd95e74",
+        "name": "Luis Severino",
+        "relevance": 2.928,
+        "year": "2024",
+        "setName": "Major League Material Relics (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "ad38e1b2-3a7e-4d7a-aeee-c9aacd682ef8",
+        "name": "Gleyber Torres",
+        "relevance": 2.927,
+        "year": "2024",
+        "setName": "1989 Topps Baseball 35th Anniversary Relics (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "35c3b485-678c-4e8e-9914-3df831567cbd",
+        "name": "Gleyber Torres",
+        "relevance": 2.927,
+        "year": "2024",
+        "setName": "Major League Material Relics (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "d3320959-cb33-4ac1-a883-4773deab59af",
+        "name": "Jeff Bagwell",
+        "relevance": 2.926,
+        "year": "2024",
+        "setName": "1989 Topps Baseball 35th Anniversary Relics (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "e92d90b4-c8ff-4a6a-aeaf-1fad7fe11971",
+        "name": "Jeff Bagwell",
+        "relevance": 2.926,
+        "year": "2024",
+        "setName": "1989 Topps Baseball 35th Anniversary (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "d3a5cfef-e050-4bb8-be41-400fcbf15fb2",
+        "name": "Jeff Bagwell",
+        "relevance": 2.926,
+        "year": "2024",
+        "setName": "1989 Topps Baseball 35th Anniversary Chrome (Series One)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "5de6a8f3-b3b2-496c-81ff-f35de763f1ef",
+        "name": "Shane Baz",
+        "relevance": 2.926,
+        "year": "2024",
+        "setName": "Baseball Stars Autographs (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "cb4caccf-1b7d-4c1a-a36f-25bbc832d35a",
+        "name": "Spencer Torkelson",
+        "relevance": 2.925,
+        "year": "2024",
+        "setName": "Major League Material Relics (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "0ec7de39-1ccf-4339-b126-0d7adb5c8caf",
+        "name": "Spencer Torkelson",
+        "relevance": 2.925,
+        "year": "2024",
+        "setName": "1989 Topps Baseball 35th Anniversary Chrome (Series Two)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "7718a6c5-2ce6-4909-abf9-4334622f9a58",
+        "name": "Spencer Torkelson",
+        "relevance": 2.925,
+        "year": "2024",
+        "setName": "1989 Topps Baseball 35th Anniversary Relics (Series 2)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "bc6217ff-31ff-471b-bd30-270d4f673e9a",
+        "name": "Blake Snell",
+        "relevance": 2.924,
+        "year": "2024",
+        "setName": "Major League Material Autograph Relics (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "f60e5d87-22eb-40c5-ad4b-df9b39840266",
+        "name": "Blake Snell",
+        "relevance": 2.924,
+        "year": "2024",
+        "setName": "1989 Topps Baseball 35th Anniversary Autographs (Series 2)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "aa7dc6b0-3e6c-4bab-810f-2eecb4528870",
+        "name": "Barry Larkin",
+        "relevance": 2.921,
+        "year": "2024",
+        "setName": "1989 Topps Baseball 35th Anniversary Autographs (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "9149dff5-c72e-45ce-bb1d-5e9784146ab4",
+        "name": "Barry Larkin",
+        "relevance": 2.921,
+        "year": "2024",
+        "setName": "1989 Topps Baseball 35th Anniversary Relics (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "81d95363-8841-4802-9288-e7a6338c0393",
+        "name": "Barry Larkin",
+        "relevance": 2.921,
+        "year": "2024",
+        "setName": "1989 Topps Baseball 35th Anniversary Chrome (Series One)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "e25836f8-1ddf-4b16-abfb-1e1dda9ec73d",
+        "name": "Barry Larkin",
+        "relevance": 2.921,
+        "year": "2024",
+        "setName": "1989 Topps Baseball 35th Anniversary (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "1bf7eb0c-7e47-49da-b1f9-2262a3c40e85",
+        "name": "Bartolo Colon",
+        "relevance": 2.921,
+        "year": "2024",
+        "setName": "1989 Topps Baseball 35th Anniversary Autographs (Series 2)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "54f9aa2a-c952-4585-997d-b697a8cdd546",
+        "name": "Brett Baty",
+        "relevance": 2.921,
+        "year": "2024",
+        "setName": "1989 Topps Baseball 35th Anniversary Autographs (Series 2)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "757eb3cf-1ee2-429e-a1eb-c1916518576e",
+        "name": "Corey Seager",
+        "relevance": 2.921,
+        "year": "2024",
+        "setName": "1989 Topps Baseball 35th Anniversary (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "768018fd-6d53-46c3-9bda-27d7ef252f22",
+        "name": "Corey Seager",
+        "relevance": 2.921,
+        "year": "2024",
+        "setName": "Major League Material Autograph Relics (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "2d72de0e-71e2-4f56-9508-63fbfd3ba229",
+        "name": "Corey Seager",
+        "relevance": 2.921,
+        "year": "2024",
+        "setName": "1989 Topps Baseball 35th Anniversary Chrome (Series One)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "4096ecb3-dac4-4a4e-bacd-ff458b6322af",
+        "name": "Ha-Seong Kim",
+        "relevance": 2.921,
+        "year": "2024",
+        "setName": "1989 Topps Baseball 35th Anniversary (Series 2)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "d7ce4e79-e960-41a0-a5ad-411c68283238",
+        "name": "Marcus Semien",
+        "relevance": 2.921,
+        "year": "2024",
+        "setName": "1989 Topps Baseball 35th Anniversary Chrome (Series Two)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "b7b5b5fb-07c6-4527-9777-6149fb97ea8c",
+        "name": "Marcus Semien",
+        "relevance": 2.921,
+        "year": "2024",
+        "setName": "Major League Material Relics (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "ee268ce1-b7be-4f6f-bb82-41888f275390",
+        "name": "Ozzie Albies",
+        "relevance": 2.921,
+        "year": "2024",
+        "setName": "Major League Material Relics (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "d91c28be-1429-497b-a2a4-986d38e93ab9",
+        "name": "Ozzie Albies",
+        "relevance": 2.921,
+        "year": "2024",
+        "setName": "Major League Material Autograph Relics (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "28bf8faa-0dab-4abb-b6c8-7b360e26f400",
+        "name": "Ozzie Albies",
+        "relevance": 2.921,
+        "year": "2024",
+        "setName": "Topps Reverence Autograph Patch (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "baeac2ed-e8d6-4fdd-b8d0-03bb77539f0c",
+        "name": "Ozzie Albies",
+        "relevance": 2.921,
+        "year": "2024",
+        "setName": "Home Run Challenge (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "5b1725f7-6a62-47b6-8973-801b2b0863a1",
+        "name": "Quinn Priester",
+        "relevance": 2.921,
+        "year": "2024",
+        "setName": "1989 Topps Baseball 35th Anniversary Chrome (Series Two)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "2aa82aa4-9aad-402e-87ab-c6771b66599f",
+        "name": "Quinn Priester",
+        "relevance": 2.921,
+        "year": "2024",
+        "setName": "Baseball Stars Autographs (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      },
+      {
+        "type": "card",
+        "id": "8a5ac031-3efa-493e-bb14-5e630d33ea06",
+        "name": "Quinn Priester",
+        "relevance": 2.921,
+        "year": "2024",
+        "setName": "1989 Topps Baseball 35th Anniversary Autographs (Series 1)",
+        "releaseName": "Topps",
+        "manufacturerName": "Topps"
+      }
+    ],
+    "total_count": 1110,
+    "skip": 0,
+    "take": 50
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/catalog/search",
+    "params": {
+      "q": "Patrick Mahomes Prizm",
+      "segment_id": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+      "limit": 25
+    },
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 16,
+  "_elapsed_s": 1.79,
+  "data": {
+    "results": [
+      {
+        "type": "card",
+        "id": "f559fb7b-73c6-4bae-b7b6-0c27b20c80ab",
+        "name": "Prizm Base - Patrick Mahomes II",
+        "relevance": 3.242,
+        "year": "2025",
+        "setName": "Recollection Collection",
+        "releaseName": "Panini Honors",
+        "manufacturerName": "Panini"
+      },
+      {
+        "type": "card",
+        "id": "6f93abce-2f3c-4a36-b4f8-3e8d215255cc",
+        "name": "Prizm Deca - Patrick Mahomes II",
+        "relevance": 3.242,
+        "year": "2025",
+        "setName": "Recollection Collection",
+        "releaseName": "Panini Honors",
+        "manufacturerName": "Panini"
+      },
+      {
+        "type": "card",
+        "id": "45927f96-708f-46b9-b665-04f1fabe5abd",
+        "name": "Prizm Prizmatic - Patrick Mahomes II",
+        "relevance": 3.242,
+        "year": "2025",
+        "setName": "Recollection Collection",
+        "releaseName": "Panini Honors",
+        "manufacturerName": "Panini"
+      },
+      {
+        "type": "card",
+        "id": "0bc00534-f558-4214-9d5f-6d3ea9a074d4",
+        "name": "Prizm Profiles - Patrick Mahomes II",
+        "relevance": 3.233,
+        "year": "2025",
+        "setName": "Recollection Collection",
+        "releaseName": "Panini Honors",
+        "manufacturerName": "Panini"
+      },
+      {
+        "type": "card",
+        "id": "6489c6c9-e9b2-4f1f-b60b-7fb40f0c9806",
+        "name": "Prizm Colorblast - Patrick Mahomes II",
+        "relevance": 3.229,
+        "year": "2025",
+        "setName": "Recollection Collection",
+        "releaseName": "Panini Honors",
+        "manufacturerName": "Panini"
+      },
+      {
+        "type": "card",
+        "id": "eb6a33d1-cac7-4fb3-922e-4f6f0f575ab4",
+        "name": "Prizm Fireworks - Patrick Mahomes II",
+        "relevance": 3.229,
+        "year": "2025",
+        "setName": "Recollection Collection",
+        "releaseName": "Panini Honors",
+        "manufacturerName": "Panini"
+      },
+      {
+        "type": "card",
+        "id": "4c460cc0-dc14-4427-b28a-89c6bb76587b",
+        "name": "Prizm Green Pulsar - Patrick Mahomes II",
+        "relevance": 3.229,
+        "year": "2025",
+        "setName": "Recollection Collection",
+        "releaseName": "Panini Honors",
+        "manufacturerName": "Panini"
+      },
+      {
+        "type": "card",
+        "id": "aa4983c0-86d9-4895-a332-cd6acf57a9bc",
+        "name": "Prizm Purple Pulsar - Patrick Mahomes II",
+        "relevance": 3.229,
+        "year": "2025",
+        "setName": "Recollection Collection",
+        "releaseName": "Panini Honors",
+        "manufacturerName": "Panini"
+      },
+      {
+        "type": "card",
+        "id": "d08c399b-3897-47af-969e-428203e8ee9d",
+        "name": "Prizm Snake Skin - Patrick Mahomes II",
+        "relevance": 3.229,
+        "year": "2025",
+        "setName": "Recollection Collection",
+        "releaseName": "Panini Honors",
+        "manufacturerName": "Panini"
+      },
+      {
+        "type": "card",
+        "id": "162788ed-2094-4688-ac8f-d7be7f0fdf93",
+        "name": "Patrick Mahomes II",
+        "relevance": 2.929,
+        "year": "2024",
+        "setName": "Select Numbers",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Prizm"
+      },
+      {
+        "type": "card",
+        "id": "36497bd6-a7d5-4719-922c-ef057e077cff",
+        "name": "Patrick Mahomes II",
+        "relevance": 2.929,
+        "year": "2020",
+        "setName": "Go Hard or Go Home",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Prizms Gold"
+      },
+      {
+        "type": "card",
+        "id": "c22996ed-f333-499e-9073-2c5f667e8170",
+        "name": "Patrick Mahomes II",
+        "relevance": 2.929,
+        "year": "2025",
+        "setName": "Jumbo Signature Swatches Prizm",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      },
+      {
+        "type": "card",
+        "id": "937f7bda-6217-47f3-9a04-7bbc8a090147",
+        "name": "Patrick Mahomes II",
+        "relevance": 2.929,
+        "year": "2023",
+        "setName": "Select Numbers",
+        "releaseName": "Panini Select Draft Picks",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      },
+      {
+        "type": "card",
+        "id": "8f3bfb31-d548-4481-8300-3757a07477f6",
+        "name": "Patrick Mahomes II",
+        "relevance": 2.929,
+        "year": "2025",
+        "setName": "Legends Patch Autographs",
+        "releaseName": "Panini Prizm Draft Picks",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizms"
+      },
+      {
+        "type": "card",
+        "id": "2956d153-fb87-45ae-9d46-4f62c24dd4d4",
+        "name": "Patrick Mahomes II",
+        "relevance": 2.929,
+        "year": "2025",
+        "setName": "Score Select Throwback",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Prizm"
+      },
+      {
+        "type": "card",
+        "id": "24ce0567-b7be-4ed5-92fe-44309eda04d3",
+        "name": "Patrick Mahomes II",
+        "relevance": 2.929,
+        "year": "2025",
+        "setName": "Base Set",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Red Prizm"
+      },
+      {
+        "type": "card",
+        "id": "4942705a-dfed-483f-9472-d1f4b68fe8f9",
+        "name": "Patrick Mahomes II",
+        "relevance": 2.929,
+        "year": "2025",
+        "setName": "Base Set",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Red Prizm"
+      },
+      {
+        "type": "card",
+        "id": "cc4dd231-5f73-4545-8b3c-aeeef1d0633c",
+        "name": "Patrick Mahomes II",
+        "relevance": 2.929,
+        "year": "2020",
+        "setName": "Base Set",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Prizm"
+      },
+      {
+        "type": "card",
+        "id": "235d32d2-3678-4512-9cac-354c45354b2c",
+        "name": "Patrick Mahomes II",
+        "relevance": 2.929,
+        "year": "2017",
+        "setName": "Stained Glass",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Prizm"
+      },
+      {
+        "type": "card",
+        "id": "fb65a7fe-6be2-4b33-b540-c912cdf3867a",
+        "name": "Patrick Mahomes II",
+        "relevance": 2.929,
+        "year": "2017",
+        "setName": "Illumination",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Prizm"
+      }
+    ],
+    "total_count": 129,
+    "skip": 0,
+    "take": 20
+  }
+}

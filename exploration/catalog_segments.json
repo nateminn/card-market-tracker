@@ -1,0 +1,73 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/catalog/segments",
+    "params": null,
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 12,
+  "_elapsed_s": 0.39,
+  "data": {
+    "segments": [
+      {
+        "id": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "name": "Baseball",
+        "is_identifiable": true
+      },
+      {
+        "id": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+        "name": "Basketball",
+        "is_identifiable": true
+      },
+      {
+        "id": "fba21784-7beb-451e-bae1-a04129d44d1b",
+        "name": "Entertainment",
+        "is_identifiable": false
+      },
+      {
+        "id": "5b86ca75-c5be-4621-aca1-57bd4f6dd111",
+        "name": "Football",
+        "is_identifiable": true
+      },
+      {
+        "id": "f0aba193-ce2c-4474-a58b-8d509d571223",
+        "name": "Hockey",
+        "is_identifiable": true
+      },
+      {
+        "id": "1a135da9-5254-4eb5-8c06-585bf3ae361d",
+        "name": "Magic: The Gathering",
+        "is_identifiable": false
+      },
+      {
+        "id": "3d51f376-8fed-414d-aae8-d733674b04a9",
+        "name": "One Piece",
+        "is_identifiable": false
+      },
+      {
+        "id": "3266fff9-dfcb-4e00-80fb-922a8ab023d5",
+        "name": "Pokemon",
+        "is_identifiable": false
+      },
+      {
+        "id": "d45eae26-0f65-4cc8-93ad-8895a5e7c4e7",
+        "name": "Soccer",
+        "is_identifiable": false
+      },
+      {
+        "id": "db9bb579-eb08-48c4-b1c5-eda4f19588d1",
+        "name": "Wrestling",
+        "is_identifiable": false
+      },
+      {
+        "id": "5ddce360-ec02-4bcc-9742-1d7c8809b110",
+        "name": "Yu-Gi-Oh!",
+        "is_identifiable": false
+      }
+    ],
+    "total_count": 11,
+    "skip": 0,
+    "take": 20
+  }
+}

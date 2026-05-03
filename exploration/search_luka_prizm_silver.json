@@ -1,0 +1,242 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/catalog/search",
+    "params": {
+      "q": "Luka Doncic Prizm Silver",
+      "segment_id": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7",
+      "limit": 25
+    },
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 17,
+  "_elapsed_s": 1.031,
+  "data": {
+    "results": [
+      {
+        "type": "card",
+        "id": "24015976-578d-404e-9135-9ecb9f6d5da8",
+        "name": "Luka Doncic",
+        "relevance": 3.544,
+        "year": "2019-20",
+        "setName": "Far Out!",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Prizms Mojo"
+      },
+      {
+        "type": "card",
+        "id": "7d32279c-0896-4ec5-99ff-811bb3bd4c0d",
+        "name": "Luka Doncic",
+        "relevance": 3.544,
+        "year": "2020-21",
+        "setName": "Base Set",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Prizms Gold"
+      },
+      {
+        "type": "card",
+        "id": "133c29e6-7329-480c-8eed-1d1da72d38e9",
+        "name": "Luka Doncic",
+        "relevance": 3.544,
+        "year": "2024-25",
+        "setName": "Clutch",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Red Prizms"
+      },
+      {
+        "type": "card",
+        "id": "66122377-5c91-432c-9eaf-7359bb55dd07",
+        "name": "Luka Doncic",
+        "relevance": 3.544,
+        "year": "2023-24",
+        "setName": "Base Set",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizms"
+      },
+      {
+        "type": "card",
+        "id": "d6b8daa8-ab06-471b-9331-10fd600f1077",
+        "name": "Luka Doncic",
+        "relevance": 3.544,
+        "year": "2024-25",
+        "setName": "Kaleidoscopic",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Silver Prizm"
+      },
+      {
+        "type": "card",
+        "id": "06600cb0-eb6b-4815-9979-deb15067c834",
+        "name": "Luka Doncic",
+        "relevance": 3.544,
+        "year": "2024-25",
+        "setName": "Dominance",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Silver Prizm"
+      },
+      {
+        "type": "card",
+        "id": "3a5773ae-45e1-467f-b019-6b3f8590c18b",
+        "name": "Luka Doncic",
+        "relevance": 3.544,
+        "year": "2024-25",
+        "setName": "Score Select Throwback",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Red Prizms"
+      },
+      {
+        "type": "card",
+        "id": "6c16d7e1-5f46-437b-aba7-16665fa1eee5",
+        "name": "Luka Doncic",
+        "relevance": 3.544,
+        "year": "2024-25",
+        "setName": "Fractal",
+        "releaseName": "Panini Prizm Black",
+        "manufacturerName": "Panini",
+        "parallelName": "Mojo Prizms"
+      },
+      {
+        "type": "card",
+        "id": "70d8bdf8-e7a0-45ec-a2b7-849864b37adc",
+        "name": "Luka Doncic",
+        "relevance": 3.544,
+        "year": "2024-25",
+        "setName": "Base Set",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Red Prizms"
+      },
+      {
+        "type": "card",
+        "id": "3377e5dd-584c-4eb2-8695-669ff990191f",
+        "name": "Luka Doncic",
+        "relevance": 3.544,
+        "year": "2024-25",
+        "setName": "Hot Stars",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Red Prizms"
+      },
+      {
+        "type": "card",
+        "id": "5cd27c53-9bef-4b55-a23b-f74e158ba695",
+        "name": "Luka Doncic",
+        "relevance": 3.544,
+        "year": "2020-21",
+        "setName": "Base Set",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Prizms Gold"
+      },
+      {
+        "type": "card",
+        "id": "cee718f9-9cd9-406c-8e17-5c760bbb4ed9",
+        "name": "Luka Doncic",
+        "relevance": 3.544,
+        "year": "2024-25",
+        "setName": "Base Set",
+        "releaseName": "Panini Prizm Black",
+        "manufacturerName": "Panini",
+        "parallelName": "Red Prizms"
+      },
+      {
+        "type": "card",
+        "id": "15d2d6e9-105a-400a-a27c-2a84f54d6a25",
+        "name": "Luka Doncic",
+        "relevance": 3.544,
+        "year": "2024-25",
+        "setName": "Talismen",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Silver Prizm"
+      },
+      {
+        "type": "card",
+        "id": "fc0a06d0-9f27-4821-af36-bab6fb732f4f",
+        "name": "Luka Doncic",
+        "relevance": 3.544,
+        "year": "2024-25",
+        "setName": "Kaleidoscopic",
+        "releaseName": "Panini Prizm Black",
+        "manufacturerName": "Panini",
+        "parallelName": "Mojo Prizms"
+      },
+      {
+        "type": "card",
+        "id": "eaf23284-d947-4857-8784-fbe625184065",
+        "name": "Luka Doncic",
+        "relevance": 3.544,
+        "year": "2024-25",
+        "setName": "Prizmatrix Signatures",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Silver Prizm"
+      },
+      {
+        "type": "card",
+        "id": "138329b5-2ba5-47a3-b754-3a64158fe6a4",
+        "name": "Luka Doncic",
+        "relevance": 3.544,
+        "year": "2024-25",
+        "setName": "Brilliance",
+        "releaseName": "Panini Prizm Deca",
+        "manufacturerName": "Panini",
+        "parallelName": "Mojo Prizms"
+      },
+      {
+        "type": "card",
+        "id": "3242cbdf-8ad1-4ddc-a34d-cde5579619e6",
+        "name": "Luka Doncic",
+        "relevance": 3.544,
+        "year": "2024-25",
+        "setName": "Base Set",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Red Prizms"
+      },
+      {
+        "type": "card",
+        "id": "24293146-51ea-4616-bd73-33cdbb6718a4",
+        "name": "Luka Doncic",
+        "relevance": 3.544,
+        "year": "2024-25",
+        "setName": "Talismen",
+        "releaseName": "Panini Prizm Black",
+        "manufacturerName": "Panini",
+        "parallelName": "Blue Prizms"
+      },
+      {
+        "type": "card",
+        "id": "fb948fb2-0410-4117-b744-909f3bfbd9f4",
+        "name": "Luka Doncic",
+        "relevance": 3.544,
+        "year": "2024-25",
+        "setName": "Fireworks",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Silver Prizm"
+      },
+      {
+        "type": "card",
+        "id": "2da84f72-d63b-4e2d-9994-fc34e0c0c0a7",
+        "name": "Luka Doncic",
+        "relevance": 3.544,
+        "year": "2019-20",
+        "setName": "Dominance",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Prizms Green"
+      }
+    ],
+    "total_count": 107,
+    "skip": 0,
+    "take": 20
+  }
+}

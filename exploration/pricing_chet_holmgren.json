@@ -1,0 +1,29 @@
+{
+  "card": {
+    "card_id": "1285a067-d5db-4a21-9369-c9250d20b6b7",
+    "name": "Chet Holmgren",
+    "number": "115",
+    "set": {
+      "set_id": "3443d6b8-ba87-4a16-b456-73aa8d5c0356",
+      "name": "Base Set",
+      "year": "2023-24",
+      "release": "Panini Prizm"
+    }
+  },
+  "query": {
+    "period": "all",
+    "listing_type": "both",
+    "as_of_date": "2026-04-27"
+  },
+  "raw": {
+    "period_days": null,
+    "count": 0,
+    "records": []
+  },
+  "graded": [],
+  "meta": {
+    "sources": [],
+    "last_sale_date": null,
+    "total_records": 0
+  }
+}

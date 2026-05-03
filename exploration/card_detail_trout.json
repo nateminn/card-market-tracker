@@ -1,0 +1,71 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/catalog/cards/fda530ab-e925-460e-ab88-63199ef975e9",
+    "params": null,
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 34,
+  "_elapsed_s": 0.298,
+  "data": {
+    "releaseId": "325cb45c-6d29-4d44-9dce-6bd44749bed2",
+    "setId": "9d4173f3-09af-49c2-a719-ba11824fd207",
+    "id": "fda530ab-e925-460e-ab88-63199ef975e9",
+    "number": "US175",
+    "name": "Mike Trout",
+    "releaseName": "Topps Update",
+    "releaseYear": "2011",
+    "setName": "Base Set",
+    "parallelCount": 9,
+    "parallels": [
+      {
+        "id": "6482a919-2807-4996-be64-e7b930b9d88f",
+        "name": "Black",
+        "numberedTo": 60
+      },
+      {
+        "id": "f3c0f6e1-f696-453e-911a-7bcd9014074a",
+        "name": "Canary Diamond",
+        "numberedTo": 1
+      },
+      {
+        "id": "0d27e26d-ee87-447e-ac7a-767d6fdb8f1c",
+        "name": "Cognac Diamond"
+      },
+      {
+        "id": "b44f73a5-3100-41d5-8235-047636739e6e",
+        "name": "Gold",
+        "numberedTo": 2011
+      },
+      {
+        "id": "a0fb920c-c9cd-4a9d-9a68-2fdc8d4593c7",
+        "name": "Hope Diamond",
+        "numberedTo": 60
+      },
+      {
+        "id": "ea457791-5bad-4da2-add6-22d20195bd16",
+        "name": "Platinum",
+        "numberedTo": 1
+      },
+      {
+        "id": "a44b7e6c-051c-41cf-b2f6-1bfbf7f89ab1",
+        "name": "Platinum Diamond"
+      },
+      {
+        "id": "4c381972-05f0-40e7-8121-d1b35085d702",
+        "name": "Printing Plates",
+        "numberedTo": 1
+      },
+      {
+        "id": "771f3721-3d16-42c2-9b7a-df602b80cbeb",
+        "name": "Silk",
+        "numberedTo": 50
+      }
+    ],
+    "attributes": [
+      "MLB-LAA",
+      "RC"
+    ]
+  }
+}

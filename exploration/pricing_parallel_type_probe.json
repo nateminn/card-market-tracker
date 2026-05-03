@@ -1,0 +1,15 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/pricing/7c65880d-ad56-4efb-ac31-d8844fed4b8a",
+    "params": null,
+    "body": null
+  },
+  "_status": 404,
+  "_call_number": 73,
+  "_elapsed_s": 0.335,
+  "data": {
+    "error": "Card with ID '7c65880d-ad56-4efb-ac31-d8844fed4b8a' not found",
+    "code": "NOT_FOUND"
+  }
+}

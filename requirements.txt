@@ -1,0 +1,6 @@
+requests>=2.31.0
+python-dotenv>=1.0.0
+pandas>=2.1.0
+supabase>=2.3.0
+apify-client>=1.7.0
+psycopg[binary]>=3.2

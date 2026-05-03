@@ -1,0 +1,73 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/catalog/cards/69c59784-5a97-4551-99c0-37fcf0345eb1",
+    "params": null,
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 72,
+  "_elapsed_s": 0.431,
+  "data": {
+    "releaseId": "91e66c48-701c-4565-953c-14e91d8f5030",
+    "setId": "14f58e24-9f22-43e3-aa06-c90fca5d93c9",
+    "id": "69c59784-5a97-4551-99c0-37fcf0345eb1",
+    "number": "74TF-1",
+    "name": "Caleb Williams",
+    "releaseName": "Topps Chrome",
+    "releaseYear": "2024",
+    "setName": "1974 Topps Football",
+    "parallelCount": 10,
+    "parallels": [
+      {
+        "id": "fea591a6-750a-4e75-9fa4-846350d79209",
+        "name": "Gold Refractor",
+        "numberedTo": 50
+      },
+      {
+        "id": "7c65880d-ad56-4efb-ac31-d8844fed4b8a",
+        "name": "Green Refractor",
+        "numberedTo": 99
+      },
+      {
+        "id": "f482914b-d1e4-4a9d-9afa-eaf51e6b2572",
+        "name": "Lazer Refractor"
+      },
+      {
+        "id": "0f4375ea-f242-4d93-9152-04731ad028bf",
+        "name": "Orange Refractor",
+        "numberedTo": 25
+      },
+      {
+        "id": "15cf703b-0b1e-4754-bcb6-3c88a12372ce",
+        "name": "Pink Refractor"
+      },
+      {
+        "id": "12a1001f-bc8a-4648-8e83-f2570e93b0b4",
+        "name": "Red Refractor",
+        "numberedTo": 5
+      },
+      {
+        "id": "7f818a02-6050-467d-8561-20dcda2658fc",
+        "name": "Refractor"
+      },
+      {
+        "id": "566a9d07-3159-4c76-a2d5-eb2a26633728",
+        "name": "SuperFractor",
+        "numberedTo": 1
+      },
+      {
+        "id": "78ee420e-a1d0-4941-b3bd-4d7de9a8bf28",
+        "name": "X-Fractor"
+      },
+      {
+        "id": "3c0277b8-4aa6-4392-b557-87d765eb8713",
+        "name": "Yellow Refractor",
+        "numberedTo": 75
+      }
+    ],
+    "attributes": [
+      "NFL-CHI"
+    ]
+  }
+}

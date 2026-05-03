@@ -1,0 +1,29 @@
+{
+  "card": {
+    "card_id": "f5c72523-92ed-4672-a28e-f6e4da973bfa",
+    "name": "Brock Bowers",
+    "number": "207",
+    "set": {
+      "set_id": "e74ba625-9fe7-4f76-92c2-4126f09099d5",
+      "name": "Base Set",
+      "year": "2024",
+      "release": "Topps Chrome"
+    }
+  },
+  "query": {
+    "period": "all",
+    "listing_type": "both",
+    "as_of_date": "2026-04-27"
+  },
+  "raw": {
+    "period_days": null,
+    "count": 0,
+    "records": []
+  },
+  "graded": [],
+  "meta": {
+    "sources": [],
+    "last_sale_date": null,
+    "total_records": 0
+  }
+}

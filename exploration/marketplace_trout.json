@@ -1,0 +1,583 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/marketplace/fda530ab-e925-460e-ab88-63199ef975e9",
+    "params": null,
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 36,
+  "_elapsed_s": 0.461,
+  "data": {
+    "card": {
+      "card_id": "fda530ab-e925-460e-ab88-63199ef975e9",
+      "name": "Mike Trout",
+      "number": "US175",
+      "set": {
+        "set_id": "9d4173f3-09af-49c2-a719-ba11824fd207",
+        "name": "Base Set",
+        "year": "2011",
+        "release": "Topps Update"
+      }
+    },
+    "query": {
+      "listing_type": "both",
+      "as_of_date": "2026-04-24"
+    },
+    "raw": {
+      "count": 12,
+      "records": [
+        {
+          "title": "2011 Topps Update Series Mike Trout Rookie Base #US175 Los Angeles Angels",
+          "price": 280,
+          "source": "ebay",
+          "listing_type": "auction",
+          "url": "https://showme.cards/gj1r",
+          "image_url": "https://i.ebayimg.com/images/g/UYQAAeSwuqdp4t9M/s-l225.jpg",
+          "condition": "VERY_GOOD",
+          "end_date": "2026-04-25T01:33:38Z",
+          "bid_count": 2
+        },
+        {
+          "title": "2011 Topps Update Mike Trout RC Rookie #US175 Angels",
+          "price": 26,
+          "source": "ebay",
+          "listing_type": "auction",
+          "url": "https://showme.cards/Libg",
+          "image_url": "https://i.ebayimg.com/images/g/mccAAeSwx-Bp6QZh/s-l225.jpg",
+          "condition": "VERY_GOOD",
+          "end_date": "2026-04-28T00:36:00Z",
+          "bid_count": 12
+        },
+        {
+          "title": "2011 Topps Update #US175 Mike Trout Angels RC Rookie",
+          "price": 4.25,
+          "source": "ebay",
+          "listing_type": "auction",
+          "url": "https://showme.cards/byPO",
+          "image_url": "https://i.ebayimg.com/images/g/tYgAAeSwJfBp4oyd/s-l225.jpg",
+          "condition": "VERY_GOOD",
+          "end_date": "2026-04-28T02:08:01Z",
+          "bid_count": 21
+        },
+        {
+          "title": "2011 Topps Update Series Mike Trout Rookie #US175",
+          "price": 380,
+          "source": "ebay",
+          "listing_type": "fixed",
+          "url": "https://showme.cards/c1Rv",
+          "image_url": "https://i.ebayimg.com/images/g/cYQAAeSw3uFp4tat/s-l225.jpg",
+          "condition": "VERY_GOOD"
+        },
+        {
+          "title": "2011 Topps Update Mike Trout Rookie Card #US175 Angels Rookie Magnetic Case",
+          "price": 350,
+          "source": "ebay",
+          "listing_type": "fixed",
+          "url": "https://showme.cards/8ZPp",
+          "image_url": "https://i.ebayimg.com/images/g/S00AAeSwGgVp6j~l/s-l225.jpg",
+          "condition": "VERY_GOOD"
+        },
+        {
+          "title": "2011 Topps Update Mike Trout Rookie Card #US175 Angels Rookie Screw Down Case",
+          "price": 350,
+          "source": "ebay",
+          "listing_type": "fixed",
+          "url": "https://showme.cards/afZL",
+          "image_url": "https://i.ebayimg.com/images/g/y78AAeSwv2hp6kE8/s-l225.jpg",
+          "condition": "VERY_GOOD"
+        },
+        {
+          "title": "2011 Topps Update Series - Mike Trout #US175 (RC)",
+          "price": 252.75,
+          "source": "ebay",
+          "listing_type": "fixed",
+          "url": "https://showme.cards/tNmS",
+          "image_url": "https://i.ebayimg.com/images/g/wQoAAeSwjapp6b52/s-l225.jpg",
+          "condition": "VERY_GOOD"
+        },
+        {
+          "title": "2011 Topps Update Series - Mike Trout #US175 (RC)",
+          "price": 499.89,
+          "source": "ebay",
+          "listing_type": "fixed",
+          "url": "https://showme.cards/P0bk",
+          "image_url": "https://i.ebayimg.com/images/g/6gEAAeSw7LFp55KJ/s-l225.jpg",
+          "condition": "VERY_GOOD"
+        },
+        {
+          "title": "2011 Topps Update Series - Mike Trout #US175 (RC)",
+          "price": 350,
+          "source": "ebay",
+          "listing_type": "fixed",
+          "url": "https://showme.cards/jDO4",
+          "image_url": "https://i.ebayimg.com/images/g/aD0AAeSwaERp6NnB/s-l225.jpg",
+          "condition": "VERY_GOOD"
+        },
+        {
+          "title": "2011 Topps Update Series - Mike Trout #US175 (RC)",
+          "price": 360,
+          "source": "ebay",
+          "listing_type": "fixed",
+          "url": "https://showme.cards/jZYe",
+          "image_url": "https://i.ebayimg.com/images/g/eOkAAeSwPZBp5ITG/s-l225.jpg",
+          "condition": "VERY_GOOD"
+        },
+        {
+          "title": "2011 Topps Update Series - Mike Trout #US175 (RC)",
+          "price": 399.99,
+          "source": "ebay",
+          "listing_type": "fixed",
+          "url": "https://showme.cards/XXey",
+          "image_url": "https://i.ebayimg.com/images/g/TGwAAeSwLGBp6MXm/s-l225.jpg",
+          "condition": "VERY_GOOD"
+        },
+        {
+          "title": "2011 Topps Update Base Set Mike Trout US175",
+          "source": "ebay",
+          "listing_type": "search",
+          "url": "https://showme.cards/g7R9"
+        }
+      ]
+    },
+    "graded": [
+      {
+        "company_name": "PSA",
+        "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7",
+        "grades": [
+          {
+            "grade_value": "10",
+            "grade_id": "4c004b81-2c7d-4d29-b69a-dc8d2f477aeb",
+            "count": 12,
+            "records": [
+              {
+                "title": "2011 Topps Update Diamond Anniversary #US175 Mike Trout Angels RC Rookie PSA 10",
+                "price": 1725,
+                "source": "ebay",
+                "listing_type": "auction",
+                "url": "https://showme.cards/Q47H",
+                "image_url": "https://i.ebayimg.com/images/g/yYUAAeSwi0Vp4AnJ/s-l225.jpg",
+                "condition": "UNKNOWN",
+                "end_date": "2026-04-25T21:59:19Z",
+                "bid_count": 19
+              },
+              {
+                "title": "2011 TOPPS UPDATE #US175 MIKE TROUT RC ANGELS PSA 10",
+                "price": 510,
+                "source": "ebay",
+                "listing_type": "auction",
+                "url": "https://showme.cards/SSVn",
+                "image_url": "https://i.ebayimg.com/images/g/fVcAAeSwh5lp17oP/s-l225.jpg",
+                "condition": "UNKNOWN",
+                "end_date": "2026-04-27T00:00:00Z",
+                "bid_count": 11
+              },
+              {
+                "title": "2011 Topps Update Diamond Anniversary #US175 Mike Trout Rookie RC PSA 10",
+                "price": 890,
+                "source": "ebay",
+                "listing_type": "auction",
+                "url": "https://showme.cards/GjXq",
+                "image_url": "https://i.ebayimg.com/images/g/G80AAeSwWi9p5~nF/s-l225.jpg",
+                "condition": "UNKNOWN",
+                "end_date": "2026-04-28T22:30:39Z",
+                "bid_count": 36
+              },
+              {
+                "title": "Topps 2011 Update Series Mike Trout Rookie #US175 PSA 10 Los Angeles Angels",
+                "price": 1295,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/pmu7",
+                "image_url": "https://i.ebayimg.com/images/g/Oy4AAeSwyJ5p4wW3/s-l225.jpg",
+                "condition": "UNKNOWN"
+              },
+              {
+                "title": "2011 Topps Update Mike Trout #US175 PSA 10",
+                "price": 1300,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/AKit",
+                "image_url": "https://i.ebayimg.com/images/g/yrQAAeSwLSlp4-H9/s-l225.jpg",
+                "condition": "UNKNOWN"
+              },
+              {
+                "title": "Mike Trout 2011 Topps Update #US175 PSA 10 ROOKIE ANGELS HOF",
+                "price": 1299.99,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/SL39",
+                "image_url": "https://i.ebayimg.com/images/g/HpUAAeSwzmBp5j4u/s-l225.jpg",
+                "condition": "UNKNOWN"
+              },
+              {
+                "title": "2011 Topps Update Series MIKE TROUT Rookie #US175 [PSA 10] LA Angels",
+                "price": 1299,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/py46",
+                "image_url": "https://i.ebayimg.com/images/g/eY0AAeSwf2lp5Poj/s-l225.jpg",
+                "condition": "UNKNOWN"
+              },
+              {
+                "title": "2011 TOPPS UPDATE #US175 MIKE TROUT ROOKIE RC PSA 10",
+                "price": 1299.99,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/9Cwi",
+                "image_url": "https://i.ebayimg.com/images/g/zbAAAeSwkxNp61eC/s-l225.jpg",
+                "condition": "UNKNOWN"
+              },
+              {
+                "title": "2011 TOPPS UPDATE #US175 MIKE TROUT ROOKIE RC PSA GEM MT 10, ABSOLUTELY FLAWLESS",
+                "price": 1195,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/evoy",
+                "image_url": "https://i.ebayimg.com/images/g/3ZkAAeSwr9dp6l77/s-l225.jpg",
+                "condition": "UNKNOWN"
+              },
+              {
+                "title": "2011 Topps Update Series - Mike Trout #US175 (RC) PSA 10",
+                "price": 1200,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/e09J",
+                "image_url": "https://i.ebayimg.com/images/g/PpsAAeSwRxtp51BE/s-l225.jpg",
+                "condition": "UNKNOWN"
+              },
+              {
+                "title": "2011 Topps Update Baseball #US175 Mike Trout Rookie PSA 10 (GEM MT)",
+                "price": 1383.95,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/0V1t",
+                "image_url": "https://i.ebayimg.com/images/g/QVMAAeSwy6tp6Nx~/s-l225.jpg",
+                "condition": "UNKNOWN"
+              },
+              {
+                "title": "2011 Topps Update Series - Mike Trout #US175 (RC) PSA 10",
+                "price": 1300,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/beFw",
+                "image_url": "https://i.ebayimg.com/images/g/tQQAAeSwqUtp6HQy/s-l225.jpg",
+                "condition": "UNKNOWN"
+              }
+            ]
+          },
+          {
+            "grade_value": "9",
+            "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+            "count": 11,
+            "records": [
+              {
+                "title": "2011 Topps Update Mike Trout RC #US175 Los Angeles Angels PSA 9 BW3",
+                "price": 155,
+                "source": "ebay",
+                "listing_type": "auction",
+                "url": "https://showme.cards/1HBN",
+                "image_url": "https://i.ebayimg.com/images/g/ANMAAeSw5D5p38bR/s-l225.jpg",
+                "condition": "UNKNOWN",
+                "end_date": "2026-04-27T00:51:00Z",
+                "bid_count": 16
+              },
+              {
+                "title": "2011 Topps  Update #US175 Mike Trout Angels RC Rookie PSA 9 MINT",
+                "price": 5.5,
+                "source": "ebay",
+                "listing_type": "auction",
+                "url": "https://showme.cards/mVZG",
+                "image_url": "https://i.ebayimg.com/images/g/vvcAAeSwx-9p5jk9/s-l225.jpg",
+                "condition": "UNKNOWN",
+                "end_date": "2026-04-28T02:10:01Z",
+                "bid_count": 24
+              },
+              {
+                "title": "Mike Trout 2011 Topps Update #US175 Gold /2011 Rookie (RC) PSA 9 Mint Angels \ud83d\udd25",
+                "price": 10.5,
+                "source": "ebay",
+                "listing_type": "auction",
+                "url": "https://showme.cards/GDsf",
+                "image_url": "https://i.ebayimg.com/images/g/1csAAeSwgt5p1PLx/s-l225.jpg",
+                "condition": "UNKNOWN",
+                "end_date": "2026-04-29T03:32:18Z",
+                "bid_count": 27
+              },
+              {
+                "title": "2011 TOPPS UPDATE #US175 MIKE TROUT ROOKIE RC PSA 9",
+                "price": 130.5,
+                "source": "ebay",
+                "listing_type": "auction",
+                "url": "https://showme.cards/nrQD",
+                "image_url": "https://i.ebayimg.com/images/g/4IsAAeSwEJpp6VpI/s-l225.jpg",
+                "condition": "UNKNOWN",
+                "end_date": "2026-05-01T01:37:00Z",
+                "bid_count": 19
+              },
+              {
+                "title": "2011 TOPPS UPDATE #US175 MIKE TROUT ROOKIE RC PSA 9",
+                "price": 495,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/8e3v",
+                "condition": "UNKNOWN"
+              },
+              {
+                "title": "Mike Trout - Topps 2011 Update Series #US175 Rookie - Angels PSA 9 13501",
+                "price": 450,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/9tJN",
+                "image_url": "https://i.ebayimg.com/images/g/1JAAAeSwDgxp5ZX9/s-l225.jpg",
+                "condition": "UNKNOWN"
+              },
+              {
+                "title": "2011 Topps Update Mike Trout RC #US175 PSA 9 MINT Rookie Angels",
+                "price": 524.99,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/jHjg",
+                "image_url": "https://i.ebayimg.com/images/g/MLAAAeSw5spp6Ti8/s-l225.jpg",
+                "condition": "UNKNOWN"
+              },
+              {
+                "title": "2011 Topps Update Mike Trout Rookie #US175 Angels RC PSA 9 MINT ",
+                "price": 430,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/TPUi",
+                "image_url": "https://i.ebayimg.com/images/g/EesAAeSwCB9p5w9t/s-l225.jpg",
+                "condition": "UNKNOWN"
+              },
+              {
+                "title": "2011 TOPPS UPDATE #US175 MIKE TROUT ROOKIE RC PSA 9 RECENTLY GRADED SHARP!",
+                "price": 440,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/arLk",
+                "image_url": "https://i.ebayimg.com/images/g/micAAeSwZPJp4vjT/s-l225.jpg",
+                "condition": "UNKNOWN"
+              },
+              {
+                "title": "2011 TOPPS UPDATE #US175 MIKE TROUT Rookie Card Graded PSA 9 Mint",
+                "price": 460,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/0XhV",
+                "image_url": "https://i.ebayimg.com/images/g/F9MAAeSwWxpp6OPt/s-l225.jpg",
+                "condition": "UNKNOWN"
+              },
+              {
+                "title": "2011 Topps Update Mike Trout #US175 PSA 9 MINT 9pg",
+                "price": 1131.1,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/H7dJ",
+                "image_url": "https://i.ebayimg.com/images/g/qNkAAeSwCctp58lm/s-l225.jpg",
+                "condition": "UNKNOWN"
+              }
+            ]
+          },
+          {
+            "grade_value": "8",
+            "grade_id": "8cf6b653-cbee-4ffd-92aa-c3de253560a2",
+            "count": 3,
+            "records": [
+              {
+                "title": "2011 Topps Update MIKE TROUT #US175 RC Rookie Los Angeles Angels PSA 8 NM-MT",
+                "price": 389.99,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/nrbU",
+                "image_url": "https://i.ebayimg.com/images/g/cg8AAeSwnflp47~w/s-l225.jpg",
+                "condition": "UNKNOWN"
+              },
+              {
+                "title": "2011 Topps Update Series Mike Trout #US175 (RC) PSA 8 Beautiful Condition",
+                "price": 400,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/ZnqQ",
+                "image_url": "https://i.ebayimg.com/images/g/A78AAeSwX8Rp5Ycr/s-l225.jpg",
+                "condition": "UNKNOWN"
+              },
+              {
+                "title": "2011 Topps Update #US175 Mike Trout Angels RC PSA 8 NM-MT",
+                "price": 399.99,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/QpKW",
+                "image_url": "https://i.ebayimg.com/images/g/fXQAAeSwe69p6sRb/s-l225.jpg",
+                "condition": "UNKNOWN"
+              }
+            ]
+          },
+          {
+            "grade_value": "7",
+            "grade_id": "06747244-9940-4c80-814e-47fba403462f",
+            "count": 2,
+            "records": [
+              {
+                "title": "Mike Trout 2011 Topps Update #US175 PSA 7 ROOKIE Angels",
+                "price": 349.99,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/QZsv",
+                "image_url": "https://i.ebayimg.com/images/g/VPkAAeSwCB9p6Q5b/s-l225.jpg",
+                "condition": "UNKNOWN"
+              },
+              {
+                "title": "2011 TOPPS UPDATE GOLD #US175 MIKE TROUT ROOKIE RC 1989/2011 PSA 7",
+                "price": 850,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/SS3D",
+                "image_url": "https://i.ebayimg.com/images/g/4-UAAeSwGjRp6nTn/s-l225.jpg",
+                "condition": "UNKNOWN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "company_name": "BGS",
+        "company_id": "11bfc982-39bc-4813-99fc-70483a4dd653",
+        "grades": [
+          {
+            "grade_value": "9.5",
+            "grade_id": "f99bdb92-0bba-4236-b1d8-4a2093cf80f0",
+            "count": 6,
+            "records": [
+              {
+                "title": "2011 TOPPS UPDATE #US175 MIKE TROUT ROOKIE RC BGS 9.5",
+                "price": 4.25,
+                "source": "ebay",
+                "listing_type": "auction",
+                "url": "https://showme.cards/bpaQ",
+                "image_url": "https://i.ebayimg.com/images/g/YIsAAeSw171p46Sr/s-l225.jpg",
+                "condition": "UNKNOWN",
+                "end_date": "2026-04-27T01:32:00Z",
+                "bid_count": 39
+              },
+              {
+                "title": "2011 Mike Trout Rookie BGS 9.5 !! Topps Update Mike Trout RC #US175",
+                "price": 48,
+                "source": "ebay",
+                "listing_type": "auction",
+                "url": "https://showme.cards/qSSv",
+                "image_url": "https://i.ebayimg.com/images/g/Y6AAAeSwrmRp4Pux/s-l225.jpg",
+                "condition": "UNKNOWN",
+                "end_date": "2026-04-27T01:39:01Z",
+                "bid_count": 28
+              },
+              {
+                "title": "2011 TOPPS UPDATE #US175 MIKE TROUT ROOKIE RC BGS 9.5",
+                "price": 315,
+                "source": "ebay",
+                "listing_type": "auction",
+                "url": "https://showme.cards/pnHq",
+                "image_url": "https://i.ebayimg.com/images/g/KXQAAeSwFCdp56bP/s-l225.jpg",
+                "condition": "UNKNOWN",
+                "end_date": "2026-04-28T16:33:37Z",
+                "bid_count": 10
+              },
+              {
+                "title": "2011 Topps Update MIKE TROUT RC Rookie #US175 ANGELS BGS 9.5 GEM MINT W218",
+                "price": 51,
+                "source": "ebay",
+                "listing_type": "auction",
+                "url": "https://showme.cards/M2Rt",
+                "image_url": "https://i.ebayimg.com/images/g/BEgAAeSw8iBp5-aL/s-l225.jpg",
+                "condition": "UNKNOWN",
+                "end_date": "2026-05-04T02:07:28Z",
+                "bid_count": 6
+              },
+              {
+                "title": "2011 Topps Update #US175 Mike Trout Rookie RC BGS 9.5",
+                "price": 750,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/lF2X",
+                "image_url": "https://i.ebayimg.com/images/g/glUAAeSwl6Zp5PxW/s-l225.jpg",
+                "condition": "UNKNOWN"
+              },
+              {
+                "title": "2011 Topps Update #US175 Mike Trout Rookie RC BGS 9.5",
+                "price": 725,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/wQCO",
+                "image_url": "https://i.ebayimg.com/images/g/omcAAeSwppNp6EnT/s-l225.jpg",
+                "condition": "UNKNOWN"
+              }
+            ]
+          },
+          {
+            "grade_value": "3",
+            "grade_id": "42822cb4-1279-4bc0-8eb9-dbe4e9ee997e",
+            "count": 1,
+            "records": [
+              {
+                "title": "2011 Topps Update Series Mike Trout #US175 (RC) BGS Rookie! 3-9.5 Subgrades",
+                "price": 389.99,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/HPfD",
+                "image_url": "https://i.ebayimg.com/images/g/NjkAAeSwQzRp43Lr/s-l225.jpg",
+                "condition": "UNKNOWN"
+              }
+            ]
+          },
+          {
+            "grade_value": "9",
+            "grade_id": "10be09b8-e444-4d3e-bbef-6e83cc4b238a",
+            "count": 1,
+            "records": [
+              {
+                "title": "2011 Topps Update Series Mike Trout #US175 (RC) BGS 9",
+                "price": 385,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/4AeI",
+                "image_url": "https://i.ebayimg.com/images/g/DF8AAeSwjCJp4qng/s-l225.jpg",
+                "condition": "UNKNOWN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "company_name": "SGC",
+        "company_id": "aa797bb1-ae21-440f-91b6-7484e47ce0ce",
+        "grades": [
+          {
+            "grade_value": "8",
+            "grade_id": "5eab7828-d389-4f06-968b-602b2ac3d5cb",
+            "count": 1,
+            "records": [
+              {
+                "title": "2011 Topps Update Series Mike Trout #US175 ROOKIE RC SGC 8",
+                "price": 400,
+                "source": "ebay",
+                "listing_type": "fixed",
+                "url": "https://showme.cards/ddIR",
+                "image_url": "https://i.ebayimg.com/images/g/cGkAAeSwur5p6TxH/s-l225.jpg",
+                "condition": "UNKNOWN"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "sources": [
+        {
+          "source": "ebay",
+          "count": 49
+        }
+      ],
+      "total_records": 49
+    }
+  }
+}

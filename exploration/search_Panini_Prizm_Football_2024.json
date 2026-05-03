@@ -1,0 +1,543 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/catalog/search",
+    "params": {
+      "q": "Panini Prizm Football 2024",
+      "take": 50
+    },
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 85,
+  "_elapsed_s": 3.313,
+  "data": {
+    "results": [
+      {
+        "type": "release",
+        "id": "9d723d19-bc1f-4e38-ae24-f8347fddd16d",
+        "name": "Panini Prizm",
+        "relevance": 3.545,
+        "year": "2024",
+        "manufacturerName": "Panini"
+      },
+      {
+        "type": "release",
+        "id": "87358289-7807-4a66-90b8-4a96a22ccaa8",
+        "name": "Panini Prizm Deca",
+        "relevance": 3.545,
+        "year": "2024",
+        "manufacturerName": "Panini"
+      },
+      {
+        "type": "release",
+        "id": "ee391dce-737e-474a-840d-4a8d0082aa07",
+        "name": "Panini Prizm Draft Picks",
+        "relevance": 3.545,
+        "year": "2024",
+        "manufacturerName": "Panini"
+      },
+      {
+        "type": "release",
+        "id": "95e66845-7284-4d83-accc-4741d6f1770c",
+        "name": "Panini Prizm",
+        "relevance": 3.275,
+        "year": "2024",
+        "manufacturerName": "Panini"
+      },
+      {
+        "type": "release",
+        "id": "04ae3f79-ee5d-4806-af7c-eb145f0e2403",
+        "name": "Panini Prizm Monopoly WNBA",
+        "relevance": 3.275,
+        "year": "2024",
+        "manufacturerName": "Panini"
+      },
+      {
+        "type": "release",
+        "id": "d976afcf-c670-4e42-a3f3-59266ce04965",
+        "name": "Panini Prizm WNBA",
+        "relevance": 3.275,
+        "year": "2024",
+        "manufacturerName": "Panini"
+      },
+      {
+        "type": "set",
+        "id": "d1873506-5a66-4efc-a241-da70f33e17bf",
+        "name": "2025 XRC Prizm Redemption",
+        "relevance": 3.215,
+        "year": "2024",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      },
+      {
+        "type": "set",
+        "id": "e1b2930f-88d3-4fb6-abea-b1ef444feb07",
+        "name": "Prizm Flashback",
+        "relevance": 3.212,
+        "year": "2024",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Mojo Prizm"
+      },
+      {
+        "type": "set",
+        "id": "c360e339-75ac-451c-9f8d-bd8ba29697e0",
+        "name": "2025 XRC Mystery Autograph Prizm Redemption",
+        "relevance": 3.201,
+        "year": "2024",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      },
+      {
+        "type": "set",
+        "id": "8ecb26fd-ce1e-4d56-929b-103d56133afb",
+        "name": "Multiverse Prizm Dual Relics",
+        "relevance": 3.201,
+        "year": "2024",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      },
+      {
+        "type": "set",
+        "id": "6ee46af2-d4b2-4169-9d7e-e1d3e3c7b8f7",
+        "name": "Prizm Break",
+        "relevance": 3.201,
+        "year": "2024",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      },
+      {
+        "type": "set",
+        "id": "38786474-2314-4b7f-a63d-b95f0bad8c43",
+        "name": "Prizm Break",
+        "relevance": 3.201,
+        "year": "2024",
+        "releaseName": "Panini Prizm Draft Picks",
+        "manufacturerName": "Panini"
+      },
+      {
+        "type": "set",
+        "id": "08e05b45-d67f-4db9-a5c8-61f1ecb88410",
+        "name": "Prizmania",
+        "relevance": 3.196,
+        "year": "2024",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini"
+      },
+      {
+        "type": "set",
+        "id": "a78ae3ac-5a0a-4dfe-b4f9-57312a9787e7",
+        "name": "Prizmatic",
+        "relevance": 3.19,
+        "year": "2024",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      },
+      {
+        "type": "card",
+        "id": "9b83eaea-9b00-4fcd-98be-62e07fd92126",
+        "name": "Bill Parcells",
+        "relevance": 3.035,
+        "year": "2024",
+        "setName": "Base Set",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Autographs Silver Prizm"
+      },
+      {
+        "type": "card",
+        "id": "93580905-82fe-4b12-9018-043d345af8d1",
+        "name": "Kendall Fuller",
+        "relevance": 3.035,
+        "year": "2024",
+        "setName": "Base Set",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      },
+      {
+        "type": "card",
+        "id": "93e8e408-c862-4b30-a6c3-18e6bd4d197d",
+        "name": "Marshall Faulk",
+        "relevance": 3.035,
+        "year": "2024",
+        "setName": "All Purpose",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Silver Prizm"
+      },
+      {
+        "type": "card",
+        "id": "0b27f5bf-241b-43b0-9af1-da76c567c3c2",
+        "name": "Marshall Faulk",
+        "relevance": 3.035,
+        "year": "2024",
+        "setName": "Base Set",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Autographs Silver Prizm"
+      },
+      {
+        "type": "card",
+        "id": "60b7e758-746b-4587-a6b5-86d0573b2ad0",
+        "name": "Brevyn Spann-Ford",
+        "relevance": 3.032,
+        "year": "2024",
+        "setName": "Rookie Signature Memorabilia",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Blue Prizm"
+      },
+      {
+        "type": "card",
+        "id": "fc74b5de-67c6-4ee9-a209-3334b09a106c",
+        "name": "Pat Freiermuth",
+        "relevance": 3.032,
+        "year": "2024",
+        "setName": "Base Set",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      },
+      {
+        "type": "card",
+        "id": "9e02be90-59ff-4787-93aa-6b92c7f79691",
+        "name": "Pat Freiermuth",
+        "relevance": 3.032,
+        "year": "2024",
+        "setName": "Base Set",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Autographs Silver Prizm"
+      },
+      {
+        "type": "card",
+        "id": "157de365-e8bd-4c9e-a614-ad8bdbdca137",
+        "name": "Randall Cunningham",
+        "relevance": 3.029,
+        "year": "2024",
+        "setName": "Select Signatures",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Red Prizm"
+      },
+      {
+        "type": "card",
+        "id": "8328f4f3-a4b1-4428-b35b-a15f1a98721e",
+        "name": "Dominick Puni",
+        "relevance": 3.028,
+        "year": "2024",
+        "setName": "Base Set",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      },
+      {
+        "type": "card",
+        "id": "9bd21fe3-2c28-4853-96e6-07c9053a1d88",
+        "name": "Ricky Pearsall",
+        "relevance": 3.028,
+        "year": "2024",
+        "setName": "Neon Icons",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Prizm"
+      },
+      {
+        "type": "card",
+        "id": "2467dc26-80f7-4e98-b913-e2983ac8b7e9",
+        "name": "Ricky Pearsall",
+        "relevance": 3.028,
+        "year": "2024",
+        "setName": "Rookie Signatures",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      },
+      {
+        "type": "card",
+        "id": "6adf4396-ebe5-48bc-bfb3-e4e0c87c2ebc",
+        "name": "Ricky Pearsall",
+        "relevance": 3.028,
+        "year": "2024",
+        "setName": "Jumbo Rookie Swatch",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      },
+      {
+        "type": "card",
+        "id": "c8e98fcc-f53e-4c50-9742-0b834673e67a",
+        "name": "Ricky Pearsall",
+        "relevance": 3.028,
+        "year": "2024",
+        "setName": "Base Set",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      },
+      {
+        "type": "card",
+        "id": "f710ba2e-8422-4671-a00d-98356f8866a1",
+        "name": "Ricky Pearsall",
+        "relevance": 3.028,
+        "year": "2024",
+        "setName": "Rookie Patch Autographs",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      },
+      {
+        "type": "card",
+        "id": "9ba82f6f-1ff8-47ad-9d0a-666a68e79216",
+        "name": "Ricky Pearsall",
+        "relevance": 3.028,
+        "year": "2024",
+        "setName": "Brilliance",
+        "releaseName": "Panini Prizm Deca",
+        "manufacturerName": "Panini",
+        "parallelName": "Mojo Prizms"
+      },
+      {
+        "type": "card",
+        "id": "5d078658-193f-462c-975d-d4056f6b5f70",
+        "name": "Ricky Pearsall",
+        "relevance": 3.028,
+        "year": "2024",
+        "setName": "Jumbo Rookie Signature Swatches",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      },
+      {
+        "type": "card",
+        "id": "6801dd92-ce60-4381-915d-eb6e6675ca45",
+        "name": "Ricky Pearsall",
+        "relevance": 3.028,
+        "year": "2024",
+        "setName": "Select Signatures",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Red Prizm"
+      },
+      {
+        "type": "card",
+        "id": "b839f3ca-a5fd-40c4-9384-f558c819ddf3",
+        "name": "Ricky Pearsall",
+        "relevance": 3.028,
+        "year": "2024",
+        "setName": "Rookie Swatches",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Red Prizm"
+      },
+      {
+        "type": "card",
+        "id": "e9017fb2-6ca9-44f6-bad5-d8752aebb9ac",
+        "name": "Ricky Pearsall",
+        "relevance": 3.028,
+        "year": "2024",
+        "setName": "Base Set",
+        "releaseName": "Panini Prizm Deca",
+        "manufacturerName": "Panini",
+        "parallelName": "Red Prizms"
+      },
+      {
+        "type": "card",
+        "id": "d1be1b0a-b0a8-4a59-bcab-fcf9031379fb",
+        "name": "Ricky Pearsall",
+        "relevance": 3.028,
+        "year": "2024",
+        "setName": "Base Set",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Autographs Silver Prizm"
+      },
+      {
+        "type": "card",
+        "id": "5775495c-8756-4f6d-b543-bd755baa54c8",
+        "name": "Ricky Pearsall",
+        "relevance": 3.028,
+        "year": "2024",
+        "setName": "Select Certified Rookies",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Prizm"
+      },
+      {
+        "type": "card",
+        "id": "d4d1556c-f57e-4b6a-b95a-d547c81525dd",
+        "name": "Ricky Pearsall",
+        "relevance": 3.028,
+        "year": "2024",
+        "setName": "Select Future",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Prizm"
+      },
+      {
+        "type": "card",
+        "id": "415359ac-e2d3-4907-8dcf-ec5f5e2a8d42",
+        "name": "Ricky Pearsall",
+        "relevance": 3.028,
+        "year": "2024",
+        "setName": "Base Set",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      },
+      {
+        "type": "card",
+        "id": "379679b0-7297-4d38-8015-ffcbfb75ec71",
+        "name": "Ricky Pearsall",
+        "relevance": 3.028,
+        "year": "2024",
+        "setName": "Signatures",
+        "releaseName": "Panini Prizm Deca",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizms"
+      },
+      {
+        "type": "card",
+        "id": "26701d18-cea9-4512-90d3-e88f5851013e",
+        "name": "Ricky Pearsall",
+        "relevance": 3.028,
+        "year": "2024",
+        "setName": "Prime Selections Signatures",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Base Prizm"
+      },
+      {
+        "type": "card",
+        "id": "ef1f734f-5a5e-4f98-b3c8-f601371854ba",
+        "name": "Ricky Pearsall",
+        "relevance": 3.028,
+        "year": "2024",
+        "setName": "Base Set",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      },
+      {
+        "type": "card",
+        "id": "3fcbd342-3858-4a81-bef1-ddaa6bf04006",
+        "name": "Ricky Pearsall",
+        "relevance": 3.028,
+        "year": "2024",
+        "setName": "Rookie Variations",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      },
+      {
+        "type": "card",
+        "id": "59d3681f-527f-405a-83fd-6e0aa8d83ff9",
+        "name": "Barry Foster",
+        "relevance": 3.023,
+        "year": "2024",
+        "setName": "Franchise Legends Signatures",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      },
+      {
+        "type": "card",
+        "id": "3319ecdc-b8ec-4c93-907b-0750b3dc9152",
+        "name": "Barry Foster",
+        "relevance": 3.023,
+        "year": "2024",
+        "setName": "All Purpose",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Silver Prizm"
+      },
+      {
+        "type": "card",
+        "id": "7e70b65c-f012-4f2f-bc71-1cb678ab1fda",
+        "name": "Brandon Marshall",
+        "relevance": 3.023,
+        "year": "2024",
+        "setName": "Signatures",
+        "releaseName": "Panini Prizm Deca",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizms"
+      },
+      {
+        "type": "card",
+        "id": "c99a7d82-2b18-4dec-8b44-76f3af6f9632",
+        "name": "Brandon Marshall",
+        "relevance": 3.023,
+        "year": "2024",
+        "setName": "Signatures",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Base Prizm"
+      },
+      {
+        "type": "card",
+        "id": "54119a44-c583-4f5c-984b-02cdc57fac8c",
+        "name": "Breece Hall",
+        "relevance": 3.023,
+        "year": "2024",
+        "setName": "Sparks Relics",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      },
+      {
+        "type": "card",
+        "id": "6de2b0bc-1f93-4dea-a098-7f553b7c1e0a",
+        "name": "Breece Hall",
+        "relevance": 3.023,
+        "year": "2024",
+        "setName": "Hype",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      },
+      {
+        "type": "card",
+        "id": "c6e690a8-4aaa-465c-a26b-c0d2d0d67606",
+        "name": "Breece Hall",
+        "relevance": 3.023,
+        "year": "2024",
+        "setName": "Base Set",
+        "releaseName": "Panini Prizm",
+        "manufacturerName": "Panini",
+        "parallelName": "Autographs Silver Prizm"
+      },
+      {
+        "type": "card",
+        "id": "745fa8a0-d4ef-4023-b0c6-1f79724d6461",
+        "name": "Breece Hall",
+        "relevance": 3.023,
+        "year": "2024",
+        "setName": "Base Set",
+        "releaseName": "Panini Prizm Deca",
+        "manufacturerName": "Panini",
+        "parallelName": "Red Prizms"
+      },
+      {
+        "type": "card",
+        "id": "d2bf5f08-7341-42bd-86a2-a1cffebf9813",
+        "name": "Breece Hall",
+        "relevance": 3.023,
+        "year": "2024",
+        "setName": "Base Set",
+        "releaseName": "Panini Select",
+        "manufacturerName": "Panini",
+        "parallelName": "Gold Prizm"
+      }
+    ],
+    "total_count": 6281,
+    "skip": 0,
+    "take": 50
+  }
+}

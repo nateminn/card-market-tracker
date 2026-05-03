@@ -1,0 +1,29 @@
+{
+  "card": {
+    "card_id": "ed6118ff-e631-4e5e-9c16-ac37f63fe59e",
+    "name": "Victor Wembanyama",
+    "number": "1",
+    "set": {
+      "set_id": "9b656b9a-a154-4c5f-8968-58320739b4bc",
+      "name": "Deep Space",
+      "year": "2023-24",
+      "release": "Panini Prizm"
+    }
+  },
+  "query": {
+    "period": "all",
+    "listing_type": "both",
+    "as_of_date": "2026-04-27"
+  },
+  "raw": {
+    "period_days": null,
+    "count": 0,
+    "records": []
+  },
+  "graded": [],
+  "meta": {
+    "sources": [],
+    "last_sale_date": null,
+    "total_records": 0
+  }
+}

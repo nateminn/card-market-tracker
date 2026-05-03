@@ -1,0 +1,40 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/pricing/24015976-578d-404e-9135-9ecb9f6d5da8",
+    "params": null,
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 32,
+  "_elapsed_s": 0.37,
+  "data": {
+    "card": {
+      "card_id": "24015976-578d-404e-9135-9ecb9f6d5da8",
+      "name": "Luka Doncic",
+      "number": "21",
+      "set": {
+        "set_id": "77b404e2-6fe8-4505-ab12-a73d2280db0b",
+        "name": "Far Out!",
+        "year": "2019-20",
+        "release": "Panini Prizm"
+      }
+    },
+    "query": {
+      "period": "all",
+      "listing_type": "both",
+      "as_of_date": "2026-04-24"
+    },
+    "raw": {
+      "period_days": null,
+      "count": 0,
+      "records": []
+    },
+    "graded": [],
+    "meta": {
+      "sources": [],
+      "last_sale_date": null,
+      "total_records": 0
+    }
+  }
+}
