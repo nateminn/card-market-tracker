@@ -183,18 +183,18 @@ function ReleaseGroup({
 
       {open ? (
         <div>
-          <div className="flex items-center gap-3 pl-14 pr-4 py-1.5 bg-panel-2/40 eyebrow">
+          <div className="hidden sm:flex items-center gap-3 pl-14 pr-4 py-1.5 bg-panel-2/40 eyebrow">
             <div className="flex-1 min-w-0">Set · #</div>
             <div className="w-24 text-right">PSA 10 30d</div>
-            <div className="w-16 text-right">Sales</div>
-            <div className="w-20 text-right">Momentum</div>
+            <div className="hidden md:block w-16 text-right">Sales</div>
+            <div className="hidden md:block w-20 text-right">Momentum</div>
             <div className="w-4" />
           </div>
           {cards.map((c) => (
             <Link
               key={c.id}
               href={`/cards/${c.id}`}
-              className="flex items-center gap-3 pl-14 pr-4 py-2.5 border-t border-border first:border-t-0 hover:bg-panel-2 transition-colors duration-150"
+              className="flex items-center gap-3 pl-4 sm:pl-14 pr-4 py-2.5 border-t border-border first:border-t-0 hover:bg-panel-2 transition-colors duration-150"
             >
               <CardImage
                 src={c.image_url}
@@ -214,16 +214,16 @@ function ReleaseGroup({
                   ) : null}
                 </div>
               </div>
-              <div className="w-24 text-right font-mono text-sm tabular text-fg">
+              <div className="w-20 sm:w-24 text-right font-mono text-sm tabular text-fg shrink-0">
                 {fmtUsd(c.psa10_30d)}
               </div>
-              <div className="w-16 text-right font-mono text-sm tabular text-fg-2">
+              <div className="hidden md:block w-16 text-right font-mono text-sm tabular text-fg-2 shrink-0">
                 {c.sales_30d ?? 0}
               </div>
-              <div className="w-20 text-right">
+              <div className="hidden md:block w-20 text-right shrink-0">
                 <ChangeBadge pct={c.momentum} size="sm" />
               </div>
-              <div className="w-4 text-right text-muted text-xs">→</div>
+              <div className="hidden sm:block w-4 text-right text-muted text-xs shrink-0">→</div>
             </Link>
           ))}
         </div>
