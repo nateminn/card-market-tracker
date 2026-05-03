@@ -14,6 +14,7 @@ import {
   getActiveListings,
   type Sale,
 } from "@/lib/data";
+import { resolveParallel } from "@/lib/parallel";
 import Pill from "@/components/ui/Pill";
 import Section from "@/components/ui/Section";
 import ChangeBadge from "@/components/ui/ChangeBadge";
@@ -446,15 +447,24 @@ export default async function CardDetailPage({
                     {l.is_graded ? `${l.grader ?? ""} ${l.grade_value ?? ""}`.trim() : "Raw"}
                   </div>
                   <div className="w-[100px]">
-                    {l.parallel_name ? (
-                      <span className="text-[10px] font-mono uppercase tracking-wider text-accent px-1.5 py-0.5 border border-accent/40 bg-accent/5 truncate inline-block max-w-full">
-                        {l.parallel_name}
-                      </span>
-                    ) : (
-                      <span className="text-[10px] font-mono uppercase tracking-wider text-muted-2 px-1.5 py-0.5 border border-border-2 inline-block">
-                        Base
-                      </span>
-                    )}
+                    {(() => {
+                      const p = resolveParallel({
+                        parallel_name: l.parallel_name,
+                        external_title: l.external_title,
+                      });
+                      return (
+                        <span
+                          className={
+                            p.isBase
+                              ? "text-[10px] font-mono uppercase tracking-wider text-muted-2 px-1.5 py-0.5 border border-border-2 inline-block"
+                              : "text-[10px] font-mono uppercase tracking-wider text-accent px-1.5 py-0.5 border border-accent/40 bg-accent/5 truncate inline-block max-w-full"
+                          }
+                          title={p.label}
+                        >
+                          {p.label}
+                        </span>
+                      );
+                    })()}
                   </div>
                   <div className="w-32 text-[12px] text-muted">
                     {l.listing_type === "auction" && l.end_date ? (
@@ -548,15 +558,24 @@ export default async function CardDetailPage({
                   {s.is_graded ? `${s.grader ?? ""} ${s.grade_value ?? ""}`.trim() : "Raw"}
                 </div>
                 <div className="w-[100px]">
-                  {s.parallel_name ? (
-                    <span className="text-[10px] font-mono uppercase tracking-wider text-accent px-1.5 py-0.5 border border-accent/40 bg-accent/5 truncate inline-block max-w-full" title={s.parallel_name}>
-                      {s.parallel_name}
-                    </span>
-                  ) : (
-                    <span className="text-[10px] font-mono uppercase tracking-wider text-muted-2 px-1.5 py-0.5 border border-border-2 inline-block">
-                      Base
-                    </span>
-                  )}
+                  {(() => {
+                    const p = resolveParallel({
+                      parallel_name: s.parallel_name,
+                      external_title: s.external_title,
+                    });
+                    return (
+                      <span
+                        className={
+                          p.isBase
+                            ? "text-[10px] font-mono uppercase tracking-wider text-muted-2 px-1.5 py-0.5 border border-border-2 inline-block"
+                            : "text-[10px] font-mono uppercase tracking-wider text-accent px-1.5 py-0.5 border border-accent/40 bg-accent/5 truncate inline-block max-w-full"
+                        }
+                        title={p.label}
+                      >
+                        {p.label}
+                      </span>
+                    );
+                  })()}
                 </div>
                 <div className="w-20 text-[12px]">
                   {s.external_url ? (
