@@ -76,6 +76,24 @@ export type AnalyticsRow = {
   thesis?: string | null;
 };
 
+export type ActiveListing = {
+  id: number;
+  card_id: string;
+  observed_at: string;
+  price_usd: number;
+  listing_type: "auction" | "fixed" | "best_offer" | "search";
+  source: string;
+  external_url: string | null;
+  external_title: string | null;
+  image_url: string | null;
+  condition_raw: string | null;
+  is_graded: boolean;
+  grader: string | null;
+  grade_value: string | null;
+  end_date: string | null;
+  bid_count: number | null;
+};
+
 export type WatchlistEntry = {
   card_id: string;
   added_at: string;
@@ -356,6 +374,39 @@ export async function getAnalytics(cardId: string): Promise<AnalyticsRow | null>
     confidence: undefined,
     thesis: null,
   };
+}
+
+// ─────────────────────────────────────────────────────────────────────
+// Active listings (separate from sales — what's available to BUY right now)
+// Populated by src/refresh_active_listings.py via CardSight /marketplace.
+// ─────────────────────────────────────────────────────────────────────
+
+export async function getActiveListings(cardId: string): Promise<ActiveListing[]> {
+  const sb = supabase();
+  const { data } = await sb
+    .from("active_listings")
+    .select(
+      "id, card_id, observed_at, price_usd, listing_type, source, external_url, external_title, image_url, condition_raw, is_graded, grader, grade_value, end_date, bid_count",
+    )
+    .eq("card_id", cardId)
+    .order("price_usd", { ascending: true });
+  return (data || []).map((r) => ({
+    id: Number(r.id),
+    card_id: r.card_id,
+    observed_at: r.observed_at,
+    price_usd: Number(r.price_usd),
+    listing_type: r.listing_type,
+    source: r.source,
+    external_url: r.external_url,
+    external_title: r.external_title,
+    image_url: r.image_url,
+    condition_raw: r.condition_raw,
+    is_graded: !!r.is_graded,
+    grader: r.grader,
+    grade_value: r.grade_value,
+    end_date: r.end_date,
+    bid_count: r.bid_count != null ? Number(r.bid_count) : null,
+  }));
 }
 
 /** Batch fetch the latest analytics row for many cards in one query. Returns

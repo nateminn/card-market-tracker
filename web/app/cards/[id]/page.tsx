@@ -11,6 +11,7 @@ import {
   getSparkline,
   getVariations,
   getAnalyticsForCards,
+  getActiveListings,
   type Sale,
 } from "@/lib/data";
 import Pill from "@/components/ui/Pill";
@@ -99,9 +100,10 @@ export default async function CardDetailPage({
 
   const { card, sales, analytics } = detail;
   const filtered = filterPricedSales(sales);
-  const [spark, variations] = await Promise.all([
+  const [spark, variations, activeListings] = await Promise.all([
     getSparkline(card.id),
     getVariations(card.id),
+    getActiveListings(card.id),
   ]);
   const variationAnalytics = await getAnalyticsForCards(variations.map((v) => v.id));
   const lastPrice = spark.at(-1)?.value ?? analytics?.vwap_30d_usd ?? 0;
@@ -385,6 +387,91 @@ export default async function CardDetailPage({
           )}
         </div>
       </section>
+
+      {/* Active listings — what's available to BUY right now ----------- */}
+      {activeListings.length > 0 ? (
+        <section className="mb-10">
+          <Section
+            eyebrow="Active listings · live on eBay"
+            title={`${activeListings.length} available now`}
+          />
+          <p className="text-[12px] text-muted-2 mb-3 max-w-3xl leading-relaxed">
+            Open eBay listings sorted by ask price (lowest first). These are
+            distinct from the completed-sales table below — these haven&apos;t
+            sold yet. Refreshed by the Cardex pipeline; auctions show their
+            end date and bid count.
+          </p>
+          <div className="border border-border bg-panel overflow-x-auto">
+            <div className="min-w-[640px]">
+              <div className="flex items-center gap-3 px-4 py-2.5 border-b border-border bg-panel-2 eyebrow">
+                <div className="w-8" />
+                <div className="w-20">Type</div>
+                <div className="w-20">Grade</div>
+                <div className="w-32">Ends</div>
+                <div className="w-24 text-right">Ask</div>
+                <div className="flex-1 min-w-0">Title</div>
+              </div>
+              {activeListings.slice(0, 25).map((l) => (
+                <a
+                  key={l.id}
+                  href={l.external_url ?? "#"}
+                  target={l.external_url ? "_blank" : undefined}
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 px-4 py-2.5 border-b border-border last:border-b-0 hover:bg-panel-2 transition-colors duration-150 text-sm"
+                >
+                  <div className="w-8 shrink-0">
+                    {l.image_url ? (
+                      <img
+                        src={l.image_url}
+                        alt=""
+                        width={32}
+                        height={45}
+                        className="block border border-border-2 object-cover"
+                        style={{ width: 32, height: 45 }}
+                        draggable={false}
+                      />
+                    ) : (
+                      <div
+                        aria-hidden
+                        className="bg-panel-2 border border-border"
+                        style={{ width: 32, height: 45 }}
+                      />
+                    )}
+                  </div>
+                  <div className="w-20 text-[10px] font-mono uppercase tracking-wider text-muted-2">
+                    {l.listing_type === "auction" ? "Auction" : "Buy now"}
+                  </div>
+                  <div className="w-20 font-mono text-fg text-[12px]">
+                    {l.is_graded ? `${l.grader ?? ""} ${l.grade_value ?? ""}`.trim() : "Raw"}
+                  </div>
+                  <div className="w-32 text-[12px] text-muted">
+                    {l.listing_type === "auction" && l.end_date ? (
+                      <>
+                        {new Date(l.end_date).toLocaleDateString("en-US", {
+                          month: "short",
+                          day: "numeric",
+                        })}
+                        {l.bid_count != null ? (
+                          <span className="ml-2 text-muted-2">{l.bid_count} bids</span>
+                        ) : null}
+                      </>
+                    ) : (
+                      "—"
+                    )}
+                  </div>
+                  <div className="w-24 text-right font-mono text-fg tabular">
+                    ${l.price_usd.toFixed(2)}
+                  </div>
+                  <div className="flex-1 min-w-0 truncate text-info text-[12px]" title={l.external_title ?? undefined}>
+                    {l.external_title}
+                    <span aria-hidden className="ml-1 text-[9px]">↗</span>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       {/* Recent sales table ------------------------------------------- */}
       <section>
