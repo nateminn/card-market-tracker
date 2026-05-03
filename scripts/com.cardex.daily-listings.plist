@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.cardex.daily-listings</string>
+
+    <!-- What to run -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/nathan/Desktop/cardex/scripts/daily_listings.sh</string>
+    </array>
+
+    <!-- When: every day at 7am local time. Listings go stale fast — this
+         keeps users seeing reasonably-current auctions / Buy-It-Now prices. -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>7</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <!-- Logs -->
+    <key>StandardOutPath</key>
+    <string>/Users/nathan/Desktop/cardex/logs/launchd-listings-stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/nathan/Desktop/cardex/logs/launchd-listings-stderr.log</string>
+
+    <!-- Run from repo root so relative paths resolve -->
+    <key>WorkingDirectory</key>
+    <string>/Users/nathan/Desktop/cardex</string>
+
+    <!-- Don't fire on load; wait for the next 7am window -->
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>

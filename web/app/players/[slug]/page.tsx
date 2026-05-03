@@ -11,7 +11,7 @@ import {
   getPlayerSales,
   getPlayerBio,
   getPlayerNews,
-  getAnalytics,
+  getAnalyticsForCards,
 } from "@/lib/data";
 import Pill from "@/components/ui/Pill";
 import Section from "@/components/ui/Section";
@@ -68,13 +68,10 @@ export default async function PlayerPage({
     getPlayers(),
     getPlayerSparkline(slug, 30),
   ]);
-  // Pre-fetch analytics for every variant card so the JSX below can be sync.
-  const analyticsByCard = new Map<string, Awaited<ReturnType<typeof getAnalytics>>>();
-  await Promise.all(
-    player.cards.map(async (c) => {
-      analyticsByCard.set(c.id, await getAnalytics(c.id));
-    }),
-  );
+  // Pre-fetch analytics for every variant card in ONE batched query
+  // (was N sequential queries — 100+ for prolific players like Skenes,
+  // crashed dev mode and timed out edge functions in prod).
+  const analyticsByCard = await getAnalyticsForCards(player.cards.map((c) => c.id));
   const bio = getPlayerBio(slug);
   const news = getPlayerNews(player.name);
   const psa10Sales = allSales.filter(
