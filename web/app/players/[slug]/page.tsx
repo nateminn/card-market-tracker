@@ -20,7 +20,6 @@ import ChangeBadge from "@/components/ui/ChangeBadge";
 import InfoTip from "@/components/ui/InfoTip";
 import HBars from "@/components/charts/HBars";
 import VolumeBar from "@/components/charts/VolumeBar";
-import { detectParallel } from "@/lib/parallel";
 import PlayerAvatar from "@/components/ui/PlayerAvatar";
 import PlayerView from "./PlayerView";
 import CompareSection from "./CompareSection";
@@ -439,63 +438,48 @@ export default async function PlayerPage({
           ) : (
             <>
               <div className="border border-border bg-panel">
-                {recent.slice(0, 12).map((s) => {
-                  const parallel = detectParallel(s.external_title);
-                  return (
-                    <div
-                      key={s.id}
-                      className="flex items-center gap-3 px-4 py-2.5 text-sm border-b border-border last:border-b-0 hover:bg-panel-2 transition-colors duration-150"
-                    >
-                      <div className="w-14 shrink-0 font-mono text-muted tabular text-[12px]">
-                        {new Date(s.sold_at).toLocaleDateString(undefined, {
-                          month: "short",
-                          day: "numeric",
-                        })}
-                      </div>
-                      <div className="w-20 shrink-0 font-mono text-fg text-[12px]">
-                        {s.is_graded ? `${s.grader ?? ""} ${s.grade_value ?? ""}`.trim() : "Raw"}
-                      </div>
-                      <div className="flex-1 min-w-0">
-                        <div className="flex items-center gap-1.5">
-                          <span
-                            className={
-                              parallel.isBase
-                                ? "text-[10px] font-mono uppercase tracking-wider text-muted-2 px-1.5 py-0.5 border border-border-2"
-                                : "text-[10px] font-mono uppercase tracking-wider text-accent px-1.5 py-0.5 border border-accent/40 bg-accent/5"
-                            }
-                          >
-                            {parallel.label}
-                          </span>
-                          {s.external_url ? (
-                            <a
-                              href={s.external_url}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-[12px] text-info hover:text-accent transition-colors duration-150 truncate inline-flex items-center gap-1"
-                              title={s.external_title ?? undefined}
-                            >
-                              <span className="truncate">{s.external_title ?? s.source}</span>
-                              <span aria-hidden className="text-[9px] shrink-0">↗</span>
-                            </a>
-                          ) : (
-                            <span className="text-[12px] text-muted truncate" title={s.external_title ?? undefined}>
-                              {s.external_title ?? s.source}
-                            </span>
-                          )}
-                        </div>
-                      </div>
-                      <div className="w-20 shrink-0 text-right font-mono text-fg tabular">
-                        ${s.price_usd.toFixed(2)}
-                      </div>
+                {recent.slice(0, 12).map((s) => (
+                  <div
+                    key={s.id}
+                    className="flex items-center gap-3 px-4 py-2.5 text-sm border-b border-border last:border-b-0 hover:bg-panel-2 transition-colors duration-150"
+                  >
+                    <div className="w-14 shrink-0 font-mono text-muted tabular text-[12px]">
+                      {new Date(s.sold_at).toLocaleDateString(undefined, {
+                        month: "short",
+                        day: "numeric",
+                      })}
                     </div>
-                  );
-                })}
+                    <div className="w-20 shrink-0 font-mono text-fg text-[12px]">
+                      {s.is_graded ? `${s.grader ?? ""} ${s.grade_value ?? ""}`.trim() : "Raw"}
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      {s.external_url ? (
+                        <a
+                          href={s.external_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[12px] text-info hover:text-accent transition-colors duration-150 truncate inline-flex items-center gap-1 max-w-full"
+                          title={s.external_title ?? undefined}
+                        >
+                          <span className="truncate">{s.external_title ?? s.source}</span>
+                          <span aria-hidden className="text-[9px] shrink-0">↗</span>
+                        </a>
+                      ) : (
+                        <span className="text-[12px] text-muted truncate block" title={s.external_title ?? undefined}>
+                          {s.external_title ?? s.source}
+                        </span>
+                      )}
+                    </div>
+                    <div className="w-20 shrink-0 text-right font-mono text-fg tabular">
+                      ${s.price_usd.toFixed(2)}
+                    </div>
+                  </div>
+                ))}
               </div>
               <p className="mt-2 text-[11px] text-muted-2 leading-relaxed">
-                Sold prices via CardSight (eBay completed listings). Parallel
-                labels detected from the listing title — heuristic, not
-                authoritative. eBay link may show the listing as active if the
-                seller relisted.
+                Completed sales (eBay sold listings via CardSight). The link
+                opens the original listing — eBay may show it as active if
+                the seller relisted, but the sale itself is real.
               </p>
             </>
           )}

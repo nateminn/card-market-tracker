@@ -13,7 +13,6 @@ import {
   getAnalyticsForCards,
   type Sale,
 } from "@/lib/data";
-import { detectParallel } from "@/lib/parallel";
 import Pill from "@/components/ui/Pill";
 import Section from "@/components/ui/Section";
 import ChangeBadge from "@/components/ui/ChangeBadge";
@@ -390,14 +389,14 @@ export default async function CardDetailPage({
       {/* Recent sales table ------------------------------------------- */}
       <section>
         <Section
-          eyebrow="Recent sales · all parallels"
+          eyebrow="Completed sales · eBay sold listings"
           title={`Last ${recent.length}`}
         />
         <p className="text-[12px] text-muted-2 mb-3 max-w-3xl leading-relaxed">
-          eBay sold listings for this card number — base + every parallel.
-          Parallel labels are detected from the listing title and may miss
-          edge cases. The eBay link can show the listing as active if the
-          seller relisted; the sale itself is real.
+          eBay completed sales for this card number, including base and every
+          parallel of the same card #. Each link opens the original listing —
+          if the seller relisted, eBay may now show it as active, but the sale
+          itself is real and dated.
         </p>
         {recent.length === 0 ? (
           <div className="border border-border bg-panel/40 px-4 py-10 text-center text-sm text-muted">
@@ -408,16 +407,13 @@ export default async function CardDetailPage({
             <div className="min-w-[640px]">
             <div className="flex items-center gap-3 px-4 py-2.5 border-b border-border bg-panel-2 eyebrow">
               <div className="w-8" />
-              <div className="w-24">Date</div>
+              <div className="w-24">Sold</div>
               <div className="w-20">Grade</div>
-              <div className="w-[68px]">Parallel</div>
               <div className="w-20">Source</div>
               <div className="w-24 text-right">Price</div>
               <div className="flex-1 min-w-0">Title</div>
             </div>
-            {recent.map((s) => {
-              const parallel = detectParallel(s.external_title);
-              return (
+            {recent.map((s) => (
               <div
                 key={s.id}
                 className="flex items-center gap-3 px-4 py-2.5 border-b border-border last:border-b-0 hover:bg-panel-2 transition-colors duration-150 text-sm"
@@ -451,15 +447,6 @@ export default async function CardDetailPage({
                 <div className="w-20 font-mono text-fg">
                   {s.is_graded ? `${s.grader ?? ""} ${s.grade_value ?? ""}`.trim() : "Raw"}
                 </div>
-                <span
-                  className={
-                    parallel.isBase
-                      ? "shrink-0 text-[10px] font-mono uppercase tracking-wider text-muted-2 px-1.5 py-0.5 border border-border-2"
-                      : "shrink-0 text-[10px] font-mono uppercase tracking-wider text-accent px-1.5 py-0.5 border border-accent/40 bg-accent/5"
-                  }
-                >
-                  {parallel.label}
-                </span>
                 <div className="w-20 text-[12px]">
                   {s.external_url ? (
                     <a
@@ -467,6 +454,7 @@ export default async function CardDetailPage({
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-info hover:text-accent transition-colors duration-150 inline-flex items-center gap-1"
+                      title="Opens the original eBay listing — may show as active if relisted"
                     >
                       {s.source}
                       <span aria-hidden className="text-[9px]">↗</span>
@@ -482,8 +470,7 @@ export default async function CardDetailPage({
                   {s.external_title}
                 </div>
               </div>
-              );
-            })}
+            ))}
             </div>
           </div>
         )}
