@@ -1,0 +1,688 @@
+[
+  {
+    "id": "010a1ac5-21b1-4661-9b37-d1bd86aa7df7",
+    "name": "Bowman",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "44b28c60-60d1-44f7-b402-4efe73b1e006",
+    "name": "Bowman Chrome",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "38369637-632a-4c72-a3fc-5fbca302471f",
+    "name": "Bowman Chrome Sapphire Edition",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "4f690296-fb12-4a37-98b0-b8adc061ad52",
+    "name": "Bowman Draft",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "525fa1ad-0119-409b-b412-60a368222ce5",
+    "name": "Bowman Draft Sapphire",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "601bdea1-91cd-4f19-a544-fe4272c3fe7e",
+    "name": "Bowman Sapphire Edition",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "34f35490-990c-4e9b-89a5-f52fa4a0d6ff",
+    "name": "Bowman University Best",
+    "sport": "Football",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "b397b0dc-9387-471a-98ab-293840d4b395",
+    "name": "Bowman University Chrome",
+    "sport": "Football",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "569c4868-da30-4cbf-a541-34c3e1b59383",
+    "name": "Bowman University Chrome Sapphire",
+    "sport": "Football",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "693219e4-4af9-4520-9207-dc223dd40408",
+    "name": "Bowman's Best",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "fff811b8-c309-4ff2-bbca-67788a52addc",
+    "name": "Panini Prizm",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "83724bb2-b97c-4100-8e0b-f473b519085e",
+    "name": "Panini Prizm",
+    "sport": "Football",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "522c48b6-51c8-4187-a3ba-e4075c9d84d2",
+    "name": "Panini Prizm Black",
+    "sport": "Football",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "4ba57f7f-4cf5-4804-9499-9157f73bec54",
+    "name": "Panini Prizm Draft Picks",
+    "sport": "Football",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "72a8dbda-6bda-43e6-bca7-e916b8f9f28d",
+    "name": "Panini Prizm Premium WNBA",
+    "sport": "Basketball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "f5e899c0-1bd4-4763-81e0-4b12d0957f2b",
+    "name": "Panini Prizm WNBA",
+    "sport": "Basketball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "d801fe4b-dbdb-4ecd-855d-7a461e0be992",
+    "name": "Panini Select",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "9812c442-27ff-4cb9-a114-28ce649177e2",
+    "name": "Panini Select",
+    "sport": "Football",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "ea04a036-0a39-47e6-aaf0-8a7cd36963f8",
+    "name": "Panini Select WNBA",
+    "sport": "Basketball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "a18f2bcf-42b8-4c21-a9ca-89e5698f6922",
+    "name": "Topps",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "db83f6a5-13d1-4561-8e9d-6834571bae07",
+    "name": "Topps All Star Game",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "b90b6bc1-7c5f-41f9-9fd2-d1527d4acd82",
+    "name": "Topps Allen & Ginter",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "3efbea76-8626-4b8c-a118-957f65ca43bb",
+    "name": "Topps Allen & Ginter X",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "ad680453-8e49-4d0f-8ad9-dede271b8016",
+    "name": "Topps Archives",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "523a7f13-def9-4413-8d78-6f6884f73840",
+    "name": "Topps Archives Signature Series Active Player Edition",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "3197c66c-0384-4634-84df-e2bf5218658f",
+    "name": "Topps Black & White",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "3e03e10a-8fbe-4d3e-b4e7-20553aff89c7",
+    "name": "Topps Chrome",
+    "sport": "Football",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "96a78024-3899-45c9-bf69-077d6d078dd9",
+    "name": "Topps Chrome",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "aad3d912-e8b2-43cf-b875-5acb13c03bd1",
+    "name": "Topps Chrome Black",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "7c8fcbff-8f0f-4c63-b166-c4c635dcc20a",
+    "name": "Topps Chrome Logofractor Edition",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "549181b7-f2c4-46af-9915-8938951e5d99",
+    "name": "Topps Chrome McDonald's All American",
+    "sport": "Basketball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "32d1dee4-b501-4462-9c9b-7aee176c1f08",
+    "name": "Topps Chrome Platinum",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "d1beaf3d-28df-4092-9151-a8968d668a45",
+    "name": "Topps Chrome Sapphire",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "168fd105-65cd-48ad-bbd3-2c6057c7b233",
+    "name": "Topps Chrome Update",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "5dbc214e-17e2-4883-858c-dcdb65fb4b49",
+    "name": "Topps Chrome Update Sapphire",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "e809c672-df88-416f-a311-c660e0eddb4d",
+    "name": "Topps Cosmic Chrome",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "525a70f9-5ece-45e5-b15a-912fa77fdbf0",
+    "name": "Topps Definitive Collection",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "e6839be2-98ef-4355-8d47-4dc02a5d986e",
+    "name": "Topps Diamond Icons",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "893dc8be-fad1-4595-b325-90037b5ae569",
+    "name": "Topps Dynamic Duals",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "4cc243bb-5a6f-4fc5-850f-bebe2b407589",
+    "name": "Topps Five Star",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "0a5b6314-bca9-46fb-9323-36d83e092d9a",
+    "name": "Topps Gilded Collection",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "add8a57f-95c5-42cc-afe7-103ab767f5ce",
+    "name": "Topps Heritage",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "c419f2c0-deb5-496a-96fd-e7ab4b757e9f",
+    "name": "Topps Holiday",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "b84c8571-98e4-4369-af74-9cbd307db053",
+    "name": "Topps MLB MVP Collection",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "797d252c-66bd-4894-a454-67f0888e0d89",
+    "name": "Topps Museum Collection",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "1e74f6ab-5689-4cf5-b574-72b2eeae8031",
+    "name": "Topps Pristine",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "32d886b4-1e34-4637-b91e-4bcf4a5450f1",
+    "name": "Topps Pro Debut",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "444fc0bb-f1d0-4e4e-a143-7fcdeab59e2e",
+    "name": "Topps Shoebox Treasures",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "7085f0c2-0a8f-4545-8ee4-acfe77757150",
+    "name": "Topps Sterling",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "1ddade2f-ab99-402a-a173-9625f1a1ee70",
+    "name": "Topps T205",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "96907943-2605-4744-840d-d95e07f99294",
+    "name": "Topps Tier One",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "e3381553-4ae0-4ed5-995d-9b1ee44ddb97",
+    "name": "Topps Transcendent Collection",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "83cbf6f0-ee03-40e7-bf02-365dbe201a9a",
+    "name": "Topps Tribute",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "cb6c05a0-7a47-4f96-aea2-56e1dcb4e970",
+    "name": "Topps Update",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "53fe0487-a1c0-45a2-823d-9ee684049a77",
+    "name": "Topps X Bob Ross: The Joy of Baseball",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": false
+  },
+  {
+    "id": "570e5598-06b1-48cf-9053-30375096700e",
+    "name": "Donruss Optic",
+    "sport": "Football",
+    "tier": 2,
+    "is_identifiable": false
+  },
+  {
+    "id": "7e5e844d-4ea3-4f82-be6c-e25002f1b4e8",
+    "name": "Panini Mosaic",
+    "sport": "Football",
+    "tier": 2,
+    "is_identifiable": false
+  },
+  {
+    "id": "161919a8-4074-43f9-9481-fdd20fdd839b",
+    "name": "Donruss",
+    "sport": "Baseball",
+    "tier": 3,
+    "is_identifiable": true
+  },
+  {
+    "id": "8bfcced5-5ff7-4271-86f3-56373f0761b7",
+    "name": "Donruss",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": true
+  },
+  {
+    "id": "c41f712e-7888-4abc-8eaf-d4e1a4791239",
+    "name": "Donruss Elite",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "c0009b75-76ea-4472-9ee7-edf944d5a863",
+    "name": "Donruss Rookies & Highlights",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "b608bbc0-9be1-4c62-b613-efd21afc8b20",
+    "name": "Finest",
+    "sport": "Baseball",
+    "tier": 3,
+    "is_identifiable": true
+  },
+  {
+    "id": "0ad8c5c1-e51e-46ed-a1dd-43d78c72465f",
+    "name": "Finest",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "7cac5863-a3e0-46ef-ae18-9d2dd53205c3",
+    "name": "Leaf Baseball Nation",
+    "sport": "Baseball",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "3c9be5a3-c61a-459b-a465-6f5a41e47783",
+    "name": "Leaf Bronx Legacy",
+    "sport": "Baseball",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "31950308-1051-4aeb-a5a0-b905a5bd1f6b",
+    "name": "Leaf Metal",
+    "sport": "Baseball",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "aaca39b6-e21b-4d8d-b63a-212045cb58e0",
+    "name": "Leaf Season in the Sun",
+    "sport": "Baseball",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "ba2f1ead-60aa-49b0-b7a1-6eafb0c6f950",
+    "name": "Leaf Spectacular Baseball",
+    "sport": "Baseball",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "5ce92ba1-24c6-463b-8490-758321485629",
+    "name": "Leaf Vivid",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "26366274-8531-4bc8-a122-6778dd175394",
+    "name": "Leaf Vivid Baseball",
+    "sport": "Baseball",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "a0e8605a-d306-4d25-9bbe-815d3e07ff14",
+    "name": "Panini Absolute",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "2beb77c3-5460-45cc-bf38-e814d08d68a8",
+    "name": "Panini Absolute Countdown Calendar",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "17912090-60e4-4e50-bc62-a8bb73ef16a2",
+    "name": "Panini Black",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "19e2824b-20b1-48a3-af4f-f27e83c929cf",
+    "name": "Panini Boys of Summer",
+    "sport": "Baseball",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "60b871ea-2e52-422f-998e-87f7c3998d94",
+    "name": "Panini Certified",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "af8048ae-9c92-4850-8d30-01911b550b31",
+    "name": "Panini Crusade",
+    "sport": "Baseball",
+    "tier": 3,
+    "is_identifiable": true
+  },
+  {
+    "id": "0cd92e2f-3262-4db4-9193-aef7db9a0fe4",
+    "name": "Panini Flawless",
+    "sport": "Baseball",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "b8ab517f-d9c7-4a0f-a984-4109e7a3d834",
+    "name": "Panini Flawless",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "25957821-b2c2-48dc-a02e-e7e5aa4cc5b1",
+    "name": "Panini Honors",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "0ab2cbec-b9b2-4a7e-a099-8f91155fef70",
+    "name": "Panini Immaculate",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "3347e1be-d09f-485b-98c9-d8a97703d1e8",
+    "name": "Panini Impeccable",
+    "sport": "Baseball",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "636ce49e-2253-46db-bbda-68a365abf16c",
+    "name": "Panini Impeccable",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "1de8eb60-b7fd-4101-993a-77b4a8dfaf7b",
+    "name": "Panini Impeccable WNBA",
+    "sport": "Basketball",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "8646542f-ed40-4c89-bec3-aa9f45a81c8b",
+    "name": "Panini Luminance",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "490f43b9-01c1-40ae-8bdd-fe5581d8e4bd",
+    "name": "Panini National Treasures",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "bd64e02e-3f6f-4b5e-9379-a8b78e78eb1f",
+    "name": "Panini National Treasures",
+    "sport": "Baseball",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "e1fe2bad-928d-4899-8ebf-0082040347ee",
+    "name": "Panini National Treasures Collegiate",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "981a7b96-5cc4-4ec2-8046-486c291825e7",
+    "name": "Panini Origins",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "75b7e099-bd74-4544-9f8b-01484f2cdc6a",
+    "name": "Panini Phoenix",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "de133f80-743f-4ef1-aac4-4623ce8b7734",
+    "name": "Panini Prospect Edition",
+    "sport": "Baseball",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "df929159-cea7-4723-91cc-2848f0e9ad5f",
+    "name": "Panini Revolution",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "966aa7f7-01b6-4543-b606-8fe411fb4db0",
+    "name": "Panini Rookies & Stars",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "193c4a7c-5644-46ed-88ce-c2b1508af361",
+    "name": "Panini Silhouette",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "9a04e95e-f4ac-476b-b391-96c77723f7a3",
+    "name": "Panini Stars & Stripes",
+    "sport": "Baseball",
+    "tier": 3,
+    "is_identifiable": true
+  },
+  {
+    "id": "7709a3a7-fa68-4ee7-afd4-28500a482a96",
+    "name": "Panini Three and Two",
+    "sport": "Baseball",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "8478034f-d7b0-4202-af81-d6030506e69c",
+    "name": "Score",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": true
+  },
+  {
+    "id": "e6638674-5d8e-445d-8e7e-256471626e97",
+    "name": "Score-A-Treat",
+    "sport": "Football",
+    "tier": 3,
+    "is_identifiable": false
+  },
+  {
+    "id": "d8d78383-f04e-48bb-8275-a87f54d8c85c",
+    "name": "Stadium Club",
+    "sport": "Baseball",
+    "tier": 3,
+    "is_identifiable": true
+  }
+]

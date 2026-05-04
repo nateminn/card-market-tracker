@@ -58,9 +58,12 @@ We pull catalog + pricing data from CardSight AI, layer our own analytics (VWAP,
 - **Football segment:** `5b86ca75-c5be-4621-aca1-57bd4f6dd111`
 - **Trout 2011 Topps Update base (RC):** `fda530ab-e925-460e-ab88-63199ef975e9`
 
-### Releases loaded into Supabase (as of Step 3)
+### Releases loaded into Supabase
 
-All `data/release_<id>.json` are also loaded into `card_identity` + `parallel_types`:
+All `data/release_<id>.json` are loaded into `card_identity` + `parallel_types`.
+Catalog: 19,640 base cards, 3,117 parallel types (as of May 2026).
+
+**2024 set (original load):**
 
 | Release | UUID | Base | Parallel types |
 |---|---|---:|---:|
@@ -70,6 +73,23 @@ All `data/release_<id>.json` are also loaded into `card_identity` + `parallel_ty
 | 2024 Bowman Chrome Baseball | `f73c58f7-5a21-4c02-a062-79ee72523d87` | 723 | 141 |
 | 2024 Topps Baseball (=Series 1) | `a77e19c1-4b49-49dc-844d-543a058bf9a1` | 3,270 | 273 |
 | 2024 Panini Prizm Football | `9d723d19-bc1f-4e38-ae24-f8347fddd16d` | 988 | 197 |
+
+**2025 expansion (May 2026 load):**
+
+| Release | UUID | Sport |
+|---|---|---|
+| 2025 Topps Baseball (Series 1) | `a18f2bcf-42b8-4c21-a9ca-89e5698f6922` | Baseball |
+| 2025 Bowman Chrome | `44b28c60-60d1-44f7-b402-4efe73b1e006` | Baseball |
+| 2025 Topps Chrome | `96a78024-3899-45c9-bf69-077d6d078dd9` | Baseball |
+| 2025 Bowman | `010a1ac5-21b1-4661-9b37-d1bd86aa7df7` | Baseball |
+| 2025 Panini Prizm Baseball | `fff811b8-c309-4ff2-bbca-67788a52addc` | Baseball |
+| 2025 Panini Prizm Football | `83724bb2-b97c-4100-8e0b-f473b519085e` | Football |
+
+The 2025 cards have catalog rows but most have no pricing yet — pricing
+load was budget-blocked (local counter at 811/750; CardSight actual
+budget reset May 1 but our local file accumulates). Either reset the
+counter manually after confirming usage with CardSight, or upgrade to
+Pro tier ($14.95/mo, lifts the cap to 5K+ calls/mo).
 
 CardSight calls a flagship-baseball "Topps" with no Series 1/2 distinction; what hobby calls Topps Series 1 = CardSight's "Topps". "Topps Update" is its own separate release.
 

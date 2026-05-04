@@ -1,0 +1,82 @@
+{
+  "_request": {
+    "method": "GET",
+    "url": "https://api.cardsight.ai/v1/catalog/releases?year=2025&take=100&skip=100",
+    "params": null,
+    "body": null
+  },
+  "_status": 200,
+  "_call_number": 713,
+  "_elapsed_s": 0.299,
+  "data": {
+    "releases": [
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "7085f0c2-0a8f-4545-8ee4-acfe77757150",
+        "year": "2025",
+        "name": "Topps Sterling",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "1ddade2f-ab99-402a-a173-9625f1a1ee70",
+        "year": "2025",
+        "name": "Topps T205",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "96907943-2605-4744-840d-d95e07f99294",
+        "year": "2025",
+        "name": "Topps Tier One",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "e3381553-4ae0-4ed5-995d-9b1ee44ddb97",
+        "year": "2025",
+        "name": "Topps Transcendent Collection",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "83cbf6f0-ee03-40e7-bf02-365dbe201a9a",
+        "year": "2025",
+        "name": "Topps Tribute",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "cb6c05a0-7a47-4f96-aea2-56e1dcb4e970",
+        "year": "2025",
+        "name": "Topps Update",
+        "is_identifiable": true
+      },
+      {
+        "manufacturerId": "356e2def-1311-4712-86d8-865c12ad4a68",
+        "segmentId": "671e78da-64d2-45a4-8082-6682b2ae0e19",
+        "id": "53fe0487-a1c0-45a2-823d-9ee684049a77",
+        "year": "2025",
+        "name": "Topps X Bob Ross: The Joy of Baseball",
+        "is_identifiable": false
+      },
+      {
+        "manufacturerId": "d26aa2b8-2646-4372-b9fd-c9d599f09fd4",
+        "segmentId": "3266fff9-dfcb-4e00-80fb-922a8ab023d5",
+        "id": "9116a29e-7938-4cab-9028-99669295e6b6",
+        "year": "2025",
+        "name": "White Flare",
+        "is_identifiable": true
+      }
+    ],
+    "total_count": 108,
+    "skip": 100,
+    "take": 100
+  }
+}

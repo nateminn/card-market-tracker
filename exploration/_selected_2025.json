@@ -1,0 +1,44 @@
+[
+  {
+    "id": "44b28c60-60d1-44f7-b402-4efe73b1e006",
+    "name": "Bowman Chrome",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "96a78024-3899-45c9-bf69-077d6d078dd9",
+    "name": "Topps Chrome",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "a18f2bcf-42b8-4c21-a9ca-89e5698f6922",
+    "name": "Topps",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "83724bb2-b97c-4100-8e0b-f473b519085e",
+    "name": "Panini Prizm",
+    "sport": "Football",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "fff811b8-c309-4ff2-bbca-67788a52addc",
+    "name": "Panini Prizm",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  },
+  {
+    "id": "010a1ac5-21b1-4661-9b37-d1bd86aa7df7",
+    "name": "Bowman",
+    "sport": "Baseball",
+    "tier": 1,
+    "is_identifiable": true
+  }
+]
