@@ -451,67 +451,71 @@ function MarketingHero({
     <section className="mb-12">
       <div className="flex items-center gap-2 mb-3">
         <Sparkles size={16} className="text-accent" />
-        <span className="eyebrow">Cardex Market</span>
+        <span className="eyebrow">Cardex</span>
       </div>
-      <h1 className="text-3xl md:text-5xl font-semibold tracking-tight text-fg leading-[1.05] max-w-3xl">
-        See where the trading-card market is moving — before it catches.
+      <h1 className="text-3xl md:text-[56px] font-semibold tracking-tight text-fg leading-[1.02] max-w-3xl">
+        The trading desk for sports cards.
       </h1>
-      <p className="mt-4 text-base md:text-lg text-muted max-w-2xl leading-relaxed">
-        Live PSA + BGS sales, volume-weighted analytics, and the{" "}
-        <Link href="/signal" className="text-accent hover:text-fg transition-colors">
-          Signal Engine
+      <p className="mt-5 text-base md:text-lg text-muted max-w-2xl leading-relaxed">
+        Live sales, what&rsquo;s for sale right now, and an algorithmic pick
+        list with a{" "}
+        <Link
+          href="/signal#how-signal-works"
+          className="text-up font-medium hover:text-fg transition-colors"
+        >
+          +34% backtested edge
         </Link>{" "}
-        — a proprietary score that flags graded cards trading above their
-        statistical baseline.
+        over the universe median across 4 windows. Built for flippers, not
+        scrapbookers.
       </p>
 
       <div className="mt-7 flex flex-wrap items-center gap-3">
         <Link
-          href="/auth/signup"
+          href="/signal"
           className="inline-flex items-center gap-1.5 px-5 h-11 bg-accent text-bg font-medium text-sm hover:bg-fg transition-colors"
         >
-          Create a free account
+          See today&rsquo;s picks
           <ArrowRight size={14} />
         </Link>
         <Link
-          href="/signal"
+          href="/auth/signup"
           className="inline-flex items-center gap-1.5 px-5 h-11 border border-border text-fg font-medium text-sm hover:border-accent hover:text-accent transition-colors"
         >
-          See the picks
+          Create free account
         </Link>
-        <span className="text-xs text-muted-2 ml-1">No credit card required</span>
+        <span className="text-xs text-muted-2 ml-1">No credit card. Browse the whole market free.</span>
       </div>
 
       {/* Live numbers band — proof the data is real */}
       <dl className="mt-10 border-y border-border py-5 grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-8">
         <Stat label="Cards tracked" value={counts.cards.toLocaleString()} />
-        <Stat label="Sales (5mo)" value={counts.sales.toLocaleString()} />
-        <Stat label="Sports" value="3" sub="MLB · NBA · NFL" />
+        <Stat label="Sales (rolling)" value={counts.sales.toLocaleString()} />
+        <Stat label="Signal edge" value="+34%" sub="vs median, backtested" />
         <Stat label="Refresh" value="6h" sub="auto" />
       </dl>
 
-      {/* Three-up "what you get" */}
+      {/* Three-up "what makes this different" — comparison-aware */}
       <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-4">
         <Pillar
-          title="The market, live"
-          desc="Every PSA + BGS sale across baseball, basketball, and football. VWAP, momentum, and sample density on every card we cover."
+          title="Sold AND active, side-by-side"
+          desc="Most sites show historical sold prices. We show what just sold AND what's available to buy right now — same card, same view. Decision-time data, not retrospective."
         />
         <Pillar
-          title="The Signal Engine"
-          desc="A 0–100 score that surfaces graded cards trading above their statistical baseline. Free preview shows the top 3; Pro shows all."
+          title="Algorithmic, not editorial"
+          desc="Signal scores every graded card 0–100 across momentum, sample density, and confidence. We publish the methodology and the rolling backtest. No anonymous panel of 'experts'."
         />
         <Pillar
-          title="Built for traders"
-          desc="No collector fluff. Filter by sport, price band, confidence. Dive into per-grade VWAP, scatter plots, and sale-by-sale history."
+          title="Built for tempo"
+          desc="Dense, dark, fast. Filter by sport, price band, parallel. Drill from a player to a card to a single sale in three clicks. No collector fluff, no paywalled lookups."
         />
       </div>
 
       <h2 className="mt-14 mb-2 text-2xl font-semibold tracking-tight text-fg">
-        What's moving in the market
+        What&rsquo;s moving in the market
       </h2>
       <p className="mb-6 text-sm text-muted">
-        Real data, refreshed every 6 hours. Free to browse — no sign-in
-        required.
+        Live data from PSA + BGS sales, refreshed every 6 hours. Free to
+        browse — no sign-in required.
       </p>
     </section>
   );

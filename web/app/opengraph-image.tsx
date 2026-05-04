@@ -62,7 +62,7 @@ export default function OG() {
               fontWeight: 600,
             }}
           >
-            Trading card market intelligence
+            The trading desk for sports cards
           </span>
           <span
             style={{
@@ -73,7 +73,7 @@ export default function OG() {
               letterSpacing: -1,
             }}
           >
-            See where the market is moving — before it catches.
+            Live sales. Active listings. Algorithmic picks.
           </span>
           <span
             style={{
@@ -83,13 +83,13 @@ export default function OG() {
               maxWidth: 900,
             }}
           >
-            Live sales, volume-weighted analytics, and the Signal Engine.
+            Signal Engine: +34% backtested edge over the median. Free to browse.
           </span>
         </div>
 
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <span style={{ fontSize: 16, color: "#6b7280", letterSpacing: 2 }}>
-            10K+ CARDS · 60K+ SALES · 6H REFRESH
+            19K+ CARDS · 140K+ SALES · 6H REFRESH
           </span>
           <span style={{ fontSize: 16, color: "#6b7280" }}>cardex.app</span>
         </div>

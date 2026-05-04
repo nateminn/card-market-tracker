@@ -22,9 +22,9 @@ const jbmono = JetBrains_Mono({
 });
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://cardex.app";
-const SITE_TITLE = "Cardex — trading card market intelligence";
+const SITE_TITLE = "Cardex — the trading desk for sports cards";
 const SITE_DESCRIPTION =
-  "Live sales data, volume-weighted analytics, and the Signal Engine — a proprietary score that flags graded cards trading above their statistical baseline. Free tier covers the market; Pro unlocks the picks.";
+  "Live sales, what's for sale right now, and an algorithmic pick list with a +34% backtested edge. Built for flippers, not scrapbookers. Free to browse the whole market; Pro ($19.99/mo) unlocks the full Signal pick list and alerts.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
