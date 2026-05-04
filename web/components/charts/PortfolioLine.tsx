@@ -1,7 +1,7 @@
 "use client";
 
 // Robinhood-style chart with three render modes: line / area / bars.
-// Always renders X (date) and Y ($value) axis labels — without them users
+// Always renders X (date) and Y ($value) axis labels - without them users
 // can't tell what they're looking at. Axes are subtle (muted-2 + 10px) so
 // the chart still feels minimal.
 //
@@ -95,7 +95,7 @@ export default function PortfolioLine({
   const maxX = sorted[sorted.length - 1].ts;
   const rangeX = maxX - minX || 1;
 
-  // SVG inner viewBox dimensions (chart area only — no axis space here).
+  // SVG inner viewBox dimensions (chart area only - no axis space here).
   const width = 1000;
   const innerH = height - X_AXIS_H;
   const padY = 8;
@@ -131,7 +131,7 @@ export default function PortfolioLine({
       className={`relative ${className ?? ""}`}
       style={{ height, paddingLeft: Y_AXIS_W }}
     >
-      {/* Y-axis labels — absolutely positioned HTML so text stays crisp */}
+      {/* Y-axis labels - absolutely positioned HTML so text stays crisp */}
       <div
         className="absolute left-0 top-0 font-mono text-[10px] tabular text-muted-2"
         style={{ width: Y_AXIS_W - 6, height: innerH }}

@@ -1,8 +1,8 @@
 "use client";
 
-// Portfolio "My collection" table — combines seeded positions with the user's
+// Portfolio "My collection" table - combines seeded positions with the user's
 // localStorage-saved card_ids. User-added cards have no cost basis (they
-// didn't enter what they paid), so cost-related cells show "—".
+// didn't enter what they paid), so cost-related cells show "-".
 
 import { useMemo } from "react";
 import Link from "next/link";
@@ -52,7 +52,7 @@ const COLUMNS: ColumnDef[] = [
 ];
 
 function fmtUsd(n: number | null) {
-  if (n == null) return "—";
+  if (n == null) return "-";
   const sign = n < 0 ? "-" : "";
   const abs = Math.abs(n);
   if (abs >= 1000) return `${sign}$${(abs / 1000).toFixed(2)}k`;
@@ -191,7 +191,7 @@ export default function CollectionTable({
             ) : null}
             {visible.has("held") ? (
               <div className="w-16 text-right font-mono text-sm tabular text-muted">
-                {r.hold_days != null ? `${r.hold_days}d` : "—"}
+                {r.hold_days != null ? `${r.hold_days}d` : "-"}
               </div>
             ) : null}
             {visible.has("year") ? (

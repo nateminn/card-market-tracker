@@ -18,7 +18,7 @@ export default function GlobalError({
   reset: () => void;
 }) {
   useEffect(() => {
-    // Mirror to console — server-side this gets picked up by logging.
+    // Mirror to console - server-side this gets picked up by logging.
     // Client-side this gives the user (in dev) something to inspect.
     console.error("[cardex] uncaught error", {
       message: error.message,
@@ -34,14 +34,14 @@ export default function GlobalError({
         We hit an error rendering this page.
       </h1>
       <p className="mt-2 text-sm text-muted">
-        Try refreshing — if it keeps happening, drop us a note at
+        Try refreshing - if it keeps happening, drop us a note at
         <a
           href="mailto:hello@cardex.app"
           className="ml-1 text-accent hover:text-fg transition-colors"
         >
           hello@cardex.app
         </a>{" "}
-        and include this reference: <code className="font-mono">{error.digest ?? "—"}</code>
+        and include this reference: <code className="font-mono">{error.digest ?? "-"}</code>
       </p>
       <div className="mt-6 flex items-center gap-3">
         <button

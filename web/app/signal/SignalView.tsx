@@ -50,7 +50,7 @@ const SIGNAL_COLUMNS: ColumnDef[] = [
 ];
 
 function fmtUsd(n: number | null | undefined) {
-  if (n == null) return "—";
+  if (n == null) return "-";
   if (n >= 1000) return `$${(n / 1000).toFixed(2)}k`;
   return `$${n.toFixed(2)}`;
 }

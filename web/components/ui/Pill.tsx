@@ -1,4 +1,4 @@
-// Pill / badge — small typed label.
+// Pill / badge - small typed label.
 // Used for RC, grade tier, confidence band, sport, listing source.
 
 import { clsx } from "./clsx";

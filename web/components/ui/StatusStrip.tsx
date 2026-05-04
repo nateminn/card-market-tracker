@@ -1,4 +1,4 @@
-// Inline status strip — REPLACES the hero-metric tile template (banned).
+// Inline status strip - REPLACES the hero-metric tile template (banned).
 // A row of "label value · label value" pairs, sized like body text. Numbers
 // in mono, labels in muted text.
 

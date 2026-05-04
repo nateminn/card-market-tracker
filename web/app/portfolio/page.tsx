@@ -1,4 +1,4 @@
-// Portfolio — collection-first view. Headline is total value of cards owned;
+// Portfolio - collection-first view. Headline is total value of cards owned;
 // individual trades are NOT entered here. With Supabase live: portfolio_trades
 // is currently empty, so this page renders an empty state for now. Will fill
 // in once we add user auth + a "verified portfolio" import flow.

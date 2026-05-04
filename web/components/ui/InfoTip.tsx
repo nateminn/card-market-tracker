@@ -1,7 +1,7 @@
 "use client";
 
-// InfoTip — a tiny ⓘ icon. Hover (or focus) to see a one-line definition.
-// Pure CSS tooltip via :hover/:focus + group-* — no JS state needed.
+// InfoTip - a tiny ⓘ icon. Hover (or focus) to see a one-line definition.
+// Pure CSS tooltip via :hover/:focus + group-* - no JS state needed.
 // Definitions live in DEFINITIONS below; pass a key for the lookup.
 
 import { clsx } from "./clsx";

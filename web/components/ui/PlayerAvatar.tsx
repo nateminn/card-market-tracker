@@ -1,4 +1,4 @@
-// PlayerAvatar — circular placeholder used on the player detail header.
+// PlayerAvatar - circular placeholder used on the player detail header.
 // Initials in saffron on a tinted-dark circle. When we have real headshots,
 // this swaps to an <img>.
 
@@ -57,7 +57,7 @@ export default function PlayerAvatar({
         fontSize: Math.round(size * 0.36),
       }}
     >
-      {initials(player) || "—"}
+      {initials(player) || "-"}
     </div>
   );
 }

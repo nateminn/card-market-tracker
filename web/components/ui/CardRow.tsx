@@ -10,13 +10,13 @@ import { clsx } from "./clsx";
 import type { AnalyticsRow, Card } from "@/lib/data";
 
 function fmtUsd(n: number | null | undefined) {
-  if (n === null || n === undefined) return "—";
+  if (n === null || n === undefined) return "-";
   if (n >= 1000) return `$${(Math.round(n / 100) / 10).toFixed(1)}k`;
   return `$${Math.round(n).toLocaleString()}`;
 }
 
 function fmtPct(n: number | null | undefined) {
-  if (n === null || n === undefined) return "—";
+  if (n === null || n === undefined) return "-";
   const v = (n * 100).toFixed(1);
   return `${n >= 0 ? "+" : ""}${v}%`;
 }

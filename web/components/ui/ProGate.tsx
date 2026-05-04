@@ -1,4 +1,4 @@
-// ProGate — server component that wraps Pro-only content.
+// ProGate - server component that wraps Pro-only content.
 //
 // Behaviour:
 //   - Pro user → renders children unchanged.
@@ -9,7 +9,7 @@
 //     <FullSignalTable picks={picks} />
 //   </ProGate>
 //
-// For partial reveals (show first 3 picks, then wall), pass a `teaser` prop —
+// For partial reveals (show first 3 picks, then wall), pass a `teaser` prop -
 // it renders above the wall.
 
 import Link from "next/link";

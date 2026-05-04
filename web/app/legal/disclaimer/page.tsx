@@ -25,12 +25,12 @@ export default function DisclaimerPage() {
         jurisdiction.
       </p>
 
-      <Section title="What we do — and don't — do">
+      <Section title="What we do - and don't - do">
         <p>
           We surface what the trading-card market looks like: catalog
           identifiers, recent sales, volume-weighted averages, momentum, and a
-          proprietary score we call Signal. Signal is a screener — a tool to
-          shorten the list of cards you might want to look at — not a
+          proprietary score we call Signal. Signal is a screener - a tool to
+          shorten the list of cards you might want to look at - not a
           prediction.
         </p>
         <p>

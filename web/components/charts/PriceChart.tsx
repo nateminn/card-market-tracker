@@ -1,6 +1,6 @@
 "use client";
 
-// Price scatter — PSA + BGS only. Each dot is a sale. The accent line is a
+// Price scatter - PSA + BGS only. Each dot is a sale. The accent line is a
 // 10-sale rolling mean. Custom tooltip avoids Recharts' default behaviour of
 // rendering the X-axis (ts) value as a dollar number.
 
@@ -55,13 +55,13 @@ const COLOR_PSA10 = "oklch(78% 0.20 145)"; // bright neon green
 const COLOR_PSA9 = "oklch(75% 0.14 80)";   // saffron
 const COLOR_PSA_LOW = "oklch(60% 0.005 250)"; // muted
 const COLOR_BGS = "oklch(70% 0.10 240)";   // info blue
-const COLOR_RAW = "oklch(72% 0.13 200)";   // cyan-teal — distinct from BGS
+const COLOR_RAW = "oklch(72% 0.13 200)";   // cyan-teal - distinct from BGS
 const COLOR_VWAP = "oklch(82% 0.16 80)";   // accent
 const COLOR_GRID = "oklch(20% 0.008 250)";
 const COLOR_AXIS = "oklch(60% 0.006 250)";
 
 // Recharts' tooltip types vary across versions; using `any` here is
-// pragmatic — the runtime contract (active + payload[]) is stable.
+// pragmatic - the runtime contract (active + payload[]) is stable.
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function CustomTooltip(props: any) {
   const { active, payload } = props;
@@ -79,7 +79,7 @@ function CustomTooltip(props: any) {
         month: "short",
         day: "numeric",
       })
-    : "—";
+    : "-";
   return (
     <div
       style={{
@@ -107,7 +107,7 @@ function CustomTooltip(props: any) {
 }
 
 export default function PriceChart({ sales }: { sales: Sale[] }) {
-  // Plot everything we have — raw + graded across all known graders. Empty
+  // Plot everything we have - raw + graded across all known graders. Empty
   // graphs help nobody; the bucketing colour-codes the dots so the user can
   // tell raw from graded at a glance, and graded variations from each other.
   const filtered = sales.filter(

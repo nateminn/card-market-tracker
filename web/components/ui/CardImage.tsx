@@ -1,4 +1,4 @@
-// CardImage — placeholder used everywhere a trading-card thumbnail belongs.
+// CardImage - placeholder used everywhere a trading-card thumbnail belongs.
 // Trading cards are 2.5:3.5 aspect ratio (≈ 0.714). When real CardSight image
 // URLs land, this component just swaps the placeholder for an <img>.
 //
@@ -9,13 +9,13 @@
 import { clsx } from "./clsx";
 
 type Props = {
-  /** Player name — used for initials in the placeholder. */
+  /** Player name - used for initials in the placeholder. */
   player?: string;
-  /** Card subtitle / set — used as tooltip / a11y. */
+  /** Card subtitle / set - used as tooltip / a11y. */
   alt?: string;
   /** Future: src URL when we have real images. */
   src?: string | null;
-  /** Sizing — width in px; height auto-derived for 2.5:3.5 ratio. */
+  /** Sizing - width in px; height auto-derived for 2.5:3.5 ratio. */
   width?: number;
   className?: string;
 };
@@ -64,7 +64,7 @@ export default function CardImage({
       )}
       style={{ width, height }}
     >
-      {ini || "—"}
+      {ini || "-"}
     </div>
   );
 }

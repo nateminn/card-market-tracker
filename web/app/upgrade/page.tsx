@@ -1,5 +1,5 @@
-// /upgrade — Pro upgrade page. Stripe is not yet wired; the CTA shows a
-// "Coming soon" toast. The page is intentionally short — the marketing copy
+// /upgrade - Pro upgrade page. Stripe is not yet wired; the CTA shows a
+// "Coming soon" toast. The page is intentionally short - the marketing copy
 // for Pro is on /signal (where the wall sits) so users see what they unlock.
 
 import Link from "next/link";
@@ -10,10 +10,10 @@ import UpgradeButton from "./UpgradeButton";
 export const dynamic = "force-dynamic";
 
 const PRO_FEATURES = [
-  "Full Signal Engine pick list — every scored card, refreshed every 6h",
+  "Full Signal Engine pick list - every scored card, refreshed every 6h",
   "Watchlist alerts when a card crosses your price target",
   "Deeper analytics: per-grade VWAP, scarcity, and gem-rate breakdowns",
-  "Backtest tools — see how the engine has performed over time",
+  "Backtest tools - see how the engine has performed over time",
   "CSV exports of any table",
   "Priority support",
 ];
@@ -39,7 +39,7 @@ export default async function UpgradePage() {
         Trade with the same edge we use ourselves.
       </h1>
       <p className="mt-3 text-sm text-muted max-w-xl leading-relaxed">
-        The free tier is a market explorer. Pro is a working trading desk —
+        The free tier is a market explorer. Pro is a working trading desk -
         Signal picks, alerts, backtests, exports. Cancel any time.
       </p>
 

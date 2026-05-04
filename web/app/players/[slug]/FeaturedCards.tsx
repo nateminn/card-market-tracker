@@ -1,4 +1,4 @@
-// FeaturedCards — top N most-valuable variants for a player, shown as image
+// FeaturedCards - top N most-valuable variants for a player, shown as image
 // cards in a grid. The "famous Mike Trout rookie" view: people don't want to
 // scroll a 1000-row table; they want to see the marquee cards immediately.
 //
@@ -22,7 +22,7 @@ type Featured = {
 };
 
 function fmtUsd(n: number | null) {
-  if (n == null) return "—";
+  if (n == null) return "-";
   if (n >= 1000) return `$${(n / 1000).toFixed(1)}k`;
   return `$${n.toFixed(0)}`;
 }

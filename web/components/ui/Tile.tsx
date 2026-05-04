@@ -1,4 +1,4 @@
-// Bordered surface — used to wrap tables and content blocks.
+// Bordered surface - used to wrap tables and content blocks.
 // NOT a hero-metric tile. Just a thin panel container.
 
 import type { ComponentProps } from "react";

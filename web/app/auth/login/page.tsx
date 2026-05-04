@@ -1,4 +1,4 @@
-// /auth/login — email + password sign-in via Supabase Auth.
+// /auth/login - email + password sign-in via Supabase Auth.
 // Server-rendered shell + a client form (since auth has to happen client-side
 // to set the session cookie).
 

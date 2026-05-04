@@ -19,7 +19,7 @@ const RANGES = [
   { id: "1W", days: 7 },
   { id: "1M", days: 30 },
   { id: "3M", days: 90 },
-  { id: "YTD", days: 115 }, // mock — Apr 25 ~ day 115 of year
+  { id: "YTD", days: 115 }, // mock - Apr 25 ~ day 115 of year
   { id: "1Y", days: 150 }, // we only have 5mo of data; cap effectively
   { id: "ALL", days: 150 },
 ] as const;
@@ -51,7 +51,7 @@ type Props = {
 };
 
 function fmtUsd(n: number | null | undefined) {
-  if (n == null) return "—";
+  if (n == null) return "-";
   if (n >= 1000) return `$${(n / 1000).toFixed(2)}k`;
   return `$${n.toFixed(2)}`;
 }
@@ -88,7 +88,7 @@ export default function PlayerView({
   // PortfolioLine accepts "area" as line+gradient; translate the toggle.
   const effectiveVariant: ChartVariant =
     chartVariant === "line" && filled ? "area" : chartVariant;
-  // Custom date range — only used when range === "custom"
+  // Custom date range - only used when range === "custom"
   const NOW_MS = Date.UTC(2026, 3, 26);
   const isoFromMs = (ms: number) => new Date(ms).toISOString().slice(0, 10);
   const [customFrom, setCustomFrom] = useState(

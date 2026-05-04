@@ -1,6 +1,6 @@
 "use client";
 
-// Watchlist table — combines seeded mock rows with user-added card_ids from
+// Watchlist table - combines seeded mock rows with user-added card_ids from
 // localStorage. The displayed list is (seededRows ∪ rows for user-added ids
 // that aren't already seeded). User can also remove a row via the AddToggle
 // in each row.
@@ -67,7 +67,7 @@ type Window = (typeof WINDOW_OPTIONS)[number]["id"];
 const WINDOW_IDS = WINDOW_OPTIONS.map((o) => o.id);
 
 function fmtUsd(n: number | null | undefined) {
-  if (n == null) return "—";
+  if (n == null) return "-";
   if (n >= 1000) return `$${(n / 1000).toFixed(2)}k`;
   return `$${n.toFixed(2)}`;
 }
@@ -269,7 +269,7 @@ export default function WatchlistTable({
               <div className="w-20 text-right font-mono text-sm tabular text-fg-2">
                 {r.psa10_to_psa9_multiple != null
                   ? `${r.psa10_to_psa9_multiple.toFixed(2)}×`
-                  : "—"}
+                  : "-"}
               </div>
             ) : null}
             {visible.has("sales") ? (

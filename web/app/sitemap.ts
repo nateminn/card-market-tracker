@@ -1,4 +1,4 @@
-// Sitemap — enumerates the public, indexable URLs.
+// Sitemap - enumerates the public, indexable URLs.
 // We include:
 //   - Static marketing/legal/Signal pages
 //   - Every player page (one per slug)

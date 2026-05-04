@@ -1,10 +1,10 @@
-// Hybrid parallel resolver — title parsing wins, CardSight name is fallback.
+// Hybrid parallel resolver - title parsing wins, CardSight name is fallback.
 //
 // Why this exists: CardSight's `parallel_name` is sometimes specific
 // ("Pink Refractor", "Mojo Refractor") and sometimes a fuzzy umbrella
 // category ("Rookie Color Run Gimmicks", "Hype") that groups multiple
 // visually-distinct parallels under one label. The eBay listing title
-// usually tells us the specific parallel the buyer was looking at —
+// usually tells us the specific parallel the buyer was looking at -
 // "Paul Skenes Green Refractor /99" is unambiguous even when CardSight's
 // parallel_name says "Rookie Color Run Gimmicks".
 //
@@ -88,7 +88,7 @@ const STANDALONE_PARALLELS: Array<[RegExp, string]> = [
 export type ParallelResolution = {
   label: string;
   isBase: boolean;
-  /** Where the label came from — useful for QA. Not exposed in normal UI. */
+  /** Where the label came from - useful for QA. Not exposed in normal UI. */
   source: "title" | "cardsight" | "cardsight-generic" | "inferred-base";
 };
 

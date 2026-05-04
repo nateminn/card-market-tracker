@@ -1,4 +1,4 @@
-// Watchlist — server-renders rows from Supabase. Batched queries for speed
+// Watchlist - server-renders rows from Supabase. Batched queries for speed
 // (one Supabase round-trip for cards, one for analytics, one for sales →
 // then sparklines computed in-process).
 

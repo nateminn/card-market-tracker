@@ -1,4 +1,4 @@
-// Button — primary, secondary, ghost. Single h-8 default size.
+// Button - primary, secondary, ghost. Single h-8 default size.
 // Focus ring: 2px accent ring at low opacity (NOT a glow).
 
 import type { ButtonHTMLAttributes } from "react";

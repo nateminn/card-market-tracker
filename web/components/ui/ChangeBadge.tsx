@@ -1,10 +1,10 @@
-// ChangeBadge — Robinhood-style ▲ +X.XX% / ▼ −X.XX%
+// ChangeBadge - Robinhood-style ▲ +X.XX% / ▼ −X.XX%
 // Triangle marker so the direction is unmistakable, even without color.
 
 import { clsx } from "./clsx";
 
 type Props = {
-  /** Decimal percent: 0.054 → "+5.4%". Pass null/undefined to render "—". */
+  /** Decimal percent: 0.054 → "+5.4%". Pass null/undefined to render "-". */
   pct: number | null | undefined;
   /** Optional absolute dollar change to show as well: "+$8.13" */
   abs?: number | null;
@@ -23,7 +23,7 @@ export default function ChangeBadge({
   className,
 }: Props) {
   if (pct == null) {
-    return <span className={clsx("text-muted-2 font-mono tabular", className)}>—</span>;
+    return <span className={clsx("text-muted-2 font-mono tabular", className)}>-</span>;
   }
   const t =
     tone ??

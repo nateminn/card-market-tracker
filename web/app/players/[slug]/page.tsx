@@ -1,4 +1,4 @@
-// Player detail — the canonical "asset" page. Aggregates across the player's
+// Player detail - the canonical "asset" page. Aggregates across the player's
 // cards, lets the user filter by grade tier and time range, shows variants,
 // recent sales, news, bio.
 
@@ -31,7 +31,7 @@ import { Newspaper, BarChart3, Layers, Star } from "lucide-react";
 export const dynamic = "force-dynamic";
 
 function fmtUsd(n: number | null | undefined) {
-  if (n == null) return "—";
+  if (n == null) return "-";
   if (n >= 1000) return `$${(n / 1000).toFixed(2)}k`;
   return `$${n.toFixed(2)}`;
 }
@@ -69,7 +69,7 @@ export default async function PlayerPage({
     getPlayerSparkline(slug, 30),
   ]);
   // Pre-fetch analytics for every variant card in ONE batched query
-  // (was N sequential queries — 100+ for prolific players like Skenes,
+  // (was N sequential queries - 100+ for prolific players like Skenes,
   // crashed dev mode and timed out edge functions in prod).
   const analyticsByCard = await getAnalyticsForCards(player.cards.map((c) => c.id));
   const bio = getPlayerBio(slug);
@@ -113,7 +113,7 @@ export default async function PlayerPage({
     .map(([label, value]) => ({ label, value }))
     .sort((a, b) => b.value - a.value);
 
-  // Build compare candidates — top 12 other players by sales 30d
+  // Build compare candidates - top 12 other players by sales 30d
   const compareCandidatesRaw = allPlayers
     .filter((p) => p.slug !== slug)
     .sort((a, b) => b.sales_30d - a.sales_30d)
@@ -316,7 +316,7 @@ export default async function PlayerPage({
               </section>
             ) : null}
 
-            {/* Full catalog — grouped Year → Brand → Set ------------ */}
+            {/* Full catalog - grouped Year → Brand → Set ------------ */}
             <section className="mb-10">
               <h2 className="text-lg font-semibold text-fg mb-1 flex items-center gap-2">
                 Full catalog
@@ -475,7 +475,7 @@ export default async function PlayerPage({
               </div>
               <p className="mt-2 text-[11px] text-muted-2 leading-relaxed">
                 Completed sales (eBay sold listings via CardSight). The link
-                opens the original listing — eBay may show it as active if
+                opens the original listing - eBay may show it as active if
                 the seller relisted, but the sale itself is real.
               </p>
             </>

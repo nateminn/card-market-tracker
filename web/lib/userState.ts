@@ -1,6 +1,6 @@
 "use client";
 
-// User-scoped local state — what the user has added to their watchlist or
+// User-scoped local state - what the user has added to their watchlist or
 // portfolio on top of the seeded mock data. localStorage-backed so it
 // persists across reloads.
 //

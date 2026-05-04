@@ -6,7 +6,7 @@
 // from the cookie-aware client (getCurrentUser).
 //
 // Defaults: signed-out users are 'anon'. Signed-in users without a profile
-// row default to 'free' (the trigger should always create one — but if the
+// row default to 'free' (the trigger should always create one - but if the
 // migration hasn't been applied yet, treat them as free rather than crash).
 //
 // USAGE

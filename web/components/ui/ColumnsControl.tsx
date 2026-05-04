@@ -13,7 +13,7 @@ export type ColumnDef = {
   label: string;
   /** Default visible. */
   default?: boolean;
-  /** Pinned (cannot be hidden — always visible). */
+  /** Pinned (cannot be hidden - always visible). */
   pinned?: boolean;
 };
 

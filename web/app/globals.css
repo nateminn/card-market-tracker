@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 /* ----------------------------------------------------------------------------
- * Cardex — Robinhood-aligned tokens.
+ * Cardex - Robinhood-aligned tokens.
  *
  * Pure black surface, bright neon up/down so direction is unmistakable
  * across the page, single saffron / gold accent for "promoted" actions.
  * --------------------------------------------------------------------------*/
 @theme {
-  /* Surfaces — near-black with the slightest blue tint */
+  /* Surfaces - near-black with the slightest blue tint */
   --color-bg:           oklch(8%  0.005 250);   /* page */
   --color-panel:        oklch(11% 0.006 250);   /* one elevation up (sidebar bg) */
   --color-panel-2:      oklch(15% 0.007 250);   /* hover / second elevation */
@@ -15,24 +15,24 @@
   --color-border-2:     oklch(28% 0.010 250);
 
   /* Foreground stack */
-  --color-fg:           oklch(98% 0.003 250);   /* near white — Robinhood-bright */
+  --color-fg:           oklch(98% 0.003 250);   /* near white - Robinhood-bright */
   --color-fg-2:         oklch(82% 0.004 250);
   --color-muted:        oklch(60% 0.005 250);
   --color-muted-2:      oklch(42% 0.005 250);
 
-  /* Up / down — Robinhood bright neon (vivid, never desaturated) */
+  /* Up / down - Robinhood bright neon (vivid, never desaturated) */
   --color-up:           oklch(78% 0.20 145);    /* bright neon green */
   --color-up-quiet:     oklch(40% 0.15 145 / 0.18);
   --color-down:         oklch(68% 0.22 25);     /* bright neon red */
   --color-down-quiet:   oklch(38% 0.18 25 / 0.18);
 
-  /* Brand accent — saffron / gold (Robinhood Gold-style premium pop) */
+  /* Brand accent - saffron / gold (Robinhood Gold-style premium pop) */
   --color-accent:       oklch(82% 0.16 80);
   --color-accent-quiet: oklch(82% 0.16 80 / 0.16);
   --color-accent-strong:oklch(82% 0.16 80);
   --color-warn:         oklch(78% 0.16 80);
 
-  /* Info — keep one cool to differentiate Raw from Graded if needed */
+  /* Info - keep one cool to differentiate Raw from Graded if needed */
   --color-info:         oklch(72% 0.10 240);
 
   /* Type stack */
@@ -71,7 +71,7 @@ body {
   color: var(--color-muted);
 }
 
-/* Pill — used for category buttons (Sport, Filter chips). Robinhood pills are
+/* Pill - used for category buttons (Sport, Filter chips). Robinhood pills are
    subtle dark with rounded-full + small icon. */
 .pill {
   display: inline-flex;
@@ -94,7 +94,7 @@ body {
   color: var(--color-accent);
 }
 
-/* Time range tab — underline on active, otherwise plain. */
+/* Time range tab - underline on active, otherwise plain. */
 .timetab {
   display: inline-flex;
   align-items: center;
@@ -125,7 +125,7 @@ body {
 }
 ::-webkit-scrollbar-thumb:hover { background: var(--color-muted-2); }
 
-/* Skeleton shimmer — opacity-only, 1.4s, ease-in-out (functional motion). */
+/* Skeleton shimmer - opacity-only, 1.4s, ease-in-out (functional motion). */
 @keyframes cdx-pulse {
   0%, 100% { opacity: 0.55; }
   50%      { opacity: 0.9; }

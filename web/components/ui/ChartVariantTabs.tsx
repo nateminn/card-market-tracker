@@ -1,7 +1,7 @@
 "use client";
 
 // Shared chart-type toggle: Line / Bars. "Area" was previously a chart type
-// but it's the same data as Line with a gradient — better as a separate
+// but it's the same data as Line with a gradient - better as a separate
 // persistent "Fill" preference (see ChartFillToggle).
 
 const VARIANTS = [

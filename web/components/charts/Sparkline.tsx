@@ -1,6 +1,6 @@
 "use client";
 
-// Sparkline — tiny inline price chart. Hover reveals a date + price tooltip.
+// Sparkline - tiny inline price chart. Hover reveals a date + price tooltip.
 // No axes, no labels. Tone derived from first vs last point.
 
 import { useState } from "react";

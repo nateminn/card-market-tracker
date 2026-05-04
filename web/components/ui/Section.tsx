@@ -1,4 +1,4 @@
-// Section header — the "eyebrow + heading" pattern used on most page sections.
+// Section header - the "eyebrow + heading" pattern used on most page sections.
 // Keeps spacing and type rhythm consistent across pages.
 
 import type { ReactNode } from "react";
@@ -6,7 +6,7 @@ import type { ReactNode } from "react";
 type Props = {
   eyebrow?: string;
   title: string;
-  /** Right-side slot — typically a link, button, or status text. */
+  /** Right-side slot - typically a link, button, or status text. */
   action?: ReactNode;
   className?: string;
 };

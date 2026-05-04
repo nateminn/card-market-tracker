@@ -1,6 +1,6 @@
-// /auth/callback — handles the OAuth/email-confirmation redirect from Supabase.
+// /auth/callback - handles the OAuth/email-confirmation redirect from Supabase.
 // Supabase sends users here with a `code` query param; we exchange it for a
-// session, fire the welcome email (idempotent — won't double-send if the
+// session, fire the welcome email (idempotent - won't double-send if the
 // user re-confirms), then bounce them home.
 
 import { NextResponse } from "next/server";

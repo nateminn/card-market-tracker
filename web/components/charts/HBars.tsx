@@ -1,4 +1,4 @@
-// Generic horizontal bar list — used for grade distribution / source mix.
+// Generic horizontal bar list - used for grade distribution / source mix.
 // Each bar shows label, bar fill proportional to value, and a value readout.
 
 import { clsx } from "@/components/ui/clsx";

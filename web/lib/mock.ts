@@ -5,7 +5,7 @@
 // The shapes here mirror lib/queries.ts; switching back to live data is a
 // one-file change.
 //
-// Data is deterministic — a small linear congruential RNG seeded per card.
+// Data is deterministic - a small linear congruential RNG seeded per card.
 // Reload doesn't reshuffle anything.
 
 export type Card = {
@@ -24,7 +24,7 @@ export type Card = {
   heat: "hot" | "warm" | "cold";
   /** Short trading symbol shown in tables and the right rail. Derived. */
   ticker: string;
-  /** Real eBay thumbnail when available — populated by `src/seed_card_images.py`
+  /** Real eBay thumbnail when available - populated by `src/seed_card_images.py`
    * via web/lib/card_images.json. Falls through to initials placeholder. */
   image_url?: string;
 };
@@ -41,7 +41,7 @@ export type Sale = {
   external_url: string | null;
   external_title: string | null;
   listing_type: string | null;
-  /** eBay listing thumbnail when available — populated from CardSight per
+  /** eBay listing thumbnail when available - populated from CardSight per
    * sale in production. Mock falls back to the card's canonical image. */
   image_url?: string | null;
 };
@@ -54,12 +54,12 @@ export type AnalyticsRow = {
   vwap_90d_usd: number | null;
   raw_vwap_30d_usd: number | null;
   psa10_vwap_30d_usd: number | null;
-  /** Per-grade VWAPs, 90-day window — used for grade-tier multiples. */
+  /** Per-grade VWAPs, 90-day window - used for grade-tier multiples. */
   psa9_vwap_90d_usd: number | null;
   bgs9_vwap_90d_usd: number | null;
   bgs95_vwap_90d_usd: number | null;
   bgs10_vwap_90d_usd: number | null;
-  /** Multiples — PSA 10 / PSA 9, etc. null when either side is missing. */
+  /** Multiples - PSA 10 / PSA 9, etc. null when either side is missing. */
   psa10_to_psa9_multiple: number | null;
   bgs95_to_bgs9_multiple: number | null;
   bgs10_to_bgs95_multiple: number | null;
@@ -95,7 +95,7 @@ export type Trade = {
 };
 
 // ============================================================================
-// Cards — 30 with varied identity, sport, set, baseline price, and heat
+// Cards - 30 with varied identity, sport, set, baseline price, and heat
 // ============================================================================
 
 const PRODUCT_CODE: Record<string, string> = {
@@ -116,19 +116,19 @@ function deriveTicker(c: Omit<Card, "ticker">): string {
 }
 
 const _RAW_CARDS: Omit<Card, "ticker">[] = [
-  // 2024 MLB rookies — Bowman Chrome / Topps Chrome
+  // 2024 MLB rookies - Bowman Chrome / Topps Chrome
   { id: "skn-bc-bs",    player_name: "Paul Skenes",        card_number: "31",   is_rookie: true,  release_year: "2024",    release_name: "Bowman Chrome",   set_name: "Base Set", sport: "Baseball",  baseline_psa10: 145, baseline_raw: 14,  heat: "hot" },
   { id: "hol-bc-bs",    player_name: "Jackson Holliday",   card_number: "BCP-1",is_rookie: true,  release_year: "2024",    release_name: "Bowman Chrome",   set_name: "Prospects", sport: "Baseball",baseline_psa10: 92,  baseline_raw: 9,   heat: "warm" },
   { id: "lan-bc-bs",    player_name: "Wyatt Langford",     card_number: "104",  is_rookie: true,  release_year: "2024",    release_name: "Bowman Chrome",   set_name: "Base Set", sport: "Baseball",  baseline_psa10: 65,  baseline_raw: 7,   heat: "warm" },
   { id: "cam-bc-bs",    player_name: "Junior Caminero",    card_number: "56",   is_rookie: true,  release_year: "2024",    release_name: "Bowman Chrome",   set_name: "Base Set", sport: "Baseball",  baseline_psa10: 80,  baseline_raw: 8,   heat: "warm" },
   { id: "skn-tc-bs",    player_name: "Paul Skenes",        card_number: "152",  is_rookie: true,  release_year: "2024",    release_name: "Topps Chrome",    set_name: "Base Set", sport: "Baseball",  baseline_psa10: 110, baseline_raw: 12,  heat: "hot" },
 
-  // Established MLB stars — older / mature pricing
+  // Established MLB stars - older / mature pricing
   { id: "trt-tu-rc",    player_name: "Mike Trout",         card_number: "US175",is_rookie: true,  release_year: "2011",    release_name: "Topps Update",    set_name: "Base Set", sport: "Baseball",  baseline_psa10: 1850, baseline_raw: 130, heat: "warm" },
   { id: "oht-tu-rc",    player_name: "Shohei Ohtani",      card_number: "US285",is_rookie: true,  release_year: "2018",    release_name: "Topps Update",    set_name: "Base Set", sport: "Baseball",  baseline_psa10: 770,  baseline_raw: 70,  heat: "hot"  },
   { id: "hen-tc-rc",    player_name: "Gunnar Henderson",   card_number: "112",  is_rookie: true,  release_year: "2023",    release_name: "Topps Chrome",    set_name: "Base Set", sport: "Baseball",  baseline_psa10: 165,  baseline_raw: 18,  heat: "warm" },
 
-  // 2024 NFL rookies — Topps Chrome / Panini Prizm
+  // 2024 NFL rookies - Topps Chrome / Panini Prizm
   { id: "cwm-tc-bs",    player_name: "Caleb Williams",     card_number: "202",  is_rookie: true,  release_year: "2024",    release_name: "Topps Chrome",    set_name: "Base Set", sport: "Football",  baseline_psa10: 95,  baseline_raw: 11,  heat: "warm" },
   { id: "jdl-tc-bs",    player_name: "Jayden Daniels",     card_number: "201",  is_rookie: true,  release_year: "2024",    release_name: "Topps Chrome",    set_name: "Base Set", sport: "Football",  baseline_psa10: 130, baseline_raw: 14,  heat: "hot"  },
   { id: "mhj-tc-bs",    player_name: "Marvin Harrison Jr", card_number: "203",  is_rookie: true,  release_year: "2024",    release_name: "Topps Chrome",    set_name: "Base Set", sport: "Football",  baseline_psa10: 105, baseline_raw: 12,  heat: "warm" },
@@ -136,11 +136,11 @@ const _RAW_CARDS: Omit<Card, "ticker">[] = [
   { id: "bow-tc-bs",    player_name: "Brock Bowers",       card_number: "215",  is_rookie: true,  release_year: "2024",    release_name: "Topps Chrome",    set_name: "Base Set", sport: "Football",  baseline_psa10: 145, baseline_raw: 16,  heat: "hot"  },
   { id: "cwm-pp-bs",    player_name: "Caleb Williams",     card_number: "301",  is_rookie: true,  release_year: "2024",    release_name: "Panini Prizm",    set_name: "Base Set", sport: "Football",  baseline_psa10: 75,  baseline_raw: 9,   heat: "warm" },
 
-  // Established NFL — Mahomes, Lamar
+  // Established NFL - Mahomes, Lamar
   { id: "mhm-pp-rc",    player_name: "Patrick Mahomes",    card_number: "248",  is_rookie: true,  release_year: "2017",    release_name: "Panini Prizm",    set_name: "Base Set", sport: "Football",  baseline_psa10: 320, baseline_raw: 38,  heat: "warm" },
   { id: "lmj-pp-rc",    player_name: "Lamar Jackson",      card_number: "313",  is_rookie: true,  release_year: "2018",    release_name: "Panini Prizm",    set_name: "Base Set", sport: "Football",  baseline_psa10: 195, baseline_raw: 22,  heat: "warm" },
 
-  // 2023-24 NBA rookies — Prizm
+  // 2023-24 NBA rookies - Prizm
   { id: "wem-pp-bs",    player_name: "Victor Wembanyama",  card_number: "297",  is_rookie: true,  release_year: "2023-24", release_name: "Panini Prizm",    set_name: "Base Set", sport: "Basketball",baseline_psa10: 285, baseline_raw: 32, heat: "hot"  },
   { id: "chh-pp-bs",    player_name: "Chet Holmgren",      card_number: "302",  is_rookie: true,  release_year: "2023-24", release_name: "Panini Prizm",    set_name: "Base Set", sport: "Basketball",baseline_psa10: 110, baseline_raw: 12, heat: "warm" },
   { id: "bmm-pp-bs",    player_name: "Brandon Miller",     card_number: "301",  is_rookie: true,  release_year: "2023-24", release_name: "Panini Prizm",    set_name: "Base Set", sport: "Basketball",baseline_psa10: 60,  baseline_raw: 7,  heat: "cold" },
@@ -160,69 +160,69 @@ const _RAW_CARDS: Omit<Card, "ticker">[] = [
   { id: "cdr-tc-bs",    player_name: "Cade Cunningham",    card_number: "189",  is_rookie: true,  release_year: "2021-22", release_name: "Panini Prizm",    set_name: "Base Set", sport: "Basketball",baseline_psa10: 95,  baseline_raw: 11, heat: "warm" },
 
   // ---------------------------------------------------------------------
-  // Variants — extra parallels for top players so player detail can show
+  // Variants - extra parallels for top players so player detail can show
   // the "totality of cards" experience: high-end /1, /5, /10 chase pieces
   // alongside the everyday base. These exercise the volume-weighted average
   // (a $20k SuperFractor with 1 sale shouldn't drown out 80 base sales).
   // ---------------------------------------------------------------------
 
-  // Mike Trout — 2011 Topps Update Refractor family
+  // Mike Trout - 2011 Topps Update Refractor family
   { id: "trt-tu-rfr",  player_name: "Mike Trout", card_number: "US175", is_rookie: true, release_year: "2011", release_name: "Topps Update", set_name: "Refractor",         sport: "Baseball", baseline_psa10:  3400, baseline_raw: 220, heat: "warm" },
   { id: "trt-tu-gld",  player_name: "Mike Trout", card_number: "US175", is_rookie: true, release_year: "2011", release_name: "Topps Update", set_name: "Gold Refractor /50", sport: "Baseball", baseline_psa10: 14000, baseline_raw: 0,   heat: "warm" },
   { id: "trt-tu-org",  player_name: "Mike Trout", card_number: "US175", is_rookie: true, release_year: "2011", release_name: "Topps Update", set_name: "Orange /25",         sport: "Baseball", baseline_psa10: 22000, baseline_raw: 0,   heat: "warm" },
   { id: "trt-tu-pnk",  player_name: "Mike Trout", card_number: "US175", is_rookie: true, release_year: "2011", release_name: "Topps Update", set_name: "Pink /199",          sport: "Baseball", baseline_psa10:  6500, baseline_raw: 0,   heat: "warm" },
   { id: "trt-tu-blk",  player_name: "Mike Trout", card_number: "US175", is_rookie: true, release_year: "2011", release_name: "Topps Update", set_name: "Black /1",           sport: "Baseball", baseline_psa10: 65000, baseline_raw: 0,   heat: "warm" },
 
-  // Paul Skenes — 2024 Bowman Chrome Refractor family
+  // Paul Skenes - 2024 Bowman Chrome Refractor family
   { id: "skn-bc-rfr",  player_name: "Paul Skenes", card_number: "31", is_rookie: true, release_year: "2024", release_name: "Bowman Chrome", set_name: "Refractor",          sport: "Baseball", baseline_psa10:  340, baseline_raw: 28,  heat: "hot" },
   { id: "skn-bc-gld",  player_name: "Paul Skenes", card_number: "31", is_rookie: true, release_year: "2024", release_name: "Bowman Chrome", set_name: "Gold Refractor /50",  sport: "Baseball", baseline_psa10: 2200, baseline_raw: 0,   heat: "hot" },
   { id: "skn-bc-org",  player_name: "Paul Skenes", card_number: "31", is_rookie: true, release_year: "2024", release_name: "Bowman Chrome", set_name: "Orange /25",          sport: "Baseball", baseline_psa10: 4500, baseline_raw: 0,   heat: "hot" },
   { id: "skn-bc-rd5",  player_name: "Paul Skenes", card_number: "31", is_rookie: true, release_year: "2024", release_name: "Bowman Chrome", set_name: "Red Refractor /5",    sport: "Baseball", baseline_psa10: 9500, baseline_raw: 0,   heat: "hot" },
   { id: "skn-bc-spf",  player_name: "Paul Skenes", card_number: "31", is_rookie: true, release_year: "2024", release_name: "Bowman Chrome", set_name: "SuperFractor 1/1",    sport: "Baseball", baseline_psa10: 32000, baseline_raw: 0,  heat: "hot" },
 
-  // Shohei Ohtani — 2018 Topps Update parallels
+  // Shohei Ohtani - 2018 Topps Update parallels
   { id: "oht-tu-rfr",  player_name: "Shohei Ohtani", card_number: "US285", is_rookie: true, release_year: "2018", release_name: "Topps Update", set_name: "Refractor",          sport: "Baseball", baseline_psa10:  1750, baseline_raw: 165, heat: "hot" },
   { id: "oht-tu-gld",  player_name: "Shohei Ohtani", card_number: "US285", is_rookie: true, release_year: "2018", release_name: "Topps Update", set_name: "Gold Refractor /50", sport: "Baseball", baseline_psa10:  6800, baseline_raw: 0,   heat: "hot" },
   { id: "oht-tu-org",  player_name: "Shohei Ohtani", card_number: "US285", is_rookie: true, release_year: "2018", release_name: "Topps Update", set_name: "Orange /25",         sport: "Baseball", baseline_psa10: 11000, baseline_raw: 0,   heat: "hot" },
   { id: "oht-tu-rd5",  player_name: "Shohei Ohtani", card_number: "US285", is_rookie: true, release_year: "2018", release_name: "Topps Update", set_name: "Red Refractor /5",   sport: "Baseball", baseline_psa10: 24000, baseline_raw: 0,   heat: "hot" },
 
-  // Wembanyama — 2023-24 Prizm parallels
+  // Wembanyama - 2023-24 Prizm parallels
   { id: "wem-pp-slv",  player_name: "Victor Wembanyama", card_number: "297", is_rookie: true, release_year: "2023-24", release_name: "Panini Prizm", set_name: "Silver Prizm",       sport: "Basketball", baseline_psa10:  720, baseline_raw: 80, heat: "hot" },
   { id: "wem-pp-grn",  player_name: "Victor Wembanyama", card_number: "297", is_rookie: true, release_year: "2023-24", release_name: "Panini Prizm", set_name: "Green Prizm",        sport: "Basketball", baseline_psa10: 1100, baseline_raw: 0,  heat: "hot" },
   { id: "wem-pp-mojo", player_name: "Victor Wembanyama", card_number: "297", is_rookie: true, release_year: "2023-24", release_name: "Panini Prizm", set_name: "Mojo /25",           sport: "Basketball", baseline_psa10: 4800, baseline_raw: 0,  heat: "hot" },
   { id: "wem-pp-glsh", player_name: "Victor Wembanyama", card_number: "297", is_rookie: true, release_year: "2023-24", release_name: "Panini Prizm", set_name: "Gold Shimmer /10",   sport: "Basketball", baseline_psa10:14000, baseline_raw: 0,  heat: "hot" },
   { id: "wem-pp-blk1", player_name: "Victor Wembanyama", card_number: "297", is_rookie: true, release_year: "2023-24", release_name: "Panini Prizm", set_name: "Black 1/1",          sport: "Basketball", baseline_psa10:42000, baseline_raw: 0,  heat: "hot" },
 
-  // LeBron James — 2003-04 Topps Chrome parallels
+  // LeBron James - 2003-04 Topps Chrome parallels
   { id: "lbj-tc-rfr",  player_name: "LeBron James", card_number: "111", is_rookie: true, release_year: "2003-04", release_name: "Topps Chrome", set_name: "Refractor",            sport: "Basketball", baseline_psa10: 14500, baseline_raw: 0, heat: "warm" },
   { id: "lbj-tc-xfr",  player_name: "LeBron James", card_number: "111", is_rookie: true, release_year: "2003-04", release_name: "Topps Chrome", set_name: "X-Fractor /150",       sport: "Basketball", baseline_psa10: 27000, baseline_raw: 0, heat: "warm" },
   { id: "lbj-tc-blk",  player_name: "LeBron James", card_number: "111", is_rookie: true, release_year: "2003-04", release_name: "Topps Chrome", set_name: "Black Refractor /500", sport: "Basketball", baseline_psa10:  9500, baseline_raw: 0, heat: "warm" },
 
-  // Patrick Mahomes — 2017 Prizm parallels
+  // Patrick Mahomes - 2017 Prizm parallels
   { id: "mhm-pp-slv",  player_name: "Patrick Mahomes", card_number: "248", is_rookie: true, release_year: "2017", release_name: "Panini Prizm", set_name: "Silver Prizm",       sport: "Football", baseline_psa10: 1100, baseline_raw: 110, heat: "warm" },
   { id: "mhm-pp-rwb",  player_name: "Patrick Mahomes", card_number: "248", is_rookie: true, release_year: "2017", release_name: "Panini Prizm", set_name: "Red White Blue",     sport: "Football", baseline_psa10: 2400, baseline_raw: 0,   heat: "warm" },
   { id: "mhm-pp-gld",  player_name: "Patrick Mahomes", card_number: "248", is_rookie: true, release_year: "2017", release_name: "Panini Prizm", set_name: "Gold /10",           sport: "Football", baseline_psa10: 16000, baseline_raw: 0,  heat: "warm" },
 
-  // Lamar Jackson — 2018 Prizm parallels
+  // Lamar Jackson - 2018 Prizm parallels
   { id: "lmj-pp-slv",  player_name: "Lamar Jackson", card_number: "313", is_rookie: true, release_year: "2018", release_name: "Panini Prizm", set_name: "Silver Prizm",       sport: "Football", baseline_psa10:  650, baseline_raw: 65, heat: "warm" },
   { id: "lmj-pp-grn",  player_name: "Lamar Jackson", card_number: "313", is_rookie: true, release_year: "2018", release_name: "Panini Prizm", set_name: "Green Prizm",        sport: "Football", baseline_psa10: 1200, baseline_raw: 0,  heat: "warm" },
   { id: "lmj-pp-rwb",  player_name: "Lamar Jackson", card_number: "313", is_rookie: true, release_year: "2018", release_name: "Panini Prizm", set_name: "Red White Blue",     sport: "Football", baseline_psa10: 1800, baseline_raw: 0,  heat: "warm" },
 
-  // Luka Doncic — 2018-19 Prizm parallels
+  // Luka Doncic - 2018-19 Prizm parallels
   { id: "luk-pp-slv",  player_name: "Luka Doncic", card_number: "280", is_rookie: true, release_year: "2018-19", release_name: "Panini Prizm", set_name: "Silver Prizm",   sport: "Basketball", baseline_psa10:  1300, baseline_raw: 0, heat: "warm" },
   { id: "luk-pp-grn",  player_name: "Luka Doncic", card_number: "280", is_rookie: true, release_year: "2018-19", release_name: "Panini Prizm", set_name: "Green Prizm",    sport: "Basketball", baseline_psa10:  2400, baseline_raw: 0, heat: "warm" },
   { id: "luk-pp-mojo", player_name: "Luka Doncic", card_number: "280", is_rookie: true, release_year: "2018-19", release_name: "Panini Prizm", set_name: "Mojo /25",       sport: "Basketball", baseline_psa10:  9800, baseline_raw: 0, heat: "warm" },
 
-  // Jayden Daniels — 2024 Topps Chrome parallels
+  // Jayden Daniels - 2024 Topps Chrome parallels
   { id: "jdl-tc-rfr",  player_name: "Jayden Daniels", card_number: "201", is_rookie: true, release_year: "2024", release_name: "Topps Chrome", set_name: "Refractor",          sport: "Football", baseline_psa10: 320, baseline_raw: 36, heat: "hot" },
   { id: "jdl-tc-gld",  player_name: "Jayden Daniels", card_number: "201", is_rookie: true, release_year: "2024", release_name: "Topps Chrome", set_name: "Gold Refractor /50", sport: "Football", baseline_psa10: 1900, baseline_raw: 0, heat: "hot" },
   { id: "jdl-tc-spf",  player_name: "Jayden Daniels", card_number: "201", is_rookie: true, release_year: "2024", release_name: "Topps Chrome", set_name: "SuperFractor 1/1",   sport: "Football", baseline_psa10:18000, baseline_raw: 0, heat: "hot" },
 
-  // Caleb Williams — 2024 Topps Chrome parallels
+  // Caleb Williams - 2024 Topps Chrome parallels
   { id: "cwm-tc-rfr",  player_name: "Caleb Williams", card_number: "202", is_rookie: true, release_year: "2024", release_name: "Topps Chrome", set_name: "Refractor",          sport: "Football", baseline_psa10: 250, baseline_raw: 28, heat: "warm" },
   { id: "cwm-tc-gld",  player_name: "Caleb Williams", card_number: "202", is_rookie: true, release_year: "2024", release_name: "Topps Chrome", set_name: "Gold Refractor /50", sport: "Football", baseline_psa10: 1400, baseline_raw: 0, heat: "warm" },
 
-  // Brock Bowers — 2024 Topps Chrome parallels
+  // Brock Bowers - 2024 Topps Chrome parallels
   { id: "bow-tc-rfr",  player_name: "Brock Bowers", card_number: "215", is_rookie: true, release_year: "2024", release_name: "Topps Chrome", set_name: "Refractor",          sport: "Football", baseline_psa10: 380, baseline_raw: 42, heat: "hot" },
   { id: "bow-tc-gld",  player_name: "Brock Bowers", card_number: "215", is_rookie: true, release_year: "2024", release_name: "Topps Chrome", set_name: "Gold Refractor /50", sport: "Football", baseline_psa10: 2200, baseline_raw: 0, heat: "hot" },
 ];
@@ -245,11 +245,11 @@ export const CARDS_BY_ID: Record<string, Card> = Object.fromEntries(
 );
 
 // ============================================================================
-// Sales — generate per card with seeded random so reloads are stable
+// Sales - generate per card with seeded random so reloads are stable
 // ============================================================================
 
 function lcg(seed: number) {
-  // Linear congruential — Numerical Recipes constants
+  // Linear congruential - Numerical Recipes constants
   let s = seed >>> 0;
   return () => {
     s = (s * 1664525 + 1013904223) >>> 0;
@@ -266,7 +266,7 @@ function strSeed(s: string) {
   return h >>> 0;
 }
 
-const NOW = Date.UTC(2026, 3, 25); // 2026-04-25 — matches today
+const NOW = Date.UTC(2026, 3, 25); // 2026-04-25 - matches today
 const FIVE_MONTHS_MS = 1000 * 60 * 60 * 24 * 30 * 5;
 
 function clamp(n: number, min: number, max: number) {
@@ -306,7 +306,7 @@ function genSalesFor(card: Card): Sale[] {
   const eraMul = Number(card.release_year.slice(0, 4)) < 2020 ? 0.4 : 1.0;
   const targetCount = Math.round(80 * heatMul * eraMul + rng() * 30);
 
-  // Distribution per grade tier — graded raw mostly for active rookies,
+  // Distribution per grade tier - graded raw mostly for active rookies,
   // older / pricier cards skew heavily toward graded sales
   const graded = Number(card.release_year.slice(0, 4)) < 2020 ? 0.85 : 0.55;
   const psa10Frac = 0.45;
@@ -322,7 +322,7 @@ function genSalesFor(card: Card): Sale[] {
     let centroid = card.baseline_raw;
     if (isGraded) {
       const r = rng();
-      // ~80% PSA, 15% BGS — bumped BGS share so the BGS 9.5/9 and 10/9.5
+      // ~80% PSA, 15% BGS - bumped BGS share so the BGS 9.5/9 and 10/9.5
       // multiples on the card detail page actually have samples to compute.
       grader = r < 0.80 ? "PSA" : r < 0.95 ? "BGS" : r < 0.98 ? "SGC" : "Arena Club";
       const g = rng();
@@ -377,7 +377,7 @@ function genSalesFor(card: Card): Sale[] {
     const isHighValue = price > 800;
     const sourceForSale = isHighValue && rng() < 0.55 ? "Goldin" : pickSource(rng);
 
-    // Mock external listing URL — when the data layer connects to real
+    // Mock external listing URL - when the data layer connects to real
     // eBay scraping, every sale will have a clickable affiliate URL. For
     // now we point at an eBay search for the card title so links are at
     // least navigable.
@@ -430,7 +430,7 @@ export function salesForCard(cardId: string): Sale[] {
 }
 
 // ============================================================================
-// Analytics — derived from sales, plus a hand-tuned thesis per featured card
+// Analytics - derived from sales, plus a hand-tuned thesis per featured card
 // ============================================================================
 
 function dateString(daysAgo: number) {
@@ -477,7 +477,7 @@ function computeAnalytics(card: Card): AnalyticsRow {
     (x) => x.is_graded && x.grader === "PSA" && x.grade_value === "10"
   );
 
-  // Per-grade VWAPs — 90d window (longer to find enough samples for less-traded grades).
+  // Per-grade VWAPs - 90d window (longer to find enough samples for less-traded grades).
   const psa9_90 = s90.filter(
     (x) => x.is_graded && x.grader === "PSA" && x.grade_value === "9"
   );
@@ -499,7 +499,7 @@ function computeAnalytics(card: Card): AnalyticsRow {
   const bgs95_v90 = meanPrice(bgs95_90);
   const bgs10_v90 = meanPrice(bgs10_90);
 
-  // Multiples — null when either side is missing or zero. Round to 2 decimals.
+  // Multiples - null when either side is missing or zero. Round to 2 decimals.
   const ratio = (top: number | null, bot: number | null) =>
     top != null && bot != null && bot > 0 ? Number((top / bot).toFixed(2)) : null;
 
@@ -561,7 +561,7 @@ export function getAnalytics(cardId: string): AnalyticsRow | null {
 
 export const WATCHLIST: WatchlistEntry[] = [
   // Targets are tuned so a couple of mock entries surface "Buy"/"Sell" badges
-  // — useful for showing the alerts feature working out of the box.
+  // - useful for showing the alerts feature working out of the box.
   { card_id: "skn-bc-bs", added_at: dateString(38), target_buy_usd: 130, target_sell_usd: 150, notes: "Hold for All-Star bump" },
   { card_id: "wem-pp-bs", added_at: dateString(54), target_buy_usd: 240, target_sell_usd: 400, notes: null },
   { card_id: "oht-tu-rc", added_at: dateString(20), target_buy_usd: 700, target_sell_usd: 950, notes: null },
@@ -573,7 +573,7 @@ export const WATCHLIST: WatchlistEntry[] = [
 ];
 
 // ============================================================================
-// Portfolio — eight trades (mix of buys and sells, some open positions)
+// Portfolio - eight trades (mix of buys and sells, some open positions)
 // ============================================================================
 
 export const TRADES: Trade[] = [
@@ -603,7 +603,7 @@ export function getCounts() {
 }
 
 // ============================================================================
-// Sparkline points — daily VWAP for the last 30 days per card
+// Sparkline points - daily VWAP for the last 30 days per card
 // ============================================================================
 
 let _sparkCache: Map<string, { ts: number; value: number }[]> | null = null;
@@ -617,7 +617,7 @@ export function getPortfolioValueLine(days = 30): { ts: number; value: number }[
     const cur = openQty.get(t.card_id) ?? 0;
     openQty.set(t.card_id, cur + (t.side === "buy" ? t.quantity : -t.quantity));
   }
-  // Build value series — for each day in window, sum (qty × VWAP that day)
+  // Build value series - for each day in window, sum (qty × VWAP that day)
   const dayMs = 86400 * 1000;
   const startDay = Math.floor((NOW - days * dayMs) / dayMs) * dayMs;
   const endDay = Math.floor(NOW / dayMs) * dayMs;

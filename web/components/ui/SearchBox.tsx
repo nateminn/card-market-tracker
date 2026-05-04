@@ -1,6 +1,6 @@
 "use client";
 
-// Header search — fuzzy match over players and cards. Substring-first
+// Header search - fuzzy match over players and cards. Substring-first
 // scoring so "trout" surfaces "Mike Trout" before any random card whose
 // title happens to contain "trout". Top 8 results in a dropdown; arrow
 // keys navigate; Enter submits to the highlighted result.
@@ -52,7 +52,7 @@ function scorePlayer(p: SearchPlayer, q: string): number {
 
 function scoreCard(c: SearchCard, q: string): number {
   const blob = `${c.player_name} ${c.release_year} ${c.release_name} ${c.set_name} #${c.card_number}`.toLowerCase();
-  // Cards score lower than players — players are the primary entity.
+  // Cards score lower than players - players are the primary entity.
   if (blob.startsWith(q)) return 70;
   // Match all space-separated tokens of the query individually
   const tokens = q.split(/\s+/).filter(Boolean);

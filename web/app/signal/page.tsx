@@ -1,4 +1,4 @@
-// /signal — Cardex Signal Engine.
+// /signal - Cardex Signal Engine.
 // Pitched as a proprietary algorithm that ranks underrated cards using a
 // composite of momentum, volume density, scarcity, and analyst-coded thesis.
 // This page is the differentiator. The model is opaque on purpose; the UI
@@ -47,7 +47,7 @@ export default async function SignalPage() {
         <span className="text-fg-2">Signal</span>
       </nav>
 
-      {/* Hero — compact -------------------------------------------------
+      {/* Hero - compact -------------------------------------------------
           Was previously a full-page explainer with 4 factor cards taking
           ~500px above the fold. Most repeat visitors don't need that
           re-explained on every visit. The full breakdown lives at the
@@ -110,7 +110,7 @@ export default async function SignalPage() {
         <span className="text-sm font-normal text-muted">
           {tier === "pro"
             ? `(${total})`
-            : `(${FREE_PREVIEW} of ${total} — Pro shows all)`}
+            : `(${FREE_PREVIEW} of ${total} - Pro shows all)`}
         </span>
       </h2>
       <ProGate
@@ -122,7 +122,7 @@ export default async function SignalPage() {
         <SignalView picks={picksWithSpark} />
       </ProGate>
 
-      {/* How Signal works — full breakdown moved out of the hero ------ */}
+      {/* How Signal works - full breakdown moved out of the hero ------ */}
       <section id="how-signal-works" className="mt-16 pt-10 border-t border-border scroll-mt-20">
         <div className="flex items-center gap-2 mb-3">
           <Sparkles size={16} className="text-accent" />
@@ -130,7 +130,7 @@ export default async function SignalPage() {
         </div>
         <h2 className="text-2xl font-semibold tracking-tight text-fg leading-tight max-w-3xl mb-3">
           A proprietary model that flags graded cards mispriced by the market
-          — before they catch.
+          - before they catch.
         </h2>
         <p className="text-sm text-muted max-w-2xl leading-relaxed mb-6">
           Signal scores every PSA + BGS-graded card in the catalog on a 0–100

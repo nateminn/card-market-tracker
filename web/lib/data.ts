@@ -1,4 +1,4 @@
-// Data layer — Supabase-backed. Replaces the old mock.ts.
+// Data layer - Supabase-backed. Replaces the old mock.ts.
 //
 // All exports are async because they hit Supabase. Page server components
 // (Next.js App Router) handle this naturally with `await`. No mock data,
@@ -8,13 +8,13 @@
 // Anything mock-only (analyst-coded `thesis` text, the `heat` flag, fake
 // `baseline_psa10` baselines) is gone. Things that came from mock but are
 // genuinely editorial content (player bios, news headlines) stay as static
-// data — see PLAYER_BIOS below and ./news.ts.
+// data - see PLAYER_BIOS below and ./news.ts.
 
 import { supabase } from "./supabase";
 import { NEWS } from "./news";
 
 // ─────────────────────────────────────────────────────────────────────
-// Shared types — keeping shapes close to old mock so callsites need
+// Shared types - keeping shapes close to old mock so callsites need
 // minimal changes. The biggest difference: most reads are async.
 // ─────────────────────────────────────────────────────────────────────
 
@@ -58,7 +58,7 @@ export type AnalyticsRow = {
   raw_vwap_30d_usd: number | null;
   psa10_vwap_30d_usd: number | null;
   // Multi-grade tier prices computed in app code from sales (analytics_daily
-  // doesn't store per-grade VWAPs yet — mock did, real schema doesn't).
+  // doesn't store per-grade VWAPs yet - mock did, real schema doesn't).
   psa9_vwap_90d_usd: number | null;
   bgs9_vwap_90d_usd: number | null;
   bgs95_vwap_90d_usd: number | null;
@@ -383,7 +383,7 @@ export async function getAnalytics(cardId: string): Promise<AnalyticsRow | null>
 }
 
 // ─────────────────────────────────────────────────────────────────────
-// Active listings (separate from sales — what's available to BUY right now)
+// Active listings (separate from sales - what's available to BUY right now)
 // Populated by src/refresh_active_listings.py via CardSight /marketplace.
 // ─────────────────────────────────────────────────────────────────────
 
@@ -419,7 +419,7 @@ export async function getActiveListings(cardId: string): Promise<ActiveListing[]
 
 /** Batch fetch the latest analytics row for many cards in one query. Returns
  *  a Map keyed by card_id. Use when rendering tables of N cards (variations,
- *  watchlist, signal) — keeps page renders to one DB hit instead of N. */
+ *  watchlist, signal) - keeps page renders to one DB hit instead of N. */
 export async function getAnalyticsForCards(
   cardIds: string[],
 ): Promise<Map<string, AnalyticsRow>> {
@@ -598,7 +598,7 @@ async function buildPlayer(
   const simple90 = valid90.length ? valid90.reduce((a, b) => a + b, 0) / valid90.length : null;
 
   const sales30 = cardData.reduce((s, d) => s + d.weight, 0);
-  // Approximations — analytics_daily only stores sales_count_30d.
+  // Approximations - analytics_daily only stores sales_count_30d.
   const sales7 = Math.round(sales30 / 4);
   const sales90 = Math.round(sales30 * 2.5);
 
@@ -623,11 +623,11 @@ async function buildPlayer(
   };
 }
 
-/** Players with at least one card-with-sales — keeps the list manageable. */
+/** Players with at least one card-with-sales - keeps the list manageable. */
 export async function getPlayers(): Promise<Player[]> {
   const sb = supabase();
   // Find player names where at least one card has sales_count_30d > 0 in
-  // analytics_daily — this is "currently active" players. Otherwise the list
+  // analytics_daily - this is "currently active" players. Otherwise the list
   // would have 3,000+ names mostly with zero data.
   const { data: activeAnalytics } = await sb
     .from("analytics_daily")
@@ -895,7 +895,7 @@ export async function getPortfolioValueLine(_days: number = 30): Promise<
 }
 
 // ─────────────────────────────────────────────────────────────────────
-// Signal Engine — simplified to "high signal_score" picks. The full
+// Signal Engine - simplified to "high signal_score" picks. The full
 // proprietary scoring will come back when we add a server-side job that
 // writes scores to a column. For now: rank by sales_count_30d * abs(momentum)
 // over cards with high confidence.
@@ -909,7 +909,7 @@ export type GemFilters = {
 
 /** Templated thesis text. Until we have analyst-written copy, generate a
  *  one-line read of what the data is saying. Keep it neutral, factual, no
- *  recommendations — Signal is a screener, not advice. */
+ *  recommendations - Signal is a screener, not advice. */
 function generateThesis(args: {
   momentum: number;
   samples: number;
@@ -928,7 +928,7 @@ function generateThesis(args: {
   // Strong move with volume → confident screen
   if (Math.abs(momentum) >= 0.15 && samples >= 30) {
     const verb = momentum > 0 ? "pushing above" : "settling below";
-    return `${dir}${pct}% on ${samples} sales / 30d — ${verb} the 30-day baseline${
+    return `${dir}${pct}% on ${samples} sales / 30d - ${verb} the 30-day baseline${
       priceBit ? `, ${priceBit}` : ""
     }. Sample density rules out a one-print spike.`;
   }
@@ -946,16 +946,16 @@ function generateThesis(args: {
     }. Worth tracking before the move accelerates.`;
   }
 
-  // Default — high samples but quiet
+  // Default - high samples but quiet
   if (samples >= 30) {
-    return `${samples} sales / 30d — high liquidity${
+    return `${samples} sales / 30d - high liquidity${
       priceBit ? `, ${priceBit}` : ""
     }. Currently flat (${dir}${pct}% over 7d); on the radar for any catalyst.`;
   }
 
   return `${samples} sales / 30d, ${dir}${pct}% over 7d${
     priceBit ? `, ${priceBit}` : ""
-  }. Modest activity — needs more data before drawing a conclusion.`;
+  }. Modest activity - needs more data before drawing a conclusion.`;
 }
 
 export async function getGemPicks(_filters: GemFilters = {}): Promise<
@@ -977,7 +977,7 @@ export async function getGemPicks(_filters: GemFilters = {}): Promise<
     if (!card) continue;
     const mom = Number(r.momentum_score) || 0;
     const samples = Number(r.sales_count_30d) || 0;
-    // Naive Signal: |momentum| × log(samples) — picks cards moving on real volume.
+    // Naive Signal: |momentum| × log(samples) - picks cards moving on real volume.
     // Caps so single outliers don't dominate.
     const signal = Math.min(
       100,
@@ -1050,7 +1050,7 @@ export const CARDS_BY_ID: Record<string, Card> = {};
 
 /** Pulls every card from the catalog. Used by header SearchBox so users can
  *  fuzzy-search the entire catalog without a network round-trip per keystroke.
- *  Heavy — only call from server components that hold the result in memory. */
+ *  Heavy - only call from server components that hold the result in memory. */
 export async function getAllCards(): Promise<Card[]> {
   const sb = supabase();
   const [releases, sets] = await Promise.all([loadReleaseLookup(), loadSetLookup()]);
@@ -1072,7 +1072,7 @@ export async function getAllCards(): Promise<Card[]> {
 /** Back-compat: empty CARDS array. Real callers should use getAllCards(). */
 export const CARDS: Card[] = [];
 
-// Stub for code that still expects to iterate "all sales" — paginate from DB.
+// Stub for code that still expects to iterate "all sales" - paginate from DB.
 export async function allSales(): Promise<Sale[]> {
   const sb = supabase();
   const out: Sale[] = [];

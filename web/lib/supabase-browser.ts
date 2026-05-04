@@ -16,7 +16,7 @@ export function supabaseBrowser(): SupabaseClient {
   if (!url || !key) {
     throw new Error(
       "Missing NEXT_PUBLIC_SUPABASE_URL or NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY. " +
-        "Add them to web/.env.local — these are the *publishable* values that ship to the browser.",
+        "Add them to web/.env.local - these are the *publishable* values that ship to the browser.",
     );
   }
   cached = createBrowserClient(url, key);

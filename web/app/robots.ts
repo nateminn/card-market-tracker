@@ -1,4 +1,4 @@
-// Robots config — generated dynamically so the sitemap URL tracks the
+// Robots config - generated dynamically so the sitemap URL tracks the
 // deployed origin. Pro pages and account pages are kept out of the index
 // (no value to crawlers; some leak personal state).
 

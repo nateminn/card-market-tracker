@@ -27,7 +27,7 @@ type Props = {
   cardId: string;
   bucket: Bucket;
   variant?: "primary" | "secondary";
-  /** Compact mode renders just the icon — for table rows. */
+  /** Compact mode renders just the icon - for table rows. */
   compact?: boolean;
   className?: string;
 };

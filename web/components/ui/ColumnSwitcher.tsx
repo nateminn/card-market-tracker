@@ -1,6 +1,6 @@
 "use client";
 
-// ColumnSwitcher — table-header dropdown that lets the user swap a column's
+// ColumnSwitcher - table-header dropdown that lets the user swap a column's
 // metric or time window without changing the visual structure of the table.
 // Each instance persists its choice to localStorage so the picked view sticks
 // across reloads.
@@ -144,7 +144,7 @@ export default function ColumnSwitcher<T extends string>({
 }
 
 /** localStorage-backed state hook. SSR-safe: starts from defaultValue, then
- *  hydrates from storage in a useEffect — same pattern as useColumns. */
+ *  hydrates from storage in a useEffect - same pattern as useColumns. */
 export function useStoredValue<T extends string>(
   key: string,
   defaultValue: T,

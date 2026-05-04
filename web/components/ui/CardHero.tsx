@@ -1,6 +1,6 @@
 "use client";
 
-// CardHero — large card thumbnail with click-to-enlarge lightbox.
+// CardHero - large card thumbnail with click-to-enlarge lightbox.
 // Used on card detail as the primary visual anchor.
 
 import { useEffect, useState } from "react";
@@ -19,7 +19,7 @@ type Props = {
   src?: string | null;
   player: string;
   alt: string;
-  /** Standard width — height auto-derived for 2.5:3.5 ratio. */
+  /** Standard width - height auto-derived for 2.5:3.5 ratio. */
   width?: number;
   className?: string;
 };
@@ -90,7 +90,7 @@ export default function CardHero({
             aria-label={alt}
             className="w-full h-full inline-flex items-center justify-center select-none bg-panel-2 border border-border-2 text-sm font-mono text-muted"
           >
-            {ini || "—"}
+            {ini || "-"}
           </div>
         )}
       </button>

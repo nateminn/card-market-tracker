@@ -1,4 +1,4 @@
-// Dashboard / "Investing" — Robinhood-style.
+// Dashboard / "Investing" - Robinhood-style.
 // Big page heading with portfolio-style summary, time tabs, big chart-as-line,
 // trending categories as pills, news placeholder, top movers table.
 
@@ -35,7 +35,7 @@ import {
 export const dynamic = "force-dynamic";
 
 function fmtUsd(n: number | null | undefined) {
-  if (n == null) return "—";
+  if (n == null) return "-";
   if (n >= 1000) return `$${(n / 1000).toFixed(2)}k`;
   return `$${n.toFixed(2)}`;
 }
@@ -118,7 +118,7 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* Movers — by PLAYER, not by card --------------------------- */}
+      {/* Movers - by PLAYER, not by card --------------------------- */}
       <section className="mb-10 grid grid-cols-1 lg:grid-cols-2 gap-6">
         <PlayerMoversTable
           title="Top gainers"
@@ -268,7 +268,7 @@ function PlayerMoversTable({
 function BigTradesTable({ trades }: { trades: (Sale & { card: Card })[] }) {
   return (
     <div className="border border-border bg-panel divide-y divide-border">
-      {/* Header row hidden on mobile — rows render label-free for narrow widths */}
+      {/* Header row hidden on mobile - rows render label-free for narrow widths */}
       <div className="hidden sm:grid grid-cols-12 gap-3 px-4 py-2.5 border-b border-border bg-panel-2 eyebrow">
         <div className="col-span-2">Date</div>
         <div className="col-span-4">Player · Card</div>
@@ -486,7 +486,7 @@ function MarketingHero({
         <span className="text-xs text-muted-2 ml-1">No credit card. Browse the whole market free.</span>
       </div>
 
-      {/* Live numbers band — proof the data is real */}
+      {/* Live numbers band - proof the data is real */}
       <dl className="mt-10 border-y border-border py-5 grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-8">
         <Stat label="Cards tracked" value={counts.cards.toLocaleString()} />
         <Stat label="Sales (rolling)" value={counts.sales.toLocaleString()} />
@@ -494,11 +494,11 @@ function MarketingHero({
         <Stat label="Refresh" value="6h" sub="auto" />
       </dl>
 
-      {/* Three-up "what makes this different" — comparison-aware */}
+      {/* Three-up "what makes this different" - comparison-aware */}
       <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-4">
         <Pillar
           title="Sold AND active, side-by-side"
-          desc="Most sites show historical sold prices. We show what just sold AND what's available to buy right now — same card, same view. Decision-time data, not retrospective."
+          desc="Most sites show historical sold prices. We show what just sold AND what's available to buy right now - same card, same view. Decision-time data, not retrospective."
         />
         <Pillar
           title="Algorithmic, not editorial"
@@ -515,7 +515,7 @@ function MarketingHero({
       </h2>
       <p className="mb-6 text-sm text-muted">
         Live data from PSA + BGS sales, refreshed every 6 hours. Free to
-        browse — no sign-in required.
+        browse - no sign-in required.
       </p>
     </section>
   );

@@ -1,6 +1,6 @@
 "use client";
 
-// VariantsList — grouped, collapsible card-variant browser scoped to one
+// VariantsList - grouped, collapsible card-variant browser scoped to one
 // player. Tree shape: Year → Release (brand) → Set, with a row per card at
 // the leaf. Designed for the "LeBron has 1000 cards" case: the user can
 // drill into the year/brand they care about instead of scrolling a flat
@@ -40,7 +40,7 @@ type Props = {
 };
 
 function fmtUsd(n: number | null | undefined) {
-  if (n == null) return "—";
+  if (n == null) return "-";
   if (n >= 1000) return `$${(n / 1000).toFixed(2)}k`;
   return `$${n.toFixed(0)}`;
 }

@@ -7,16 +7,16 @@
 //   - Lets us swap providers later without touching every call site
 //   - Logs send attempts through lib/log so failures show up consistently
 //
-// IMPORTANT: server-only. Never import from a "use client" component — the
+// IMPORTANT: server-only. Never import from a "use client" component - the
 // API key would leak to the browser.
 //
 // Environment:
-//   RESEND_API_KEY    — server secret from resend.com
-//   RESEND_FROM_EMAIL — verified sender address (use onboarding@resend.dev
+//   RESEND_API_KEY    - server secret from resend.com
+//   RESEND_FROM_EMAIL - verified sender address (use onboarding@resend.dev
 //                       for testing before your domain is verified)
 //
 // Auth-flow emails (signup confirmation, password reset) DO NOT go through
-// this — they're sent by Supabase via its SMTP integration. This wrapper is
+// this - they're sent by Supabase via its SMTP integration. This wrapper is
 // for emails Cardex itself originates: welcome-after-signup, watchlist
 // price alerts, weekly digests, etc.
 
@@ -46,7 +46,7 @@ type SendArgs = {
   to: string | string[];
   subject: string;
   html: string;
-  /** Plain-text fallback. Strongly recommended — improves deliverability. */
+  /** Plain-text fallback. Strongly recommended - improves deliverability. */
   text?: string;
   /** Used to dedupe in Resend's UI; keep it stable per email kind. */
   tag?: string;

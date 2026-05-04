@@ -1,4 +1,4 @@
-// Empty state — never "nothing here". Always teach the next action.
+// Empty state - never "nothing here". Always teach the next action.
 
 import type { ReactNode } from "react";
 

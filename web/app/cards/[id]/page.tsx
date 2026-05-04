@@ -1,4 +1,4 @@
-// Card detail — Robinhood-style, player name primary, no ticker.
+// Card detail - Robinhood-style, player name primary, no ticker.
 // Big price + change at top, large chart, time tabs, action buttons,
 // stats grid (with InfoTip definitions), other variations linker, recent sales,
 // scatter chart filtered to PSA + BGS only.
@@ -35,12 +35,12 @@ export const dynamic = "force-dynamic";
 const ALLOWED_GRADERS = new Set(["PSA", "BGS"]);
 
 function fmtUsd(n: number | null | undefined) {
-  if (n == null) return "—";
+  if (n == null) return "-";
   if (n >= 1000) return `$${(n / 1000).toFixed(2)}k`;
   return `$${n.toFixed(2)}`;
 }
 
-/** Filter pricing data to PSA + BGS only — the two trusted graders. */
+/** Filter pricing data to PSA + BGS only - the two trusted graders. */
 function filterPricedSales(sales: Sale[]) {
   return sales.filter(
     (s) =>
@@ -107,7 +107,7 @@ export default async function CardDetailPage({
     getActiveListings(card.id),
   ]);
   // Empty graphs help nobody. For low-activity cards, expand the window
-  // until we get a chart with real data — 30d → 180d → all-time. The
+  // until we get a chart with real data - 30d → 180d → all-time. The
   // "Sales 30d" stat stays 30d so the headline windowed-stat is unchanged.
   let spark = spark30;
   let sparkWindow: "30 days" | "180 days" | "all available history" = "30 days";
@@ -183,7 +183,7 @@ export default async function CardDetailPage({
               buttons don't crash into the brand title. */}
           <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-3">
             <div className="min-w-0">
-              {/* Card identity — brand and set are PRIMARY (this is /cards/) */}
+              {/* Card identity - brand and set are PRIMARY (this is /cards/) */}
               <div className="text-[11px] font-mono uppercase tracking-[0.08em] text-muted-2 mb-2">
                 {card.release_year} · {card.sport}
               </div>
@@ -262,7 +262,7 @@ export default async function CardDetailPage({
           <Stat
             label="Sales 30d"
             tipKey="sales_30d"
-            value={analytics?.sales_count_30d?.toString() ?? "—"}
+            value={analytics?.sales_count_30d?.toString() ?? "-"}
           />
           <Stat
             label="Velocity"
@@ -270,7 +270,7 @@ export default async function CardDetailPage({
             value={
               analytics?.velocity_score != null
                 ? `${analytics.velocity_score.toFixed(2)}/d`
-                : "—"
+                : "-"
             }
           />
           <Stat
@@ -284,7 +284,7 @@ export default async function CardDetailPage({
           <Stat
             label="Confidence"
             tipKey="confidence"
-            value={analytics?.confidence ?? "—"}
+            value={analytics?.confidence ?? "-"}
             valueClass="capitalize"
           />
           <Stat
@@ -301,7 +301,7 @@ export default async function CardDetailPage({
         ) : null}
       </section>
 
-      {/* Grade multiples — gem premium analytics ----------------------- */}
+      {/* Grade multiples - gem premium analytics ----------------------- */}
       <section className="mb-10">
         <h2 className="text-lg font-semibold text-fg mb-1">Grade multiples</h2>
         <p className="text-[12px] text-muted mb-3 max-w-3xl">
@@ -412,7 +412,7 @@ export default async function CardDetailPage({
         </div>
       </section>
 
-      {/* Active listings — what's available to BUY right now ----------- */}
+      {/* Active listings - what's available to BUY right now ----------- */}
       {activeListings.length > 0 ? (
         <section className="mb-10">
           <Section
@@ -421,7 +421,7 @@ export default async function CardDetailPage({
           />
           <p className="text-[12px] text-muted-2 mb-3 max-w-3xl leading-relaxed">
             Open eBay listings sorted by ask price (lowest first). These are
-            distinct from the completed-sales table below — these haven&apos;t
+            distinct from the completed-sales table below - these haven&apos;t
             sold yet. Refreshed by the Cardex pipeline; auctions show their
             end date and bid count.
           </p>
@@ -501,7 +501,7 @@ export default async function CardDetailPage({
                         ) : null}
                       </>
                     ) : (
-                      "—"
+                      "-"
                     )}
                   </div>
                   <div className="w-24 text-right font-mono text-fg tabular">
@@ -540,7 +540,7 @@ export default async function CardDetailPage({
               />
               <p className="text-[12px] text-muted-2 mb-3 max-w-3xl leading-relaxed">
                 <strong className="text-up">Already sold.</strong> Every row
-                here is an eBay completed listing — base or parallel of card
+                here is an eBay completed listing - base or parallel of card
                 #{card.card_number}. The eBay link opens the original sold
                 listing; if the seller relisted, the URL may now show the
                 relist as active, but the sale itself is real and dated.
@@ -625,7 +625,7 @@ export default async function CardDetailPage({
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-info hover:text-accent transition-colors duration-150 inline-flex items-center gap-1"
-                      title="Opens the original eBay listing — may show as active if relisted"
+                      title="Opens the original eBay listing - may show as active if relisted"
                     >
                       {s.source}
                       <span aria-hidden className="text-[9px]">↗</span>
@@ -693,8 +693,8 @@ function MultipleStat({
   top: number | null;
   bot: number | null;
 }) {
-  const display = multiple != null ? `${multiple.toFixed(2)}×` : "—";
-  // Color the multiple by magnitude — 1.5× is normal, 3× is gem-premium territory.
+  const display = multiple != null ? `${multiple.toFixed(2)}×` : "-";
+  // Color the multiple by magnitude - 1.5× is normal, 3× is gem-premium territory.
   const tone =
     multiple == null
       ? "text-muted"
@@ -711,8 +711,8 @@ function MultipleStat({
       </div>
       <div className={`mt-2 font-mono text-3xl tabular ${tone}`}>{display}</div>
       <div className="mt-2 text-[11px] text-muted-2 font-mono tabular">
-        {top != null ? fmtUsd(top) : "—"}{" / "}
-        {bot != null ? fmtUsd(bot) : "—"}
+        {top != null ? fmtUsd(top) : "-"}{" / "}
+        {bot != null ? fmtUsd(bot) : "-"}
       </div>
     </div>
   );

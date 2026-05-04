@@ -31,7 +31,7 @@ export default function SignupForm() {
       return;
     }
     // Email confirmation off → session created immediately. Fire the
-    // welcome email server-side. We don't await blocking — the redirect
+    // welcome email server-side. We don't await blocking - the redirect
     // can happen in parallel.
     fetch("/api/auth/welcome", { method: "POST" }).catch(() => {
       // Welcome email is best-effort; never block signup on it.

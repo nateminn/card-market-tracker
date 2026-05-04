@@ -22,7 +22,7 @@ const jbmono = JetBrains_Mono({
 });
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://cardex.app";
-const SITE_TITLE = "Cardex — the trading desk for sports cards";
+const SITE_TITLE = "Cardex - the trading desk for sports cards";
 const SITE_DESCRIPTION =
   "Live sales, what's for sale right now, and an algorithmic pick list with a +34% backtested edge. Built for flippers, not scrapbookers. Free to browse the whole market; Pro ($19.99/mo) unlocks the full Signal pick list and alerts.";
 
@@ -91,7 +91,7 @@ export default async function RootLayout({
     <html lang="en" className={`${inter.variable} ${jbmono.variable}`}>
       <body className="min-h-screen flex flex-col antialiased">
         <header className="border-b border-border h-14 px-4 sm:px-6 grid grid-cols-[auto_1fr_auto] items-center gap-3 sm:gap-6 sticky top-0 bg-bg/95 backdrop-blur z-30">
-          {/* Logo block — left */}
+          {/* Logo block - left */}
           <Link
             href="/"
             className="flex items-center gap-2 shrink-0 justify-self-start"
@@ -103,7 +103,7 @@ export default async function RootLayout({
             </span>
           </Link>
 
-          {/* Search — centered in the header, fuzzy match over players + cards */}
+          {/* Search - centered in the header, fuzzy match over players + cards */}
           <div className="w-full max-w-xl justify-self-center min-w-0">
             <SearchBox
               players={players.map((p) => ({
@@ -125,7 +125,7 @@ export default async function RootLayout({
             />
           </div>
 
-          {/* Right rail — nav (lg+) or hamburger (below lg) */}
+          {/* Right rail - nav (lg+) or hamburger (below lg) */}
           <div className="justify-self-end">
             {/* Desktop nav (lg+) */}
             <nav className="hidden lg:flex items-center gap-6">

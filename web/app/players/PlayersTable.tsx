@@ -1,6 +1,6 @@
 "use client";
 
-// Player directory — search + sport filter + sortable columns + column-toggle
+// Player directory - search + sport filter + sortable columns + column-toggle
 // dropdown. Headers are now ColumnSwitchers: each can swap its underlying
 // metric or time window, and the choice persists per-table in localStorage.
 
@@ -85,7 +85,7 @@ const MOMENTUM_IDS = MOMENTUM_OPTIONS.map((o) => o.id);
 // -------------------------------------------------------------------------
 
 function fmtUsd(n: number | null | undefined) {
-  if (n == null) return "—";
+  if (n == null) return "-";
   if (n >= 1000) return `$${(n / 1000).toFixed(2)}k`;
   return `$${n.toFixed(0)}`;
 }
@@ -275,7 +275,7 @@ export default function PlayersTable({ data }: { data: Row[] }) {
         />
       </div>
 
-      {/* Table — flex columns so visibility stays clean. Wrapped in
+      {/* Table - flex columns so visibility stays clean. Wrapped in
           horizontal scroll so the column-rich layout stays usable on mobile
           without sacrificing density on desktop. */}
       <div className="border border-border bg-panel overflow-x-auto">

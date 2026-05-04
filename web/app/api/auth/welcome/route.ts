@@ -2,7 +2,7 @@
 //
 // Called by the signup form (and any other place that wants to fire a
 // welcome email for the currently-signed-in user). Reads the user from
-// the session cookie — never trusts client-supplied identity.
+// the session cookie - never trusts client-supplied identity.
 //
 // Idempotent: sendWelcomeIfNeeded() dedupes via profiles.welcomed_at.
 

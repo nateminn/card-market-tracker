@@ -29,25 +29,25 @@ export default function PrivacyPage() {
       <Section title="What we collect">
         <ul>
           <li>
-            <strong>Account data</strong> — your email address and a hashed
+            <strong>Account data</strong> - your email address and a hashed
             password, stored by Supabase (our auth provider).
           </li>
           <li>
-            <strong>Subscription data</strong> — if you subscribe, Stripe
+            <strong>Subscription data</strong> - if you subscribe, Stripe
             handles your payment details. We see only metadata (subscription
             ID, plan, period end). We never store card numbers.
           </li>
           <li>
-            <strong>Usage data</strong> — pages visited, features used, errors
+            <strong>Usage data</strong> - pages visited, features used, errors
             encountered. We use this to improve the Service.
           </li>
           <li>
-            <strong>Watchlist + portfolio data</strong> — cards you save and
+            <strong>Watchlist + portfolio data</strong> - cards you save and
             trades you log are tied to your account so we can show them back to
             you.
           </li>
           <li>
-            <strong>Cookies</strong> — strictly-necessary cookies for sign-in
+            <strong>Cookies</strong> - strictly-necessary cookies for sign-in
             and session refresh. We don&rsquo;t use third-party advertising
             cookies.
           </li>
@@ -69,14 +69,14 @@ export default function PrivacyPage() {
         <p>We share your data only with the providers we use to run Cardex:</p>
         <ul>
           <li>
-            <strong>Supabase</strong> — auth + database hosting.
+            <strong>Supabase</strong> - auth + database hosting.
           </li>
           <li>
-            <strong>Stripe</strong> — payment processing (only when you
+            <strong>Stripe</strong> - payment processing (only when you
             subscribe).
           </li>
           <li>
-            <strong>Hosting + email providers</strong> — to serve the site and
+            <strong>Hosting + email providers</strong> - to serve the site and
             send transactional email.
           </li>
         </ul>

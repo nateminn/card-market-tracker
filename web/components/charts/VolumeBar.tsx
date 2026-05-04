@@ -1,6 +1,6 @@
 "use client";
 
-// VolumeBar — sales count per day bar chart. Sits below the price line on
+// VolumeBar - sales count per day bar chart. Sits below the price line on
 // player / index detail. Tone derived from the most recent week's slope.
 
 type Props = {

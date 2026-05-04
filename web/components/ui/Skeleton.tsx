@@ -1,4 +1,4 @@
-// Skeleton block — used for loading states. Uses the .skeleton class from
+// Skeleton block - used for loading states. Uses the .skeleton class from
 // globals.css (opacity pulse, respects prefers-reduced-motion).
 
 import { clsx } from "./clsx";

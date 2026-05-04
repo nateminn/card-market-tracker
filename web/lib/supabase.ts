@@ -1,7 +1,7 @@
 // Server-only Supabase client.
 //
 // Pulls SUPABASE_URL + SUPABASE_SECRET_KEY from env. The secret key bypasses
-// Row-Level Security — never import this file from a "use client" component.
+// Row-Level Security - never import this file from a "use client" component.
 // (If we later need a client-side reader, we'll add a separate publishable-key
 // client.)
 //
