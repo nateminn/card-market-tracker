@@ -12,6 +12,7 @@ import {
   getVariations,
   getAnalyticsForCards,
   getActiveListings,
+  getPerGradeBuckets,
   type Sale,
 } from "@/lib/data";
 import { resolveParallel } from "@/lib/parallel";
@@ -101,10 +102,11 @@ export default async function CardDetailPage({
 
   const { card, sales, analytics } = detail;
   const filtered = filterPricedSales(sales);
-  const [spark30, variations, activeListings] = await Promise.all([
+  const [spark30, variations, activeListings, perGradeBuckets] = await Promise.all([
     getSparkline(card.id, 30),
     getVariations(card.id),
     getActiveListings(card.id),
+    getPerGradeBuckets(card.id),
   ]);
   // Empty graphs help nobody. For low-activity cards, expand the window
   // until we get a chart with real data - 30d → 180d → all-time. The
@@ -300,6 +302,60 @@ export default async function CardDetailPage({
           </p>
         ) : null}
       </section>
+
+      {/* Per-grade pricing breakdown -------------------------------- */}
+      {perGradeBuckets.length > 0 ? (
+        <section className="mb-10">
+          <h2 className="text-lg font-semibold text-fg mb-1">By grade</h2>
+          <p className="text-[12px] text-muted mb-3 max-w-3xl">
+            Volume-weighted average price for every grade tier with
+            sales in the last 90 days. PSA, BGS, SGC, CGC tracked
+            separately so you can see where the gem premium actually
+            sits.
+          </p>
+          <div className="border border-border bg-panel overflow-x-auto">
+            <div className="min-w-[640px]">
+              <div className="flex items-center gap-3 px-4 py-2.5 border-b border-border bg-panel-2 eyebrow">
+                <div className="w-24">Grade</div>
+                <div className="flex-1 min-w-0" />
+                <div className="w-24 text-right">VWAP 30d</div>
+                <div className="w-24 text-right">Median 30d</div>
+                <div className="w-24 text-right">VWAP 90d</div>
+                <div className="w-16 text-right">Sales 30d</div>
+                <div className="w-16 text-right">Sales 90d</div>
+              </div>
+              {perGradeBuckets.map((b) => {
+                const label =
+                  b.grader === "RAW" ? "Raw" : `${b.grader} ${b.grade_value}`;
+                return (
+                  <div
+                    key={`${b.grader}|${b.grade_value}`}
+                    className="flex items-center gap-3 px-4 py-2.5 border-b border-border last:border-b-0 text-sm"
+                  >
+                    <div className="w-24 font-mono text-fg">{label}</div>
+                    <div className="flex-1 min-w-0" />
+                    <div className="w-24 text-right font-mono text-fg tabular">
+                      {fmtUsd(b.vwap_30d)}
+                    </div>
+                    <div className="w-24 text-right font-mono text-fg-2 tabular">
+                      {fmtUsd(b.median_30d)}
+                    </div>
+                    <div className="w-24 text-right font-mono text-muted tabular">
+                      {fmtUsd(b.vwap_90d)}
+                    </div>
+                    <div className="w-16 text-right font-mono text-fg-2 tabular">
+                      {b.sales_30d}
+                    </div>
+                    <div className="w-16 text-right font-mono text-muted tabular">
+                      {b.sales_90d}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       {/* Grade multiples - gem premium analytics ----------------------- */}
       <section className="mb-10">

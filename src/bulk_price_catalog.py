@@ -49,7 +49,7 @@ HEADERS = {
     "Content-Type": "application/json",
 }
 COUNTER = ROOT / "exploration" / "_call_count.txt"
-MONTHLY_BUDGET = 750
+MONTHLY_BUDGET = 5000  # CardSight Pro tier (was 750 on free)
 BATCH_SIZE = 100  # CardSight's documented max
 
 sb = create_client(os.environ["SUPABASE_URL"], os.environ["SUPABASE_KEY"])

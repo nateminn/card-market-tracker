@@ -45,7 +45,7 @@ from discover_releases import rank_releases  # noqa: E402
 from _client import call_count  # noqa: E402
 from loader_run import LoaderRun  # noqa: E402
 
-MONTHLY_BUDGET = 750
+MONTHLY_BUDGET = 5000  # CardSight Pro tier (was 750 on free tier)
 
 
 def list_loaded_data_files() -> set[str]:

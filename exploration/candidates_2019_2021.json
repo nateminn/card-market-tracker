@@ -1,0 +1,352 @@
+[
+  {
+    "id": "572e9dd0-f949-493b-af2a-164acfa9dcf9",
+    "year": "2021",
+    "name": "Bowman",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "6a73a3d6-a1f1-4ee0-a98b-f7d40a8ce484",
+    "year": "2021",
+    "name": "Bowman Chrome",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "0c469fbd-023f-4d59-ab19-52db074c226c",
+    "year": "2021",
+    "name": "Bowman Draft",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "19978c2c-8b42-4839-8598-076cd82d4e37",
+    "year": "2021",
+    "name": "Bowman Platinum",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "aa472ec5-7255-477b-b123-6341da3b1789",
+    "year": "2021",
+    "name": "Donruss",
+    "sport": "Football",
+    "segment_id": "5b86ca75-c5be-4621-aca1-57bd4f6dd111"
+  },
+  {
+    "id": "a99269b2-bf16-4566-8b29-0ddae80c8609",
+    "year": "2021",
+    "name": "Donruss",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "feb852b4-e649-4ba5-969b-db6a06d855f4",
+    "year": "2021",
+    "name": "Donruss Optic",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "9f0b66dc-b54f-47da-b6b6-1bdbef925ea7",
+    "year": "2021",
+    "name": "Panini Chronicles",
+    "sport": "Football",
+    "segment_id": "5b86ca75-c5be-4621-aca1-57bd4f6dd111"
+  },
+  {
+    "id": "5e5e8d56-acab-4f72-adc1-5f35df915f9e",
+    "year": "2021",
+    "name": "Panini Chronicles",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "eb383815-23a3-4948-a2ed-50a12802f340",
+    "year": "2021",
+    "name": "Panini Mosaic",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "d1330bdb-4cf8-4a14-90e6-906f56b5e556",
+    "year": "2021",
+    "name": "Panini Prizm",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "9843a820-93b5-4e83-83b6-4c3409ebc3ad",
+    "year": "2021",
+    "name": "Panini Select",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "7a257514-b26c-4a46-ac22-432eec6ad684",
+    "year": "2021",
+    "name": "Score",
+    "sport": "Football",
+    "segment_id": "5b86ca75-c5be-4621-aca1-57bd4f6dd111"
+  },
+  {
+    "id": "f1379619-033e-46e5-bfe1-8ac35c0d869c",
+    "year": "2021",
+    "name": "Stadium Club Chrome",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "5c51c587-5689-44ea-87f9-cca81aa1244c",
+    "year": "2021",
+    "name": "Topps",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "0a97568b-e32f-434b-8835-d9fd25de39c2",
+    "year": "2020",
+    "name": "Bowman",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "4a92410c-da10-43d6-a455-16bbde7fed5a",
+    "year": "2020",
+    "name": "Bowman Chrome",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "3b2ca28b-5c25-4c9a-94cb-3cd6475efc71",
+    "year": "2020",
+    "name": "Bowman Draft",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "43e853e0-ccc7-48ff-9397-3b60bf5e86d1",
+    "year": "2020",
+    "name": "Bowman Platinum",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "b6e82175-f39a-43f6-adb0-95e9c0f0a2ab",
+    "year": "2020",
+    "name": "Donruss",
+    "sport": "Football",
+    "segment_id": "5b86ca75-c5be-4621-aca1-57bd4f6dd111"
+  },
+  {
+    "id": "605c48a4-c389-4fc8-847c-2e1547687748",
+    "year": "2020",
+    "name": "Donruss",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "c84b220c-97b7-4570-9403-0072b6906907",
+    "year": "2020",
+    "name": "Donruss Optic",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "5f21e867-de4d-45de-bbc4-25591fdf406e",
+    "year": "2020",
+    "name": "Panini Chronicles",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "34a793f3-f9cc-4991-a825-7847efafac0e",
+    "year": "2020",
+    "name": "Panini Prizm",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "9e2ec714-a545-414c-bbd2-8b582c652341",
+    "year": "2020",
+    "name": "Panini Select",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "5df672af-5b9d-4ffe-9631-4df1780a114f",
+    "year": "2020",
+    "name": "Score",
+    "sport": "Football",
+    "segment_id": "5b86ca75-c5be-4621-aca1-57bd4f6dd111"
+  },
+  {
+    "id": "ffa509d5-0d23-4473-b2e3-dbe2426ae3c9",
+    "year": "2020",
+    "name": "Stadium Club",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "89707c0c-1b80-4a1c-b4c7-2a7bab4fd667",
+    "year": "2020",
+    "name": "Stadium Club Chrome",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "a9aa5bcc-7390-46df-a8a2-839becbe7093",
+    "year": "2020",
+    "name": "Topps Chrome",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "a01876b6-3787-4534-8ffb-64f4e7edfe50",
+    "year": "2020",
+    "name": "Topps Chrome Update",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "cf0d5f26-4d85-4a9b-9e0f-179cd30b123a",
+    "year": "2019",
+    "name": "Bowman",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "6f084ea8-20d6-4be4-9e4b-030a3895e604",
+    "year": "2019",
+    "name": "Bowman Chrome",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "048440bd-acc6-4056-b25c-d63ad4d528fd",
+    "year": "2019",
+    "name": "Bowman Draft",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "8032b279-b4cb-4f6c-a1e4-c8dfd8a26ec5",
+    "year": "2019",
+    "name": "Bowman Platinum",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "76c97d19-5dfa-43e5-ab70-4a46aa9b6570",
+    "year": "2019",
+    "name": "Donruss",
+    "sport": "Football",
+    "segment_id": "5b86ca75-c5be-4621-aca1-57bd4f6dd111"
+  },
+  {
+    "id": "541b872f-fb15-484c-867b-681cbcbfb982",
+    "year": "2019",
+    "name": "Donruss",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "56e8ec94-8ea5-4f67-afa9-8573321632af",
+    "year": "2019",
+    "name": "Donruss Optic",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "ac298af4-d109-43a1-abfc-3d03c5590245",
+    "year": "2019",
+    "name": "Panini Prizm",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "f59a7f37-36a8-49de-ba38-ace66967f8d0",
+    "year": "2019",
+    "name": "Score",
+    "sport": "Football",
+    "segment_id": "5b86ca75-c5be-4621-aca1-57bd4f6dd111"
+  },
+  {
+    "id": "2a5dbd41-4ff9-4c27-b338-2177cc017150",
+    "year": "2019",
+    "name": "Stadium Club",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "9fd7d8c5-fc0d-4bc1-ad7e-2b147fdb80c3",
+    "year": "2019",
+    "name": "Topps",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "9c877e59-efbb-4009-879c-80dda88e2278",
+    "year": "2019",
+    "name": "Topps Chrome",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "b41ee358-cb40-423f-90b2-6b08660bafee",
+    "year": "2019",
+    "name": "Topps Chrome Update",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "0977cbb1-5aa3-4574-a5c2-4046420e29f5",
+    "year": "2019",
+    "name": "Topps Heritage",
+    "sport": "Baseball",
+    "segment_id": "671e78da-64d2-45a4-8082-6682b2ae0e19"
+  },
+  {
+    "id": "1d8dadbb-b14b-456e-b0c1-02463056d2d3",
+    "year": "2021-22",
+    "name": "Donruss Optic",
+    "sport": "Basketball",
+    "segment_id": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7"
+  },
+  {
+    "id": "6a417cd0-dcea-4301-98fe-f87420876929",
+    "year": "2021-22",
+    "name": "Panini Prizm",
+    "sport": "Basketball",
+    "segment_id": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7"
+  },
+  {
+    "id": "8b271ef2-cd65-49e8-bbed-bbb835f337a7",
+    "year": "2020-21",
+    "name": "Donruss Optic",
+    "sport": "Basketball",
+    "segment_id": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7"
+  },
+  {
+    "id": "8fcdd7d9-b847-4592-89de-7b73433b51e9",
+    "year": "2020-21",
+    "name": "Panini Prizm",
+    "sport": "Basketball",
+    "segment_id": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7"
+  },
+  {
+    "id": "6f6394c3-36a8-45e6-9358-fb59ac4797b5",
+    "year": "2019-20",
+    "name": "Donruss Optic",
+    "sport": "Basketball",
+    "segment_id": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7"
+  },
+  {
+    "id": "7293412b-2d42-4bda-a4fc-101b20d5d74f",
+    "year": "2019-20",
+    "name": "Panini Prizm",
+    "sport": "Basketball",
+    "segment_id": "ac331a5c-ee1e-43fb-a10c-e59d249be7b7"
+  }
+]

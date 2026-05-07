@@ -383,6 +383,89 @@ export async function getAnalytics(cardId: string): Promise<AnalyticsRow | null>
 }
 
 // ─────────────────────────────────────────────────────────────────────
+// Per-grade pricing (price_snapshots) — daily VWAP per (card, date, grader, grade).
+// Populated by src/per_grade_snapshots.py. Lets the card detail page show
+// PSA 9 / PSA 10 / BGS 9.5 / BGS 10 / Raw broken out separately, instead
+// of the two pre-baked buckets analytics_daily exposes.
+// ─────────────────────────────────────────────────────────────────────
+
+export type GradeBucket = {
+  grader: string;
+  grade_value: string;
+  vwap_30d: number | null;
+  vwap_90d: number | null;
+  median_30d: number | null;
+  sales_30d: number;
+  sales_90d: number;
+  last_sale_date: string | null;
+};
+
+export async function getPerGradeBuckets(cardId: string): Promise<GradeBucket[]> {
+  const sb = supabase();
+  // Pull all snapshots for this card, last 90 days. Group in JS by grade.
+  const cutoff = new Date(Date.now() - 90 * 86400 * 1000).toISOString().slice(0, 10);
+  const { data } = await sb
+    .from("price_snapshots")
+    .select("grader, grade_value, snapshot_date, sale_count, sum_price_usd, vwap_usd, median_usd")
+    .eq("card_id", cardId)
+    .gte("snapshot_date", cutoff)
+    .order("snapshot_date", { ascending: false });
+
+  // Group by (grader, grade_value)
+  type Acc = {
+    sum30: number; n30: number; sum90: number; n90: number;
+    medians30: number[]; lastDate: string | null;
+  };
+  const groups = new Map<string, Acc>();
+  const cutoff30 = new Date(Date.now() - 30 * 86400 * 1000).toISOString().slice(0, 10);
+
+  for (const row of data || []) {
+    const key = `${row.grader}|${row.grade_value}`;
+    let acc = groups.get(key);
+    if (!acc) {
+      acc = { sum30: 0, n30: 0, sum90: 0, n90: 0, medians30: [], lastDate: null };
+      groups.set(key, acc);
+    }
+    const cnt = Number(row.sale_count);
+    const sum = Number(row.sum_price_usd);
+    const med = row.median_usd != null ? Number(row.median_usd) : null;
+    acc.sum90 += sum;
+    acc.n90 += cnt;
+    if (row.snapshot_date >= cutoff30) {
+      acc.sum30 += sum;
+      acc.n30 += cnt;
+      if (med !== null) acc.medians30.push(med);
+    }
+    if (!acc.lastDate || row.snapshot_date > acc.lastDate) {
+      acc.lastDate = row.snapshot_date;
+    }
+  }
+
+  const out: GradeBucket[] = [];
+  for (const [key, acc] of groups) {
+    const [grader, grade_value] = key.split("|");
+    const vwap30 = acc.n30 > 0 ? acc.sum30 / acc.n30 : null;
+    const vwap90 = acc.n90 > 0 ? acc.sum90 / acc.n90 : null;
+    const median30 = acc.medians30.length
+      ? acc.medians30.sort((a, b) => a - b)[Math.floor(acc.medians30.length / 2)]
+      : null;
+    out.push({
+      grader,
+      grade_value,
+      vwap_30d: vwap30,
+      vwap_90d: vwap90,
+      median_30d: median30,
+      sales_30d: acc.n30,
+      sales_90d: acc.n90,
+      last_sale_date: acc.lastDate,
+    });
+  }
+  // Sort descending by 30-day vwap (ungraded last)
+  out.sort((a, b) => (b.vwap_30d ?? 0) - (a.vwap_30d ?? 0));
+  return out;
+}
+
+// ─────────────────────────────────────────────────────────────────────
 // Active listings (separate from sales - what's available to BUY right now)
 // Populated by src/refresh_active_listings.py via CardSight /marketplace.
 // ─────────────────────────────────────────────────────────────────────
