@@ -40,23 +40,31 @@ def _parse_dt(s: str) -> datetime:
 
 
 def fetch_sales(days: int) -> list[dict]:
+    """Pull recent graded+raw sales. Supabase REST has a default 1000 row
+    cap per query — use keyset pagination on `id` to walk through it."""
     cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
     rows: list[dict] = []
-    offset = 0
+    last_id = 0
+    PAGE = 1000
     while True:
         r = (
             sb.table("sales")
-            .select("card_id, sold_at, price_usd, is_graded, grader, grade_value")
+            .select("id, card_id, sold_at, price_usd, is_graded, grader, grade_value")
             .gte("sold_at", cutoff)
-            .range(offset, offset + 999)
+            .gt("id", last_id)
+            .order("id", desc=False)
+            .limit(PAGE)
             .execute()
         )
         if not r.data:
             break
         rows.extend(r.data)
-        if len(r.data) < 1000:
+        last_id = r.data[-1]["id"]
+        # If we got fewer than the page size, that was the last page.
+        if len(r.data) < PAGE:
             break
-        offset += 1000
+        if len(rows) % 50000 == 0:
+            print(f"    ...{len(rows):,} so far")
     return rows
 
 

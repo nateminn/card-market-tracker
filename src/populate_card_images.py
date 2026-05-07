@@ -63,27 +63,30 @@ def _run(sb) -> int:
 def _do_populate(sb, run) -> int:
     # The original logic, indented one level so it lives inside the LoaderRun.
 
-    # 1) Pull every sale that has an image_url, newest first.
-    #    Pagination: PostgREST default range is 1000; loop until empty.
+    # 1) Pull every sale that has an image_url. Keyset pagination on id
+    #    (avoids offset-based sorts that timeout once the table is big).
     print("Reading sales with image_url...")
     rows: list[dict] = []
     page_size = 1000
-    offset = 0
+    last_id = 0
     while True:
         r = (
             sb.table("sales")
-            .select("card_id, sold_at, price_usd, image_url")
+            .select("id, card_id, sold_at, price_usd, image_url")
             .not_.is_("image_url", "null")
-            .order("sold_at", desc=True)
-            .range(offset, offset + page_size - 1)
+            .gt("id", last_id)
+            .order("id", desc=False)
+            .limit(page_size)
             .execute()
         )
         if not r.data:
             break
         rows.extend(r.data)
+        last_id = r.data[-1]["id"]
         if len(r.data) < page_size:
             break
-        offset += page_size
+        if len(rows) % 50000 == 0:
+            print(f"    ...{len(rows):,} so far")
     print(f"  read {len(rows)} sales with images")
     run.add_rows_read(len(rows))
 
