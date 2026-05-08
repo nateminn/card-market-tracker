@@ -1,24 +1,20 @@
 """eBay Browse API client.
 
-Wraps the OAuth2 application-token flow + the search/item endpoints
-we'll actually use. Production-only (no sandbox) since our use case is
-real listing data.
+Supports BOTH sandbox and production. Sandbox returns mock data and is
+useful for verifying the OAuth + API wire protocol. Production returns
+real listings and is what powers active_listings ingestion.
 
-Credentials needed (in .env):
-  EBAY_CLIENT_ID      App ID from developer.ebay.com keysets page
-  EBAY_CLIENT_SECRET  Cert ID from same page
+Switch via EBAY_ENV in .env:
+  EBAY_ENV=sandbox     → uses EBAY_SANDBOX_CLIENT_ID / EBAY_SANDBOX_CLIENT_SECRET
+  EBAY_ENV=production  → uses EBAY_PROD_CLIENT_ID / EBAY_PROD_CLIENT_SECRET
 
-Get them by:
-  1. https://developer.ebay.com/my/keys
-  2. Sign in with your eBay account
-  3. "Get a key set" → fill out the application form (it's automated, NOT
-     a partnership ask)
-  4. Copy the Production App ID + Cert ID into .env
+For backwards compat:
+  EBAY_CLIENT_ID / EBAY_CLIENT_SECRET (no prefix) are also accepted and
+  mapped to whichever env is selected.
 
-Once those are set, this module:
-  - obtains an OAuth2 token via client_credentials grant (cached + refreshed)
-  - exposes search_items() and get_item() backed by the Browse API
-  - tracks call count locally so we can stay under the 5K/day production cap
+Get keys at:
+  https://developer.ebay.com/my/keys
+  Sandbox keyset is instant; production keyset typically takes ~1 day.
 
 Reference: /Users/nathan/Downloads/buy_browse_v1_oas3.json
 Docs: https://developer.ebay.com/api-docs/buy/browse/overview.html
@@ -36,12 +32,50 @@ import requests
 ROOT = Path(__file__).resolve().parent.parent
 COUNTER = ROOT / "exploration" / "_ebay_call_count.txt"
 
-OAUTH_URL = "https://api.ebay.com/identity/v1/oauth2/token"
-BASE_URL = "https://api.ebay.com/buy/browse/v1"
+# Environment URLs
+ENVS = {
+    "sandbox": {
+        "oauth_url": "https://api.sandbox.ebay.com/identity/v1/oauth2/token",
+        "base_url": "https://api.sandbox.ebay.com/buy/browse/v1",
+    },
+    "production": {
+        "oauth_url": "https://api.ebay.com/identity/v1/oauth2/token",
+        "base_url": "https://api.ebay.com/buy/browse/v1",
+    },
+}
 SCOPE = "https://api.ebay.com/oauth/api_scope"
 
 # eBay Browse production limit: 5,000 calls/day per app (default).
+# Sandbox has its own quota — also 5K/day, but data is fake.
 DAILY_LIMIT = 5000
+
+
+def _env() -> str:
+    return os.environ.get("EBAY_ENV", "production").lower()
+
+
+def _oauth_url() -> str:
+    return ENVS[_env()]["oauth_url"]
+
+
+def _base_url() -> str:
+    return ENVS[_env()]["base_url"]
+
+
+def _creds() -> tuple[str, str]:
+    env = _env()
+    if env == "sandbox":
+        cid = os.environ.get("EBAY_SANDBOX_CLIENT_ID") or os.environ.get("EBAY_CLIENT_ID")
+        sec = os.environ.get("EBAY_SANDBOX_CLIENT_SECRET") or os.environ.get("EBAY_CLIENT_SECRET")
+    else:
+        cid = os.environ.get("EBAY_PROD_CLIENT_ID") or os.environ.get("EBAY_CLIENT_ID")
+        sec = os.environ.get("EBAY_PROD_CLIENT_SECRET") or os.environ.get("EBAY_CLIENT_SECRET")
+    if not cid or not sec:
+        raise RuntimeError(
+            f"Missing eBay credentials for env={env}. Expected "
+            f"EBAY_{'SANDBOX' if env == 'sandbox' else 'PROD'}_CLIENT_ID + _CLIENT_SECRET."
+        )
+    return cid, sec
 
 _token_cache: dict = {"access_token": None, "expires_at": 0}
 
@@ -61,22 +95,18 @@ def call_count() -> int:
 
 def get_token() -> str:
     """Fetch (or return cached) application-only OAuth token. Tokens last
-    7,200 seconds; we refresh 60s before expiry."""
+    7,200 seconds; we refresh 60s before expiry. Cache key includes env so
+    flipping sandbox↔production triggers a fresh token."""
     now = time.time()
-    if _token_cache["access_token"] and _token_cache["expires_at"] - 60 > now:
-        return _token_cache["access_token"]
+    cache_key = f"token_{_env()}"
+    cache_exp_key = f"expires_{_env()}"
+    if _token_cache.get(cache_key) and _token_cache.get(cache_exp_key, 0) - 60 > now:
+        return _token_cache[cache_key]
 
-    cid = os.environ.get("EBAY_CLIENT_ID")
-    secret = os.environ.get("EBAY_CLIENT_SECRET")
-    if not cid or not secret:
-        raise RuntimeError(
-            "Missing EBAY_CLIENT_ID / EBAY_CLIENT_SECRET. Get them from "
-            "https://developer.ebay.com/my/keys and add to .env."
-        )
-
+    cid, secret = _creds()
     auth = base64.b64encode(f"{cid}:{secret}".encode()).decode()
     r = requests.post(
-        OAUTH_URL,
+        _oauth_url(),
         headers={
             "Content-Type": "application/x-www-form-urlencoded",
             "Authorization": f"Basic {auth}",
@@ -86,8 +116,8 @@ def get_token() -> str:
     )
     r.raise_for_status()
     body = r.json()
-    _token_cache["access_token"] = body["access_token"]
-    _token_cache["expires_at"] = now + int(body.get("expires_in", 7200))
+    _token_cache[cache_key] = body["access_token"]
+    _token_cache[cache_exp_key] = now + int(body.get("expires_in", 7200))
     return body["access_token"]
 
 
@@ -134,7 +164,7 @@ def search_items(
         }.items() if v is not None
     }
     r = requests.get(
-        f"{BASE_URL}/item_summary/search",
+        f"{_base_url()}/item_summary/search",
         headers=_headers(marketplace),
         params=params,
         timeout=30,
@@ -148,7 +178,7 @@ def get_item(item_id: str, *, marketplace: str = "EBAY_US") -> dict:
     """Browse API /item/{item_id} - full detail for a single listing."""
     _bump_counter()
     r = requests.get(
-        f"{BASE_URL}/item/{item_id}",
+        f"{_base_url()}/item/{item_id}",
         headers=_headers(marketplace),
         timeout=30,
     )
