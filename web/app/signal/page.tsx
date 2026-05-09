@@ -5,7 +5,7 @@
 // shows component breakdowns so users see WHY each pick scored where it did.
 
 import Link from "next/link";
-import { getGemPicks, getSparkline } from "@/lib/data";
+import { getGemPicks, getSparkline, getLastAnalyticsRefresh } from "@/lib/data";
 import SignalView from "./SignalView";
 import InfoTip from "@/components/ui/InfoTip";
 import ProGate from "@/components/ui/ProGate";
@@ -17,7 +17,11 @@ export const dynamic = "force-dynamic";
 const FREE_PREVIEW = 3;
 
 export default async function SignalPage() {
-  const [picks, tier] = await Promise.all([getGemPicks(), getTier()]);
+  const [picks, tier, lastRefresh] = await Promise.all([
+    getGemPicks(),
+    getTier(),
+    getLastAnalyticsRefresh(),
+  ]);
   const picksWithSpark = await Promise.all(
     picks.map(async (p) => ({
       ...p,
@@ -97,7 +101,14 @@ export default async function SignalPage() {
           />
           <Stat
             label="Last refresh"
-            value="Today"
+            value={
+              lastRefresh
+                ? new Date(lastRefresh + "T00:00:00").toLocaleDateString(undefined, {
+                    month: "short",
+                    day: "numeric",
+                  })
+                : "—"
+            }
             tipKey={null}
             sub="auto daily"
           />

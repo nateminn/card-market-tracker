@@ -1355,6 +1355,26 @@ export function lastRefresh(): Date {
   return new Date();
 }
 
+/** Most recent analytics_daily snapshot_date. Used by /signal etc to show
+ *  an honest "Last refresh" stat instead of a hardcoded string. Cached
+ *  for 5 minutes - the underlying value only updates once a day when the
+ *  analytics cron runs. */
+async function _getLastAnalyticsRefreshImpl(): Promise<string | null> {
+  const sb = supabase();
+  const { data } = await sb
+    .from("analytics_daily")
+    .select("snapshot_date")
+    .order("snapshot_date", { ascending: false })
+    .limit(1);
+  return data?.[0]?.snapshot_date ?? null;
+}
+
+export const getLastAnalyticsRefresh = unstable_cache(
+  _getLastAnalyticsRefreshImpl,
+  ["last-analytics-refresh"],
+  { revalidate: 300 },
+);
+
 export async function getDashboardMovers(): Promise<{
   up: Player[];
   down: Player[];
