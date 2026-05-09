@@ -18,6 +18,10 @@ web/.env.*.local
 # Pulled / generated data (reproducible from CardSight + Supabase)
 data/
 
+# Cron / loader log files - reproducible from rerunning the jobs
+logs/
+*.log
+
 # Node.js / Next.js / Netlify (web/)
 node_modules/
 .next/

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.cardex.warm-cache</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/nathan/Desktop/cardex/scripts/warm_cache.sh</string>
+    </array>
+
+    <!-- Every 240 seconds (4 min). Shortest unstable_cache TTL on the site
+         is 5 min (getPlayers, getPlayer, getBigTrades, getGemPicks), so
+         firing every 4 min keeps a 60s safety window before cache could
+         expire and a real visitor would eat a cold-start. -->
+    <key>StartInterval</key>
+    <integer>240</integer>
+
+    <key>StandardOutPath</key>
+    <string>/Users/nathan/Desktop/cardex/logs/launchd-warm-cache-stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/nathan/Desktop/cardex/logs/launchd-warm-cache-stderr.log</string>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/nathan/Desktop/cardex</string>
+
+    <!-- Don't run on first load - the manual ./scripts/warm_cache.sh
+         already warmed everything; let the interval take it from here. -->
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>
