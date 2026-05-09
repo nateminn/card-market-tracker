@@ -325,6 +325,43 @@ export async function getSparkline(
   cardId: string,
   days: number = 30,
 ): Promise<{ ts: number; value: number }[]> {
+  // Read from the pre-aggregated `price_snapshots` table instead of
+  // scanning all sales for the card. price_snapshots already has
+  // per-day VWAP per (card, grader, grade) — we union PSA + BGS for
+  // the legacy "graded combined" sparkline.
+  //
+  // Falls back to the sales-scan path only if price_snapshots is empty
+  // for this card (e.g., card priced today before the daily snapshot ran).
+  const sb = supabase();
+  const cutoffISO = new Date(Date.now() - days * 86400 * 1000)
+    .toISOString()
+    .slice(0, 10);
+  const { data } = await sb
+    .from("price_snapshots")
+    .select("snapshot_date, sale_count, sum_price_usd")
+    .eq("card_id", cardId)
+    .gte("snapshot_date", cutoffISO)
+    .in("grader", ["PSA", "BGS"]);
+
+  if (data && data.length > 0) {
+    // Group by date, weighted average across PSA + BGS for that day.
+    const byDay = new Map<string, { sum: number; n: number }>();
+    for (const r of data) {
+      const acc = byDay.get(r.snapshot_date) ?? { sum: 0, n: 0 };
+      acc.sum += Number(r.sum_price_usd);
+      acc.n += Number(r.sale_count);
+      byDay.set(r.snapshot_date, acc);
+    }
+    return Array.from(byDay.entries())
+      .filter(([, v]) => v.n > 0)
+      .map(([dateStr, v]) => ({
+        ts: new Date(dateStr).getTime(),
+        value: Number((v.sum / v.n).toFixed(2)),
+      }))
+      .sort((a, b) => a.ts - b.ts);
+  }
+
+  // Fallback: scan sales (covers cards priced today, no snapshot yet)
   const sales = await fetchSalesForCards([cardId]);
   const cutoff = Date.now() - days * 86400 * 1000;
   const byDay = new Map<number, number[]>();
