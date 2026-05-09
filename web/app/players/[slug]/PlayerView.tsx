@@ -15,11 +15,20 @@ import PortfolioLine from "@/components/charts/PortfolioLine";
 import PriceChart from "@/components/charts/PriceChart";
 import type { Sale } from "@/lib/data";
 
+// YTD computed at module load. Recharts re-renders on client, so this is
+// per-deployment static which is fine - the value is "days since Jan 1 of
+// current year", which is identical for everyone visiting on a given day.
+const _ytdDays = (() => {
+  const now = new Date();
+  const start = new Date(now.getFullYear(), 0, 1);
+  return Math.max(1, Math.floor((now.getTime() - start.getTime()) / 86400000));
+})();
+
 const RANGES = [
   { id: "1W", days: 7 },
   { id: "1M", days: 30 },
   { id: "3M", days: 90 },
-  { id: "YTD", days: 115 }, // mock - Apr 25 ~ day 115 of year
+  { id: "YTD", days: _ytdDays },
   { id: "1Y", days: 150 }, // we only have 5mo of data; cap effectively
   { id: "ALL", days: 150 },
 ] as const;
