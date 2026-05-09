@@ -111,14 +111,49 @@ def _build_query(card: dict) -> str:
     return " ".join(b for b in bits if b)
 
 
-def _record_to_row(card_id: str, item: dict, provenance: dict) -> dict:
-    """Map an eBay item_summary record to our active_listings shape."""
+_JUNK_PATTERNS = (
+    "you pick",
+    "you choose",
+    "pick your",
+    "lot of",
+    "lot ",
+    "choose your",
+    "complete your set",
+    "complete set",
+    "1-300",
+    "1-200",
+    "1-150",
+    "1 - 300",
+    "1 - 200",
+    "#1 to",
+    "buy 3 get 1",
+    "mixed lot",
+    "random ",
+    "card lot",
+)
+
+
+def _is_junk_listing(title: str) -> bool:
+    """Detect multi-card lots, 'you pick' listings, complete-set offers, etc.
+    These titles match keyword search but aren't individual cards - they
+    pollute the listings UI. ~23% of raw eBay results trip this filter."""
+    if not title:
+        return False
+    t = title.lower()
+    return any(p in t for p in _JUNK_PATTERNS)
+
+
+def _record_to_row(card_id: str, item: dict, provenance: dict) -> dict | None:
+    """Map an eBay item_summary record to our active_listings shape.
+    Returns None if the listing should be skipped (junk lot)."""
     price = item.get("price") or {}
     price_usd = float(price.get("value") or 0)
     bo = (item.get("buyingOptions") or [])
     listing_type = "auction" if "AUCTION" in bo else "fixed"
     end = item.get("itemEndDate")
     title = item.get("title") or ""
+    if _is_junk_listing(title):
+        return None
     img = (item.get("image") or {}).get("imageUrl")
     cond = item.get("condition")
     # Detect graded - look for grading service + grade in title (heuristic)
@@ -236,6 +271,7 @@ def main() -> int:
                 continue
             items = body.get("itemSummaries") or []
             rows = [_record_to_row(c["card_id"], it, provenance) for it in items]
+            rows = [r for r in rows if r is not None]  # drop junk lots
             written = _replace_ebay_listings(c["card_id"], rows)
             run.add_rows_written(written)
             total_written += written
