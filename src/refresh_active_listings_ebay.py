@@ -180,10 +180,17 @@ def main() -> int:
     ap.add_argument("--yes", action="store_true")
     args = ap.parse_args()
 
-    # Quick env check
-    if not os.environ.get("EBAY_CLIENT_ID") or not os.environ.get("EBAY_CLIENT_SECRET"):
-        print("ERROR: EBAY_CLIENT_ID and/or EBAY_CLIENT_SECRET not set in .env.")
-        print("       Get them from https://developer.ebay.com/my/keys")
+    # Quick env check — accept any of the supported credential pairs
+    env = (os.environ.get("EBAY_ENV") or "production").lower()
+    if env == "sandbox":
+        cid = os.environ.get("EBAY_SANDBOX_CLIENT_ID") or os.environ.get("EBAY_CLIENT_ID")
+        sec = os.environ.get("EBAY_SANDBOX_CLIENT_SECRET") or os.environ.get("EBAY_CLIENT_SECRET")
+    else:
+        cid = os.environ.get("EBAY_PROD_CLIENT_ID") or os.environ.get("EBAY_CLIENT_ID")
+        sec = os.environ.get("EBAY_PROD_CLIENT_SECRET") or os.environ.get("EBAY_CLIENT_SECRET")
+    if not cid or not sec:
+        print(f"ERROR: eBay credentials missing for env={env}.")
+        print("       Set EBAY_PROD_CLIENT_ID + EBAY_PROD_CLIENT_SECRET (or sandbox variants).")
         return 2
 
     cards = _candidate_cards(args.top)

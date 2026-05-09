@@ -85,6 +85,10 @@ export type ActiveListing = {
   price_usd: number;
   listing_type: "auction" | "fixed" | "best_offer" | "search";
   source: string;
+  /** Where the row came from: "cardsight" (via CardSight /marketplace) or
+   *  "ebay-browse" (via eBay Browse API directly). Visible to the user as
+   *  a small badge so they can see we cross-check two independent sources. */
+  source_system: string | null;
   external_url: string | null;
   external_title: string | null;
   image_url: string | null;
@@ -475,7 +479,7 @@ export async function getActiveListings(cardId: string): Promise<ActiveListing[]
   const { data } = await sb
     .from("active_listings")
     .select(
-      "id, card_id, observed_at, price_usd, listing_type, source, external_url, external_title, image_url, condition_raw, is_graded, grader, grade_value, end_date, bid_count, parallel_id, parallel_name",
+      "id, card_id, observed_at, price_usd, listing_type, source, source_system, external_url, external_title, image_url, condition_raw, is_graded, grader, grade_value, end_date, bid_count, parallel_id, parallel_name",
     )
     .eq("card_id", cardId)
     .order("price_usd", { ascending: true });
@@ -486,6 +490,7 @@ export async function getActiveListings(cardId: string): Promise<ActiveListing[]
     price_usd: Number(r.price_usd),
     listing_type: r.listing_type,
     source: r.source,
+    source_system: r.source_system ?? null,
     external_url: r.external_url,
     external_title: r.external_title,
     image_url: r.image_url,

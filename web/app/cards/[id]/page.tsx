@@ -471,16 +471,36 @@ export default async function CardDetailPage({
       {/* Active listings - what's available to BUY right now ----------- */}
       {activeListings.length > 0 ? (
         <section className="mb-10">
-          <Section
-            eyebrow="Active listings · live on eBay"
-            title={`${activeListings.length} available now`}
-          />
-          <p className="text-[12px] text-muted-2 mb-3 max-w-3xl leading-relaxed">
-            Open eBay listings sorted by ask price (lowest first). These are
-            distinct from the completed-sales table below - these haven&apos;t
-            sold yet. Refreshed by the Cardex pipeline; auctions show their
-            end date and bid count.
-          </p>
+          {(() => {
+            const sourceSet = new Set(
+              activeListings.map((l) => l.source_system).filter(Boolean),
+            );
+            const dualSource = sourceSet.size >= 2;
+            return (
+              <>
+                <Section
+                  eyebrow={
+                    dualSource
+                      ? "Active listings · cross-checked across two sources"
+                      : "Active listings · live on eBay"
+                  }
+                  title={`${activeListings.length} available now`}
+                />
+                <p className="text-[12px] text-muted-2 mb-3 max-w-3xl leading-relaxed">
+                  Open eBay listings sorted by ask price (lowest first). These
+                  are distinct from the completed-sales table below - they
+                  haven&apos;t sold yet.
+                  {dualSource ? (
+                    <>
+                      {" "}Cardex pulls from two independent sources
+                      (CardSight&apos;s indexed feed + eBay Browse direct);
+                      each row is tagged with where it came from.
+                    </>
+                  ) : null}
+                </p>
+              </>
+            );
+          })()}
           <div className="border border-border bg-panel overflow-x-auto">
             <div className="min-w-[640px]">
               <div className="flex items-center gap-3 px-4 py-2.5 border-b border-border bg-panel-2 eyebrow">
@@ -520,7 +540,23 @@ export default async function CardDetailPage({
                     )}
                   </div>
                   <div className="w-20 text-[10px] font-mono uppercase tracking-wider text-muted-2">
-                    {l.listing_type === "auction" ? "Auction" : "Buy now"}
+                    <div>{l.listing_type === "auction" ? "Auction" : "Buy now"}</div>
+                    {l.source_system ? (
+                      <div
+                        className={
+                          l.source_system === "ebay-browse"
+                            ? "mt-0.5 text-[9px] text-info"
+                            : "mt-0.5 text-[9px] text-muted-2"
+                        }
+                        title={
+                          l.source_system === "ebay-browse"
+                            ? "Sourced directly from eBay Browse API"
+                            : "Sourced from CardSight indexed feed"
+                        }
+                      >
+                        {l.source_system === "ebay-browse" ? "eBay" : "CS"}
+                      </div>
+                    ) : null}
                   </div>
                   <div className="w-20 font-mono text-fg text-[12px]">
                     {l.is_graded ? `${l.grader ?? ""} ${l.grade_value ?? ""}`.trim() : "Raw"}

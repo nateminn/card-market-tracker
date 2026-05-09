@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.cardex.daily-ebay-listings</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/nathan/Desktop/cardex/scripts/daily_ebay_listings.sh</string>
+    </array>
+
+    <!-- Every day at 8am local. Listings churn fast - daily refresh is the
+         minimum viable freshness for a "what's on sale right now" feature.
+         eBay free quota is 5K/day; 200 cards = 200 calls = ~4% of budget. -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>8</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/nathan/Desktop/cardex/logs/launchd-ebay-listings-stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/nathan/Desktop/cardex/logs/launchd-ebay-listings-stderr.log</string>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/nathan/Desktop/cardex</string>
+
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>
