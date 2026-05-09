@@ -8,6 +8,7 @@ import { notFound } from "next/navigation";
 import {
   getPlayer,
   getPlayerSparkline,
+  getPlayerSparklineByCardIds,
   getPlayerSales,
   getPlayerBio,
   getPlayerNews,
@@ -118,12 +119,18 @@ export default async function PlayerPage({
     .filter((p) => p.slug !== slug)
     .sort((a, b) => b.sales_30d - a.sales_30d)
     .slice(0, 14);
+  // Use the by-card-ids variant - skips re-resolving slug -> cards for each
+  // of the 14 candidates (each Player from getPlayers() already carries its
+  // cards). Major speedup on cold starts of unfamiliar player pages.
   const compareCandidates = await Promise.all(
     compareCandidatesRaw.map(async (p) => ({
       slug: p.slug,
       name: p.name,
       sport: p.sport,
-      spark: await getPlayerSparkline(p.slug, 30),
+      spark: await getPlayerSparklineByCardIds(
+        p.cards.map((c) => c.id),
+        30,
+      ),
     })),
   );
   const last = spark30.at(-1)?.value ?? player.avg_psa10_30d ?? 0;
@@ -358,7 +365,7 @@ export default async function PlayerPage({
           <p className="text-[11px] text-muted mb-3">Count of PSA + BGS sales per day.</p>
           <VolumeBar points={volPoints} height={72} />
           <div className="mt-3 text-[11px] text-muted-2 flex items-center justify-between font-mono">
-            <span>Total: {allSales.length} sales · 5 mo</span>
+            <span>Total: {allSales.length} sales · 90d</span>
             <span>Peak day: {Math.max(0, ...volPoints.map((p) => p.count))} sales</span>
           </div>
         </div>

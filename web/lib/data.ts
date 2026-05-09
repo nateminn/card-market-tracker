@@ -279,6 +279,41 @@ async function fetchSalesForCards(cardIds: string[]): Promise<Sale[]> {
   return out;
 }
 
+/** Bounded version - last `days` days, capped at `cap` rows. Used by the
+ *  player detail page; popular players (Mike Trout etc.) have 50K+ sales
+ *  over 5mo and the unbounded path was the dominant residual cost on
+ *  /players/[slug]. The detail page only displays a 30-day volume bar
+ *  chart, last-25 list, and grade/source histograms - 90 days × 5K rows
+ *  is more than enough. */
+async function fetchRecentSalesForCards(
+  cardIds: string[],
+  days: number,
+  cap: number,
+): Promise<Sale[]> {
+  if (cardIds.length === 0) return [];
+  const sb = supabase();
+  const cutoffISO = new Date(Date.now() - days * 86400 * 1000).toISOString();
+  const out: Sale[] = [];
+  for (let i = 0; i < cardIds.length; i += 200) {
+    const chunk = cardIds.slice(i, i + 200);
+    const { data } = await sb
+      .from("sales")
+      .select(
+        "id, card_id, sold_at, price_usd, is_graded, grader, grade_value, source, external_url, external_title, listing_type, image_url, parallel_id, parallel_name",
+      )
+      .in("card_id", chunk)
+      .gte("sold_at", cutoffISO)
+      .order("sold_at", { ascending: false })
+      .limit(cap);
+    if (data) out.push(...data.map(rowToSale));
+  }
+  // Re-sort across chunks (each chunk is sorted internally; merging needs a pass)
+  out.sort(
+    (a, b) => new Date(b.sold_at).getTime() - new Date(a.sold_at).getTime(),
+  );
+  return out.slice(0, cap);
+}
+
 // ─────────────────────────────────────────────────────────────────────
 // Card lookups
 // ─────────────────────────────────────────────────────────────────────
@@ -584,7 +619,7 @@ export async function getActiveListings(cardId: string): Promise<ActiveListing[]
 /** Batch fetch the latest analytics row for many cards in one query. Returns
  *  a Map keyed by card_id. Use when rendering tables of N cards (variations,
  *  watchlist, signal) - keeps page renders to one DB hit instead of N. */
-export async function getAnalyticsForCards(
+async function _getAnalyticsForCardsImpl(
   cardIds: string[],
 ): Promise<Map<string, AnalyticsRow>> {
   const out = new Map<string, AnalyticsRow>();
@@ -629,6 +664,23 @@ export async function getAnalyticsForCards(
     }
   }
   return out;
+}
+
+// Map -> JSON gotcha: cache the entries array, rebuild Map per call.
+const _getAnalyticsForCardsCachedEntries = unstable_cache(
+  async (cardIds: string[]) => {
+    const map = await _getAnalyticsForCardsImpl(cardIds);
+    return Array.from(map.entries());
+  },
+  ["analytics-for-cards"],
+  { revalidate: 300 },
+);
+
+export async function getAnalyticsForCards(
+  cardIds: string[],
+): Promise<Map<string, AnalyticsRow>> {
+  const entries = await _getAnalyticsForCardsCachedEntries(cardIds);
+  return new Map(entries);
 }
 
 export async function getAllAnalytics(): Promise<AnalyticsRow[]> {
@@ -920,11 +972,21 @@ export const getPlayer = unstable_cache(_getPlayerImpl, ["player-by-slug"], {
   revalidate: 300,
 });
 
-export async function getPlayerSales(slug: string): Promise<Sale[]> {
+async function _getPlayerSalesImpl(slug: string): Promise<Sale[]> {
   const player = await getPlayer(slug);
   if (!player) return [];
-  return fetchSalesForCards(player.cards.map((c) => c.id));
+  // Bounded: last 90 days, max 5000 rows. Mike Trout had 50K+ sales over 5mo
+  // and the unbounded path took 15s+ even cached. The player detail page
+  // only renders a 30-day volume chart, last-25 list, and grade/source
+  // histograms - 90 days × 5K is plenty for all of them.
+  return fetchRecentSalesForCards(player.cards.map((c) => c.id), 90, 5000);
 }
+
+// 5min cache. Player sales lists update via the daily analytics cron, so
+// staleness up to 5 minutes is invisible to traders.
+export const getPlayerSales = unstable_cache(_getPlayerSalesImpl, ["player-sales"], {
+  revalidate: 300,
+});
 
 async function _getPlayerSparklineByCardIdsImpl(
   cardIds: string[],
