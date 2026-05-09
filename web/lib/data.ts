@@ -873,23 +873,52 @@ export async function getPlayerSparkline(
   slug: string,
   days: number = 30,
 ): Promise<{ ts: number; value: number }[]> {
-  const sales = await getPlayerSales(slug);
-  const cutoff = Date.now() - days * 86400 * 1000;
-  const byDay = new Map<number, number[]>();
-  for (const s of sales) {
-    if (!s.is_graded || !s.grader || !ALLOWED_GRADERS.has(s.grader)) continue;
-    if (s.grade_value !== "10") continue;
-    const t = new Date(s.sold_at).getTime();
-    if (t < cutoff) continue;
-    const day = Math.floor(t / 86400000) * 86400000;
-    const arr = byDay.get(day) ?? [];
-    arr.push(s.price_usd);
-    byDay.set(day, arr);
+  // Read from price_snapshots (pre-aggregated per-day VWAP) instead of
+  // scanning every sale for every card the player has. The home page
+  // calls this 10× in parallel for top movers — at 1M+ sales this was
+  // timing out the edge function.
+  const sb = supabase();
+  const player = await getPlayer(slug);
+  if (!player || !player.cards.length) return [];
+  const cardIds = player.cards.map((c) => c.id);
+  const cutoffISO = new Date(Date.now() - days * 86400 * 1000)
+    .toISOString()
+    .slice(0, 10);
+
+  // Pull PSA 10 snapshots for all of this player's cards in chunks.
+  type Row = { snapshot_date: string; sale_count: number; sum_price_usd: number };
+  const all: Row[] = [];
+  for (let i = 0; i < cardIds.length; i += 200) {
+    const chunk = cardIds.slice(i, i + 200);
+    const { data } = await sb
+      .from("price_snapshots")
+      .select("snapshot_date, sale_count, sum_price_usd")
+      .in("card_id", chunk)
+      .eq("grader", "PSA")
+      .eq("grade_value", "10")
+      .gte("snapshot_date", cutoffISO);
+    for (const r of data || []) {
+      all.push({
+        snapshot_date: r.snapshot_date,
+        sale_count: Number(r.sale_count),
+        sum_price_usd: Number(r.sum_price_usd),
+      });
+    }
+  }
+
+  // Group by date, weighted average across all the player's cards
+  const byDay = new Map<string, { sum: number; n: number }>();
+  for (const r of all) {
+    const acc = byDay.get(r.snapshot_date) ?? { sum: 0, n: 0 };
+    acc.sum += r.sum_price_usd;
+    acc.n += r.sale_count;
+    byDay.set(r.snapshot_date, acc);
   }
   return Array.from(byDay.entries())
-    .map(([ts, prices]) => ({
-      ts,
-      value: prices.reduce((a, b) => a + b, 0) / prices.length,
+    .filter(([, v]) => v.n > 0)
+    .map(([date, v]) => ({
+      ts: new Date(date).getTime(),
+      value: Number((v.sum / v.n).toFixed(2)),
     }))
     .sort((a, b) => a.ts - b.ts);
 }
