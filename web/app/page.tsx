@@ -469,10 +469,10 @@ function MarketingHero({
           href="/signal#how-signal-works"
           className="text-up font-medium hover:text-fg transition-colors"
         >
-          +34% backtested edge
+          +15-28% backtested edge
         </Link>{" "}
-        over the universe median across 4 windows. Built for flippers, not
-        scrapbookers.
+        over the universe median, depending on window. Built for flippers,
+        not scrapbookers.
       </p>
 
       <div className="mt-7 flex flex-wrap items-center gap-3">
@@ -496,8 +496,8 @@ function MarketingHero({
       <dl className="mt-10 border-y border-border py-5 grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-8">
         <Stat label="Cards tracked" value={counts.cards.toLocaleString()} />
         <Stat label="Sales (rolling)" value={counts.sales.toLocaleString()} />
-        <Stat label="Signal edge" value="+34%" sub="vs median, backtested" />
-        <Stat label="Refresh" value="6h" sub="auto" />
+        <Stat label="Signal edge" value="+15-28%" sub="vs median, by window" />
+        <Stat label="Refresh" value="Daily" sub="auto" />
       </dl>
 
       {/* Three-up "what makes this different" - comparison-aware */}
@@ -520,7 +520,7 @@ function MarketingHero({
         What&rsquo;s moving in the market
       </h2>
       <p className="mb-6 text-sm text-muted">
-        Live data from PSA + BGS sales, refreshed every 6 hours. Free to
+        Live data from PSA + BGS sales, refreshed daily. Free to
         browse - no sign-in required.
       </p>
     </section>

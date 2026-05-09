@@ -54,23 +54,28 @@ sb = create_client(os.environ["SUPABASE_URL"], os.environ["SUPABASE_KEY"])
 
 
 def fetch_all_sales() -> list[dict]:
-    """Pull every sale into memory. Filter to PSA + BGS only since that's
-    what Signal scores against."""
+    """Pull every sale into memory. Keyset pagination on the PK (id) -
+    offset pagination over 1M+ rows triggers Postgres statement timeouts
+    (same fix as analytics_engine.fetch_recent_sales)."""
     rows: list[dict] = []
-    offset = 0
+    last_id: str | None = None
+    chunk = 1000
     while True:
-        r = (
+        q = (
             sb.table("sales")
-            .select("card_id, sold_at, price_usd, is_graded, grader, grade_value")
-            .range(offset, offset + 999)
-            .execute()
+            .select("id, card_id, sold_at, price_usd, is_graded, grader, grade_value")
+            .order("id")
+            .limit(chunk)
         )
+        if last_id is not None:
+            q = q.gt("id", last_id)
+        r = q.execute()
         if not r.data:
             break
         rows.extend(r.data)
-        if len(r.data) < 1000:
+        last_id = r.data[-1]["id"]
+        if len(r.data) < chunk:
             break
-        offset += 1000
     return rows
 
 

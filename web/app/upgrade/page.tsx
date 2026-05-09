@@ -10,7 +10,7 @@ import UpgradeButton from "./UpgradeButton";
 export const dynamic = "force-dynamic";
 
 const PRO_FEATURES = [
-  "Full Signal Engine pick list - every scored card, refreshed every 6h",
+  "Full Signal Engine pick list - every scored card, refreshed daily",
   "Watchlist alerts when a card crosses your price target",
   "Deeper analytics: per-grade VWAP, scarcity, and gem-rate breakdowns",
   "Backtest tools - see how the engine has performed over time",

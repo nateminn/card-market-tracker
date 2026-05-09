@@ -83,7 +83,7 @@ export default function OG() {
               maxWidth: 900,
             }}
           >
-            Signal Engine: +34% backtested edge over the median. Free to browse.
+            Signal Engine: +15-28% backtested edge over the median. Free to browse.
           </span>
         </div>
 

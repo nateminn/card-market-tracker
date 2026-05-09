@@ -1,0 +1,38 @@
+{
+  "_doc": "Saved Signal Engine backtest runs. The marketing copy cites '+15-28% backtested edge' which is the observed range across the windows below. Re-run via `python src/signal_backtest.py --score-days-ago N --hold-days M --top 20` and append results to keep this honest as new data lands.",
+  "methodology": "src/signal_backtest.py - pick a 'score date' N days ago, score every card with sales <= score date, take top 20 by Signal score, look at their PSA10 30d-VWAP today vs on score date, compare to universe median. See file header for limitations.",
+  "data_state_at_run": {
+    "as_of": "2026-05-09",
+    "sales_rows": 1444209,
+    "unique_cards_with_sales": 59815,
+    "supabase_project": "yzwzwucjoowkglnzfbnx"
+  },
+  "runs": [
+    {
+      "score_date": "2026-04-09",
+      "eval_date": "2026-05-09",
+      "score_days_ago": 30,
+      "hold_days": 30,
+      "top_n": 20,
+      "eligible_universe": 603,
+      "top_picks_mean_return_pct": 29.4,
+      "universe_median_return_pct": 1.0,
+      "edge_pct": 28.4,
+      "verdict": "outperformed"
+    },
+    {
+      "score_date": "2026-03-10",
+      "eval_date": "2026-04-09",
+      "score_days_ago": 60,
+      "hold_days": 30,
+      "top_n": 20,
+      "eligible_universe": 608,
+      "top_picks_mean_return_pct": 16.8,
+      "universe_median_return_pct": 2.1,
+      "edge_pct": 14.8,
+      "verdict": "outperformed"
+    }
+  ],
+  "headline_range_pct": [14.8, 28.4],
+  "headline_label": "+15 to +28% edge over median across windows tested"
+}

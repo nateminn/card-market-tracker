@@ -97,9 +97,9 @@ export default async function SignalPage() {
           />
           <Stat
             label="Last refresh"
-            value="2 min ago"
+            value="Today"
             tipKey={null}
-            sub="auto every 6h"
+            sub="auto daily"
           />
         </dl>
       </section>
