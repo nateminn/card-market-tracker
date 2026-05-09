@@ -989,9 +989,14 @@ export async function getBigTrades(limit: number = 8): Promise<(Sale & { card: C
 
 export async function getCounts() {
   const sb = supabase();
+  // count: "estimated" reads Postgres planner stats instead of doing a
+  // full row scan. At ~1M+ sales rows the exact count timed out the
+  // home-page edge function (was the dominant cause of / 502s). Estimated
+  // is within a few percent and updates as autovacuum runs - perfect
+  // for a "Cards tracked / Sales (5mo)" topline number.
   const [cards, sales, watch, releases] = await Promise.all([
-    sb.from("card_identity").select("*", { count: "exact", head: true }),
-    sb.from("sales").select("*", { count: "exact", head: true }),
+    sb.from("card_identity").select("*", { count: "estimated", head: true }),
+    sb.from("sales").select("*", { count: "estimated", head: true }),
     sb.from("watchlist").select("*", { count: "exact", head: true }),
     sb.from("releases").select("*", { count: "exact", head: true }),
   ]);
