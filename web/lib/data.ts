@@ -336,12 +336,24 @@ export async function getSparkline(
   const cutoffISO = new Date(Date.now() - days * 86400 * 1000)
     .toISOString()
     .slice(0, 10);
-  const { data } = await sb
+  let { data } = await sb
     .from("price_snapshots")
     .select("snapshot_date, sale_count, sum_price_usd")
     .eq("card_id", cardId)
     .gte("snapshot_date", cutoffISO)
     .in("grader", ["PSA", "BGS"]);
+
+  // Fallback: if graded snapshots are empty for this card, try ALL graders
+  // (raw, SGC, CGC, etc) so the sparkline isn't flat just because the card
+  // doesn't trade in PSA/BGS.
+  if (!data || data.length === 0) {
+    const r = await sb
+      .from("price_snapshots")
+      .select("snapshot_date, sale_count, sum_price_usd")
+      .eq("card_id", cardId)
+      .gte("snapshot_date", cutoffISO);
+    data = r.data;
+  }
 
   if (data && data.length > 0) {
     // Group by date, weighted average across PSA + BGS for that day.
@@ -809,55 +821,64 @@ export async function getPlayers(): Promise<Player[]> {
 
 export async function getPlayer(slug: string): Promise<Player | null> {
   const sb = supabase();
-  // Find the canonical player_name for this slug
-  const { data } = await sb
+  // Resolve slug -> player_name(s) via an indexed ILIKE lookup. Slug rule:
+  // lowercase, non-alphanumeric runs collapse to "-". Reverse it by
+  // turning the slug into an ILIKE pattern with "%" between segments.
+  // E.g. "mike-trout" -> "mike%trout%" matches "Mike Trout" but not the
+  // 149K-row table scan the old code did.
+  const ilikePattern = slug.replace(/-/g, "%") + "%";
+  const { data: candidates } = await sb
     .from("card_identity")
     .select("id, player_name, card_number, is_rookie, set_id, release_id, image_url")
-    .limit(2000); // cap; in practice we'll filter
-  const players = new Map<string, any[]>();
-  for (const r of data || []) {
-    const s = playerSlug(r.player_name || "");
-    if (!players.has(s)) players.set(s, []);
-    players.get(s)!.push(r);
-  }
-  const matched = players.get(slug);
-  if (!matched) {
-    // Fallback: scan all cards (paginated) when the player wasn't in first 2000
-    let offset = 2000;
-    while (true) {
-      const { data: more } = await sb
-        .from("card_identity")
-        .select("id, player_name, card_number, is_rookie, set_id, release_id, image_url")
-        .range(offset, offset + 999);
-      if (!more || more.length === 0) break;
-      for (const r of more) {
-        if (playerSlug(r.player_name || "") === slug) {
-          if (!players.has(slug)) players.set(slug, []);
-          players.get(slug)!.push(r);
-        }
-      }
-      if (more.length < 1000) break;
-      offset += 1000;
-    }
-  }
-  const rows = players.get(slug);
-  if (!rows || rows.length === 0) return null;
+    .ilike("player_name", ilikePattern)
+    .limit(5000);
+
+  // Filter to the exact slug match (ILIKE is loose; `mike-trout` could
+  // false-positive on `Mike Troutman` etc).
+  const rows = (candidates || []).filter(
+    (r) => playerSlug(r.player_name || "") === slug,
+  );
+  if (rows.length === 0) return null;
+
   const [releases, sets] = await Promise.all([loadReleaseLookup(), loadSetLookup()]);
   const cards = rows.map((r) => rowToCard(r, releases, sets));
-  // Fetch analytics for these cards
+
+  // Single chunked analytics fetch - no N+1 re-fetch this time.
   const analyticsByCard = new Map<string, AnalyticsRow>();
   const ids = cards.map((c) => c.id);
   for (let i = 0; i < ids.length; i += 200) {
     const chunk = ids.slice(i, i + 200);
     const { data: aData } = await sb
       .from("analytics_daily")
-      .select("*")
+      .select(
+        "card_id, snapshot_date, vwap_7d_usd, vwap_30d_usd, vwap_90d_usd, raw_vwap_30d_usd, psa10_vwap_30d_usd, sales_count_30d, velocity_score, scarcity_score, gem_rate, momentum_score",
+      )
       .in("card_id", chunk);
     for (const a of aData || []) {
-      analyticsByCard.set(a.card_id, (await getAnalytics(a.card_id)) as AnalyticsRow);
+      analyticsByCard.set(a.card_id, {
+        card_id: a.card_id,
+        snapshot_date: a.snapshot_date,
+        vwap_7d_usd: a.vwap_7d_usd != null ? Number(a.vwap_7d_usd) : null,
+        vwap_30d_usd: a.vwap_30d_usd != null ? Number(a.vwap_30d_usd) : null,
+        vwap_90d_usd: a.vwap_90d_usd != null ? Number(a.vwap_90d_usd) : null,
+        raw_vwap_30d_usd: a.raw_vwap_30d_usd != null ? Number(a.raw_vwap_30d_usd) : null,
+        psa10_vwap_30d_usd: a.psa10_vwap_30d_usd != null ? Number(a.psa10_vwap_30d_usd) : null,
+        psa9_vwap_90d_usd: null,
+        bgs9_vwap_90d_usd: null,
+        bgs95_vwap_90d_usd: null,
+        bgs10_vwap_90d_usd: null,
+        psa10_to_psa9_multiple: null,
+        bgs95_to_bgs9_multiple: null,
+        bgs10_to_bgs95_multiple: null,
+        sales_count_30d: a.sales_count_30d != null ? Number(a.sales_count_30d) : null,
+        velocity_score: a.velocity_score != null ? Number(a.velocity_score) : null,
+        scarcity_score: a.scarcity_score != null ? Number(a.scarcity_score) : null,
+        gem_rate: a.gem_rate != null ? Number(a.gem_rate) : null,
+        momentum_score: a.momentum_score != null ? Number(a.momentum_score) : null,
+      });
     }
   }
-  return buildPlayer(rows[0].player_name, cards, analyticsByCard);
+  return buildPlayer(rows[0].player_name || "", cards, analyticsByCard);
 }
 
 export async function getPlayerSales(slug: string): Promise<Sale[]> {
@@ -875,6 +896,10 @@ export async function getPlayerSparklineByCardIds(
   // a paginated full-table scan, which is fine for the player detail
   // page but blows the 30s edge budget when the home page calls it
   // 10× in parallel (one per mover).
+  //
+  // Filter strategy: PSA 10 preferred, but fall back to all-graded if
+  // the player has no PSA 10 snapshots (otherwise sparklines render
+  // flat for any player whose cards trade in PSA 9 / BGS / raw).
   if (!cardIds.length) return [];
   const sb = supabase();
   const cutoffISO = new Date(Date.now() - days * 86400 * 1000)
@@ -882,24 +907,36 @@ export async function getPlayerSparklineByCardIds(
     .slice(0, 10);
 
   type Row = { snapshot_date: string; sale_count: number; sum_price_usd: number };
-  const all: Row[] = [];
-  for (let i = 0; i < cardIds.length; i += 200) {
-    const chunk = cardIds.slice(i, i + 200);
-    const { data } = await sb
-      .from("price_snapshots")
-      .select("snapshot_date, sale_count, sum_price_usd")
-      .in("card_id", chunk)
-      .eq("grader", "PSA")
-      .eq("grade_value", "10")
-      .gte("snapshot_date", cutoffISO);
-    for (const r of data || []) {
-      all.push({
-        snapshot_date: r.snapshot_date,
-        sale_count: Number(r.sale_count),
-        sum_price_usd: Number(r.sum_price_usd),
-      });
+
+  async function fetchSnapshots(filter: "psa10" | "graded" | "all"): Promise<Row[]> {
+    const out: Row[] = [];
+    for (let i = 0; i < cardIds.length; i += 200) {
+      const chunk = cardIds.slice(i, i + 200);
+      let q = sb
+        .from("price_snapshots")
+        .select("snapshot_date, sale_count, sum_price_usd")
+        .in("card_id", chunk)
+        .gte("snapshot_date", cutoffISO);
+      if (filter === "psa10") {
+        q = q.eq("grader", "PSA").eq("grade_value", "10");
+      } else if (filter === "graded") {
+        q = q.in("grader", ["PSA", "BGS"]);
+      }
+      const { data } = await q;
+      for (const r of data || []) {
+        out.push({
+          snapshot_date: r.snapshot_date,
+          sale_count: Number(r.sale_count),
+          sum_price_usd: Number(r.sum_price_usd),
+        });
+      }
     }
+    return out;
   }
+
+  let all = await fetchSnapshots("psa10");
+  if (all.length < 2) all = await fetchSnapshots("graded");
+  if (all.length < 2) all = await fetchSnapshots("all");
 
   const byDay = new Map<string, { sum: number; n: number }>();
   for (const r of all) {

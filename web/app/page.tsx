@@ -162,7 +162,9 @@ export default async function Home() {
             <Activity size={16} className="text-fg-2" />
             Big trades
           </h2>
-          <span className="text-xs text-muted">Last 5 months · PSA + BGS</span>
+          <span className="text-xs text-muted">
+            Sold listings · Last 5 months · PSA + BGS only
+          </span>
         </div>
         <BigTradesTable trades={bigTrades} />
       </section>
@@ -273,11 +275,11 @@ function BigTradesTable({ trades }: { trades: (Sale & { card: Card })[] }) {
     <div className="border border-border bg-panel divide-y divide-border">
       {/* Header row hidden on mobile - rows render label-free for narrow widths */}
       <div className="hidden sm:grid grid-cols-12 gap-3 px-4 py-2.5 border-b border-border bg-panel-2 eyebrow">
-        <div className="col-span-2">Date</div>
+        <div className="col-span-2">Sold</div>
         <div className="col-span-4">Player · Card</div>
         <div className="col-span-2">Grade</div>
-        <div className="col-span-2">Source</div>
-        <div className="col-span-2 text-right">Sale price</div>
+        <div className="col-span-2">Listing</div>
+        <div className="col-span-2 text-right">Sold for</div>
       </div>
       {trades.length === 0 ? (
         <div className="px-4 py-10 text-center text-sm text-muted">No big trades yet.</div>
@@ -325,9 +327,10 @@ function BigTradesTable({ trades }: { trades: (Sale & { card: Card })[] }) {
                   href={s.external_url}
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="Original sold listing on eBay (may be expired)"
                   className="text-info hover:text-accent transition-colors duration-150 inline-flex items-center gap-1"
                 >
-                  {s.source}
+                  {s.source} sold
                   <span aria-hidden className="text-[9px]">↗</span>
                 </a>
               ) : (
