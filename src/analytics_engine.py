@@ -50,24 +50,35 @@ def _parse_dt(s: str) -> datetime:
 
 
 def fetch_recent_sales(days: int = 90) -> list[dict]:
+    """Fetch all sales rows in the trailing `days` window.
+
+    Uses keyset pagination on `id` (the primary key) instead of offset
+    pagination. Offset pagination over 1M+ rows triggers a Postgres
+    statement timeout because each `.range(N, N+999)` query has to scan
+    and discard the first N rows. Keyset uses the PK index directly:
+    O(n) instead of O(n²).
+    """
     since = (NOW - timedelta(days=days)).isoformat()
     out: list[dict] = []
     chunk = 1000
-    offset = 0
+    last_id: str | None = None
     while True:
-        rows = (
+        q = (
             client.table("sales")
-            .select("card_id, sold_at, price_usd, is_graded, grader, grade_value")
+            .select("id, card_id, sold_at, price_usd, is_graded, grader, grade_value")
             .gte("sold_at", since)
-            .range(offset, offset + chunk - 1)
-            .execute()
-            .data
-            or []
+            .order("id")
+            .limit(chunk)
         )
+        if last_id is not None:
+            q = q.gt("id", last_id)
+        rows = q.execute().data or []
+        if not rows:
+            break
         out.extend(rows)
+        last_id = rows[-1]["id"]
         if len(rows) < chunk:
             break
-        offset += chunk
     return out
 
 
