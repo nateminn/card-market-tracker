@@ -1,115 +1,108 @@
 // /api/ebay/account-deletion - eBay Marketplace Account Deletion endpoint.
 //
-// Required by eBay before a Production API keyset can be enabled. Two
-// behaviours:
+// Required by eBay before a Production API keyset can be enabled.
 //
 //   GET  /api/ebay/account-deletion?challenge_code=<X>
-//        Returns SHA-256 hex digest of (challenge_code + verification_token
-//        + endpoint_url). eBay calls this to verify we own the URL and
-//        know our verification token.
-//
+//        Returns SHA-256 hex of (challenge_code + verification_token + endpoint_url)
 //   POST /api/ebay/account-deletion
-//        Body is a JSON notification when an eBay user deletes their
-//        account. We delete any data linked to that user and respond 200.
-//        Cardex stores no eBay user PII today, so the deletion is a no-op
-//        beyond logging the event for audit.
-//
-// Configure in eBay Developer Dashboard:
-//   Marketplace account deletion notification endpoint:
-//     https://card-market-tracker.netlify.app/api/ebay/account-deletion
-//   Verification token:
-//     value of EBAY_DELETION_VERIFICATION_TOKEN env var (any 32-80 char string)
+//        Receives notification, returns 200. Cardex stores no eBay user PII so
+//        deletion is logged-only.
 //
 // Spec: https://developer.ebay.com/marketplace-account-deletion
 
 import crypto from "node:crypto";
 import { NextResponse } from "next/server";
-import { logInfo, logWarn, reportError } from "@/lib/log";
 
-function token(): string {
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
+
+function getToken(): string | null {
   const t = process.env.EBAY_DELETION_VERIFICATION_TOKEN;
-  if (!t || t.length < 32 || t.length > 80) {
-    throw new Error(
-      "EBAY_DELETION_VERIFICATION_TOKEN must be 32-80 chars (set in env).",
-    );
-  }
+  if (!t || t.length < 32 || t.length > 80) return null;
   return t;
 }
 
-/** Reconstruct the canonical endpoint URL from the request. eBay computes
- *  the verification hash using the endpoint URL EXACTLY as the developer
- *  registered it on their dashboard, so we must reproduce that string
- *  byte-for-byte. We honor X-Forwarded-Proto/Host (set by Netlify's edge)
- *  to handle the case where Netlify rewrites internally. */
-function endpointUrl(request: Request): string {
-  const url = new URL(request.url);
-  const headers = request.headers;
-  const proto = headers.get("x-forwarded-proto") || url.protocol.replace(":", "");
-  const host = headers.get("x-forwarded-host") || headers.get("host") || url.host;
-  return `${proto}://${host}${url.pathname}`;
-}
-
-export async function GET(request: Request) {
-  const url = new URL(request.url);
-  const challenge = url.searchParams.get("challenge_code");
-  if (!challenge) {
-    return NextResponse.json({ error: "missing challenge_code" }, { status: 400 });
-  }
-  let verificationToken: string;
+function reconstructUrl(request: Request): string {
+  // Reproduce the URL exactly as eBay registered it. Honors Netlify edge
+  // headers (x-forwarded-proto/host) so we hash against the public URL,
+  // not whatever internal hostname the function was invoked at.
   try {
-    verificationToken = token();
-  } catch (e) {
-    reportError(e, { route: "/api/ebay/account-deletion GET" });
-    return NextResponse.json({ error: "server misconfigured" }, { status: 500 });
-  }
-  const ep = endpointUrl(request);
-  // eBay spec: hash = SHA256(challengeCode + verificationToken + endpointURL)
-  const hash = crypto
-    .createHash("sha256")
-    .update(challenge + verificationToken + ep)
-    .digest("hex");
-  // Log the URL we hashed against — when validation fails, this is the
-  // first thing to check vs what was registered on the eBay dashboard.
-  logInfo("ebay.deletion.challenge", { challenge, endpointUrl: ep });
-  return NextResponse.json({ challengeResponse: hash }, { status: 200 });
-}
-
-export async function POST(request: Request) {
-  // Validate body shape and verification token (eBay sends them in the
-  // payload). Cardex stores no eBay user PII, so we log + 200.
-  let payload: unknown;
-  try {
-    payload = await request.json();
+    const u = new URL(request.url);
+    const h = request.headers;
+    const proto = h.get("x-forwarded-proto") || u.protocol.replace(":", "");
+    const host = h.get("x-forwarded-host") || h.get("host") || u.host;
+    return `${proto}://${host}${u.pathname}`;
   } catch {
-    return NextResponse.json({ error: "invalid json" }, { status: 400 });
+    // Fallback if URL parsing somehow fails
+    return "https://card-market-tracker.netlify.app/api/ebay/account-deletion";
   }
+}
 
-  const data = payload as {
-    metadata?: { topic?: string; schemaVersion?: string };
-    notification?: {
-      notificationId?: string;
-      eventDate?: string;
-      data?: { username?: string; userId?: string; eiasToken?: string };
-    };
-  };
+export async function GET(request: Request): Promise<Response> {
+  try {
+    const url = new URL(request.url);
+    const challenge = url.searchParams.get("challenge_code");
+    if (!challenge) {
+      return NextResponse.json(
+        { error: "missing challenge_code" },
+        { status: 400 },
+      );
+    }
+    const token = getToken();
+    if (!token) {
+      return NextResponse.json(
+        { error: "server misconfigured: EBAY_DELETION_VERIFICATION_TOKEN missing or wrong length" },
+        { status: 500 },
+      );
+    }
+    const ep = reconstructUrl(request);
+    const hash = crypto
+      .createHash("sha256")
+      .update(challenge + token + ep)
+      .digest("hex");
+    console.log(JSON.stringify({
+      level: "info",
+      msg: "ebay.deletion.challenge",
+      challenge,
+      endpointUrl: ep,
+      hash,
+    }));
+    return NextResponse.json({ challengeResponse: hash }, { status: 200 });
+  } catch (err) {
+    console.error(JSON.stringify({
+      level: "error",
+      msg: "ebay.deletion.GET.crash",
+      error: err instanceof Error ? err.message : String(err),
+      stack: err instanceof Error ? err.stack : undefined,
+    }));
+    return NextResponse.json({ error: "internal" }, { status: 500 });
+  }
+}
 
-  const topic = data.metadata?.topic;
-  if (topic !== "MARKETPLACE_ACCOUNT_DELETION") {
-    logWarn("ebay.notification.unknown_topic", { topic });
+export async function POST(request: Request): Promise<Response> {
+  try {
+    let body: unknown = null;
+    try {
+      body = await request.json();
+    } catch {
+      // Some eBay test pings come without a body. Accept anything.
+      body = null;
+    }
+    console.log(JSON.stringify({
+      level: "info",
+      msg: "ebay.deletion.notification",
+      body,
+    }));
+    // Cardex doesn't store eBay user PII; deletion is a no-op beyond logging.
+    return NextResponse.json({ ok: true }, { status: 200 });
+  } catch (err) {
+    console.error(JSON.stringify({
+      level: "error",
+      msg: "ebay.deletion.POST.crash",
+      error: err instanceof Error ? err.message : String(err),
+      stack: err instanceof Error ? err.stack : undefined,
+    }));
+    // Still return 200 so eBay doesn't think the endpoint is broken.
     return NextResponse.json({ ok: true }, { status: 200 });
   }
-
-  const userId = data.notification?.data?.userId;
-  const username = data.notification?.data?.username;
-
-  // No-op deletion: Cardex doesn't store eBay user PII (we ingest listing-
-  // level data only). If we ever add user-linked features we delete here.
-  logInfo("ebay.account_deletion.received", {
-    notificationId: data.notification?.notificationId,
-    userId,
-    username,
-    eventDate: data.notification?.eventDate,
-  });
-
-  return NextResponse.json({ ok: true }, { status: 200 });
 }
