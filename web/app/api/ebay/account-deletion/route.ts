@@ -26,10 +26,6 @@ import crypto from "node:crypto";
 import { NextResponse } from "next/server";
 import { logInfo, logWarn, reportError } from "@/lib/log";
 
-const ENDPOINT_URL =
-  (process.env.NEXT_PUBLIC_SITE_URL ?? "https://card-market-tracker.netlify.app") +
-  "/api/ebay/account-deletion";
-
 function token(): string {
   const t = process.env.EBAY_DELETION_VERIFICATION_TOKEN;
   if (!t || t.length < 32 || t.length > 80) {
@@ -38,6 +34,19 @@ function token(): string {
     );
   }
   return t;
+}
+
+/** Reconstruct the canonical endpoint URL from the request. eBay computes
+ *  the verification hash using the endpoint URL EXACTLY as the developer
+ *  registered it on their dashboard, so we must reproduce that string
+ *  byte-for-byte. We honor X-Forwarded-Proto/Host (set by Netlify's edge)
+ *  to handle the case where Netlify rewrites internally. */
+function endpointUrl(request: Request): string {
+  const url = new URL(request.url);
+  const headers = request.headers;
+  const proto = headers.get("x-forwarded-proto") || url.protocol.replace(":", "");
+  const host = headers.get("x-forwarded-host") || headers.get("host") || url.host;
+  return `${proto}://${host}${url.pathname}`;
 }
 
 export async function GET(request: Request) {
@@ -53,11 +62,15 @@ export async function GET(request: Request) {
     reportError(e, { route: "/api/ebay/account-deletion GET" });
     return NextResponse.json({ error: "server misconfigured" }, { status: 500 });
   }
+  const ep = endpointUrl(request);
   // eBay spec: hash = SHA256(challengeCode + verificationToken + endpointURL)
   const hash = crypto
     .createHash("sha256")
-    .update(challenge + verificationToken + ENDPOINT_URL)
+    .update(challenge + verificationToken + ep)
     .digest("hex");
+  // Log the URL we hashed against — when validation fails, this is the
+  // first thing to check vs what was registered on the eBay dashboard.
+  logInfo("ebay.deletion.challenge", { challenge, endpointUrl: ep });
   return NextResponse.json({ challengeResponse: hash }, { status: 200 });
 }
 
