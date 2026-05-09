@@ -1137,22 +1137,35 @@ export async function getDashboardMovers(): Promise<{
 export const CARDS_BY_ID: Record<string, Card> = {};
 
 /** Pulls every card from the catalog. Used by header SearchBox so users can
- *  fuzzy-search the entire catalog without a network round-trip per keystroke.
- *  Heavy - only call from server components that hold the result in memory. */
+ *  fuzzy-search the trader-relevant subset without a network round-trip per
+ *  keystroke. Capped at the cards that actually have sales activity
+ *  (joined via analytics_daily) — was 105K full catalog scan, which timed
+ *  out the layout's edge function once 2019-2025 + 2016-2018 catalog landed.
+ *  Long-tail cards are reachable via direct URL or the /players page. */
+const SEARCH_INDEX_LIMIT = 8000;
 export async function getAllCards(): Promise<Card[]> {
   const sb = supabase();
   const [releases, sets] = await Promise.all([loadReleaseLookup(), loadSetLookup()]);
+  // Active-set first: join analytics_daily for cards with any 30d sales.
+  const activeRows =
+    (
+      await sb
+        .from("analytics_daily")
+        .select("card_id")
+        .gt("sales_count_30d", 0)
+        .order("sales_count_30d", { ascending: false })
+        .limit(SEARCH_INDEX_LIMIT)
+    ).data || [];
+  const activeIds = activeRows.map((r) => r.card_id);
+  if (activeIds.length === 0) return [];
   const out: Card[] = [];
-  let offset = 0;
-  while (true) {
+  for (let i = 0; i < activeIds.length; i += 200) {
+    const chunk = activeIds.slice(i, i + 200);
     const { data } = await sb
       .from("card_identity")
       .select("id, player_name, card_number, is_rookie, set_id, release_id, image_url")
-      .range(offset, offset + 999);
-    if (!data || data.length === 0) break;
-    out.push(...data.map((r) => rowToCard(r, releases, sets)));
-    if (data.length < 1000) break;
-    offset += 1000;
+      .in("id", chunk);
+    out.push(...(data || []).map((r) => rowToCard(r, releases, sets)));
   }
   return out;
 }
