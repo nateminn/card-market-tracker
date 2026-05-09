@@ -751,49 +751,46 @@ async function buildPlayer(
 /** Players with at least one card-with-sales - keeps the list manageable. */
 export async function getPlayers(): Promise<Player[]> {
   const sb = supabase();
-  // Find player names where at least one card has sales_count_30d > 0 in
-  // analytics_daily - this is "currently active" players. Otherwise the list
-  // would have 3,000+ names mostly with zero data.
+  // Find active players: at least one card with sales_count_30d > 0 in
+  // analytics_daily. Otherwise the list would have 3,000+ names mostly
+  // with zero data.
+  //
+  // Pull EVERY analytics field in this single query (was: small projection
+  // here, then a second 10-chunk re-fetch for the same IDs further down).
   const { data: activeAnalytics } = await sb
     .from("analytics_daily")
-    .select("card_id, sales_count_30d")
+    .select(
+      "card_id, snapshot_date, vwap_7d_usd, vwap_30d_usd, vwap_90d_usd, raw_vwap_30d_usd, psa10_vwap_30d_usd, sales_count_30d, velocity_score, scarcity_score, gem_rate, momentum_score",
+    )
     .gt("sales_count_30d", 0)
     .order("sales_count_30d", { ascending: false })
     .limit(2000);
   const activeCardIds = (activeAnalytics || []).map((a) => a.card_id);
   if (activeCardIds.length === 0) return [];
   const cards = await getCardsByIds(activeCardIds);
-  // Also pull analytics into a map for buildPlayer
   const analyticsByCard = new Map<string, AnalyticsRow>();
-  for (let i = 0; i < activeCardIds.length; i += 200) {
-    const chunk = activeCardIds.slice(i, i + 200);
-    const { data } = await sb
-      .from("analytics_daily")
-      .select("*")
-      .in("card_id", chunk);
-    for (const a of data || []) {
-      analyticsByCard.set(a.card_id, {
-        card_id: a.card_id,
-        snapshot_date: a.snapshot_date,
-        vwap_7d_usd: a.vwap_7d_usd != null ? Number(a.vwap_7d_usd) : null,
-        vwap_30d_usd: a.vwap_30d_usd != null ? Number(a.vwap_30d_usd) : null,
-        vwap_90d_usd: a.vwap_90d_usd != null ? Number(a.vwap_90d_usd) : null,
-        raw_vwap_30d_usd: a.raw_vwap_30d_usd != null ? Number(a.raw_vwap_30d_usd) : null,
-        psa10_vwap_30d_usd: a.psa10_vwap_30d_usd != null ? Number(a.psa10_vwap_30d_usd) : null,
-        psa9_vwap_90d_usd: null,
-        bgs9_vwap_90d_usd: null,
-        bgs95_vwap_90d_usd: null,
-        bgs10_vwap_90d_usd: null,
-        psa10_to_psa9_multiple: null,
-        bgs95_to_bgs9_multiple: null,
-        bgs10_to_bgs95_multiple: null,
-        sales_count_30d: a.sales_count_30d != null ? Number(a.sales_count_30d) : null,
-        velocity_score: a.velocity_score != null ? Number(a.velocity_score) : null,
-        scarcity_score: a.scarcity_score != null ? Number(a.scarcity_score) : null,
-        gem_rate: a.gem_rate != null ? Number(a.gem_rate) : null,
-        momentum_score: a.momentum_score != null ? Number(a.momentum_score) : null,
-      });
-    }
+  for (const a of activeAnalytics || []) {
+    analyticsByCard.set(a.card_id, {
+      card_id: a.card_id,
+      snapshot_date: a.snapshot_date,
+      vwap_7d_usd: a.vwap_7d_usd != null ? Number(a.vwap_7d_usd) : null,
+      vwap_30d_usd: a.vwap_30d_usd != null ? Number(a.vwap_30d_usd) : null,
+      vwap_90d_usd: a.vwap_90d_usd != null ? Number(a.vwap_90d_usd) : null,
+      raw_vwap_30d_usd: a.raw_vwap_30d_usd != null ? Number(a.raw_vwap_30d_usd) : null,
+      psa10_vwap_30d_usd: a.psa10_vwap_30d_usd != null ? Number(a.psa10_vwap_30d_usd) : null,
+      psa9_vwap_90d_usd: null,
+      bgs9_vwap_90d_usd: null,
+      bgs95_vwap_90d_usd: null,
+      bgs10_vwap_90d_usd: null,
+      psa10_to_psa9_multiple: null,
+      bgs95_to_bgs9_multiple: null,
+      bgs10_to_bgs95_multiple: null,
+      sales_count_30d: a.sales_count_30d != null ? Number(a.sales_count_30d) : null,
+      velocity_score: a.velocity_score != null ? Number(a.velocity_score) : null,
+      scarcity_score: a.scarcity_score != null ? Number(a.scarcity_score) : null,
+      gem_rate: a.gem_rate != null ? Number(a.gem_rate) : null,
+      momentum_score: a.momentum_score != null ? Number(a.momentum_score) : null,
+    });
   }
   // Group cards by player_name
   const byName = new Map<string, Card[]>();
@@ -869,23 +866,21 @@ export async function getPlayerSales(slug: string): Promise<Sale[]> {
   return fetchSalesForCards(player.cards.map((c) => c.id));
 }
 
-export async function getPlayerSparkline(
-  slug: string,
+export async function getPlayerSparklineByCardIds(
+  cardIds: string[],
   days: number = 30,
 ): Promise<{ ts: number; value: number }[]> {
-  // Read from price_snapshots (pre-aggregated per-day VWAP) instead of
-  // scanning every sale for every card the player has. The home page
-  // calls this 10× in parallel for top movers — at 1M+ sales this was
-  // timing out the edge function.
+  // Direct path: caller already knows the card IDs. The slug-based
+  // getPlayerSparkline below has to re-resolve slug -> name -> cards via
+  // a paginated full-table scan, which is fine for the player detail
+  // page but blows the 30s edge budget when the home page calls it
+  // 10× in parallel (one per mover).
+  if (!cardIds.length) return [];
   const sb = supabase();
-  const player = await getPlayer(slug);
-  if (!player || !player.cards.length) return [];
-  const cardIds = player.cards.map((c) => c.id);
   const cutoffISO = new Date(Date.now() - days * 86400 * 1000)
     .toISOString()
     .slice(0, 10);
 
-  // Pull PSA 10 snapshots for all of this player's cards in chunks.
   type Row = { snapshot_date: string; sale_count: number; sum_price_usd: number };
   const all: Row[] = [];
   for (let i = 0; i < cardIds.length; i += 200) {
@@ -906,7 +901,6 @@ export async function getPlayerSparkline(
     }
   }
 
-  // Group by date, weighted average across all the player's cards
   const byDay = new Map<string, { sum: number; n: number }>();
   for (const r of all) {
     const acc = byDay.get(r.snapshot_date) ?? { sum: 0, n: 0 };
@@ -921,6 +915,17 @@ export async function getPlayerSparkline(
       value: Number((v.sum / v.n).toFixed(2)),
     }))
     .sort((a, b) => a.ts - b.ts);
+}
+
+export async function getPlayerSparkline(
+  slug: string,
+  days: number = 30,
+): Promise<{ ts: number; value: number }[]> {
+  // Slug-based wrapper for the player detail page. Resolves slug -> cards
+  // (which paginates the catalog) then delegates to the by-card-ids path.
+  const player = await getPlayer(slug);
+  if (!player || !player.cards.length) return [];
+  return getPlayerSparklineByCardIds(player.cards.map((c) => c.id), days);
 }
 
 // Static editorial copy (was in mock; keeping as content the analyst writes)

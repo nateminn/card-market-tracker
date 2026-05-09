@@ -10,7 +10,7 @@ import {
   getPortfolioValueLine,
   getBigTrades,
   getPlayers,
-  getPlayerSparkline,
+  getPlayerSparklineByCardIds,
   type Player,
   type Sale,
   type Card,
@@ -59,10 +59,13 @@ export default async function Home() {
   const down = [...ranked].reverse().slice(0, 5);
 
   // Pre-resolve sparklines for every mover so render is sync below.
+  // Pass card IDs directly - skipping the slug->name->cards re-resolution
+  // that paginates the full 149K catalog (was 10× parallel = blown timeout).
   const moverSparks = new Map<string, { ts: number; value: number }[]>();
   await Promise.all(
     [...up, ...down].map(async (p) => {
-      moverSparks.set(p.slug, await getPlayerSparkline(p.slug, 30));
+      const ids = p.cards.map((c) => c.id);
+      moverSparks.set(p.slug, await getPlayerSparklineByCardIds(ids, 30));
     }),
   );
 
