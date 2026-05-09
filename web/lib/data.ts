@@ -10,6 +10,7 @@
 // genuinely editorial content (player bios, news headlines) stay as static
 // data - see PLAYER_BIOS below and ./news.ts.
 
+import { unstable_cache } from "next/cache";
 import { supabase } from "./supabase";
 import { NEWS } from "./news";
 
@@ -165,12 +166,34 @@ type Memo = {
 };
 const _memo: Memo = {};
 
+// Raw row fetchers cached with unstable_cache (Map doesn't JSON-serialize, so
+// we cache the array form and build the Map fresh per render). Releases and
+// sets change ~weekly when new releases load, so 1h cache is generous.
+const _fetchReleasesRaw = unstable_cache(
+  async () => {
+    const sb = supabase();
+    const { data } = await sb.from("releases").select("id, year, name, segment_id");
+    return data || [];
+  },
+  ["releases-raw"],
+  { revalidate: 3600 },
+);
+
+const _fetchSetsRaw = unstable_cache(
+  async () => {
+    const sb = supabase();
+    const { data } = await sb.from("sets").select("id, name");
+    return data || [];
+  },
+  ["sets-raw"],
+  { revalidate: 3600 },
+);
+
 async function loadReleaseLookup() {
   if (_memo.releases) return _memo.releases;
-  const sb = supabase();
-  const { data } = await sb.from("releases").select("id, year, name, segment_id");
+  const data = await _fetchReleasesRaw();
   const map = new Map<string, { id: string; year: string; name: string; sport: Sport }>();
-  for (const r of data || []) {
+  for (const r of data) {
     map.set(r.id, {
       id: r.id,
       year: r.year,
@@ -184,10 +207,9 @@ async function loadReleaseLookup() {
 
 async function loadSetLookup() {
   if (_memo.sets) return _memo.sets;
-  const sb = supabase();
-  const { data } = await sb.from("sets").select("id, name");
+  const data = await _fetchSetsRaw();
   const map = new Map<string, { id: string; name: string }>();
-  for (const s of data || []) map.set(s.id, { id: s.id, name: s.name });
+  for (const s of data) map.set(s.id, { id: s.id, name: s.name });
   _memo.sets = map;
   return map;
 }
@@ -321,7 +343,7 @@ export async function salesForCard(cardId: string): Promise<Sale[]> {
 }
 
 /** Daily VWAP sparkline for one card over the last `days` days. PSA + BGS only. */
-export async function getSparkline(
+async function _getSparklineImpl(
   cardId: string,
   days: number = 30,
 ): Promise<{ ts: number; value: number }[]> {
@@ -393,6 +415,11 @@ export async function getSparkline(
     }))
     .sort((a, b) => a.ts - b.ts);
 }
+
+// Per-card sparkline cache. 10min - covers home gem-pick grid + card detail.
+export const getSparkline = unstable_cache(_getSparklineImpl, ["card-sparkline"], {
+  revalidate: 600,
+});
 
 // ─────────────────────────────────────────────────────────────────────
 // Analytics
@@ -761,7 +788,7 @@ async function buildPlayer(
 }
 
 /** Players with at least one card-with-sales - keeps the list manageable. */
-export async function getPlayers(): Promise<Player[]> {
+async function _getPlayersImpl(): Promise<Player[]> {
   const sb = supabase();
   // Find active players: at least one card with sales_count_30d > 0 in
   // analytics_daily. Otherwise the list would have 3,000+ names mostly
@@ -819,7 +846,13 @@ export async function getPlayers(): Promise<Player[]> {
   return players;
 }
 
-export async function getPlayer(slug: string): Promise<Player | null> {
+// Active-player list shifts as analytics_daily updates (daily cron). 5min
+// cache: first user pays the load cost, next 300s of users hit cache.
+export const getPlayers = unstable_cache(_getPlayersImpl, ["players-active"], {
+  revalidate: 300,
+});
+
+async function _getPlayerImpl(slug: string): Promise<Player | null> {
   const sb = supabase();
   // Resolve slug -> player_name(s) via an indexed ILIKE lookup. Slug rule:
   // lowercase, non-alphanumeric runs collapse to "-". Reverse it by
@@ -881,13 +914,19 @@ export async function getPlayer(slug: string): Promise<Player | null> {
   return buildPlayer(rows[0].player_name || "", cards, analyticsByCard);
 }
 
+// Per-player resolution. 5min cache - first visitor warms it, the rest
+// (including bots / scrapers / analytics) hit cache.
+export const getPlayer = unstable_cache(_getPlayerImpl, ["player-by-slug"], {
+  revalidate: 300,
+});
+
 export async function getPlayerSales(slug: string): Promise<Sale[]> {
   const player = await getPlayer(slug);
   if (!player) return [];
   return fetchSalesForCards(player.cards.map((c) => c.id));
 }
 
-export async function getPlayerSparklineByCardIds(
+async function _getPlayerSparklineByCardIdsImpl(
   cardIds: string[],
   days: number = 30,
 ): Promise<{ ts: number; value: number }[]> {
@@ -954,6 +993,15 @@ export async function getPlayerSparklineByCardIds(
     .sort((a, b) => a.ts - b.ts);
 }
 
+// Sparkline data is shared across all visitors viewing the same player.
+// 10min cache makes mover/grid pages effectively free after first warm.
+// Cache key = cardIds[].sort() + days, so re-orders hit the same cache.
+export const getPlayerSparklineByCardIds = unstable_cache(
+  _getPlayerSparklineByCardIdsImpl,
+  ["player-sparkline-by-ids"],
+  { revalidate: 600 },
+);
+
 export async function getPlayerSparkline(
   slug: string,
   days: number = 30,
@@ -1007,7 +1055,7 @@ export function getPlayerNews(playerName: string) {
 // Big trades + counts + portfolio
 // ─────────────────────────────────────────────────────────────────────
 
-export async function getBigTrades(limit: number = 8): Promise<(Sale & { card: Card })[]> {
+async function _getBigTradesImpl(limit: number = 8): Promise<(Sale & { card: Card })[]> {
   const sb = supabase();
   // Top sales by price (PSA + BGS only to avoid raw fakes)
   const { data } = await sb
@@ -1029,7 +1077,12 @@ export async function getBigTrades(limit: number = 8): Promise<(Sale & { card: C
     .filter((x): x is Sale & { card: Card } => x !== null);
 }
 
-export async function getCounts() {
+// Top-N graded sales rarely change minute-to-minute. 5min cache.
+export const getBigTrades = unstable_cache(_getBigTradesImpl, ["big-trades"], {
+  revalidate: 300,
+});
+
+async function _getCountsImpl() {
   const sb = supabase();
   // count: "estimated" reads Postgres planner stats instead of doing a
   // full row scan. At ~1M+ sales rows the exact count timed out the
@@ -1051,6 +1104,11 @@ export async function getCounts() {
     trades: 0,
   };
 }
+
+// Counts barely move - 15min cache.
+export const getCounts = unstable_cache(_getCountsImpl, ["home-counts"], {
+  revalidate: 900,
+});
 
 export type Position = {
   card: Card;
@@ -1159,7 +1217,7 @@ function generateThesis(args: {
   }. Modest activity - needs more data before drawing a conclusion.`;
 }
 
-export async function getGemPicks(_filters: GemFilters = {}): Promise<
+async function _getGemPicksImpl(_filters: GemFilters = {}): Promise<
   ((AnalyticsRow & { card: Card; signal: number }) & Record<string, any>)[]
 > {
   const sb = supabase();
@@ -1220,6 +1278,12 @@ export async function getGemPicks(_filters: GemFilters = {}): Promise<
   }
   return out.sort((a, b) => b.signal - a.signal);
 }
+
+// Gem picks (the home / Signal screener). 5min cache. Filter object is
+// part of the cache key so /signal?sport=Baseball gets its own bucket.
+export const getGemPicks = unstable_cache(_getGemPicksImpl, ["gem-picks"], {
+  revalidate: 300,
+});
 
 // ─────────────────────────────────────────────────────────────────────
 // Misc. compat exports
