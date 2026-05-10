@@ -32,8 +32,11 @@ export default function CardHero({
   className,
 }: Props) {
   const [open, setOpen] = useState(false);
+  const [imgErrored, setImgErrored] = useState(false);
+  const [enlargedErrored, setEnlargedErrored] = useState(false);
   const height = Math.round(width * 1.4);
   const ini = initials(player);
+  const showImage = src && !imgErrored;
 
   // Close on Escape; lock body scroll while open.
   useEffect(() => {
@@ -58,22 +61,23 @@ export default function CardHero({
     <>
       <button
         type="button"
-        onClick={() => src && setOpen(true)}
-        aria-label={src ? `Enlarge ${alt}` : alt}
+        onClick={() => showImage && setOpen(true)}
+        aria-label={showImage ? `Enlarge ${alt}` : alt}
         className={clsx(
           "shrink-0 group relative",
-          src ? "cursor-zoom-in" : "cursor-default",
+          showImage ? "cursor-zoom-in" : "cursor-default",
           className
         )}
         style={{ width, height }}
       >
-        {src ? (
+        {showImage ? (
           <>
             <img
               src={src}
               alt={alt}
               width={width}
               height={height}
+              onError={() => setImgErrored(true)}
               className="object-cover w-full h-full border border-border-2 transition-shadow duration-150 group-hover:shadow-[0_0_0_1px_var(--color-accent)]"
               draggable={false}
             />
@@ -95,7 +99,7 @@ export default function CardHero({
         )}
       </button>
 
-      {open && src ? (
+      {open && showImage ? (
         <div
           role="dialog"
           aria-modal="true"
@@ -103,13 +107,24 @@ export default function CardHero({
           onClick={() => setOpen(false)}
           className="fixed inset-0 z-50 bg-bg/85 backdrop-blur-sm flex items-center justify-center p-8 cursor-zoom-out animate-fade-in"
         >
-          <img
-            src={enlarged ?? undefined}
-            alt={alt}
-            onClick={(e) => e.stopPropagation()}
-            className="max-h-[90vh] max-w-[90vw] object-contain border border-border-2 shadow-2xl cursor-zoom-out"
-            draggable={false}
-          />
+          {enlargedErrored ? (
+            <img
+              src={src!}
+              alt={alt}
+              onClick={(e) => e.stopPropagation()}
+              className="max-h-[90vh] max-w-[90vw] object-contain border border-border-2 shadow-2xl cursor-zoom-out"
+              draggable={false}
+            />
+          ) : (
+            <img
+              src={enlarged ?? undefined}
+              alt={alt}
+              onClick={(e) => e.stopPropagation()}
+              onError={() => setEnlargedErrored(true)}
+              className="max-h-[90vh] max-w-[90vw] object-contain border border-border-2 shadow-2xl cursor-zoom-out"
+              draggable={false}
+            />
+          )}
           <button
             type="button"
             onClick={() => setOpen(false)}

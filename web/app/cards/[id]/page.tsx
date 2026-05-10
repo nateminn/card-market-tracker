@@ -24,6 +24,7 @@ import InteractiveChart from "@/components/charts/InteractiveChart";
 import PriceChart from "@/components/charts/PriceChart";
 import CardImage from "@/components/ui/CardImage";
 import CardHero from "@/components/ui/CardHero";
+import FallbackImg from "@/components/ui/FallbackImg";
 import AddToggle from "@/components/ui/AddToggle";
 import InfoTip, { DEFINITIONS } from "@/components/ui/InfoTip";
 
@@ -521,23 +522,13 @@ export default async function CardDetailPage({
                   className="flex items-center gap-3 px-4 py-2.5 border-b border-border last:border-b-0 hover:bg-panel-2 transition-colors duration-150 text-sm"
                 >
                   <div className="w-8 shrink-0">
-                    {l.image_url ? (
-                      <img
-                        src={l.image_url}
-                        alt=""
-                        width={32}
-                        height={45}
-                        className="block border border-border-2 object-cover"
-                        style={{ width: 32, height: 45 }}
-                        draggable={false}
-                      />
-                    ) : (
-                      <div
-                        aria-hidden
-                        className="bg-panel-2 border border-border"
-                        style={{ width: 32, height: 45 }}
-                      />
-                    )}
+                    <FallbackImg
+                      src={l.image_url}
+                      alt=""
+                      width={32}
+                      height={45}
+                      className="block border border-border-2"
+                    />
                   </div>
                   <div className="w-20 text-[10px] font-mono uppercase tracking-wider text-muted-2">
                     <div>{l.listing_type === "auction" ? "Auction" : "Buy now"}</div>
@@ -662,23 +653,13 @@ export default async function CardDetailPage({
                 className="flex items-center gap-3 px-4 py-2.5 border-b border-border last:border-b-0 hover:bg-panel-2 transition-colors duration-150 text-sm"
               >
                 <div className="w-8 shrink-0">
-                  {s.image_url ? (
-                    <img
-                      src={s.image_url}
-                      alt=""
-                      width={32}
-                      height={45}
-                      className="block border border-border-2 object-cover"
-                      style={{ width: 32, height: 45 }}
-                      draggable={false}
-                    />
-                  ) : (
-                    <div
-                      aria-hidden
-                      className="bg-panel-2 border border-border"
-                      style={{ width: 32, height: 45 }}
-                    />
-                  )}
+                  <FallbackImg
+                    src={s.image_url}
+                    alt=""
+                    width={32}
+                    height={45}
+                    className="block border border-border-2"
+                  />
                 </div>
                 <div className="w-24 font-mono text-muted tabular text-[12px]">
                   {new Date(s.sold_at).toLocaleDateString("en-US", {
