@@ -140,7 +140,7 @@ export default function SearchBox({ players, cards }: Props) {
 
   return (
     <div ref={wrapRef} className="relative w-full">
-      <label className="flex items-center gap-2 h-9 px-3 bg-panel-2 border border-border rounded-md focus-within:border-border-2 transition-colors">
+      <label className="cdx-search flex items-center gap-2 h-9 px-3 bg-panel-2 border border-border rounded-md focus-within:border-border-2 transition-colors">
         <svg
           width="14"
           height="14"

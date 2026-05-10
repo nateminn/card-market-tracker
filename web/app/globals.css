@@ -147,6 +147,15 @@ body {
   border-color: transparent;
 }
 
+/* Header search box - input is bare, the wrapping label gets the visual.
+   Tied to :focus-visible on the inner input so keyboard users see the
+   ring; mouse users keep the subtle border-color change. */
+.cdx-search:has(input:focus-visible) {
+  outline: 2px solid color-mix(in oklch, var(--color-accent) 50%, transparent);
+  outline-offset: 0;
+  border-color: transparent;
+}
+
 /* Skeleton shimmer - opacity-only, 1.4s, ease-in-out (functional motion). */
 @keyframes cdx-pulse {
   0%, 100% { opacity: 0.55; }

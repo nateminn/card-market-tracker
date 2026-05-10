@@ -28,9 +28,9 @@ export default function MobileNav({ items }: { items: Item[] }) {
         onClick={() => setOpen((v) => !v)}
         aria-label={open ? "Close menu" : "Open menu"}
         aria-expanded={open}
-        className="size-9 inline-flex items-center justify-center rounded-md border border-border text-fg-2 hover:text-fg hover:border-border-2 transition-colors duration-150"
+        className="size-10 inline-flex items-center justify-center rounded-md border border-border text-fg-2 hover:text-fg hover:border-border-2 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/50"
       >
-        {open ? <X size={16} /> : <Menu size={16} />}
+        {open ? <X size={18} /> : <Menu size={18} />}
       </button>
 
       {open ? (
