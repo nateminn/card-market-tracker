@@ -236,7 +236,7 @@ export default function PlayerView({
 
       {/* Range pills + tier pills ------------------------------------- */}
       <div className="flex items-center gap-3 flex-wrap mb-2">
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-1 flex-wrap">
           {RANGES.map((r) => (
             <button
               key={r.id}

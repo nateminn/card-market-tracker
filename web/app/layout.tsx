@@ -183,12 +183,17 @@ export default async function RootLayout({
 }
 
 function CardexMark() {
+  // Saffron square with a centered dot - placeholder mark until we have
+  // proper logo art. Uses bg-accent (the brand saffron) instead of bg-up
+  // (the neon green for up-moves), which was making the brand mark look
+  // like a stray "going up" indicator. Keeps a sharp corner to match
+  // the no-rounded-radius house style elsewhere on the site.
   return (
     <span
       aria-hidden
-      className="size-7 rounded-md bg-up flex items-center justify-center"
+      className="size-7 bg-accent flex items-center justify-center shrink-0"
     >
-      <span className="block size-2.5 bg-bg" />
+      <span className="block size-2 bg-bg" />
     </span>
   );
 }

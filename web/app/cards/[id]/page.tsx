@@ -437,7 +437,7 @@ export default async function CardDetailPage({
       <section className="mb-10">
         <Section
           title={`Sales (${filtered.length})`}
-          eyebrow="Price history · all parallels · raw + PSA + BGS"
+          eyebrow="All sales · raw + graded"
           action={
             <div className="flex items-center gap-3 text-xs font-mono uppercase tracking-[0.08em] text-muted">
               <span className="inline-flex items-center gap-1.5">
@@ -502,101 +502,105 @@ export default async function CardDetailPage({
               </>
             );
           })()}
-          <div className="border border-border bg-panel overflow-x-auto">
-            <div className="min-w-[640px]">
-              <div className="flex items-center gap-3 px-4 py-2.5 border-b border-border bg-panel-2 eyebrow">
-                <div className="w-8" />
-                <div className="w-20">Type</div>
-                <div className="w-20">Grade</div>
-                <div className="w-[100px]">Parallel</div>
-                <div className="w-32">Ends</div>
-                <div className="w-24 text-right">Ask</div>
-                <div className="flex-1 min-w-0">Title</div>
-              </div>
-              {activeListings.slice(0, 25).map((l) => (
-                <a
-                  key={l.id}
-                  href={l.external_url ?? "#"}
-                  target={l.external_url ? "_blank" : undefined}
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-3 px-4 py-2.5 border-b border-border last:border-b-0 hover:bg-panel-2 transition-colors duration-150 text-sm"
-                >
-                  <div className="w-8 shrink-0">
-                    <FallbackImg
-                      src={l.image_url}
-                      alt=""
-                      width={32}
-                      height={45}
-                      className="block border border-border-2"
-                    />
-                  </div>
-                  <div className="w-20 text-[10px] font-mono uppercase tracking-wider text-muted-2">
-                    <div>{l.listing_type === "auction" ? "Auction" : "Buy now"}</div>
-                    {l.source_system ? (
-                      <div
-                        className={
-                          l.source_system === "ebay-browse"
-                            ? "mt-0.5 text-[9px] text-info"
-                            : "mt-0.5 text-[9px] text-muted-2"
-                        }
-                        title={
-                          l.source_system === "ebay-browse"
-                            ? "Sourced directly from eBay Browse API"
-                            : "Sourced from CardSight indexed feed"
-                        }
-                      >
-                        {l.source_system === "ebay-browse" ? "eBay" : "CS"}
-                      </div>
-                    ) : null}
-                  </div>
-                  <div className="w-20 font-mono text-fg text-[12px]">
-                    {l.is_graded ? `${l.grader ?? ""} ${l.grade_value ?? ""}`.trim() : "Raw"}
-                  </div>
-                  <div className="w-[100px]">
-                    {(() => {
-                      const p = resolveParallel({
-                        parallel_name: l.parallel_name,
-                        external_title: l.external_title,
-                      });
-                      return (
-                        <span
-                          className={
-                            p.isBase
-                              ? "text-[10px] font-mono uppercase tracking-wider text-muted-2 px-1.5 py-0.5 border border-border-2 inline-block"
-                              : "text-[10px] font-mono uppercase tracking-wider text-accent px-1.5 py-0.5 border border-accent/40 bg-accent/5 truncate inline-block max-w-full"
-                          }
-                          title={p.label}
-                        >
-                          {p.label}
-                        </span>
-                      );
-                    })()}
-                  </div>
-                  <div className="w-32 text-[12px] text-muted">
-                    {l.listing_type === "auction" && l.end_date ? (
-                      <>
-                        {new Date(l.end_date).toLocaleDateString("en-US", {
-                          month: "short",
-                          day: "numeric",
-                        })}
-                        {l.bid_count != null ? (
-                          <span className="ml-2 text-muted-2">{l.bid_count} bids</span>
-                        ) : null}
-                      </>
-                    ) : (
-                      "-"
-                    )}
-                  </div>
-                  <div className="w-24 text-right font-mono text-fg tabular">
-                    ${l.price_usd.toFixed(2)}
-                  </div>
-                  <div className="flex-1 min-w-0 truncate text-info text-[12px]" title={l.external_title ?? undefined}>
-                    {l.external_title}
-                    <span aria-hidden className="ml-1 text-[9px]">↗</span>
-                  </div>
-                </a>
-              ))}
+          <div className="border border-border bg-panel">
+            {/* Header row - hidden on mobile (rows show their data inline). */}
+            <div className="hidden sm:flex items-center gap-3 px-4 py-2.5 border-b border-border bg-panel-2 eyebrow">
+              <div className="w-8" />
+              <div className="w-20">Type</div>
+              <div className="w-20">Grade</div>
+              <div className="w-[100px]">Parallel</div>
+              <div className="w-32">Ends</div>
+              <div className="w-24 text-right">Ask</div>
+              <div className="flex-1 min-w-0">Title</div>
             </div>
+            {activeListings.slice(0, 25).map((l) => (
+              <a
+                key={l.id}
+                href={l.external_url ?? "#"}
+                target={l.external_url ? "_blank" : undefined}
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 px-4 py-2.5 border-b border-border last:border-b-0 hover:bg-panel-2 transition-colors duration-150 text-sm"
+              >
+                <div className="w-8 shrink-0">
+                  <FallbackImg
+                    src={l.image_url}
+                    alt=""
+                    width={32}
+                    height={45}
+                    className="block border border-border-2"
+                  />
+                </div>
+                <div className="hidden sm:block w-20 text-[10px] font-mono uppercase tracking-wider text-muted-2">
+                  <div>{l.listing_type === "auction" ? "Auction" : "Buy now"}</div>
+                  {l.source_system ? (
+                    <div
+                      className={
+                        l.source_system === "ebay-browse"
+                          ? "mt-0.5 text-[9px] text-info"
+                          : "mt-0.5 text-[9px] text-muted-2"
+                      }
+                      title={
+                        l.source_system === "ebay-browse"
+                          ? "Sourced directly from eBay Browse API"
+                          : "Sourced from CardSight indexed feed"
+                      }
+                    >
+                      {l.source_system === "ebay-browse" ? "eBay" : "CS"}
+                    </div>
+                  ) : null}
+                </div>
+                <div className="w-16 sm:w-20 shrink-0 font-mono text-fg text-[12px]">
+                  {l.is_graded ? `${l.grader ?? ""} ${l.grade_value ?? ""}`.trim() : "Raw"}
+                </div>
+                <div className="hidden sm:block w-[100px]">
+                  {(() => {
+                    const p = resolveParallel({
+                      parallel_name: l.parallel_name,
+                      external_title: l.external_title,
+                    });
+                    return (
+                      <span
+                        className={
+                          p.isBase
+                            ? "text-[10px] font-mono uppercase tracking-wider text-muted-2 px-1.5 py-0.5 border border-border-2 inline-block"
+                            : "text-[10px] font-mono uppercase tracking-wider text-accent px-1.5 py-0.5 border border-accent/40 bg-accent/5 truncate inline-block max-w-full"
+                        }
+                        title={p.label}
+                      >
+                        {p.label}
+                      </span>
+                    );
+                  })()}
+                </div>
+                <div className="hidden sm:block w-32 text-[12px] text-muted">
+                  {l.listing_type === "auction" && l.end_date ? (
+                    <>
+                      {new Date(l.end_date).toLocaleDateString("en-US", {
+                        month: "short",
+                        day: "numeric",
+                      })}
+                      {l.bid_count != null ? (
+                        <span className="ml-2 text-muted-2">{l.bid_count} bids</span>
+                      ) : null}
+                    </>
+                  ) : (
+                    "-"
+                  )}
+                </div>
+                {/* Title - moves before price on mobile so it gets the
+                    space, but keeps order-after-Ask on desktop. */}
+                <div
+                  className="flex-1 min-w-0 truncate text-info text-[12px] order-1 sm:order-none"
+                  title={l.external_title ?? undefined}
+                >
+                  {l.external_title}
+                  <span aria-hidden className="ml-1 text-[9px]">↗</span>
+                </div>
+                <div className="w-20 sm:w-24 shrink-0 text-right font-mono text-fg tabular order-2 sm:order-none">
+                  ${l.price_usd.toFixed(2)}
+                </div>
+              </a>
+            ))}
           </div>
         </section>
       ) : null}
@@ -636,9 +640,9 @@ export default async function CardDetailPage({
             No recent sales to show.
           </div>
         ) : (
-          <div className="border border-border bg-panel overflow-x-auto">
-            <div className="min-w-[640px]">
-            <div className="flex items-center gap-3 px-4 py-2.5 border-b border-border bg-panel-2 eyebrow">
+          <div className="border border-border bg-panel">
+            {/* Header row - hidden on mobile */}
+            <div className="hidden sm:flex items-center gap-3 px-4 py-2.5 border-b border-border bg-panel-2 eyebrow">
               <div className="w-8" />
               <div className="w-24">Sold</div>
               <div className="w-20">Grade</div>
@@ -661,17 +665,17 @@ export default async function CardDetailPage({
                     className="block border border-border-2"
                   />
                 </div>
-                <div className="w-24 font-mono text-muted tabular text-[12px]">
+                <div className="hidden sm:block w-24 font-mono text-muted tabular text-[12px]">
                   {new Date(s.sold_at).toLocaleDateString("en-US", {
                     year: "numeric",
                     month: "short",
                     day: "numeric",
                   })}
                 </div>
-                <div className="w-20 font-mono text-fg">
+                <div className="w-16 sm:w-20 shrink-0 font-mono text-fg">
                   {s.is_graded ? `${s.grader ?? ""} ${s.grade_value ?? ""}`.trim() : "Raw"}
                 </div>
-                <div className="w-[100px]">
+                <div className="hidden sm:block w-[100px]">
                   {(() => {
                     const p = resolveParallel({
                       parallel_name: s.parallel_name,
@@ -691,7 +695,7 @@ export default async function CardDetailPage({
                     );
                   })()}
                 </div>
-                <div className="w-20 text-[12px]">
+                <div className="hidden sm:block w-20 text-[12px]">
                   {s.external_url ? (
                     <a
                       href={s.external_url}
@@ -707,15 +711,14 @@ export default async function CardDetailPage({
                     <span className="text-muted">{s.source}</span>
                   )}
                 </div>
-                <div className="w-24 text-right font-mono text-fg tabular">
-                  ${s.price_usd.toFixed(2)}
-                </div>
-                <div className="flex-1 min-w-0 truncate text-muted text-[12px]" title={s.external_title ?? undefined}>
+                <div className="flex-1 min-w-0 truncate text-muted text-[12px] order-1 sm:order-none" title={s.external_title ?? undefined}>
                   {s.external_title}
+                </div>
+                <div className="w-20 sm:w-24 shrink-0 text-right font-mono text-fg tabular order-2 sm:order-none">
+                  ${s.price_usd.toFixed(2)}
                 </div>
               </div>
             ))}
-            </div>
           </div>
         )}
       </section>
