@@ -250,7 +250,7 @@ export default function PlayersTable({ data }: { data: Row[] }) {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search players"
-            className="w-full h-9 px-3 bg-panel-2 border border-border rounded-md text-sm placeholder:text-muted focus:outline-none focus:border-border-2"
+            className="cdx-input w-full h-9"
           />
         </div>
         <div className="flex items-center gap-2">

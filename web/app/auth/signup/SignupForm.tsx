@@ -52,7 +52,7 @@ export default function SignupForm() {
           autoComplete="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="w-full h-10 px-3 bg-panel-2 border border-border rounded-md text-sm text-fg placeholder:text-muted focus:outline-none focus:border-border-2"
+          className="cdx-input w-full h-10"
           placeholder="you@example.com"
         />
       </label>
@@ -67,7 +67,7 @@ export default function SignupForm() {
           autoComplete="new-password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          className="w-full h-10 px-3 bg-panel-2 border border-border rounded-md text-sm text-fg placeholder:text-muted focus:outline-none focus:border-border-2"
+          className="cdx-input w-full h-10"
         />
       </label>
       {error ? (

@@ -125,6 +125,28 @@ body {
 }
 ::-webkit-scrollbar-thumb:hover { background: var(--color-muted-2); }
 
+/* Input fields - shared style. Layout (width / height) is left to the
+   call site so inputs can be sized for their context (h-9 in toolbars,
+   h-10 in auth forms). Focus ring uses the accent color for keyboard
+   users (mouse users keep the subtle border-color change). */
+.cdx-input {
+  padding: 0 0.75rem;
+  background: var(--color-panel-2);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  font-size: 14px;
+  color: var(--color-fg);
+  transition: border-color 150ms var(--ease-out);
+  outline: none;
+}
+.cdx-input::placeholder { color: var(--color-muted); }
+.cdx-input:focus { border-color: var(--color-border-2); }
+.cdx-input:focus-visible {
+  outline: 2px solid color-mix(in oklch, var(--color-accent) 50%, transparent);
+  outline-offset: 0;
+  border-color: transparent;
+}
+
 /* Skeleton shimmer - opacity-only, 1.4s, ease-in-out (functional motion). */
 @keyframes cdx-pulse {
   0%, 100% { opacity: 0.55; }
