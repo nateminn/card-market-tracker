@@ -9,13 +9,19 @@ import UpgradeButton from "./UpgradeButton";
 
 export const dynamic = "force-dynamic";
 
+// Keep this list honest - users see it before paying. Adding a feature
+// here that doesn't exist on the site = chargebacks + bad word of mouth.
+// "Coming soon" items live in COMING_SOON below.
 const PRO_FEATURES = [
   "Full Signal Engine pick list - every scored card, refreshed daily",
   "Watchlist alerts when a card crosses your price target",
-  "Deeper analytics: per-grade VWAP, scarcity, and gem-rate breakdowns",
-  "Backtest tools - see how the engine has performed over time",
+  "Per-grade VWAP breakdowns on every card detail page",
+  "Priority support - direct email to a real person",
+];
+
+const COMING_SOON = [
   "CSV exports of any table",
-  "Priority support",
+  "Backtest tools in-app (CLI today; UI in flight)",
 ];
 
 export default async function UpgradePage() {
@@ -58,6 +64,26 @@ export default async function UpgradePage() {
             </li>
           ))}
         </ul>
+        {COMING_SOON.length > 0 ? (
+          <>
+            <p className="mt-5 text-[10px] font-mono uppercase tracking-[0.08em] text-muted-2">
+              On the roadmap
+            </p>
+            <ul className="mt-2 space-y-1.5">
+              {COMING_SOON.map((f) => (
+                <li
+                  key={f}
+                  className="flex items-start gap-2.5 text-sm text-muted"
+                >
+                  <span className="text-muted-2 shrink-0 mt-0.5 text-[10px] font-mono">
+                    ◇
+                  </span>
+                  <span>{f}</span>
+                </li>
+              ))}
+            </ul>
+          </>
+        ) : null}
         <div className="mt-6">
           <UpgradeButton tier={tier} />
         </div>

@@ -11,8 +11,8 @@ export default function SignupPage() {
     <div className="px-6 lg:px-10 py-16 max-w-md mx-auto">
       <h1 className="text-2xl text-fg leading-none mb-2">Create account</h1>
       <p className="text-sm text-muted mb-8">
-        Free forever. Pro upgrade unlocks Signal full picks, alerts, and deep
-        history.
+        Free forever. Pro upgrade unlocks the full Signal pick list, watchlist
+        alerts, and per-grade VWAP breakdowns.
       </p>
       <SignupForm />
       <p className="mt-6 text-sm text-muted">

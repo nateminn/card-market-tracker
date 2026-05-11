@@ -128,7 +128,7 @@ export default async function SignalPage() {
         tier={tier}
         teaser={<SignalView picks={visiblePicks} />}
         headline={`See all ${total} Signal picks.`}
-        subhead="Free preview shows the top 3. Pro unlocks the full ranked list, alerts when a card crosses your target, and CSV exports."
+        subhead="Free preview shows the top 3. Pro unlocks the full ranked list, alerts when a card crosses your price target, and per-grade VWAP breakdowns."
       >
         <SignalView picks={picksWithSpark} />
       </ProGate>
