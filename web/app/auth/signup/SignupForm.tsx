@@ -83,7 +83,7 @@ export default function SignupForm() {
       <button
         type="submit"
         disabled={busy}
-        className="w-full h-10 px-4 bg-accent text-bg text-sm font-medium rounded-md hover:bg-accent/90 transition-colors duration-150 disabled:opacity-60 disabled:cursor-wait"
+        className="w-full h-10 px-4 bg-accent text-bg text-sm font-medium rounded-md hover:bg-accent/90 transition-colors duration-150 disabled:opacity-60 disabled:cursor-wait focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/50 focus-visible:ring-offset-2 focus-visible:ring-offset-bg"
       >
         {busy ? "Creating account…" : "Create account"}
       </button>

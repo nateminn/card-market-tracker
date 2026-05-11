@@ -91,6 +91,14 @@ export default async function PortfolioPage() {
         <EmptyState
           title="No cards in your collection."
           description="Open any card and tap Add to portfolio."
+          action={
+            <Link
+              href="/players"
+              className="inline-flex items-center gap-1.5 px-4 h-10 bg-accent text-bg font-medium text-sm hover:bg-fg transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/50"
+            >
+              Browse the market →
+            </Link>
+          }
         />
       </section>
     </div>

@@ -168,6 +168,14 @@ export default function WatchlistTable({
         <EmptyState
           title="Nothing on the watchlist."
           description="Use Signal to find candidates, then tap Add to watchlist on any card."
+          action={
+            <Link
+              href="/signal"
+              className="inline-flex items-center gap-1.5 px-4 h-10 bg-accent text-bg font-medium text-sm hover:bg-fg transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/50"
+            >
+              Open Signal →
+            </Link>
+          }
         />
       ) : (
       <div className="border border-border bg-panel overflow-x-auto">
