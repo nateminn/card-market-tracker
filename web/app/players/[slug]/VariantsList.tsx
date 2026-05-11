@@ -202,7 +202,12 @@ function ReleaseGroup({
                 alt={`${c.set_name} #${c.card_number}`}
                 width={24}
               />
-              <div className="flex-1 min-w-0">
+              {/* Text takes natural width; metrics float right via ml-auto.
+                  Was flex-1 which created a wide dead-zone between short
+                  set names and the metrics on desktop. max-w-[40ch] caps
+                  the truncate point so very long set names don't push
+                  metrics off-screen. */}
+              <div className="min-w-0 max-w-[40ch] sm:max-w-[50ch]">
                 <div className="text-[13px] text-fg truncate">
                   {c.set_name}{" "}
                   <span className="text-muted-2 font-mono">·</span>{" "}
@@ -214,7 +219,7 @@ function ReleaseGroup({
                   ) : null}
                 </div>
               </div>
-              <div className="w-20 sm:w-24 text-right font-mono text-sm tabular text-fg shrink-0">
+              <div className="ml-auto w-20 sm:w-24 text-right font-mono text-sm tabular text-fg shrink-0">
                 {fmtUsd(c.psa10_30d)}
               </div>
               <div className="hidden md:block w-16 text-right font-mono text-sm tabular text-fg-2 shrink-0">
