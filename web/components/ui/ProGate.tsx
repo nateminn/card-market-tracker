@@ -31,7 +31,7 @@ export default function ProGate({
   children,
   teaser,
   headline = "Unlock the full Signal Engine.",
-  subhead = "Pro shows every scored card, refreshes every 6h, and includes alerts + exports.",
+  subhead = "Pro shows every scored card, refreshes daily, and includes alerts + exports.",
 }: Props) {
   if (tier === "pro") return <>{children}</>;
 
