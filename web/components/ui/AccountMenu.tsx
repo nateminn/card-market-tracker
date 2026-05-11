@@ -52,7 +52,7 @@ export default function AccountMenu({ initialEmail, initialTier = "anon" }: Prop
     return (
       <Link
         href="/auth/login"
-        className="text-sm font-medium text-fg hover:text-accent transition-colors"
+        className="text-sm font-medium text-fg hover:text-accent transition-colors focus-visible:outline-none focus-visible:underline focus-visible:underline-offset-4 focus-visible:decoration-accent"
       >
         Sign in
       </Link>
@@ -75,7 +75,7 @@ export default function AccountMenu({ initialEmail, initialTier = "anon" }: Prop
         type="button"
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
-        className="size-8 rounded-full bg-panel-2 border border-border-2 text-[11px] font-mono uppercase tracking-wider text-fg hover:border-accent transition-colors duration-150 inline-flex items-center justify-center"
+        className="size-8 rounded-full bg-panel-2 border border-border-2 text-[11px] font-mono uppercase tracking-wider text-fg hover:border-accent transition-colors duration-150 inline-flex items-center justify-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/50"
         title={email}
       >
         {initials}

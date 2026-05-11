@@ -59,7 +59,7 @@ export default function AddToggle({
         aria-pressed={inSet}
         title={inSet ? `Remove from ${bucket}` : copy.add}
         className={clsx(
-          "size-7 inline-flex items-center justify-center rounded-md border transition-colors duration-150",
+          "size-7 inline-flex items-center justify-center rounded-md border transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/50",
           inSet
             ? "border-up/50 bg-up/10 text-up hover:border-up hover:bg-up/20"
             : "border-border text-muted hover:border-border-2 hover:text-fg",
@@ -85,7 +85,7 @@ export default function AddToggle({
       onClick={onClick}
       aria-pressed={inSet}
       className={clsx(
-        "h-9 px-3 inline-flex items-center gap-1.5 text-sm font-medium rounded-md transition-colors duration-150",
+        "h-9 px-3 inline-flex items-center gap-1.5 text-sm font-medium rounded-md transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/50",
         inSet ? addedClass : baseClass,
         className
       )}
